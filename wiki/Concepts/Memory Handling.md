@@ -16,7 +16,7 @@ tags:
 
 # Memory Handling
 
-> What looks like a poor memory is usually poor handling of memory. Raw capacity is similar for most people; champions use trained strategies anyone can learn. Information lands in a short workspace measured in seconds and weighted by complexity—not in “seven slots” but in how heavy each item is. Six moves make that window productive: raise process complexity, handle material immediately, pause so handling can finish, block distracting sound, practise retrieval at real cues, and think on paper so the workspace is not asked to hold the whole structure alone. Learning also has two halves—encoding stores knowledge, retrieval uses it—and they trade off over months: lead with retrieval while encoding is weak, then shift the balance as encoding improves, without ever dropping retrieval to zero because memory always leaks.
+> What looks like a poor memory is usually poor handling of memory. Raw capacity is similar for most people; champions use trained strategies anyone can learn. Information lands in a short workspace measured in seconds and weighted by complexity, not in “seven slots” but in how heavy each item is. Six moves make that window productive: raise process complexity, handle material immediately, pause so handling can finish, block distracting sound, practise retrieval at real cues, and think on paper so the workspace is not asked to hold the whole structure alone. Learning also has two halves (encoding stores knowledge, retrieval uses it), and they trade off over months: lead with retrieval while encoding is weak, then shift the balance as encoding improves, without ever dropping retrieval to zero because memory always leaks.
 
 ## The short workspace
 
@@ -42,9 +42,9 @@ Working memory also has a weight limit. An older estimate treated this as an ite
 
 ## Encoding and retrieval as one system
 
-Learning has two halves. **Encoding** gets information into long-term memory. **Retrieval** is any later use of that information—self-testing, teaching, explaining, solving problems, discussing. Both matter, but they pay off on different timescales.
+Learning has two halves. **Encoding** gets information into long-term memory. **Retrieval** is any later use of that information (self-testing, teaching, explaining, solving problems, discussing). Both matter, but they pay off on different timescales.
 
-Retrieval skills take a day or two to learn and improve results quickly, so they come first. Encoding is the bigger long-term lever, raising both retention and depth, but it takes weeks to years to get good at. Early on, retrieval should fill most of study time—often 70% or more—because weak encoding lets knowledge leak away. About half of new material can be gone after a week without reinforcement. As encoding improves, retrieval’s share falls to under 20% for an experienced learner, but it never reaches zero. Some retrieval always remains, because memory always leaks.
+Retrieval skills take a day or two to learn and improve results quickly, so they come first. Encoding is the bigger long-term lever, raising both retention and depth, but it takes weeks to years to get good at. Early on, retrieval should fill most of study time (often 70% or more), because weak encoding lets knowledge leak away. About half of new material can be gone after a week without reinforcement. As encoding improves, retrieval’s share falls to under 20% for an experienced learner, but it never reaches zero. Some retrieval always remains, because memory always leaks.
 
 Picture knowledge as water in a bucket with a hole. Better encoding shrinks the hole, but the hole never closes completely. Retrieval scoops up what drips out and tips it back in. It is repetitive and takes time, but it keeps performance up while encoding slowly improves.
 
@@ -66,7 +66,7 @@ When time allows only one move, solid prestudy beats going back over old materia
 
 ### Spacing reviews
 
-A simple spaced schedule reviews material after roughly a day, a week, and a month. The first review comes within a day or two of learning. About 7 to 10 days later comes the second; 3 to 4 weeks after that, the third. The timing does not need to be exact. The schedule works best as fixed blocks—such as a half-day block closing each week and a day or so at the end of each month. Heavy content calls for an extra mid-month or mid-week review. The weeks before a test call for more practice papers and challenge questions.
+A simple spaced schedule reviews material after roughly a day, a week, and a month. The first review comes within a day or two of learning. About 7 to 10 days later comes the second; 3 to 4 weeks after that, the third. The timing does not need to be exact. The schedule works best as fixed blocks (such as a half-day block closing each week and a day or so at the end of each month). Heavy content calls for an extra mid-month or mid-week review. The weeks before a test call for more practice papers and challenge questions.
 
 As encoding gets better, less leaks out, so retrieval shrinks from most of study time to under a fifth for an experienced learner. The month-end review starts to feel surprisingly easy because little has been forgotten. **Fluency** becomes the main retrieval target: how fast information comes back and how complex the uses it supports. Some facts can simply be looked up, but knowledge meant for real expertise needs high fluency, and the reason for learning something sets the level needed.
 
@@ -80,10 +80,10 @@ As encoding gets better, less leaks out, so retrieval shrinks from most of study
 
 ## Related pages
 
-- [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]] — core retrieval rhythm.
-- [[wiki/Dimensions/Deep Processing|Deep Processing]] — encoding dimension hub.
-- [[wiki/Dimensions/Retrieval|Retrieval]] — memory-use dimension hub.
-- [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load & What Mental Effort Is Trying to Cue]] — overload when the workspace is exceeded.
+- [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]] (core retrieval rhythm.)
+- [[wiki/Dimensions/Deep Processing|Deep Processing]] (encoding dimension hub.)
+- [[wiki/Dimensions/Retrieval|Retrieval]] (memory-use dimension hub.)
+- [[wiki/Concepts/Cognitive Load & What Mental Effort Is Trying to Cue|Cognitive Load & What Mental Effort Is Trying to Cue]] (overload when the workspace is exceeded.)
 
 ## Sources
 

@@ -27,13 +27,13 @@ People are ordered by how much they bridge heavy agent engineering and everyday 
 
 Big releases and themes in the logs:
 
-- 2026-08-11 — Grok Bot launch, bots that run on their own machines while the owner is away. ([[wiki/Systems/AI & Agentic Systems/Builders' Logs/Lauren Tan|Lauren Tan]], [post](https://x.com/poteto/status/2087227636590465030))
-- 2026-08-31 — [[wiki/Systems/AI & Agentic Systems/Builders' Logs/Lingxi Li|Lingxi Li]] posts Grok Bot for Engineering ([post](https://x.com/lingxi/status/2094493172516966781))
-- 2026-11-18 — [[wiki/Systems/AI & Agentic Systems/Builders' Logs/Lauren Tan|Lauren Tan]] publishes Automate Anything with Grok Bot for people who do not code ([post](https://x.com/poteto/status/2123159537016533493))
+- 2026-08-11. Grok Bot launch, bots that run on their own machines while the owner is away. ([[wiki/Systems/AI & Agentic Systems/Builders' Logs/Lauren Tan|Lauren Tan]], [post](https://x.com/poteto/status/2087227636590465030))
+- 2026-08-31. [[wiki/Systems/AI & Agentic Systems/Builders' Logs/Lingxi Li|Lingxi Li]] posts Grok Bot for Engineering ([post](https://x.com/lingxi/status/2094493172516966781))
+- 2026-11-18. [[wiki/Systems/AI & Agentic Systems/Builders' Logs/Lauren Tan|Lauren Tan]] publishes Automate Anything with Grok Bot for people who do not code ([post](https://x.com/poteto/status/2123159537016533493))
 
 Upcoming (called out in public posts; dates move):
 
-- Grok model revisions (4.8 and later) as xAI ships them — watch xAI and builder timelines below.
+- Grok model revisions (4.8 and later) as xAI ships them. Watch xAI and builder timelines below.
 
 ### People (Grok-affiliated, bridge order within lab)
 
@@ -43,12 +43,12 @@ Upcoming (called out in public posts; dates move):
 
 Big releases and themes in the logs:
 
-- 2026-01-18 — [[wiki/Systems/AI & Agentic Systems/Builders' Logs/Boris Cherny|Boris Cherny]] marks Claude Code breaking through after a year of work ([post](https://x.com/bcherny/status/2012682569376993734))
+- 2026-01-18. [[wiki/Systems/AI & Agentic Systems/Builders' Logs/Boris Cherny|Boris Cherny]] marks Claude Code breaking through after a year of work ([post](https://x.com/bcherny/status/2012682569376993734))
 - [[wiki/Systems/AI & Agentic Systems/Builders' Logs/Andrej Karpathy|Andrej Karpathy]] joins the public conversation on small models, education, and agent tooling across 2026 (see timeline).
 
 Upcoming:
 
-- Model and Claude Code releases as Anthropic ships them — see [[wiki/Systems/AI & Agentic Systems/Builders' Logs/Boris Cherny|Boris Cherny]] and [[wiki/Systems/AI & Agentic Systems/Builders' Logs/Andrej Karpathy|Andrej Karpathy]] timelines.
+- Model and Claude Code releases as Anthropic ships them. See [[wiki/Systems/AI & Agentic Systems/Builders' Logs/Boris Cherny|Boris Cherny]] and [[wiki/Systems/AI & Agentic Systems/Builders' Logs/Andrej Karpathy|Andrej Karpathy]] timelines.
 
 ### People (Anthropic-affiliated)
 
@@ -60,7 +60,7 @@ Upcoming:
 
 ## Related
 
-- [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]] — doctrine for building with agents while keeping the engineering standard.
+- [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Agentic Engineering]] (doctrine for building with agents while keeping the engineering standard.)
 
 ## Sources
 

@@ -14,7 +14,7 @@ tags:
 
 # The Beat Board
 
-A beat board lays the story on index cards: one **beat** (one event that changes a situation) per card, ~seven words, hand-written so order stays negotiable. The board **tests** events; it does not invent them. It stays useful only while it matches the draft — sync after every session or diagnostics lie.
+A beat board lays the story on index cards: one **beat** (one event that changes a situation) per card, ~seven words, hand-written so order stays negotiable. The board **tests** events; it does not invent them. It stays useful only while it matches the draft. Sync after every session or diagnostics lie.
 
 The same card discipline supports **breaking** an episode (decide all events before script), **seeding** plants across a vocabulary ramp, and placing the **low point** where the Lie wins once before climax.
 
@@ -31,11 +31,11 @@ The same card discipline supports **breaking** an episode (decide all events bef
 
 Squeeze pass should change some beats; if none change, the board is storage, not test. Generic labels ("battle in swamp") move; "final showdown" does not.
 
-Changed beat → new card, not a patch. ~fifty cards for a feature; season rows can sit above episode columns (one room used thirteen across + "BOOM"). Initials in corners show who vanished from a run; second color can mark action. **Placeholder cards** reserve slots not yet earned — same discipline as unfired plants.
+Changed beat → new card, not a patch. ~fifty cards for a feature; season rows can sit above episode columns (one room used thirteen across + "BOOM"). Initials in corners show who vanished from a run; second color can mark action. **Placeholder cards** reserve slots not yet earned, with the same discipline as unfired plants.
 
 Scene/Sequel (Swain/Bickham): Goal–Conflict–Disaster → Reaction–Dilemma–Decision; Decision feeds next Goal.
 
-Snowflake optional: logline → paragraph → synopsis ladder — join to board at logline card.
+Snowflake optional: logline → paragraph → synopsis ladder. Join to the board at the logline card.
 
 ## Testing the board
 
@@ -49,17 +49,17 @@ Reverse outline after each session: ~12–15 words per scene's actual function; 
 
 **Breaking** decides every beat before dialogue. Documents harden: story area (short argument) → beat sheet (slug + 1–2 sentences) → outline (paragraph per beat) → notes → script executes, does not invent scenes.
 
-Letters **A/B/C/D** rank strand **weight**, not play order. **D** runner = light thread; blend pass interleaves strands at act breaks (cut on question, proverb not law). One strand broken complete, then braided — solo-writer unit.
+Letters **A/B/C/D** rank strand **weight**, not play order. **D** runner = light thread; blend pass interleaves strands at act breaks (cut on question, proverb not law). One strand broken complete, then braided is a solo-writer unit.
 
-**Lock**: after approval, no add/delete/substantial alter — crew spends against outline. Fail beat → escalate; do not silently re-break.
+**Lock**: after approval, no add/delete/substantial alter. The crew spends against the outline. Fail beat → escalate; do not silently re-break.
 
 Table read tests whether story tracks; fix story immediately; jokes wait for performance. Multi-cam exception: rewrite in rehearsal cycle.
 
 ## Seeding and payoff
 
-**Plant**: conspicuous early element left unused — promise of later use. Chekhov's rifle (attested letter; sharper act-timing quote is secondhand).
+**Plant**: conspicuous early element left unused, a promise of later use. Chekhov's rifle (attested letter; sharper act-timing quote is secondhand).
 
-Under [[wiki/Story Craft/Story Under a Vocabulary Ceiling|vocabulary ceiling]], early plant is **shown object**, re-shown — not stated theme. Payoff threatens a value already established or it is mere information.
+Under [[wiki/Story Craft/Story Under a Vocabulary Ceiling|vocabulary ceiling]], early plant is **shown object**, re-shown, not a stated theme. Payoff threatens a value already established or it is mere information.
 
 **Ledger** per character in fixed casts: moving payoff reopens seeds. Unfired gun versus unseeded payoff (deus ex machina). Failures: mystery-box bloat; over-telegraphed plant solved early; bond threatened before bond planted.
 
@@ -67,7 +67,7 @@ Graded serial: **dangling cause** needs salience or repetition across gap; runne
 
 ## Low point and catharsis
 
-Before climax: beat where **Lie wins** — internal collapse, not required death. **Reversal** (fortune flips) and **recognition** (truth seen) can land in one beat. Stakes from identity, love, belief ([[wiki/Story Craft/Stakes Without Mortality|Stakes Without Mortality]]).
+Before climax: beat where **Lie wins** (internal collapse, not required death). **Reversal** (fortune flips) and **recognition** (truth seen) can land in one beat. Stakes from identity, love, belief ([[wiki/Story Craft/Stakes Without Mortality|Stakes Without Mortality]]).
 
 Order for change arc: glimpse of truth → low point (last stand of Ghost/Lie) → climax from new self. Merge glimpse and low point → climax acts from old self.
 
@@ -75,11 +75,11 @@ Skip when piece is mood-only or discovery draft with no argument.
 
 ## Costs
 
-Up front: hand-written logline cards, furniture, no patching. Recurring: reverse outline every session. Wrong instrument for writers who discover only by drafting — keep reverse outline, drop full board early.
+Up front: hand-written logline cards, furniture, no patching. Recurring: reverse outline every session. Wrong instrument for writers who discover only by drafting. Keep the reverse outline and drop the full board early.
 
 Breaking-room calendars (e.g. ~75% labor pre-page) are one showrunner's accounting, not law.
 
-For graded serials, the board doubles as **vocabulary ledger**: a card at B1 names only the object beat; the paired card at B3 names the reason beat. Moving payoff without moving its object card reopens coverage debt — the reader must still know every noun spent at the peak.
+For graded serials, the board doubles as **vocabulary ledger**: a card at B1 names only the object beat; the paired card at B3 names the reason beat. Moving payoff without moving its object card reopens coverage debt. The reader must still know every noun spent at the peak.
 
 ## Tsumugu use
 

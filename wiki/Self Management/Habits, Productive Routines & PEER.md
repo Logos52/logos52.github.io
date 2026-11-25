@@ -76,7 +76,7 @@ PEER pairs with [[wiki/Self Management/Time Management, Attention & Scheduling|p
 
 ## When PEER fits and when it does not
 
-Use PEER when you start strong and fade, or when consistency breaks every time life gets noisy. It is weaker when the goal itself is wrong—run [[wiki/Planning and Automation|Reverse Goal Setting]] first so you are not automating a task you no longer want.
+Use PEER when you start strong and fade, or when consistency breaks every time life gets noisy. It is weaker when the goal itself is wrong. Run [[wiki/Planning and Automation|Reverse Goal Setting]] first so you are not automating a task you no longer want.
 
 Common failures: rewards left in view, first steps still too large, peer consequences so harsh you lie, or Prep done once instead of iterated until the cue reliably fires. Another failure is running PEER on five goals at once; install one route, then add the next.
 

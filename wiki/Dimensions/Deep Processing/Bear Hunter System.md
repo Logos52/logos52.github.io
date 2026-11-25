@@ -2,7 +2,7 @@
 type: practice
 domain: learning
 status: stable
-description: "Bear Hunter encodes new material in three moves—Aim with importance questions, Shoot into a relational map, Skin into a GRINDE-ready structure."
+description: "Bear Hunter encodes new material in three moves (Aim with importance questions, Shoot into a relational map, Skin into a GRINDE-ready structure)."
 created: 2026-05-04
 updated: 2026-11-21
 source-count: 10
@@ -18,7 +18,7 @@ tags:
 
 <figure>
 <svg viewBox="0 0 520 400" width="100%" style="max-width:520px;--qp-surface:light-dark(#ffffff,#1a1a1a);--qp-ink:light-dark(#090909,#f2f2f2);--qp-ink2:light-dark(#3a3a3a,#cfcfcf);--qp-mut:light-dark(#6b6b6b,#a3a3a3);--qp-rule:light-dark(#ededed,#262626);--qp-rule2:light-dark(#dedede,#333333);--qp-accent:light-dark(#1a7fe6,#5aa9f5);font-family:Inter,system-ui,sans-serif" role="img" aria-labelledby="dim-bhs-a">
-<title id="dim-bhs-a">Aim, Shoot, Skin — three encoding steps.</title>
+<title id="dim-bhs-a">Aim, Shoot, Skin (three encoding steps).</title>
 <rect x="0.5" y="0.5" width="519" height="399" rx="16" style="fill:var(--qp-surface);stroke:var(--qp-rule);stroke-width:1"/>
 <text x="24" y="40" text-anchor="start" style="fill:var(--qp-ink);font-size:16px;font-weight:600">three steps</text>
 <circle cx="150" cy="64" r="5" style="fill:var(--qp-ink)"/>
@@ -48,25 +48,25 @@ tags:
 
 Bear Hunter replaces the older traffic-light inquiry pattern (questions before / answers during) once Aim and Shoot are competent. It sits in the [[wiki/Dimensions/Deep Processing|deep processing]] dimension and pairs with [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|spaced interleaved retrieval]] so gaps found in maps get tested on a schedule.
 
-## Aim — question before intake
+## Aim (question before intake)
 
 Aim steers attention with **why does this matter?** and **how does this connect to something else?** Those beats outperform isolated “what” questions for retention and higher-order thinking. Emotional or personally curious framings bind harder. Skip questions whose answers you already possess; the goal is a problem-solving stance.
 
 Aim can run as **prestudy** before a lecture or as the first move in self-study. In live classes, a light aim (largest groups only) may be all that fits; full aim afterward is slower but still valuable. Use an ungrouped keyword list so you are not biased by the author’s headings.
 
-Workflow: for each keyword, ask why it matters, brainstorm multiple answers, group by shared importance ([[wiki/Dimensions/Deep Processing/Importance-Based Chunking|importance-based chunking]]), then ask how groups affect one another. Drop fact-recall questions—they pull you back to shallow habits. When spiderwebbing overwhelms the page, hypothesise a new grouping rather than adding more arrows.
+Workflow: for each keyword, ask why it matters, brainstorm multiple answers, group by shared importance ([[wiki/Dimensions/Deep Processing/Importance-Based Chunking|importance-based chunking]]), then ask how groups affect one another. Drop fact-recall questions, because they pull you back to shallow habits. When spiderwebbing overwhelms the page, hypothesise a new grouping rather than adding more arrows.
 
-Objections usually cite time, effort, or exam mismatch. First-pass encoding takes longer; total time often falls because later retrieval is cheaper. Effort is the signal, not the enemy—difficulty that helps learning should feel desirable once calibrated. Encode for **expert relevance** first; exam-shaped retrieval comes after the road network exists. Stepping slightly past the syllabus for depth usually beats staying shallow inside it.
+Objections usually cite time, effort, or exam mismatch. First-pass encoding takes longer; total time often falls because later retrieval is cheaper. Effort is the signal, not the enemy. Difficulty that helps learning should feel desirable once calibrated. Encode for **expert relevance** first; exam-shaped retrieval comes after the road network exists. Stepping slightly past the syllabus for depth usually beats staying shallow inside it.
 
-## Shoot — answer into the map
+## Shoot (answer into the map)
 
 Shoot satisfies the curiosity Aim opened. You clarify links, add detail, decide groups, and **keep building the map** without demanding a perfect answer to every question. Attempting hard questions strengthens relationships even when the answer stays partial.
 
-Shoot goes smoothly when Aim was solid. It fights you when linear, lower-order habits hijack **order control**—the sequence you choose to meet ideas. Nonlinear notes anchor attention. Shoot stacks earlier note skills; it is active encoding, not transcription.
+Shoot goes smoothly when Aim was solid. It fights you when linear, lower-order habits hijack **order control**, the sequence you choose to meet ideas. Nonlinear notes anchor attention. Shoot stacks earlier note skills; it is active encoding, not transcription.
 
 Common worries: wasted time, long uncertainty, missing details. Map-building saves time versus rereading flat text; skill accelerates later. Traditional “certainty” after a first read is often false fluency. Missing details are more likely if you skip mapping layers; pairing Bear Hunter with retrieval closes detail gaps.
 
-## Skin — judge and GRINDE
+## Skin (judge and GRINDE)
 
 Skin is evaluate-level work after one or more Aim–Shoot cycles. You consolidate, integrate, and judge the grouping until structure stabilises. The refined map is checked against **GRINDE**:
 
@@ -79,7 +79,7 @@ Skin is evaluate-level work after one or more Aim–Shoot cycles. You consolidat
 | **D**irectional | Flow shows how ideas influence each other |
 | **E**mphasised | Layers visible at a glance (size, colour, weight) |
 
-Aim should shift toward fewer, sharper questions as Skin approaches; Shoot should feel automatic. Skin is where “certainty” is earned—not during the first read.
+Aim should shift toward fewer, sharper questions as Skin approaches; Shoot should feel automatic. Skin is where “certainty” is earned, not during the first read.
 
 ## Running the full system
 

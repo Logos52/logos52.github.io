@@ -33,17 +33,17 @@ For [[projects/tsumugu|Tsumugu]], diction is capped by the graded-reader schedul
 
 Present means enough evidence on the page. Thin means some, not enough. Absent means none.
 
-1. **Ghost** — one concrete backstory injury that installed a false belief. Event, never mood. [[wiki/Story Craft/The Wound and the Lie|The Wound and the Lie]] owns the chain.
-2. **Lie** — the false belief at page one, shown as behavior. A stated creed with no observable choice is not present.
-3. **Want versus Need** — external goal nameable and distinct from inner truth. If winning the Want would also grant the Need, the arc has no gap.
-4. **One defining contradiction** — shown before named. A trait pile is not a contradiction: one interior tension spent on a costly choice. Provision against presence (envelope home versus hand refused) is the house teaching case.
-5. **Voice** — distinct diction, rhythm, refused topics. Strip tags from a two-hander: a fresh reader should assign lines. Under a Han ceiling, refusal and silence carry what rare words cannot.
-6. **Arc type** — named against the full cast. Must not duplicate the ensemble's dominant type. This check most often explains "well-built but thin."
-7. **Signature object or motif** — returns with work to do.
-8. **Plant-to-payoff** — crisis prepaid. [[wiki/Story Craft/The Beat Board|The Beat Board]] holds PLANT → SPARK → PAYOFF.
-9. **Home lesson** — one scene owns the pivotal beat, not a bible line and not a slot shared three ways.
-10. **Web edges** — relationship-work and revelation-work to more than one other character. [[wiki/Story Craft/The Character Web|The Character Web]] is the ensemble those edges make.
-11. **Submerged backstory** — worked out; most never ships.
+1. **Ghost** (one concrete backstory injury that installed a false belief. Event, never mood. [[wiki/Story Craft/The Wound and the Lie|The Wound and the Lie]] owns the chain.)
+2. **Lie** (the false belief at page one, shown as behavior. A stated creed with no observable choice is not present.)
+3. **Want versus Need** (external goal nameable and distinct from inner truth. If winning the Want would also grant the Need, the arc has no gap.)
+4. **One defining contradiction** (shown before named. A trait pile is not a contradiction: one interior tension spent on a costly choice. Provision against presence (envelope home versus hand refused) is the house teaching case.)
+5. **Voice** (distinct diction, rhythm, refused topics. Strip tags from a two-hander: a fresh reader should assign lines. Under a Han ceiling, refusal and silence carry what rare words cannot.)
+6. **Arc type** (named against the full cast. Must not duplicate the ensemble's dominant type. This check most often explains "well-built but thin.")
+7. **Signature object or motif** (returns with work to do.)
+8. **Plant-to-payoff** (crisis prepaid. [[wiki/Story Craft/The Beat Board|The Beat Board]] holds PLANT → SPARK → PAYOFF.)
+9. **Home lesson** (one scene owns the pivotal beat, not a bible line and not a slot shared three ways.)
+10. **Web edges** (relationship-work and revelation-work to more than one other character. [[wiki/Story Craft/The Character Web|The Character Web]] is the ensemble those edges make.)
+11. **Submerged backstory** (worked out; most never ships.)
 
 Leads may carry a **second axis**: a second contradiction with its own root, not another relationship on the same root. Support holds one memorable note ([將軍](/tsumugu/cast/general.html)'s rank gag, [吳老闆](/tsumugu/cast/boss-wu.html)'s deadpan feed-first manner) so roundness budget stays on the two or three arcs that load-bear.
 
@@ -91,7 +91,7 @@ Port as a prompt with an adversarial clause (flattering labels get challenged; i
 
 ## Open questions
 
-Whether first entrance should encode the shape later scenes vary (blueprint idea) — candidate for a future check, not part of the eleven.
+Whether first entrance should encode the shape later scenes vary (blueprint idea) is a candidate for a future check, not part of the eleven.
 
 ## Sources
 

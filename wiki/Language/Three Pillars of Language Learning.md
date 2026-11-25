@@ -37,7 +37,7 @@ Session lengths in the course are guidelines, not ceilings. Homework assignments
 
 ## Where the tactics live
 
-Concrete tactics—comprehension menus, metalayer setups, grammar-primer habits, Aim–Shoot–Skin, and why a language is not a formula—live on [[wiki/Language/Refold Language Learning System|Refold Language Learning System]], the topic hub for this method. This page holds the doctrine: three jobs, one balance, attention required throughout.
+Concrete tactics (comprehension menus, metalayer setups, grammar-primer habits, Aim–Shoot–Skin, and why a language is not a formula) live on [[wiki/Language/Refold Language Learning System|Refold Language Learning System]], the topic hub for this method. This page holds the doctrine: three jobs, one balance, attention required throughout.
 
 ## Open questions
 

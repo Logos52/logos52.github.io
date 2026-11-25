@@ -35,7 +35,7 @@ A reader decoding hard words during a hard beat learns neither language nor stor
 
 ## What is not made of words
 
-**Gap** is expectation minus result, staged in actions. **Premise** is one arguable sentence *X leads to Y*, held fixed across books so plants at 250 字 can pay off in words that did not exist yet — see [[wiki/Story Craft/Premise and Controlling Idea|Premise and Controlling Idea]]. **Bone structure** (physiology, sociology, psychology) is a separate tool from premise.
+**Gap** is expectation minus result, staged in actions. **Premise** is one arguable sentence *X leads to Y*, held fixed across books so plants at 250 字 can pay off in words that did not exist yet (see [[wiki/Story Craft/Premise and Controlling Idea|Premise and Controlling Idea]]). **Bone structure** (physiology, sociology, psychology) is a separate tool from premise.
 
 The **story circle** (comfort, want, threshold, search, find, pay, return, change) nests from scene to season. [[wiki/Story Craft/The Wound and the Lie|The Wound and the Lie]] splits Lie / Want / Need across the ramp: Want early, Need late.
 
@@ -50,7 +50,7 @@ The **story circle** (comfort, want, threshold, search, find, pay, return, chang
 
 Core emotional material before end of third book reaches the median reader; deepest interiority is read by the fewest. That is a priced choice.
 
-Working structure first means the last-book payoff is known before the first-book page. [沈文](/tsumugu/cast/shen-wen.html) and [阮草](/tsumugu/cast/ruan-cao.html) at 250 字: flinch versus envelope counted, hand refused — provision-love legible before theme-words exist.
+Working structure first means the last-book payoff is known before the first-book page. [沈文](/tsumugu/cast/shen-wen.html) and [阮草](/tsumugu/cast/ruan-cao.html) at 250 字: flinch versus envelope counted, hand refused, with provision-love legible before theme-words exist.
 
 ## Where new words go
 
@@ -58,7 +58,7 @@ First book: one character's load shown as counting; another's as refusal. Second
 
 Peak near 98%. Objects stand in for feelings the floor forbids. Wounds can stay off-page if an object carries them. [[wiki/Story Craft/Interiority Through Action and Object|Interiority Through Action and Object]] is the full object-and-gesture discipline.
 
-Wants must be folktale-strength (hunger, promise, hidden gift). This project's first-book load-bearers: chosen family and secret provision — both visible at the floor.
+Wants must be folktale-strength (hunger, promise, hidden gift). This project's first-book load-bearers: chosen family and secret provision, both visible at the floor.
 
 Plants must be **behaviors** the later book can re-show, never stated themes. [[wiki/Story Craft/The Beat Board|The Beat Board]] owns PLANT → SPARK → PAYOFF across the ramp.
 
@@ -68,7 +68,7 @@ In recording, a character exists only while speaking or being named. Silent bodi
 
 - **Sequence** is one informative sound (often one line or one effect); trim arrival chains to the knock at the door.
 - **Speaker cap**: six voices is a stranger-heard half-hour drama ceiling; **three to four per scene** is the working norm for graded readings.
-- **Variety** on four dials: sequence length, speaker count, pace, location — revision check before record, not post-hoc diagnosis.
+- **Variety** on four dials: sequence length, speaker count, pace, location (revision check before record, not post-hoc diagnosis).
 - **Runtime** from read-aloud against a clock, not page count.
 - **Cold listen**: assign every line without the script; same test as tag-stripping in [[wiki/Story Craft/Diagnosing a Character|Diagnosing a Character]].
 

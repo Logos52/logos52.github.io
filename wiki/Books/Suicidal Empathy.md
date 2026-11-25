@@ -16,7 +16,7 @@ tags:
 
 # Suicidal Empathy
 
-Gad Saad's *Suicidal Empathy* (2026) follows *The Parasitic Mind*. The earlier book named cognitive pathogens: ideas that harm the mind that holds them. This book names affective dysregulation—feeling out of proportion and unchecked—and shows how that feeling makes the pathogens feel morally required.
+Gad Saad's *Suicidal Empathy* (2026) follows *The Parasitic Mind*. The earlier book named cognitive pathogens: ideas that harm the mind that holds them. This book names affective dysregulation (feeling out of proportion and unchecked), and shows how that feeling makes the pathogens feel morally required.
 
 Empathy is a real capacity. The book calls it suicidal when it is split from truth, reciprocity, proportion, and long-term survival. Institutions and individuals then trade the emotional reward of visible compassion for citizens, women, children, merit, borders, and civilizational continuity. Calibrated empathy serves the person helped and protects the helper. Suicidal empathy serves the helper's self-image and damages both.
 

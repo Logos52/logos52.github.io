@@ -15,11 +15,11 @@ tags:
   - characters
 ---
 
-> A Vietnamese speaker already carries thousands of Mandarin morphemes inside Sino-Vietnamese words. The bridge lines those readings up with the characters and sounds that spell them—not to replace pinyin, but to make recognition cheap.
+> A Vietnamese speaker already carries thousands of Mandarin morphemes inside Sino-Vietnamese words. The bridge lines those readings up with the characters and sounds that spell them, not to replace pinyin, but to make recognition cheap.
 
 # The Hán-Việt Bridge
 
-Use this method when the learner's Vietnamese already contains formal Sino-Vietnamese (Hán-Việt) vocabulary and Mandarin characters are the new layer. Hán-Việt and Mandarin readings both descend from Middle Chinese; where Vietnamese kept a distinction Mandarin lost, the Hán-Việt form can cue the Mandarin one. Roughly a third of casual speech and most formal prose in Vietnamese sit on this layer—comparable to Latin and French in English academic writing.
+Use this method when the learner's Vietnamese already contains formal Sino-Vietnamese (Hán-Việt) vocabulary and Mandarin characters are the new layer. Hán-Việt and Mandarin readings both descend from Middle Chinese; where Vietnamese kept a distinction Mandarin lost, the Hán-Việt form can cue the Mandarin one. Roughly a third of casual speech and most formal prose in Vietnamese sit on this layer, comparable to Latin and French in English academic writing.
 
 The largest win is **compositional vocabulary** with no sound rules yet. 學生 resolves to học + sinh ("student") before *xuéshēng* is studied. 科學, 國家, and similar compounds parse from morphemes already in memory. Showing the match once is often enough; prior knowledge is the cheapest encoding ([[wiki/Concepts/Memory Handling|Memory Handling]]).
 
@@ -29,7 +29,7 @@ The largest win is **compositional vocabulary** with no sound rules yet. 學生 
 - **-m → Mandarin -n:** 三 tam → sān, 心 tâm → xīn, 金 kim → jīn. This is the strongest single rule.
 - **Initial clusters (partial):** nh- ≈ r-; ng-/ngh- ≈ vowel-initial Mandarin; ph- ≈ f-; đ- ≈ d-; th- ≈ t-.
 - **Tones (partial):** huyền → often Tone 2; hỏi → often Tone 3; open-syllable sắc/nặng → often Tone 4. Central and Southern speakers who merge hỏi/ngã should not use the hỏi prediction.
-- **Entering-tone flag:** sắc or nặng on a stop-final syllable marks an old entering-tone character whose Mandarin tone must be stored by hand—no derivation rule. That flag sorts "derive" from "memorize" ([[wiki/Dimensions/Retrieval|Rules of Effective Memorization]]), the same fence logic as [[wiki/Language/Chinese/How Chinese Characters Work|sound series]] inside one language.
+- **Entering-tone flag:** sắc or nặng on a stop-final syllable marks an old entering-tone character whose Mandarin tone must be stored by hand, with no derivation rule. That flag sorts "derive" from "memorize" ([[wiki/Dimensions/Retrieval|Rules of Effective Memorization]]), the same fence logic as [[wiki/Language/Chinese/How Chinese Characters Work|sound series]] inside one language.
 
 ## Two Vietnamese words for one character
 
@@ -41,9 +41,9 @@ Every pairing is a hypothesis until checked. Whole compounds drift: 困難 *kùn
 
 ## Limits
 
-- **Old Sino-Vietnamese** nativized reflexes (buồng, mùa, việc, sức) break sound rules—use them as anchors, not predictors.
+- **Old Sino-Vietnamese** nativized reflexes (buồng, mùa, việc, sức) break sound rules. Use them as anchors, not predictors.
 - The bridge shrinks load; it does not remove pinyin and tone study.
-- **Nôm-coined** glyphs (𠀧, 𤾓) have no Chinese bridge—only Sino-Vietnamese vocabulary crosses.
+- **Nôm-coined** glyphs (𠀧, 𤾓) have no Chinese bridge. Only Sino-Vietnamese vocabulary crosses.
 
 ## Cost and audience
 
@@ -51,7 +51,7 @@ Upfront cost: about a dozen correspondences plus the entering-tone flag. Ongoing
 
 ## When to stop
 
-- If Mandarin pronunciation carries Hán-Việt color, drop the reading aid and let pinyin lead—recognition only, not production.
+- If Mandarin pronunciation carries Hán-Việt color, drop the reading aid and let pinyin lead, recognition only, not production.
 - If stop-final tones keep missing after honest tries, stop guessing those tones and memorize them.
 
 ## What to expect
@@ -85,4 +85,4 @@ After a few sessions, most new two-character Sino-Vietnamese compounds should yi
 | --- | --- |
 | Wang Li (1948); Nguyễn Tài Cẩn; Haudricourt; Pulleyblank; Phan & de Sousa | Sino-Vietnamese stratification and Middle Chinese backdrop. |
 | Otwinowska et al. (2020) | Cognate facilitation as largely automatic. |
-| [[journal/2026-06-21-hanviet-bridge-deep-dive|journal — Hán-Việt bridge deep dive]] (2026-06-21) | Research design and worked examples for this page. |
+| [[journal/2026-06-21-hanviet-bridge-deep-dive|journal, Hán-Việt bridge deep dive]] (2026-06-21) | Research design and worked examples for this page. |

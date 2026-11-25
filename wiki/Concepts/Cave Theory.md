@@ -16,11 +16,11 @@ tags:
 
 # Cave Theory
 
-> The brain that sits in a classroom is still the brain that had to keep a person alive. Books, notes, lectures, and practice quizzes are recent inventions; the organ that has to use them changed very little. What it grew good at was gathering clues toward a real problem—where food was, whether a shelter was safe, how to support a small group. Clues connected because they served a purpose. Modern study often does the opposite: lessons isolate facts, and syllabi wall ideas off from each other. Cave theory is the reminder that you have to put material back into purposeful shape—give the session a problem to solve and let facts join across catalog lines. The cleanest comparison is a hobby you know deeply: you would not teach it with a manual and a stack of cards.
+> The brain that sits in a classroom is still the brain that had to keep a person alive. Books, notes, lectures, and practice quizzes are recent inventions; the organ that has to use them changed very little. What it grew good at was gathering clues toward a real problem (where food was, whether a shelter was safe, how to support a small group). Clues connected because they served a purpose. Modern study often does the opposite: lessons isolate facts, and syllabi wall ideas off from each other. Cave theory is the reminder that you have to put material back into purposeful shape. Give the session a problem to solve and let facts join across catalog lines. The cleanest comparison is a hobby you know deeply: you would not teach it with a manual and a stack of cards.
 
 ## What the brain was built for
 
-A useful way to study the brain is to ask what jobs it grew able to do. Survival came first. Comfort came next—more food, more warmth, less struggle. Those were the problems of the day, and failing them had a cost high enough to select for brains that could solve them.
+A useful way to study the brain is to ask what jobs it grew able to do. Survival came first. Comfort came next (more food, more warmth, less struggle). Those were the problems of the day, and failing them had a cost high enough to select for brains that could solve them.
 
 Solving them did not look like sitting by a fire with stone flashcards. It looked like walking through country with a question already live. The position of the sun, marks on the ground, and the shape of the land each arrived as a clue and joined the others because they all served the same purpose. The brain got good at that kind of joining. It did not get good at memorising a projectile path as a graph, or at treating one class as sealed off from another.
 
@@ -42,7 +42,7 @@ Someone can still grind while using a poor method and get a decent result. The c
 
 Later methods in this vault keep returning to this picture. They work when they give study a purpose and when they let clues connect toward a problem instead of stopping at catalog walls.
 
-[[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]] opens with questions the material must answer—problem-first intake before passive reading. [[wiki/Dimensions/Deep Processing/Importance-Based Chunking|Importance-based chunking]] redraws groups around why ideas matter, not around chapter order. [[wiki/Concepts/Memory Handling|Memory handling]] insists you do something with each piece inside the first working-memory window, which is how isolated facts become joined material. [[wiki/Dimensions/Deep Processing|Deep processing]] is the dimension where schema-building happens: facts that enter through relationship tend to stay available in new settings.
+[[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]] opens with questions the material must answer, which is problem-first intake before passive reading. [[wiki/Dimensions/Deep Processing/Importance-Based Chunking|Importance-based chunking]] redraws groups around why ideas matter, not around chapter order. [[wiki/Concepts/Memory Handling|Memory handling]] insists you do something with each piece inside the first working-memory window, which is how isolated facts become joined material. [[wiki/Dimensions/Deep Processing|Deep processing]] is the dimension where schema-building happens: facts that enter through relationship tend to stay available in new settings.
 
 Retrieval and scheduling habits from [[wiki/Dimensions/Retrieval|retrieval]] still matter; cave theory is not an argument to skip them. It is background for why encoding that stays purposeful outperforms encoding that feels like school-shaped busywork.
 
@@ -56,9 +56,9 @@ The test of a new method is whether it moves coursework closer to the hobby. The
 
 ## Related pages
 
-- [[wiki/Dimensions/Deep Processing|Deep Processing]] — encoding hub; schema-building as purposeful joining.
-- [[wiki/Concepts/Memory Handling|Memory Handling]] — what happens in the short window when material has, or lacks, a purpose.
-- [[wiki/Dimensions/Dimensions of Learning|Dimensions of Learning]] — map that orders encoding, retrieval, and the other dimensions.
+- [[wiki/Dimensions/Deep Processing|Deep Processing]] (encoding hub; schema-building as purposeful joining.)
+- [[wiki/Concepts/Memory Handling|Memory Handling]] (what happens in the short window when material has, or lacks, a purpose.)
+- [[wiki/Dimensions/Dimensions of Learning|Dimensions of Learning]] (map that orders encoding, retrieval, and the other dimensions.)
 
 ## Sources
 

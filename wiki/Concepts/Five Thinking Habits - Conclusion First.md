@@ -20,33 +20,33 @@ Five habits make thinking easy to follow and hard to hide from yourself. Say the
 
 ## Conclusion first
 
-Researchers often start at angle one, add factors and context, and arrive at "therefore" five minutes later after the listener lost the thread. Fix: "This is what I think. Here is why." Asking what your conclusion is before you speak catches the illusion of explanatory depth—you believed you understood until you tried to lay it out.
+Researchers often start at angle one, add factors and context, and arrive at "therefore" five minutes later after the listener lost the thread. Fix: "This is what I think. Here is why." Asking what your conclusion is before you speak catches the illusion of explanatory depth. You believed you understood until you tried to lay it out.
 
 When the check finds a gap, still lead with the conclusion, carrying uncertainty: "I lean this way, unsure on a few points; here is what I see so far," then reasons. That is as easy to follow and does not overclaim.
 
 ## Observations before conclusions
 
-Workshop feedback that jumps to "fix this slide" leaves doubt about how you got there. Better: flat faces, yawning, no hands up—then what could change because of that. Observations put the conversation on us against the problem, let others reach their own conclusion from the same facts, and force you to separate what you saw from what you inferred. Confident wrong opinions often skip that separation.
+Workshop feedback that jumps to "fix this slide" leaves doubt about how you got there. Better: flat faces, yawning, no hands up, then what could change because of that. Observations put the conversation on us against the problem, let others reach their own conclusion from the same facts, and force you to separate what you saw from what you inferred. Confident wrong opinions often skip that separation.
 
 ## Play the question back
 
-Begin with what they are really asking, or that the question has two parts. It buys thinking time, surfaces misunderstood asks before work starts, and often organizes the asker's thinking—they add a third part you separated. Silent good thinkers still misread asks and hear "that is not what I wanted" because nobody made the question explicit at the start.
+Begin with what they are really asking, or that the question has two parts. It buys thinking time, surfaces misunderstood asks before work starts, and often organizes the asker's thinking. They add a third part you separated. Silent good thinkers still misread asks and hear "that is not what I wanted" because nobody made the question explicit at the start.
 
 ## Say what would change your mind
 
-Hypothesis, antithesis, thesis—say the counterarguments with the decision. "We launch in two months; here are three conditions that push the date." Listeners trust a decider who has looked past their position; you get one check against habit under time pressure ("we always do it this way").
+Hypothesis, antithesis, thesis. Say the counterarguments with the decision. "We launch in two months; here are three conditions that push the date." Listeners trust a decider who has looked past their position; you get one check against habit under time pressure ("we always do it this way").
 
 ## Compress to a line or two
 
-Deep thinkers elaborate everything and sound disorganized. Before speaking, find the lines that carry every important point and none of the fluff—"golden pearls." That cut requires the deepest knowledge of the subject; teaching a child is the hard test. If you cannot pick the lines, you do not yet know what is necessary.
+Deep thinkers elaborate everything and sound disorganized. Before speaking, find the lines that carry every important point and none of the fluff ("golden pearls."). That cut requires the deepest knowledge of the subject; teaching a child is the hard test. If you cannot pick the lines, you do not yet know what is necessary.
 
 ## Order to learn them
 
-All five share one move: before speaking, find the end, the observations, the question, the falsifier, and the short form—then say that first. Compression last; the others first.
+All five share one move: before speaking, find the end, the observations, the question, the falsifier, and the short form, then say that first. Compression last; the others first.
 
 ## When the habits fail
 
-Conclusion first breaks when you mistake a mood for a verdict—name the lean and the gap. Observations first break when you smuggle interpretation into "what I saw"; keep phenomenology separate. Playing back the question fails when you perform agreement instead of testing your read—invite correction. Naming falsifiers fails when the list is decorative; pick conditions you would actually honor. Compression fails when you drop the uncertainty that was the whole point—in that case lead with hedged conclusion, not a single crisp line.
+Conclusion first breaks when you mistake a mood for a verdict. Name the lean and the gap. Observations first break when you smuggle interpretation into "what I saw"; keep phenomenology separate. Playing back the question fails when you perform agreement instead of testing your read. Invite correction. Naming falsifiers fails when the list is decorative; pick conditions you would actually honor. Compression fails when you drop the uncertainty that was the whole point. In that case lead with a hedged conclusion, not a single crisp line.
 
 In writing, the same shapes appear in [[wiki/Writing Craft/Five Writing Templates|Five Writing Templates]] and [[wiki/Writing Craft/The Cold Open|The Cold Open]]: verdict up front, evidence under it, falsifier beside the call.
 
@@ -62,11 +62,11 @@ Use the habits in low-stakes order: conclusion first in any answer longer than t
 
 ## Related pages
 
-- [[wiki/Concepts/Good Faith|Good Faith]] — stance behind costly-honest feedback
-- [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Metacognition - The Control Layer]] — explanatory depth
-- [[wiki/Writing Craft/The Cold Open|The Cold Open]] — conclusion-first page shape
-- [[wiki/Concepts/Levels of Thinking - The Step Back|Levels of Thinking - The Step Back]] — stepping back from reaction
-- [[wiki/Razors|Razors]] — judgment tests beside these speech habits
+- [[wiki/Concepts/Good Faith|Good Faith]] (stance behind costly-honest feedback)
+- [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Metacognition - The Control Layer]] (explanatory depth)
+- [[wiki/Writing Craft/The Cold Open|The Cold Open]] (conclusion-first page shape)
+- [[wiki/Concepts/Levels of Thinking - The Step Back|Levels of Thinking - The Step Back]] (stepping back from reaction)
+- [[wiki/Razors|Razors]] (judgment tests beside these speech habits)
 
 ## Open questions
 

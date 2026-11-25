@@ -12,7 +12,7 @@ tags:
 
 # Minimalism, Condensed
 
-The limiting resource is maintenance attention, not money. Every object, subscription, and commitment draws some of that attention for as long as it stays in your life. Reduction comes before optimization: deciding not to want a thing costs less than owning it and removing it later. The room is part of the same system—layout prompts action and sets defaults before willpower is invoked. Empty space is slack held in reserve, not waste. Decide how an object will leave before it comes in. The settled doctrine lives in [[wiki/Minimalism/Minimalism as Systems Design|Minimalism as Systems Design]]; spending and investing are in [[wiki/Money/Money, Condensed|Money, Condensed]].
+The limiting resource is maintenance attention, not money. Every object, subscription, and commitment draws some of that attention for as long as it stays in your life. Reduction comes before optimization: deciding not to want a thing costs less than owning it and removing it later. The room is part of the same system. Layout prompts action and sets defaults before willpower is invoked. Empty space is slack held in reserve, not waste. Decide how an object will leave before it comes in. The settled doctrine lives in [[wiki/Minimalism/Minimalism as Systems Design|Minimalism as Systems Design]]; spending and investing are in [[wiki/Money/Money, Condensed|Money, Condensed]].
 
 ## The costs
 
@@ -34,7 +34,7 @@ The environment shapes behaviour before willpower does. A space cues action, use
 
 Empty space is reserve capacity. When every surface is full, moving one thing means moving other things first. Operational slack matters more than visual emptiness. What sits in view sets the day's defaults; objects left out are the objects you use, and what you use shapes who you are.
 
-Minimalism clarifies identity. Reduction removes objects that belonged to identities you have given up. What remains shows what the life is for. Wabi-sabi is a separate taste call—beauty in wear and imperfection from real use, not sloppy work shipped on purpose—not a requirement of owning less.
+Minimalism clarifies identity. Reduction removes objects that belonged to identities you have given up. What remains shows what the life is for. Wabi-sabi is a separate taste call (beauty in wear and imperfection from real use, not sloppy work shipped on purpose), not a requirement of owning less.
 
 ## Sources
 

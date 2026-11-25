@@ -3,7 +3,7 @@ title: "Four Stages of Competence"
 type: concept
 domain: learning
 status: stable
-description: "A skill moves through four stages—from not knowing you are bad at it to doing it automatically—and new techniques should wait until current ones sit near unconscious competence."
+description: "A skill moves through four stages (from not knowing you are bad at it to doing it automatically), and new techniques should wait until current ones sit near unconscious competence."
 created: 2026-06-11
 updated: 2026-11-21
 source-count: 1
@@ -15,7 +15,7 @@ tags:
 
 # Four Stages of Competence
 
-> Competence is a spectrum, not a switch. You are not simply able or unable. A skill moves through unconscious incompetence, conscious incompetence, conscious competence, and unconscious competence—often mislabeled as Maslow’s, which it is not. The model tells you what kind of progress to expect at each stage and what gain is even available there. Learning itself is one of the more complicated skills you can pick up, so the same ladder applies to study methods as to an instrument or a sport. Do not pile techniques that each still cost high effort; add a new method only when the ones you use are approaching automatic.
+> Competence is a spectrum, not a switch. You are not simply able or unable. A skill moves through unconscious incompetence, conscious incompetence, conscious competence, and unconscious competence, often mislabeled as Maslow’s, which it is not. The model tells you what kind of progress to expect at each stage and what gain is even available there. Learning itself is one of the more complicated skills you can pick up, so the same ladder applies to study methods as to an instrument or a sport. Do not pile techniques that each still cost high effort; add a new method only when the ones you use are approaching automatic.
 
 <figure>
 <svg viewBox="-16 -16 552 560" width="100%" style="max-width:552px;--qp-surface:light-dark(#ffffff,#1a1a1a);--qp-ink:light-dark(#090909,#f2f2f2);--qp-ink2:light-dark(#3a3a3a,#cfcfcf);--qp-mut:light-dark(#6b6b6b,#a3a3a3);--qp-rule:light-dark(#ededed,#262626);--qp-rule2:light-dark(#dedede,#333333);--qp-accent:light-dark(#1a7fe6,#5aa9f5);font-family:Inter,system-ui,sans-serif" role="img" aria-labelledby="wv-fsc-t">
@@ -88,9 +88,9 @@ The engine that moves you up the ladder is a cycle of trying, reviewing, and adj
 
 ## Related pages
 
-- [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Metacognition — The Control Layer]] — reading your stage so you pick the right next gain.
-- [[wiki/Dimensions/Dimensions of Learning|Dimensions of Learning]] — where techniques stack only after competence is cheap.
-- [[wiki/Dimensions/Mindset|Mindset]] — beliefs that let you stay in conscious incompetence long enough to improve.
+- [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Metacognition - The Control Layer]] (reading your stage so you pick the right next gain.)
+- [[wiki/Dimensions/Dimensions of Learning|Dimensions of Learning]] (where techniques stack only after competence is cheap.)
+- [[wiki/Dimensions/Mindset|Mindset]] (beliefs that let you stay in conscious incompetence long enough to improve.)
 
 ## Sources
 

@@ -6,7 +6,7 @@ status: stable
 created: 2026-05-04
 updated: 2026-11-21
 source-count: 14
-description: "Self-regulation is the skill of driving your own learning — noticing what the mind is doing, steering when conditions change, and measuring whether time bought usable knowledge."
+description: "Self-regulation is the skill of driving your own learning. It means noticing what the mind is doing, steering when conditions change, and measuring whether time bought usable knowledge."
 tags:
   - self-regulation
   - metacognition
@@ -15,15 +15,15 @@ tags:
 
 # Self-Regulation
 
-> Deep processing is engine power; self-regulation is how you drive. Without monitoring and adjustment, strong cognition still gets wasted — especially when teaching stops hand-holding or conditions turn unfavorable. Self-regulation is not mistake-avoidance; it is noticing what is happening and changing course toward the goal, including when the right move is harder and slower.
+> Deep processing is engine power; self-regulation is how you drive. Without monitoring and adjustment, strong cognition still gets wasted, especially when teaching stops hand-holding or conditions turn unfavorable. Self-regulation is not mistake-avoidance; it is noticing what is happening and changing course toward the goal, including when the right move is harder and slower.
 
 ## What it requires
 
 Three trains run together:
 
-1. **Metacognition** — enough awareness to see how methods shape thinking ([[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Metacognition - The Control Layer]]).
-2. **Desirable difficulty** — interpreting effort, confusion, and discomfort as possible signs of effective work, not automatic failure ([[wiki/Concepts/The Shortcut Problem|The Shortcut Problem]] is what happens when you flee that discomfort).
-3. **Theory** — vocabulary for time, attention, encoding, and retrieval so adjustments are informed guesses, not random tweaks.
+1. **Metacognition** (enough awareness to see how methods shape thinking ([[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Metacognition - The Control Layer]]).)
+2. **Desirable difficulty** (interpreting effort, confusion, and discomfort as possible signs of effective work, not automatic failure ([[wiki/Concepts/The Shortcut Problem|The Shortcut Problem]] is what happens when you flee that discomfort).)
+3. **Theory** (vocabulary for time, attention, encoding, and retrieval so adjustments are informed guesses, not random tweaks.)
 
 Map one piece of material through your real pipeline: what you do, when, why, and where you genuinely do not know. Honest maps beat polished fantasies.
 
@@ -39,15 +39,15 @@ Flashcards illustrate all three: popular, can space retrieval, yet easily become
 
 ## Techniques need thinking
 
-A method works when it starts a process in mind. **Importance check-listing** — asking why something matters and stopping at the first answer — ticks a box without comparing, judging, or building schema. **Understanding** without relating ideas feels like learning and is not. Fluent tools make bypass easier; use them for one-off tasks, not for knowledge you must hold and extend.
+A method works when it starts a process in mind. **Importance check-listing** (asking why something matters and stopping at the first answer) ticks a box without comparing, judging, or building schema. **Understanding** without relating ideas feels like learning and is not. Fluent tools make bypass easier; use them for one-off tasks, not for knowledge you must hold and extend.
 
 Every strategy can be shortcut; see [[wiki/Concepts/The Shortcut Problem|The Shortcut Problem]]. Pick methods for the thinking they force, not the artifact they produce.
 
 ## Measuring what time bought
 
-Coverage per hour is a weak score. **Learning efficiency** is usable mastery and retention divided by total hours — mastery defined against the levels your assessment actually tests, retention checked about a week later so spacing is honest.
+Coverage per hour is a weak score. **Learning efficiency** is usable mastery and retention divided by total hours, with mastery defined against the levels your assessment actually tests, and retention checked about a week later so spacing is honest.
 
-When extra hours barely move mastery, the **method** is capped — like building with only a hammer. Diagnose time-versus-method before adding more calendar. [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Metacognition]] runs that diagnosis live.
+When extra hours barely move mastery, the **method** is capped, like building with only a hammer. Diagnose time-versus-method before adding more calendar. [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Metacognition]] runs that diagnosis live.
 
 ## Accuracy before speed
 
@@ -57,27 +57,27 @@ Real speed comes from a better process at a calm pace, not pushing the old one. 
 
 ## Energy and starting anyway
 
-Sustainable capacity rests on basics — exercise, in-person connection, daylight, protected sleep — even when schedules feel brutal. Weekends alone rarely fix burnout if prerequisites stay broken.
+Sustainable capacity rests on basics (exercise, in-person connection, daylight, protected sleep), even when schedules feel brutal. Weekends alone rarely fix burnout if prerequisites stay broken.
 
 **DEFUSE** for motivation-dependent stalls: distinguish feeling from thought; act before the feeling changes; lengthen defused uptime in small steps; build a zone with fewer triggers (distraction cheat sheet, then remove what you logged). Motivation is a boost, not a gate.
 
 ## Exam and execution control
 
-**Silly mistake syndrome** — labeling errors “silly” blocks repair. Often mixes weak technique with preparation gaps, especially missing logic you cannot generate yourself. Fix by root-cause cycles, not vague “be careful.” **MR FIG** and **double generation** on practice tests surface hidden gaps.
+**Silly mistake syndrome**. Labeling errors “silly” blocks repair. Often mixes weak technique with preparation gaps, especially missing logic you cannot generate yourself. Fix by root-cause cycles, not vague “be careful.” **MR FIG** and **double generation** on practice tests surface hidden gaps.
 
 ## Training the control layer
 
 The 30-day self-regulation challenge maps methods to observed effects, judges and replaces weak habits (practice how you play, link levels, test recall not recognition, cut setup that does not process), isolates variables by shifting time on each method, then stabilises a system no more than ~20% different from today so overwhelm stays bounded.
 
-In the five-dimension frame ([[wiki/Dimensions/Dimensions of Learning|Dimensions of Learning]]), self-regulation sits between mindset and the encoding/retrieval pair. Mindset must allow discomfort; deep processing and retrieval supply what you regulate. Weak self-regulation often looks like “I know better methods but default to old ones under pressure” — that is a control problem, not a knowledge gap.
+In the five-dimension frame ([[wiki/Dimensions/Dimensions of Learning|Dimensions of Learning]]), self-regulation sits between mindset and the encoding/retrieval pair. Mindset must allow discomfort; deep processing and retrieval supply what you regulate. Weak self-regulation often looks like “I know better methods but default to old ones under pressure”. That is a control problem, not a knowledge gap.
 
 ## Related pages
 
-- [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Metacognition - The Control Layer]] — cue, monitor, respond loop.
-- [[wiki/Dimensions/Deep Processing|Deep Processing]] — engine self-regulation steers.
-- [[wiki/Dimensions/Mindset|Mindset]] — beliefs that make discomfort usable.
-- [[wiki/Dimensions/Dimensions of Learning|Dimensions of Learning]] — five-dimension map.
-- [[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolb’s experiential cycle]] — after-action naming.
+- [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Metacognition - The Control Layer]] (cue, monitor, respond loop.)
+- [[wiki/Dimensions/Deep Processing|Deep Processing]] (engine self-regulation steers.)
+- [[wiki/Dimensions/Mindset|Mindset]] (beliefs that make discomfort usable.)
+- [[wiki/Dimensions/Dimensions of Learning|Dimensions of Learning]] (five-dimension map.)
+- [[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolb’s experiential cycle]] (after-action naming.)
 
 ## Open questions
 
@@ -97,5 +97,5 @@ In the five-dimension frame ([[wiki/Dimensions/Dimensions of Learning|Dimensions
 | iCanStudy, 30-day self-regulation challenge (weeks 1–4) | Private course notes, paraphrased |
 | Justin Sung, motivation / DEFUSE | [YouTube](https://www.youtube.com/watch?v=RMB3NsQotvM), [J2hLwfV1zxk](https://www.youtube.com/watch?v=J2hLwfV1zxk); paraphrased |
 | Fitts (1954); power law of practice (Newell & Rosenbloom 1981) | Speed–accuracy and habituation |
-| McConnell; Boehm defect-cost curve (cited on speed page) | Schedule pressure and defects — analogy only |
+| McConnell; Boehm defect-cost curve (cited on speed page) | Schedule pressure and defects (analogy only) |
 | Bouton (2004) | Relearning mis-automated skill |

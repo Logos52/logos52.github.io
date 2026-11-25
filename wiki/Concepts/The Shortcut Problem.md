@@ -6,7 +6,7 @@ status: stable
 created: 2026-05-09
 updated: 2026-11-21
 source-count: 5
-description: "A polished note, map, or answered prompt can stand in for the evaluation and reconstruction the task required — the session feels productive while the knowledge never moved."
+description: "A polished note, map, or answered prompt can stand in for the evaluation and reconstruction the task required. The session feels productive while the knowledge never moved."
 tags:
   - learning
   - metacognition
@@ -19,7 +19,7 @@ tags:
 
 ## How the swap works
 
-When work turns uncertain or uncomfortable, the mind hunts for a cheaper path. Simplifying is fine if the important thinking still happens. The failure mode is finishing a study behavior — transcribed notes, a neat map, a highlighted page — while skipping evaluation, comparison, and reconstruction. During the session, fluency feels like progress. Afterward, the gap shows on application.
+When work turns uncertain or uncomfortable, the mind hunts for a cheaper path. Simplifying is fine if the important thinking still happens. The failure mode is finishing a study behavior (transcribed notes, a neat map, a highlighted page) while skipping evaluation, comparison, and reconstruction. During the session, fluency feels like progress. Afterward, the gap shows on application.
 
 The pattern is stable: task demands hard cognition → load rises → a visible move gets completed → the output looks ordered → usable knowledge barely shifts. [[wiki/Razors|Are You Learning, or Just Using Techniques]] names the same diagnosis at program scale.
 
@@ -42,7 +42,7 @@ The clearest signal is notes that look tidy and cannot be used. The check must h
 
 **Bear Hunter System** (Aim, Shoot, Skin) fails when passes become surface actions: listing topics instead of framing what, why, and how; filling a map with the author’s words instead of answering your Aim questions; prettifying instead of cutting to what survives with the source closed. See [[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]] and [[wiki/Dimensions/Deep Processing/Importance-Based Chunking|importance-based chunking]] for what those passes are supposed to force.
 
-**Spaced interleaved retrieval** fails when practice is peeking, recognition, blocked repetition, single-topic comfort, or treating a gap as failure instead of data. Good retrieval asks whether knowledge can be rebuilt, compared, and applied — not whether a line looks familiar. See [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]].
+**Spaced interleaved retrieval** fails when practice is peeking, recognition, blocked repetition, single-topic comfort, or treating a gap as failure instead of data. Good retrieval asks whether knowledge can be rebuilt, compared, and applied, not whether a line looks familiar. See [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]].
 
 ## Catching and fixing it
 
@@ -57,20 +57,20 @@ Six in-session questions:
 
 Structure work so the swap is harder: require a reason for each link, compare before summarizing, dump from memory before opening notes, mix topics.
 
-After a miss, name what happened, how it felt, what rule that implies, and one small change next time ([[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolb’s experiential cycle]]). One [[wiki/Dimensions/Mindset|marginal gain]] aimed at the shortcut beats inventing a new system. Habitual shortcuts need cue-response work — see [[wiki/Concepts/How to Unlearn Old or Bad Habits Efficiently|unlearning old habits]]. Catching the swap live is [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|metacognition]].
+After a miss, name what happened, how it felt, what rule that implies, and one small change next time ([[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolb’s experiential cycle]]). One [[wiki/Dimensions/Mindset|marginal gain]] aimed at the shortcut beats inventing a new system. Habitual shortcuts need cue-response work (see [[wiki/Concepts/How to Unlearn Old or Bad Habits Efficiently|unlearning old habits]]). Catching the swap live is [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|metacognition]].
 
 ## Why it persists
 
-Schools and tools reward the left column of the table — full notebooks, completed modules, fluent model answers. The right column still has to be done inside your head, and no interface automates it. Learners also read fluency as learning because that misread is common in the literature (see Sources).
+Schools and tools reward the left column of the table (full notebooks, completed modules, fluent model answers). The right column still has to be done inside your head, and no interface automates it. Learners also read fluency as learning because that misread is common in the literature (see Sources).
 
-Overwhelm pushes the swap: copying, rote repetition, or switching tasks lowers discomfort fastest. The local fix is usually one constraint on the next block — closed book before notes, a stated relation before each arrow, mixed retrieval instead of one comfortable topic — not a new system.
+Overwhelm pushes the swap: copying, rote repetition, or switching tasks lowers discomfort fastest. The local fix is usually one constraint on the next block (closed book before notes, a stated relation before each arrow, mixed retrieval instead of one comfortable topic), not a new system.
 
 ## Related pages
 
-- [[wiki/Dimensions/Self-Regulation|Self-Regulation]] — control layer, traps, and measurement.
-- [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Metacognition - The Control Layer]] — noticing the cue while it runs.
-- [[wiki/Razors|Are You Learning, or Just Using Techniques]] — program-level diagnosis.
-- [[wiki/Razors|Are You Thinking, or Just Consuming?]] — the same failure on input.
+- [[wiki/Dimensions/Self-Regulation|Self-Regulation]] (control layer, traps, and measurement.)
+- [[wiki/Dimensions/Self-Regulation/Metacognition - The Control Layer|Metacognition - The Control Layer]] (noticing the cue while it runs.)
+- [[wiki/Razors|Are You Learning, or Just Using Techniques]] (program-level diagnosis.)
+- [[wiki/Razors|Are You Thinking, or Just Consuming?]] (the same failure on input.)
 
 ## Open questions
 

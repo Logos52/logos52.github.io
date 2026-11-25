@@ -2,7 +2,7 @@
 type: hub
 domain: learning
 status: stable
-description: "Learning performance is limited by the weakest of five trainable capabilities—mindset, self-management, self-regulation, deep processing, and retrieval—not by whichever technique is fashionable."
+description: "Learning performance is limited by the weakest of five trainable capabilities (mindset, self-management, self-regulation, deep processing, and retrieval), not by whichever technique is fashionable."
 created: 2026-05-04
 updated: 2026-11-21
 source-count: 12
@@ -15,7 +15,7 @@ tags:
 
 # Dimensions of Learning
 
-> Learning ability breaks into five dimensions: mindset, self-management, self-regulation, deep processing, and retrieval. Each answers a different question about how you study, and a weakness in any one caps what the others can deliver. The model is a diagnostic: find the limiting dimension, train it with deliberate practice, and only then stack more techniques. Alongside that map sit three knowledge jobs—knowing what something is, running it automatically, and judging when to use it—and a practical rule that multimodal effort beats matching a mythical learning style.
+> Learning ability breaks into five dimensions: mindset, self-management, self-regulation, deep processing, and retrieval. Each answers a different question about how you study, and a weakness in any one caps what the others can deliver. The model is a diagnostic: find the limiting dimension, train it with deliberate practice, and only then stack more techniques. Alongside that map sit three knowledge jobs (knowing what something is, running it automatically, and judging when to use it) and a practical rule that multimodal effort beats matching a mythical learning style.
 
 ## The five questions
 
@@ -37,33 +37,33 @@ Several pairs are often confused. Self-management builds the systems around lear
 
 ## What holds for everyone, what is individual
 
-The principles apply broadly, but ceilings differ. Deep processing has a genetic and early-life component, though it can be trained. Someone with unusually strong processing may succeed with mediocre methods—**deep processing tanking**—which misleads others who copy the same surface habits. Even strong processors eventually hit goals where tanking fails and the other dimensions matter. Mindset also varies by domain: growth in one subject, fixed in another, is normal.
+The principles apply broadly, but ceilings differ. Deep processing has a genetic and early-life component, though it can be trained. Someone with unusually strong processing may succeed with mediocre methods (**deep processing tanking**), which misleads others who copy the same surface habits. Even strong processors eventually hit goals where tanking fails and the other dimensions matter. Mindset also varies by domain: growth in one subject, fixed in another, is normal.
 
 ## Three knowledge jobs under any skill
 
 Every skill hides three separable jobs. Having one does not give you the others.
 
-**Declarative** work is what you can still explain step by step: facts, concepts, relationships, and any move you choose on purpose. **Procedural** work is what runs without conscious step choice—fluency, muscle memory, automated execution. In this vault, conditional judgment—when and why to use a move—is treated as declarative that thickens through varied practice, not as a fourth store.
+**Declarative** work is what you can still explain step by step: facts, concepts, relationships, and any move you choose on purpose. **Procedural** work is what runs without conscious step choice (fluency, muscle memory, automated execution). In this vault, conditional judgment (when and why to use a move) is treated as declarative that thickens through varied practice, not as a fourth store.
 
 The split is a diagnostic. A messy problem exposes either the wrong method or order (declarative gap) or the right method done clumsily (procedural gap). Understanding without performance is common; most mastery is built in attempts, not in explanations. Theory first, then an early **fail-fast, fail-safe** attempt: you make roughly five to seven characteristic mistakes out of hundreds of possibilities, and those are what practice should hunt.
 
-Suspect declarative before adding more drills of the same shape. Approach, strategy, and judgment stay expensive even as pure execution gets cheap to automate. After each attempt, run a short loop—what happened, how it felt, what rule that suggests, what changes next time—along the lines of [[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolb’s cycle]].
+Suspect declarative before adding more drills of the same shape. Approach, strategy, and judgment stay expensive even as pure execution gets cheap to automate. After each attempt, run a short loop (what happened, how it felt, what rule that suggests, what changes next time) along the lines of [[wiki/Dimensions/Self-Management/Kolbs Experiential Cycle|Kolb’s cycle]].
 
 ## Multimodal study, not learning styles
 
-Fixed learning styles (visual, auditory, kinesthetic labels as identity) do not hold up in research. Preferences remain, but they are not limits. What tracks results more closely is whether the brain is engaged—work that is hard to do while switched off. The practical move is to **mix modes**: read, write, draw, speak, and practise, instead of matching a single channel. Notes are the easiest place to add a less-used mode (sketches, diagrams, shorthand) without turning study into decoration. Left-brain/right-brain stories do not rescue the old advice; multimodal effort helps whatever the mechanism.
+Fixed learning styles (visual, auditory, kinesthetic labels as identity) do not hold up in research. Preferences remain, but they are not limits. What tracks results more closely is whether the brain is engaged (work that is hard to do while switched off). The practical move is to **mix modes**: read, write, draw, speak, and practise, instead of matching a single channel. Notes are the easiest place to add a less-used mode (sketches, diagrams, shorthand) without turning study into decoration. Left-brain/right-brain stories do not rescue the old advice; multimodal effort helps whatever the mechanism.
 
 ## How techniques map to dimensions
 
 Techniques are repeatable actions that train one or more dimensions. They are not substitutes for diagnosing the limit.
 
-Encoding methods—[[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]], [[wiki/Dimensions/Deep Processing/Importance-Based Chunking|importance-based chunking]], inquiry-driven reading—build structure as material arrives. Retrieval methods—[[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|spaced interleaved retrieval]], revision passes, whole-part-whole teaching—stress memory after encoding. Habit and scheduling methods protect the conditions both need.
+Encoding methods ([[wiki/Dimensions/Deep Processing/Bear Hunter System|Bear Hunter System]], [[wiki/Dimensions/Deep Processing/Importance-Based Chunking|importance-based chunking]], inquiry-driven reading) build structure as material arrives. Retrieval methods ([[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|spaced interleaved retrieval]], revision passes, whole-part-whole teaching) stress memory after encoding. Habit and scheduling methods protect the conditions both need.
 
 Foundational bundles stack in order: question-first intake, nonlinear maps, importance-based grouping, then spaced retrieval layered on top. The skill target is **conscious competence** moving toward cheap success before adding the next method ([[wiki/Concepts/Four Stages of Competence|four stages of competence]]). Piling several high-effort methods at once overloads working memory and feels like stagnation.
 
 ## Skills audit
 
-Growth stalls when technique mistakes accumulate unnoticed—after rushing, skipping a method, a long break, or a stage jump. A **skills audit** compares what you actually do against the guidelines for each method, rates honesty from poor to excellent, corrects one or two aspects at a time, and practises with feedback. The stance required is growth mindset: a low score is information, not a verdict. A lighter screen checks recent checkpoints; a full audit walks every lesson when the screen misses the gap. Repeat every few months, or faster while new methods are landing.
+Growth stalls when technique mistakes accumulate unnoticed (after rushing, skipping a method, a long break, or a stage jump). A **skills audit** compares what you actually do against the guidelines for each method, rates honesty from poor to excellent, corrects one or two aspects at a time, and practises with feedback. The stance required is growth mindset: a low score is information, not a verdict. A lighter screen checks recent checkpoints; a full audit walks every lesson when the screen misses the gap. Repeat every few months, or faster while new methods are landing.
 
 ## Using the model
 
@@ -72,17 +72,17 @@ Work on the dimension that currently blocks the others. For many learners the fi
 A simple loop:
 
 1. Ask each dimension’s question and answer honestly.
-2. Pick the weakest link that blocks practice—often self-management if time and attention are chaotic.
+2. Pick the weakest link that blocks practice, often self-management if time and attention are chaotic.
 3. Choose one practice from that dimension and run it for several weeks (30-day challenges mirror this).
 4. Reflect, then move to the next limit.
 
 ## Related pages
 
-- 30-Day Challenges — one practice track per dimension.
-- [[wiki/Planning and Automation|ICS System]] — program these dimensions come from.
-- [[wiki/Dimensions/Deep Processing|Deep Processing]] — encoding dimension hub.
-- [[wiki/Dimensions/Retrieval|Retrieval]] — memory-use dimension hub.
-- [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]] — core retrieval rhythm.
+- 30-Day Challenges (one practice track per dimension.)
+- [[wiki/Planning and Automation|ICS System]] (program these dimensions come from.)
+- [[wiki/Dimensions/Deep Processing|Deep Processing]] (encoding dimension hub.)
+- [[wiki/Dimensions/Retrieval|Retrieval]] (memory-use dimension hub.)
+- [[wiki/Dimensions/Retrieval/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]] (core retrieval rhythm.)
 
 ## Sources
 

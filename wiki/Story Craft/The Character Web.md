@@ -15,12 +15,12 @@ tags:
 
 # The Character Web
 
-A character web designs the cast together: one question underneath, each member a **stance** (defensible answer played in behavior). Meaning comes from **collisions** between answers, not from any one speech. An umbrella packed unasked and an envelope sent home are two positions before the question can be named — the pattern [[projects/tsumugu|Tsumugu]] runs at A1.
+A character web designs the cast together: one question underneath, each member a **stance** (defensible answer played in behavior). Meaning comes from **collisions** between answers, not from any one speech. An umbrella packed unasked and an envelope sent home are two positions before the question can be named. That is the pattern [[projects/tsumugu|Tsumugu]] runs at A1.
 
 ## Core takeaways
 
 - Controlling idea in one sentence: value + cause (*when/if/because*). See [[wiki/Story Craft/Premise and Controlling Idea|Premise and Controlling Idea]] for spine lock and series-level splits.
-- Minimum **four corners**: hero, main opponent, two more value-systems — not hero/villain slogan.
+- Minimum **four corners**: hero, main opponent, two more value-systems, not a hero/villain slogan.
 - Foils: shared bind, opposite method; two-handers do relationship + revelation work.
 - **Spotlight**: A/B/C thread weight (not play order); one or two round beats per scene; shine needs shadow.
 - Party banter and bond state feed closers; plant calm, spend stress.
@@ -30,7 +30,7 @@ A character web designs the cast together: one question underneath, each member 
 
 Locked love-web sentence: **love given in a language the beloved cannot receive reads as no love, until each learns to receive the other's.**
 
-[沈文](/tsumugu/cast/shen-wen.html) — presence (umbrella). [阮草](/tsumugu/cast/ruan-cao.html) — provision (envelope, refused hands). Neither wins; the series keeps the argument open.
+[沈文](/tsumugu/cast/shen-wen.html), presence (umbrella). [阮草](/tsumugu/cast/ruan-cao.html), provision (envelope, refused hands). Neither wins; the series keeps the argument open.
 
 Dual-spine test: central members should answer **love** and **authorship of an assigned life** in the same body, or the reader has two casts under one title. Presence-lead and provision-lead each carry both axes in this design.
 
@@ -46,7 +46,7 @@ Build: common premise (same loss, bind, goal) → split on method → show in pa
 
 Founding pair: same family-hunger, provision vs presence, each reading the other as absence of love.
 
-[星野遙香](/tsumugu/cast/hoshino-haruka.html) vs [林薇](/tsumugu/cast/lin-wei.html): assigned life — flee with camera vs stay and repair; envy and gift exchange; no tidy escape rewrite later.
+[星野遙香](/tsumugu/cast/hoshino-haruka.html) vs [林薇](/tsumugu/cast/lin-wei.html): assigned life (flee with camera vs stay and repair); envy and gift exchange; no tidy escape rewrite later.
 
 [沈文](/tsumugu/cast/shen-wen.html) vs [白龍](/tsumugu/cast/bai-long.html): reach vs close. [小圖](/tsumugu/cast/xiao-tu.html) vs [金多恩](/tsumugu/cast/kim-da-eun.html): care vs capability.
 
@@ -60,7 +60,7 @@ Stance = action/object until words arrive. Front-load Han for key value terms so
 
 **Shine** (competence seen) needs **shadow** (cost/flaw) or loyalty beats read as mascot.
 
-**A-story** = plot/arc on series theme; **B/C** = foils, ensemble, breather. Across a book band, falsifiable target for A-line (e.g. double availability for presence-lead) — same beat repeated does not count.
+**A-story** = plot/arc on series theme; **B/C** = foils, ensemble, breather. Across a book band, falsifiable target for A-line (e.g. double availability for presence-lead). The same beat repeated does not count.
 
 **Runners** (~three beats): gags ([將軍](/tsumugu/cast/general.html) rank game), bottle units as vocab breathers. **Ledger**: every B/C minute is A-line debt; plant payoff heaviest across vocabulary ramp.
 
@@ -68,15 +68,15 @@ Five rules (compressed): ration round beats; one loyalty close per arc-worthy me
 
 ## Companion energy and banter
 
-**Party banter**: line fires because *these two* are in the room, not because plot needed dialog. Registers against silence — wall-to-wall chatter cheapens.
+**Party banter**: line fires because *these two* are in the room, not because plot needed dialog. Registers against silence. Wall-to-wall chatter cheapens.
 
 **Bond never resets**: approval eases later trust checks, does not erase them. Downtime plants habits; stress spends them. One big arc-closing beat per load-bearing member (cat gets gag payoff, not full loyalty mission).
 
-Plant → spark (curious friend one to two readings early) → payoff — shared with [[wiki/Story Craft/The Beat Board|The Beat Board]].
+Plant → spark (curious friend one to two readings early) → payoff, shared with [[wiki/Story Craft/The Beat Board|The Beat Board]].
 
 ## Name-swap and schematic corners
 
-When two members can trade justifying lines with no loss, the web has collapsed to one answer with two faces. When a corner exists only to fill Truby geometry — *mend versus make* on authorship, never paid in scene — keep it thin rather than invent glossy detail. The reader should feel a person missing, not a lecture wearing a name tag.
+When two members can trade justifying lines with no loss, the web has collapsed to one answer with two faces. When a corner exists only to fill Truby geometry (*mend versus make* on authorship, never paid in scene), keep it thin rather than invent glossy detail. The reader should feel a person missing, not a lecture wearing a name tag.
 
 ## Failures and fixes
 
@@ -89,7 +89,7 @@ Merge when a justifying line moves mouths with no loss. Redistribute when all fo
 
 ## Reader test
 
-Mid-first-book, a reader who has only action-words should still place [沈文](/tsumugu/cast/shen-wen.html) and [阮草](/tsumugu/cast/ruan-cao.html) on opposite sides of care — not because they were told, but because umbrella and envelope never share a justification speech. Failure: both read as "nice." Success: dispute feels like two rights.
+Mid-first-book, a reader who has only action-words should still place [沈文](/tsumugu/cast/shen-wen.html) and [阮草](/tsumugu/cast/ruan-cao.html) on opposite sides of care, not because they were told, but because umbrella and envelope never share a justification speech. Failure: both read as "nice." Success: dispute feels like two rights.
 
 ## How to practice this
 

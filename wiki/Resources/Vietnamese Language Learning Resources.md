@@ -14,11 +14,11 @@ tags:
   - language
 ---
 
-> Pick one dialect and favor its rows. The catalog is useless until a few links become daily listening—not a substitute for time in the language.
+> Pick one dialect and favor its rows. The catalog is useless until a few links become daily listening, not a substitute for time in the language.
 
 # Vietnamese Language Learning Resources
 
-**Northern** and **Southern** standards diverge in pronouns, particles, and some question words. Rows name the dialect when the source did; **dialect unmarked** means the spreadsheet was unsure—an honest blank beats a wrong label.
+**Northern** and **Southern** standards diverge in pronouns, particles, and some question words. Rows name the dialect when the source did; **dialect unmarked** means the spreadsheet was unsure. An honest blank beats a wrong label.
 
 Early hours go to **comprehensible input**. Sound work runs beside it because tones carry meaning. **Metalayers** add lookups on video; **seeder playlists** train recommendations toward Vietnamese.
 
@@ -147,11 +147,11 @@ Private worksheets, sign-up links, and one broken children's row from the source
 
 ## Grammar patterns for noticing
 
-Vietnamese is **analytic**: meaning rides on separate words and word order; verbs do not conjugate. This catalog is for **recognition in input**, not memorization for output. Examples below are writer-invented until a native check replaces them—use them to spot patterns, not as authority.
+Vietnamese is **analytic**: meaning rides on separate words and word order; verbs do not conjugate. This catalog is for **recognition in input**, not memorization for output. Examples below are writer-invented until a native check replaces them. Use them to spot patterns, not as authority.
 
 **Before you start:** some listening or video already running, basic tones, a popup dictionary, and a **dialect choice**. Tables use **Northern** textbook forms unless a Southern difference is marked ([[wiki/Language/Refold Language Learning System|Refold Language Learning System]] preparation and [[wiki/Language/Refold Language Learning System|Refold Grammar Primers]] describe the same notice-in-input loop).
 
-Default **SVO** (Tôi học tiếng Việt), but **topic-fronting** is common. Time and aspect use separate markers—not English tense endings:
+Default **SVO** (Tôi học tiếng Việt), but **topic-fronting** is common. Time and aspect use separate markers, not English tense endings:
 
 | Marker | What it often signals | Usual position | Sentence |
 |---|---|---|---|
@@ -160,11 +160,11 @@ Default **SVO** (Tôi học tiếng Việt), but **topic-fronting** is common. T
 | `sẽ` | upcoming | before the verb | `Tôi sẽ đi Hà Nội.` |
 | `rồi` | completion or change of state | after the phrase | `Tôi ăn rồi.` |
 
-`đã` sits before the verb; `rồi` after—both can mark completion. **Negation:** `không` + verb/adjective; `chưa` = not yet (`Tôi chưa ăn`).
+`đã` sits before the verb; `rồi` after. Both can mark completion. **Negation:** `không` + verb/adjective; `chưa` = not yet (`Tôi chưa ăn`).
 
 **Questions:** wh-words stay **in situ** (`Bạn tên gì?`). Yes/no uses `có ... không` (`Bạn có khỏe không?`); `chưa` can end a question ("yet?": `Ăn cơm chưa?`).
 
-**Kinship address** replaces neutral I/you with relationship terms—variation is social, not a small rule list. Immersion is the real teacher here.
+**Kinship address** replaces neutral I/you with relationship terms. Variation is social, not a small rule list. Immersion is the real teacher here.
 
 **Classifiers** in counted nouns: number + classifier + noun. Notice often: `cái` (inanimate), `con` (animals/motion), `người` (people).
 
@@ -172,7 +172,7 @@ Default **SVO** (Tôi học tiếng Việt), but **topic-fronting** is common. T
 
 **Location words** to spot in visual media: `ở`, `trong`, `ngoài`, `trên`, `dưới`, `trước`, `sau`, `bên cạnh`.
 
-**Particles** (`à`, `ạ`, `nhé`/`nha`, `mà`, `thì`) carry politeness and tone—learn from situations, not from cramming the list.
+**Particles** (`à`, `ạ`, `nhé`/`nha`, `mà`, `thì`) carry politeness and tone. Learn from situations, not from cramming the list.
 
 ### Five noticing drills
 

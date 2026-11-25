@@ -15,7 +15,7 @@ tags:
 
 # Time Management, Attention & Scheduling
 
-Time management fails in three different places at once: choosing work worth doing, placing it on the calendar, and running attention during the block. This hub holds the child practices for that stack—priorities, study rhythm, starting when motivation is low, attention and baseline training, and a four-week challenge to map what moves your energy. The test is an ordinary day, not a perfect one.
+Time management fails in three different places at once: choosing work worth doing, placing it on the calendar, and running attention during the block. This hub holds the child practices for that stack (priorities, study rhythm, starting when motivation is low, attention and baseline training, and a four-week challenge to map what moves your energy). The test is an ordinary day, not a perfect one.
 
 <figure>
 <svg viewBox="0 0 520 202" width="100%" style="max-width:520px;--qp-surface:light-dark(#ffffff,#1a1a1a);--qp-ink:light-dark(#090909,#f2f2f2);--qp-mut:light-dark(#6b6b6b,#a3a3a3);--qp-rule:light-dark(#ededed,#262626);--qp-rule2:light-dark(#dedede,#333333);--qp-accent:light-dark(#1a7fe6,#5aa9f5);font-family:Inter,system-ui,sans-serif" role="img" aria-labelledby="tm-layers-t">
@@ -160,13 +160,13 @@ A reality-check exercise compares planned time to tracked time, names barriers i
 
 Four weeks to notice variables that shape energy, concentration, distractibility, and follow-through, then find the smallest changes that still help.
 
-**Week 1 — problem mapping.** Track the day with a time app. Each evening note flow, deliberate use of time, delays, and fit to plan. Name one or two factors that moved energy, focus, distractibility, and execution. At week end, list factors and rough strength.
+**Week 1 (problem mapping).** Track the day with a time app. Each evening note flow, deliberate use of time, delays, and fit to plan. Name one or two factors that moved energy, focus, distractibility, and execution. At week end, list factors and rough strength.
 
-**Week 2 — variable exploration.** Pick the strongest or most frequent factor. Run a simple, realistic experiment for a few days; avoid drastic changes. Keep tracking. Every two days review whether the experiment helped or hurt flow and note missed factors.
+**Week 2 (variable exploration).** Pick the strongest or most frequent factor. Run a simple, realistic experiment for a few days; avoid drastic changes. Keep tracking. Every two days review whether the experiment helped or hurt flow and note missed factors.
 
-**Week 3 — pressure.** Mark unintentional patterns in two weeks of data. Plan one "perfect" productive day with precautions from what you learned; run it; compare to plan and list barriers and urges. Port one or two pieces into an ordinary day and test sustainability. Repeat.
+**Week 3 (pressure).** Mark unintentional patterns in two weeks of data. Plan one "perfect" productive day with precautions from what you learned; run it; compare to plan and list barriers and urges. Port one or two pieces into an ordinary day and test sustainability. Repeat.
 
-**Week 4 — fading.** Find the thinnest set of tweaks that still keeps the day acceptably productive. If a minimal day works, thin further; if not, step back toward the week-three version until it holds. Re-run the challenge when circumstances shift.
+**Week 4 (fading).** Find the thinnest set of tweaks that still keeps the day acceptably productive. If a minimal day works, thin further; if not, step back toward the week-three version until it holds. Re-run the challenge when circumstances shift.
 
 ## Related pages
 

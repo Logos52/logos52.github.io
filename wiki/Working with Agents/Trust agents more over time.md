@@ -22,8 +22,6 @@ wedge_reviewed: true
 
 How much agents can do for you depends on how much you trust their work. Trust grows in steps, and each step lets agents do more while you watch less.
 
-**Scope.** This is one engineer's path from watching every chat to agents that merge their own pull requests overnight ([talk on trusting agents](https://www.youtube.com/watch?v=Zc07HI9Ppxk)). It fits software work you can check and revert, and changes you cannot undo are a harder case.
-
 <div class="callout">
 
 <b>At a glance</b>
