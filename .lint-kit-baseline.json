@@ -3428,16 +3428,6 @@
     },
     {
       "rule": "R2",
-      "file": "src/lib/graph.ts",
-      "fingerprint": "beaa6976"
-    },
-    {
-      "rule": "R2",
-      "file": "src/lib/graph.ts",
-      "fingerprint": "ed260fe5"
-    },
-    {
-      "rule": "R2",
       "file": "src/lib/ignore-patterns.mjs",
       "fingerprint": "3c228be4"
     },
@@ -4845,16 +4835,6 @@
       "rule": "R4",
       "file": "src/lib/fold-related.ts",
       "fingerprint": "7bd73e1b"
-    },
-    {
-      "rule": "R4",
-      "file": "src/lib/graph.ts",
-      "fingerprint": "3ca295e0"
-    },
-    {
-      "rule": "R4",
-      "file": "src/lib/graph.ts",
-      "fingerprint": "8b1065e8"
     },
     {
       "rule": "R4",

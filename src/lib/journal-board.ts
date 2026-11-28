@@ -1,53 +1,11 @@
 import type { CollectionEntry } from 'astro:content';
 import surfaceData from '../data/journal-surface.json';
 import { journalEntriesFromNotes, type JournalEntry } from './journal';
-const MONTHS = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+import { monthName, threadOf, titlesMatch, weekLabel, weekNumber } from './journal-match';
 const THREADS = ['Tsumugu', 'Language study', 'Worldviews', 'Models and agents', 'Writing', 'Wiki and site', 'Other'];
 const surface = surfaceData;
 function change(date: string, repo: string, checked: string) {
   return { date, repo, checked };
-}
-function norm(value: string): string {
-  return value.toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
-}
-function sharedHead(left: string, right: string): boolean {
-  const n = Math.min(left.length, right.length, 28);
-  return n >= 16 && left.slice(0, n) === right.slice(0, n);
-}
-function titlesMatch(a: string, b: string): boolean {
-  const left = norm(a);
-  const right = norm(b);
-  if (!left || !right) return false;
-  if (left === right || left.startsWith(right) || right.startsWith(left)) return true;
-  return sharedHead(left, right);
-}
-function weekNumber(day: number): number {
-  if (day <= 7) return 1;
-  if (day <= 14) return 2;
-  if (day <= 21) return 3;
-  return 4;
-}
-function weekLabel(year: number, month: number, week: number): string {
-  const last = new Date(Date.UTC(year, month, 0)).getUTCDate();
-  const start = week === 1 ? 1 : week === 2 ? 8 : week === 3 ? 15 : 22;
-  const end = week === 4 ? last : start + 6;
-  return `W${week} · ${start}–${end} ${MONTHS[month - 1]}`;
-}
-function threadStudy(title: string): string {
-  if (/chinese|mandarin|language|hán|han-|vietnamese|vocabular/.test(title)) return 'Language study';
-  if (/worldview|political|exam|argument/.test(title)) return 'Worldviews';
-  if (/grok|claude|agent|model|opus|fable|gpt|gemini/.test(title)) return 'Models and agents';
-  return '';
-}
-function threadCraft(title: string): string {
-  if (/writ|prose|voice/.test(title)) return 'Writing';
-  if (/wiki|site|page|design|map|home/.test(title)) return 'Wiki and site';
-  return 'Other';
-}
-function threadOf(title: string): string {
-  const text = title.toLowerCase();
-  if (text.includes('tsumugu')) return 'Tsumugu';
-  return threadStudy(text) || threadCraft(text);
 }
 function dayOf(date: string): number {
   return Number(date.slice(8, 10));
@@ -123,20 +81,40 @@ function shownEntries(bucket: JournalEntry[], rows: NonNullable<ReturnType<typeo
 function weekEmpty(count: number, syn: string, news: number) {
   return count === 0 && syn === '' && news === 0;
 }
-function oneWeek(input: ReturnType<typeof weekInput>, track: ReturnType<typeof trackOf>) {
-  const fromExport = exportWeek(input);
+function plainEntries(bucket: JournalEntry[]) {
+  const entries = bucket.map((entry) => shown(entry, dayOf(entry.date), entry.title));
+  entries.sort(byDay);
+  return entries;
+}
+function plainWeek(input: ReturnType<typeof weekInput>) {
   const bucket = input.repo.filter((entry) => weekNumber(dayOf(entry.date)) === input.week);
-  const entries = shownEntries(bucket, fromExport?.rows ?? [], track);
-  const syn = fromExport?.syn ?? '';
-  const news = fromExport?.news ?? [];
-  if (weekEmpty(entries.length, syn, news.length)) return undefined;
+  const entries = plainEntries(bucket);
+  if (!entries.length) return undefined;
   return {
     id: `${input.id}-w${input.week}`,
-    label: fromExport?.label || weekLabel(input.parts.year, input.parts.month, input.week),
-    syn,
+    label: weekLabel(input.parts.year, input.parts.month, input.week),
+    syn: '',
     entries,
-    news,
+    news: [],
   };
+}
+function filledWeek(input: ReturnType<typeof weekInput>, fromExport: NonNullable<ReturnType<typeof exportWeek>>, track: ReturnType<typeof trackOf>) {
+  const bucket = input.repo.filter((entry) => weekNumber(dayOf(entry.date)) === input.week);
+  const entries = shownEntries(bucket, fromExport.rows, track);
+  if (weekEmpty(entries.length, fromExport.syn, fromExport.news.length)) return undefined;
+  const fallback = weekLabel(input.parts.year, input.parts.month, input.week);
+  return {
+    id: `${input.id}-w${input.week}`,
+    label: fromExport.label ? fromExport.label : fallback,
+    syn: fromExport.syn,
+    entries,
+    news: fromExport.news,
+  };
+}
+function oneWeek(input: ReturnType<typeof weekInput>, track: ReturnType<typeof trackOf>) {
+  const fromExport = exportWeek(input);
+  if (!fromExport) return plainWeek(input);
+  return filledWeek(input, fromExport, track);
 }
 function weeksFor(id: string, repo: JournalEntry[], changes: ReturnType<typeof change>[]) {
   const weeks: NonNullable<ReturnType<typeof oneWeek>>[] = [];
@@ -146,17 +124,20 @@ function weeksFor(id: string, repo: JournalEntry[], changes: ReturnType<typeof c
   }
   return weeks;
 }
+function monthHeading(known: ReturnType<typeof surfaceMonth>, year: number, month: number) {
+  if (known && known.heading) return known.heading;
+  return `${monthName(month)} ${year}`;
+}
+function monthSyn(known: ReturnType<typeof surfaceMonth>) {
+  if (!known) return '';
+  return known.syn;
+}
 function monthOf(id: string, repo: JournalEntry[], changes: ReturnType<typeof change>[]) {
   const known = surfaceMonth(id);
   const weeks = weeksFor(id, repo, changes);
-  if (!weeks.length && !known?.syn) return undefined;
+  if (!weeks.length && monthSyn(known) === '') return undefined;
   const parts = monthParts(id);
-  return {
-    id,
-    heading: known?.heading || `${MONTHS[parts.month - 1]} ${parts.year}`,
-    syn: known?.syn ?? '',
-    weeks,
-  };
+  return { id, heading: monthHeading(known, parts.year, parts.month), syn: monthSyn(known), weeks };
 }
 function flatten(months: NonNullable<ReturnType<typeof monthOf>>[]) {
   const flat: ReturnType<typeof shown>[] = [];

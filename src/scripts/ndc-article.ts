@@ -48,7 +48,7 @@ function stackRail(items: ReturnType<typeof railItem>[], cursor: number) {
   }
 }
 
-export function placeRail() {
+function placeRail() {
   const page = document.querySelector('#page-article');
   if (!(page instanceof HTMLElement)) return;
   const facts = page.querySelector('#article-facts');

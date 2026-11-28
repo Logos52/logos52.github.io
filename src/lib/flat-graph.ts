@@ -131,14 +131,32 @@ function books() {
   return { used: new Set<string>(), budget: new Map<string, number>() };
 }
 
+function steep(a: ReturnType<typeof nodeAt>, b: ReturnType<typeof nodeAt>) {
+  return Math.abs(b.y - a.y) > Math.abs(b.x - a.x);
+}
+
+function pairKey(a: ReturnType<typeof nodeAt>, b: ReturnType<typeof nodeAt>) {
+  if (a.slug < b.slug) return `${a.slug}\0${b.slug}`;
+  return `${b.slug}\0${a.slug}`;
+}
+
+function booked(book: ReturnType<typeof books>, slug: string) {
+  return (book.budget.get(slug) ?? 0) >= 3;
+}
+
+function blocked(book: ReturnType<typeof books>, key: string, a: string, b: string) {
+  if (book.used.has(key)) return true;
+  if (booked(book, a)) return true;
+  return booked(book, b);
+}
+
 function accept(pair: ReturnType<typeof pairOf>, pos: Map<string, ReturnType<typeof nodeAt>>, book: ReturnType<typeof books>) {
   const a = pos.get(pair.source);
   const b = pos.get(pair.target);
   if (!a || !b) return undefined;
-  if (Math.abs(b.y - a.y) > Math.abs(b.x - a.x)) return undefined;
-  const key = a.slug < b.slug ? `${a.slug}\0${b.slug}` : `${b.slug}\0${a.slug}`;
-  if (book.used.has(key)) return undefined;
-  if ((book.budget.get(a.slug) ?? 0) >= 3 || (book.budget.get(b.slug) ?? 0) >= 3) return undefined;
+  if (steep(a, b)) return undefined;
+  const key = pairKey(a, b);
+  if (blocked(book, key, a.slug, b.slug)) return undefined;
   book.used.add(key);
   book.budget.set(a.slug, (book.budget.get(a.slug) ?? 0) + 1);
   book.budget.set(b.slug, (book.budget.get(b.slug) ?? 0) + 1);

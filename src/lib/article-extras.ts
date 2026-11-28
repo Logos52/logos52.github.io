@@ -81,12 +81,19 @@ function frontString(file: unknown): string {
   return '';
 }
 
+function fieldText(line: RegExpMatchArray | null): string {
+  if (!line) return '';
+  if (line[1]) return line[1].trim();
+  if (line[2]) return line[2].trim();
+  if (line[3]) return line[3].trim();
+  return '';
+}
+
 function summaryIn(raw: string): string {
   const fence = raw.match(/^---\r?\n([\s\S]*?)\r?\n---/);
   const block = fence?.[1];
   if (!block) return '';
-  const line = block.match(/^(?:description|blurb):\s*(?:"([^"]*)"|'([^']*)'|(.+))\s*$/m);
-  return (line?.[1] || line?.[2] || line?.[3] || '').trim();
+  return fieldText(block.match(/^(?:description|blurb):\s*(?:"([^"]*)"|'([^']*)'|(.+))\s*$/m));
 }
 
 function summaryFromPath(path: string): string {
