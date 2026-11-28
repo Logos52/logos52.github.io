@@ -1,19 +1,47 @@
 <figure>
-<button type="button" class="fig-open" aria-label="Open the cycle larger"><svg class="diagram neon-diagram" id="kolb" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 688 168" width="688" height="168" role="img" aria-label="Look back, name what went wrong, change the method, then try again.">
-<defs><pattern id="dotskolb" width="16" height="16" patternUnits="userSpaceOnUse"><circle cx="8" cy="8" r="0.9" fill="#cfcfcf"/></pattern>
-<marker id="ahkolb" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M1.5 1.5 L8.5 5 L1.5 8.5" fill="none" stroke="#0094d0" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>
-<rect width="688" height="168" rx="3" fill="#f7f7f7"/><rect width="688" height="168" rx="3" fill="url(#dotskolb)"/>
-<g fill="none" stroke="#0094d0" stroke-width="2">
-<path d="M150 84 H250" marker-end="url(#ahkolb)"/>
-<path d="M390 84 H490" marker-end="url(#ahkolb)"/>
-<path d="M560 108 C 620 150, 80 150, 120 108" marker-end="url(#ahkolb)"/>
-</g>
-<rect x="40" y="62" width="110" height="44" rx="10" fill="#fff" stroke="#1a1a1a" stroke-width="1.5"/>
-<rect x="250" y="62" width="140" height="44" rx="10" fill="#fff" stroke="#1a1a1a" stroke-width="1.5"/>
-<rect x="490" y="62" width="130" height="44" rx="10" fill="#e3f7fe" stroke="#0094d0" stroke-width="2"/>
-<text class="t" x="95" y="89" text-anchor="middle">Look back</text>
-<text class="t" x="320" y="89" text-anchor="middle">Name the miss</text>
-<text class="t" x="555" y="89" text-anchor="middle">Try again</text>
-</svg></button>
-<figcaption><span class="figno">Figure 1.</span> One pass. Blue is the usual path, back to the next attempt.</figcaption>
+<button type="button" class="fig-open" aria-label="Open the cycle larger"><svg class="diagram neon-diagram" id="kolb" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 688 500" width="688" height="500" role="img" aria-label="Choose a problem, then look back at what happened, name what went wrong, and change the method. A pass with no next step is rumination. The change is what you try on the next attempt until a repair is in place.">
+<defs>
+<pattern id="dotskolb" width="16" height="16" patternUnits="userSpaceOnUse"><circle cx="8" cy="8" r="0.9" fill="#cfcfcf"/></pattern>
+<marker id="ahkolb" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M1.5 1.5 L8.5 5 L1.5 8.5" fill="none" stroke="#1a1a1a" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></marker>
+<marker id="ahbkolb" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M1.5 1.5 L8.5 5 L1.5 8.5" fill="none" stroke="#0094d0" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></marker>
+</defs>
+<style>
+#kolb .t{font-family:'Monaspace Neon',monospace;font-size:14px;fill:#1a1a1a}
+#kolb .e{font-family:'Monaspace Neon',monospace;font-size:12px;fill:#6b6b6b}
+</style>
+<rect width="688" height="500" rx="3" fill="#f7f7f7"/><rect width="688" height="500" rx="3" fill="url(#dotskolb)"/>
+<circle cx="48" cy="26" r="5.5" fill="#1a1a1a"/>
+<text class="e" x="62" y="30">a mistake worth a look</text>
+<path d="M48 32 L48 56" fill="none" stroke="#0094d0" stroke-width="2" marker-end="url(#ahbkolb)"/>
+<rect x="16" y="62" width="210" height="64" rx="10" fill="#fff" stroke="#1a1a1a" stroke-width="1.5"/>
+<path d="M121 126 L121 168" fill="none" stroke="#0094d0" stroke-width="2" marker-end="url(#ahbkolb)"/>
+<rect x="16" y="176" width="156" height="64" rx="10" fill="#fff" stroke="#1a1a1a" stroke-width="1.5"/>
+<rect x="196" y="176" width="210" height="64" rx="10" fill="#fff" stroke="#1a1a1a" stroke-width="1.5"/>
+<rect x="430" y="176" width="196" height="64" rx="10" fill="#fff" stroke="#1a1a1a" stroke-width="1.5"/>
+<path d="M172 208 L196 208" fill="none" stroke="#0094d0" stroke-width="2" marker-end="url(#ahbkolb)"/>
+<path d="M406 208 L430 208" fill="none" stroke="#0094d0" stroke-width="2" marker-end="url(#ahbkolb)"/>
+<path d="M301 176 L301 146 L8 146 L8 208 L16 208" fill="none" stroke="#1a1a1a" stroke-width="1.5" stroke-dasharray="5 5" marker-end="url(#ahkolb)"/>
+<rect x="16" y="268" width="140" height="40" rx="10" fill="#fff" stroke="#1a1a1a" stroke-width="1.5" stroke-dasharray="5 5"/>
+<path d="M86 268 L86 240" fill="none" stroke="#1a1a1a" stroke-width="1.5" stroke-dasharray="5 5" marker-end="url(#ahkolb)"/>
+<path d="M528 240 L528 392 L160 392 L160 240" fill="none" stroke="#1a1a1a" stroke-width="1.5" stroke-dasharray="5 5" marker-end="url(#ahkolb)"/>
+<path d="M626 208 L662 208 L662 430 L560 430" fill="none" stroke="#0094d0" stroke-width="2" marker-end="url(#ahbkolb)"/>
+<rect x="380" y="404" width="180" height="52" rx="10" fill="#e3f7fe" stroke="#0094d0" stroke-width="2"/>
+<path d="M560 404 L640 404 L640 94 L226 94" fill="none" stroke="#1a1a1a" stroke-width="1.5" stroke-dasharray="5 5" marker-end="url(#ahkolb)"/>
+<text class="t" x="121" y="88" text-anchor="middle">Choose the problem</text>
+<text class="e" x="121" y="110" text-anchor="middle">which problem today</text>
+<text class="t" x="94" y="202" text-anchor="middle">Look back</text>
+<text class="e" x="94" y="224" text-anchor="middle">what happened</text>
+<text class="t" x="301" y="202" text-anchor="middle">What went wrong</text>
+<text class="e" x="301" y="224" text-anchor="middle">what sits underneath</text>
+<text class="t" x="528" y="202" text-anchor="middle">Change the method</text>
+<text class="e" x="528" y="224" text-anchor="middle">what you can try</text>
+<text class="e" x="140" y="138">mostly clarify</text>
+<text class="t" x="86" y="294" text-anchor="middle">Rumination</text>
+<text class="e" x="184" y="300">no next step</text>
+<text class="e" x="250" y="380">the next attempt</text>
+<text class="e" x="560" y="320">a repair</text>
+<text class="e" x="360" y="86">the next problem</text>
+<text class="t" x="470" y="436" text-anchor="middle">Repair in place</text>
+</svg><span class="fig-hint" aria-hidden="true"></span></button>
+<figcaption><span class="figno">Figure 1.</span> One cycle. Dashed lines go back for another pass, and the change in method is what you try on the next attempt.</figcaption>
 </figure>
