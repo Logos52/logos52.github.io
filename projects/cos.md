@@ -17,7 +17,7 @@ tags:
 
 ## What it is
 
-cos ("Cowork OS") is my personal operating system. It shows my finances, tasks, and upcoming dates in one place, so they are not spread across separate apps. Its current form is a single static, self-contained `dashboard.html`. It is generated from local data and uses the same design language as [WNAC](wnac) (WNAC dark, cos light).
+cos ("Cowork OS") is my personal operating system. It shows my finances, tasks, and upcoming dates in one place, so they are not spread across separate apps. Its current form is a single static, self-contained `dashboard.html`. It is generated from local data and uses the same design language as [WNAC](/projects/wnac/) (WNAC dark, cos light).
 
 ## What worked
 
@@ -35,6 +35,6 @@ cos started as a terminal app: first a Textual mission-control, then a terminal-
 
 ## Status
 
-Current, and in the middle of a redesign. The terminal versions are retired. A static HTML dashboard is the current form. The visual rebuild is shared with [WNAC](wnac) and is in progress.
+Current, and in the middle of a redesign. The terminal versions are retired. A static HTML dashboard is the current form. The visual rebuild is shared with [WNAC](/projects/wnac/) and is in progress.
 
 <!-- Design notes (TODO, Wedge): how it looks and why it's built this way. -->

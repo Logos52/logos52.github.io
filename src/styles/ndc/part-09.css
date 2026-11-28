@@ -1,0 +1,34 @@
+.essay-body h2{margin:34px 0 8px;font:700 clamp(21px,20px + .4vw,25px)/1.12 var(--font);letter-spacing:-.012em}
+.essay-body ol,.essay-body ul{margin:0 0 .9em 1.25em;font:var(--w-text) var(--t-article)/1.4333 var(--font)}
+.essay-body li{margin:0 0 5px}
+.essay-body table{border-collapse:collapse;width:100%;margin:4px 0 20px;font:var(--w-text) var(--t-small)/1.4 var(--font)}
+.essay-body th{text-align:left;font-weight:700;padding:7px 12px 7px 0;border-bottom:1px solid var(--hair)}
+.essay-body td{padding:8px 12px 8px 0;border-bottom:1px solid var(--line);vertical-align:top}
+.essay-body a.wl{color:var(--link);text-decoration:none}
+.essay-body ul.rel{list-style:none;margin-left:0}
+.essay-body .srcs table,.essay-body .srcs th,.essay-body .srcs td{font-size:var(--t-micro);color:var(--mute)}
+.essay-body .lf a{display:block;padding:9px 0;border-bottom:1px solid var(--line);text-decoration:none;color:var(--ink);font:700 var(--t-small)/1.3 var(--font)}
+.essay-body .lf a:first-child{border-top:1px solid var(--hair)}
+.essay-body .lf a span{display:block;margin-top:2px;font:var(--w-text) var(--t-micro)/1.45 var(--font);color:var(--mute)}
+.essay-body .more{font-size:var(--t-micro);color:var(--mute);margin-top:8px}
+.fig-open{appearance:none;position:relative;display:block;width:100%;padding:0;border:0;background:none;cursor:zoom-in;border-radius:3px}
+.fig-open:focus-visible{outline:2px solid var(--link);outline-offset:3px}
+.fig-hint{display:none;position:absolute;top:8px;right:8px;width:30px;height:30px;border-radius:7px;border:1px solid rgba(26,26,26,.16);
+  background:#fff url("data:image/svg+xml,%3Csvg xmlns='http:%2F%2Fwww.w3.org%2F2000%2Fsvg' viewBox='0 0 16 16' fill='none' stroke='%231a1a1a' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M9.5 2.5h4v4M13.5 2.5 9 7M6.5 13.5h-4v-4M2.5 13.5 7 9'/%3E%3C/svg%3E") center/15px no-repeat}
+dialog.lightbox .lb-svg{max-width:min(92vw,1040px);max-height:calc(94vh - 72px);overflow:auto;-webkit-overflow-scrolling:touch;touch-action:pan-x pan-y pinch-zoom;border-radius:3px}
+dialog.lightbox .lb-svg svg{display:block;width:min(1040px,max(688px,86vw));max-width:none;height:auto}
+dialog.lightbox .lb-svg[hidden],dialog.lightbox img[hidden]{display:none}
+@media (max-width:45.98rem){
+  .fig-hint{display:block}
+  dialog.lightbox{padding:44px 10px 12px;max-width:100vw}
+  .top-block{display:flex;flex-direction:column}
+  .top-block>.intro-col{display:contents}
+  .intro-col>.mast{order:0}.intro-col>.abstract{order:1;margin-bottom:8px}.intro-col>.essay-body{order:3}
+  .top-block>aside.org{order:2;width:auto;max-width:none;margin:0 0 18px}
+  #article-facts{display:block;padding-bottom:0;border-bottom:0;font:var(--w-text) var(--t-micro)/1.4 var(--font);color:var(--mute)}
+  #article-facts .mark-rail,#article-facts h6{display:none}
+  #article-facts p{display:inline;margin:0;font:inherit;color:inherit}
+  #article-facts p:last-of-type::before{content:" · Updated "}
+}
+#bhs .t{font-family:'Monaspace Neon',monospace;font-size:14px;fill:#1a1a1a} #bhs .e{font-family:'Monaspace Neon',monospace;font-size:12px;fill:#6b6b6b}
+#bhs .a{font-family:'Monaspace Neon',monospace;font-size:12px;font-style:italic;fill:#0094d0}

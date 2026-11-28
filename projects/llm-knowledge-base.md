@@ -40,5 +40,3 @@ Treating the knowledge base as the primary surface, the place where daily thinki
 ## Status
 
 Current. Actively maintained. This Projects section is part of it.
-
-<!-- Design notes (TODO, Wedge): how it looks and why it's built this way. -->

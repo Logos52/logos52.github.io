@@ -17,7 +17,7 @@ tags:
 
 Verdict: how people are actually using agents gets its own standing lane — a Field tracker, one duty, packet only, public posts only — and it feeds a use-case bank the way Intake feeds the research banks. I am not folding this into Brief or Intake. Those two already have jobs. This one watches named setups, what broke, and what they kept.
 
-The seed is already on disk. This morning I compiled Palmer's Grok Bot essay into [[wiki/Research/Grok Bot Practitioner Bank|the Practitioner Bank]] — four lanes, confidence tags, the grocery pattern filed as refused usage rather than inspiration. That bank is one essay plus the docs. Two days of other people talking are sitting in posts, and they are the interesting part. I treated them as fleet threats. They are field evidence.
+The seed is already on disk. This morning I compiled Palmer's Grok Bot essay into the Practitioner Bank — four lanes, confidence tags, the grocery pattern filed as refused usage rather than inspiration. That bank is one essay plus the docs. Two days of other people talking are sitting in posts, and they are the interesting part. I treated them as fleet threats. They are field evidence.
 
 ## What they are actually saying
 
@@ -69,8 +69,8 @@ I have not created it in the product. This entry is the assignment. One paste, o
 
 ## Status, 2026-08-15
 
-Gold file and first packet exist. Pinned list: [[raw/sources/2026-08-15-grok-guides|raw/sources/2026-08-15-grok-guides]]. Packet: [[wiki/Research/Grok Bot Field Packet 2026-08-15|Grok Bot Field Packet 2026-08-15]]. Bank lane `field-2026-08-15` on [[wiki/Research/Grok Bot Practitioner Bank|the Practitioner Bank]]. Field is still not a product bot. Tue/Fri routine waits on whether this packet was worth opening.
+Gold file and first packet exist. Pinned list: raw/sources/2026-08-15-grok-guides. Packet: Grok Bot Field Packet 2026-08-15. Bank lane `field-2026-08-15` on the Practitioner Bank. Field is still not a product bot. Tue/Fri routine waits on whether this packet was worth opening.
 
 ## Status, 2026-09-01
 
-Second packet exists. Hub: [x.ai/bot/guides](https://x.ai/bot/guides). Packet: [[wiki/Research/Grok Bot Field Packet 2026-08-31|Grok Bot Field Packet 2026-08-31]]. Bank lane `field-2026-08-31`. Wiki absorb written onto Primer, Bot Operating Rules, Standing Research Agents, Fleet Structures, and Grok 4.6 and Grok Bot. Field is still not a product bot. Watch and Brief still meter first.
+Second packet exists. Hub: [x.ai/bot/guides](https://x.ai/bot/guides). Packet: Grok Bot Field Packet 2026-08-31. Bank lane `field-2026-08-31`. Wiki absorb written onto Primer, Bot Operating Rules, Standing Research Agents, Fleet Structures, and Grok 4.6 and Grok Bot. Field is still not a product bot. Watch and Brief still meter first.

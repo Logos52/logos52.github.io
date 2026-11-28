@@ -21,7 +21,7 @@ tags:
 
 ## What it is
 
-WNAC ("Wedge Needs A Copilot") is a static, local-first personal-finance dashboard. From [wnab](wnab) it keeps the two parts that were useful: clean, deduplicated transaction data and explainable AI categorization. It drops envelope budgeting, which made wnab tedious to use. The interface is a single screen designed to *feel* like Copilot Money. It shows one **flex number**, the amount that is actually free to spend, and a **pay-down dial** for debt.
+WNAC ("Wedge Needs A Copilot") is a static, local-first personal-finance dashboard. From [wnab](/projects/wnab/) it keeps the two parts that were useful: clean, deduplicated transaction data and explainable AI categorization. It drops envelope budgeting, which made wnab tedious to use. The interface is a single screen designed to *feel* like Copilot Money. It shows one **flex number**, the amount that is actually free to spend, and a **pay-down dial** for debt.
 
 ## How it's built
 
@@ -40,6 +40,6 @@ Dropping envelope budgeting was the change that made WNAC usable for me. A singl
 
 ## Status
 
-Current. Active build, succeeding [wnab](wnab).
+Current. Active build, succeeding [wnab](/projects/wnab/).
 
 <!-- Design notes (TODO, Wedge): how it looks and why it's built this way. -->

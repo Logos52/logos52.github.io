@@ -2,6 +2,7 @@ import { defineConfig } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
 import pagefind from 'astro-pagefind';
 import { remarkWikilinks } from './src/lib/wikilinks';
+import { remarkArticleExtras } from './src/lib/article-extras';
 import { rehypeFoldRelated } from './src/lib/fold-related';
 import { loadAllRedirects } from './src/redirects/load-redirects.mjs';
 
@@ -13,7 +14,13 @@ export default defineConfig({
   site: 'https://logos52.github.io',
   trailingSlash: 'ignore',
   build: { format: 'directory' },
-  redirects: loadAllRedirects(),
+  redirects: {
+    ...loadAllRedirects(),
+    '/map': '/explainers/',
+    '/notes': '/explainers/',
+    '/graph': '/explainers/',
+    '/archive': '/projects/',
+  },
   integrations: [sitemap(), pagefind()],
   vite: {
     plugins: [
@@ -29,7 +36,7 @@ export default defineConfig({
     ],
   },
   markdown: {
-    remarkPlugins: [remarkWikilinks],
+    remarkPlugins: [remarkWikilinks, remarkArticleExtras],
     rehypePlugins: [rehypeFoldRelated],
     shikiConfig: {
       themes: { light: 'github-light', dark: 'github-dark' },

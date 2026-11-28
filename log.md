@@ -10,6 +10,12 @@ tags:
 
 Append-only operational history. Entries should start with `## [YYYY-MM-DD] operation | Title`.
 
+## [2026-11-28] compile | NDC redesign becomes the site
+
+- The NDC export is the page design. Wiki, journal, and project notes pour into its templates.
+- Working export files are kept under `design/ndc-export/` and stay off the published site.
+- Backup ref, already on the remote: `backup/pre-ndc-rebuild-20261128` at `e1ebf77`.
+
 ## [2026-11-22] compile | Money and craft door cut
 
 - Kept 22 wiki pages; merged 29 into targets; unpublished-archive 10 design/research catalogs under `archive/unpublished/` (denylist: `archive/unpublished/**`).

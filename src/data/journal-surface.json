@@ -1,0 +1,1116 @@
+[
+  {
+    "id": "2026-11",
+    "heading": "November 2026",
+    "syn": "November was a rewrite and a cut. The wiki was rewritten in batches, redesigned on the 21st and cut to about 100 pages, then Builders’ Logs 2026 and the Lessons learned pages were added.",
+    "weeks": [
+      {
+        "id": "2026-11-w4",
+        "label": "W4 · 22–30 November",
+        "syn": "Builders’ Logs 2026 was added with a page for each of thirteen builders, and the Lessons learned bundle shipped.",
+        "rows": [
+          {
+            "day": 23,
+            "title": "A nested content map on the Map page",
+            "linked": false
+          },
+          {
+            "day": 23,
+            "title": "Lessons learned: hub and four pages",
+            "linked": false
+          },
+          {
+            "day": 22,
+            "title": "Use Cases; Planning and Automation",
+            "linked": false
+          },
+          {
+            "day": 22,
+            "title": "Builders’ Logs 2026 and thirteen builder pages",
+            "linked": false
+          }
+        ],
+        "news": []
+      },
+      {
+        "id": "2026-11-w3",
+        "label": "W3 · 15–21 November",
+        "syn": "Fifteen more Worldviews pages shipped, then the site was redesigned and the wiki cut to about 100 pages.",
+        "rows": [
+          {
+            "day": 21,
+            "title": "Razors",
+            "linked": false
+          },
+          {
+            "day": 21,
+            "title": "Site redesign, and the wiki cut to about 100 pages",
+            "linked": false
+          },
+          {
+            "day": 19,
+            "title": "Breaching Questions and 15 Worldviews pages",
+            "linked": false
+          }
+        ],
+        "news": [
+          {
+            "day": 20,
+            "title": "Inkling 2 Mini, an open model that runs on a laptop",
+            "source": "note.com",
+            "href": "https://note.com/hirokimiyano/n/n6a32c0aa1f59?hl=en"
+          },
+          {
+            "day": 18,
+            "title": "Gemini 4 Neon",
+            "source": "TecAdmin",
+            "href": "https://tecadmin.net/november-2026-ai-model-releases/"
+          },
+          {
+            "day": 17,
+            "title": "GPT-6.2 Astra and GPT-6.2 Sol",
+            "source": "TecAdmin",
+            "href": "https://tecadmin.net/november-2026-ai-model-releases/"
+          }
+        ]
+      },
+      {
+        "id": "2026-11-w2",
+        "label": "W2 · 8–14 November",
+        "syn": "A rewrite pass across the wiki shipped in batches, with new pages on style, exam technique, focus training and using Grok Bot.",
+        "rows": [
+          {
+            "day": 12,
+            "title": "Cleanup on 10 published pages",
+            "linked": false
+          },
+          {
+            "day": 11,
+            "title": "Test a bot before it ships",
+            "linked": false
+          },
+          {
+            "day": 11,
+            "title": "Seven rewrite batches shipped",
+            "linked": false
+          },
+          {
+            "day": 10,
+            "title": "New pages: Style, Exam Technique, Attention Span and Focus Training, Using Grok Bot",
+            "linked": false
+          },
+          {
+            "day": 10,
+            "title": "Batch K rewrites across ten sections",
+            "linked": false
+          }
+        ],
+        "news": [
+          {
+            "day": 10,
+            "title": "Gemini 4 Carbon opens to paid API users",
+            "source": "TecAdmin",
+            "href": "https://tecadmin.net/november-2026-ai-model-releases/"
+          },
+          {
+            "day": 9,
+            "title": "Claude Fable 5.2 and Mythos 5.2",
+            "source": "TecAdmin",
+            "href": "https://tecadmin.net/november-2026-ai-model-releases/"
+          }
+        ]
+      },
+      {
+        "id": "2026-11-w1",
+        "label": "W1 · 1–7 November",
+        "syn": "",
+        "rows": [],
+        "news": [
+          {
+            "day": 5,
+            "title": "Gemini Omni 1.2 Flash: 15-second video, 30% cheaper",
+            "source": "note.com",
+            "href": "https://note.com/kohei2292/n/n89a78280506d?hl=en"
+          },
+          {
+            "day": 4,
+            "title": "ChatGPT Images 2.6: GIFs, faster generation",
+            "source": "note.com",
+            "href": "https://note.com/kohei2292/n/n89a78280506d?hl=en"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2026-10",
+    "heading": "October 2026",
+    "syn": "October rebuilt two sections of the wiki. Working with Agents replaced 21 older AI and agent pages with 14 new ones, and Worldviews & the Political Order opened with a hub, seven question groups and a first wave of 13 pages. The writing rules also became enforced checks.",
+    "weeks": [
+      {
+        "id": "2026-10-w4",
+        "label": "W4 · 22–31 October",
+        "syn": "Worldviews took shape: a hub, seven question groups, and a first wave of 13 pages.",
+        "rows": [
+          {
+            "day": 28,
+            "title": "Worldviews wave 1: 13 pages published",
+            "linked": false
+          },
+          {
+            "day": 23,
+            "title": "Worldviews & the Political Order: hub and seven question groups",
+            "linked": false
+          }
+        ],
+        "news": [
+          {
+            "day": 28,
+            "title": "Gemini 4 Carbon announced",
+            "source": "DemandSphere",
+            "href": "https://www.demandsphere.com/research/demandsphere-radar/ai-frontier-model-tracker/releases/"
+          },
+          {
+            "day": 26,
+            "title": "GPT-6.1 Terra",
+            "source": "DemandSphere",
+            "href": "https://www.demandsphere.com/research/demandsphere-radar/ai-frontier-model-tracker/releases/"
+          }
+        ]
+      },
+      {
+        "id": "2026-10-w3",
+        "label": "W3 · 15–21 October",
+        "syn": "The writing rules became enforced checks, 21 older AI and agent pages were deleted, and the Working with Agents pages were written and published.",
+        "rows": [
+          {
+            "day": 21,
+            "title": "The 14 Working with Agents pages published",
+            "linked": false
+          },
+          {
+            "day": 20,
+            "title": "Ten Working with Agents pages written",
+            "linked": false
+          },
+          {
+            "day": 18,
+            "title": "The Big Idea: Agents Do, You Steer",
+            "linked": false
+          },
+          {
+            "day": 18,
+            "title": "21 approved AI and agent pages deleted",
+            "linked": false
+          },
+          {
+            "day": 16,
+            "title": "Writing rules switched to enforced checks",
+            "linked": false
+          },
+          {
+            "day": 15,
+            "title": "Home and wiki: five approved design tweaks",
+            "linked": false
+          }
+        ],
+        "news": [
+          {
+            "day": 21,
+            "title": "Claude Duet research preview",
+            "source": "Evertune",
+            "href": "https://www.evertune.ai/resources/ai-model-tracker"
+          },
+          {
+            "day": 16,
+            "title": "GPT-6 Pro with parallel agents",
+            "source": "Evertune",
+            "href": "https://www.evertune.ai/resources/ai-model-tracker"
+          }
+        ]
+      },
+      {
+        "id": "2026-10-w2",
+        "label": "W2 · 8–14 October",
+        "syn": "",
+        "rows": [],
+        "news": [
+          {
+            "day": 13,
+            "title": "Gemini 4 Argon generally available",
+            "source": "Evertune",
+            "href": "https://www.evertune.ai/resources/ai-model-tracker"
+          },
+          {
+            "day": 8,
+            "title": "Claude Haiku 5.5, about 75% cheaper than Haiku 4.5",
+            "source": "AI Weekly",
+            "href": "https://aiweekly.co/ai-news-today/edition/2026-10-08"
+          }
+        ]
+      },
+      {
+        "id": "2026-10-w1",
+        "label": "W1 · 1–7 October",
+        "syn": "",
+        "rows": [],
+        "news": [
+          {
+            "day": 7,
+            "title": "GPT-6 reaches ChatGPT, answering with buttons, calculators and graphs",
+            "source": "AI Weekly",
+            "href": "https://aiweekly.co/ai-news-today/edition/2026-10-08"
+          },
+          {
+            "day": 6,
+            "title": "EmbeddingGemma 2, an open multimodal embedding model",
+            "source": "nocode.mba",
+            "href": "https://www.nocode.mba/ai-release-tracker/2026/10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2026-09",
+    "heading": "September 2026",
+    "syn": "Grok 4.6 became the default writer on the 1st, and Grok text to speech was ruled out for Mandarin. The rest of the month went to plain writing, the East Asian Exams page, an Argument Validation hub, and a one-page set of rules from the Grok Bot Galaxy livestream.",
+    "weeks": [
+      {
+        "id": "2026-09-w4",
+        "label": "W4 · 22–30 September",
+        "syn": "The Poteto Paved Path explainer was written, then rewritten in ordinary sentences.",
+        "rows": [
+          {
+            "day": 22,
+            "title": "Poteto Paved Path: the explainer rewritten in ordinary sentences",
+            "linked": false
+          }
+        ],
+        "news": []
+      },
+      {
+        "id": "2026-09-w3",
+        "label": "W3 · 15–21 September",
+        "syn": "The East Asian Exams page and an Argument Validation hub were written, and the Grok Bot Galaxy rules were set on one page.",
+        "rows": [
+          {
+            "day": 21,
+            "title": "Poteto Paved Path and Karpathy LLM-Wiki added, with the talk slides",
+            "linked": false
+          },
+          {
+            "day": 20,
+            "title": "Cursor Cloud Agents: the page replaced with the how-to",
+            "linked": false
+          },
+          {
+            "day": 18,
+            "title": "Grok Bot Galaxy: the rules on one page",
+            "linked": false
+          },
+          {
+            "day": 16,
+            "title": "East Asian Exams - The Arms Race: the page",
+            "linked": false
+          },
+          {
+            "day": 16,
+            "title": "Argument Validation: a hub for the method pages",
+            "linked": false
+          }
+        ],
+        "news": []
+      },
+      {
+        "id": "2026-09-w2",
+        "label": "W2 · 8–14 September",
+        "syn": "A new approach to plain writing, the two wholes defined, and sources banked for East Asian Exams.",
+        "rows": [
+          {
+            "day": 14,
+            "title": "East Asian Exams - The Arms Race: sources banked, title approved",
+            "linked": false
+          },
+          {
+            "day": 8,
+            "title": "The two wholes",
+            "linked": false
+          },
+          {
+            "day": 8,
+            "title": "How to make the AI write plainly",
+            "linked": false
+          }
+        ],
+        "news": []
+      },
+      {
+        "id": "2026-09-w1",
+        "label": "W1 · 1–7 September",
+        "syn": "Grok 4.6 took over as the default writer, Grok text to speech failed for Mandarin, and Dcard ingests got the full treatment.",
+        "rows": [
+          {
+            "day": 7,
+            "title": "Stop auto-opening markdown",
+            "linked": false
+          },
+          {
+            "day": 7,
+            "title": "Page Media Save instead of FastSave / VDH wait",
+            "linked": false
+          },
+          {
+            "day": 7,
+            "title": "Dcard ingest gets the full treatment",
+            "linked": false
+          },
+          {
+            "day": 5,
+            "title": "ELI5 is a format, not a writer",
+            "linked": false
+          },
+          {
+            "day": 4,
+            "title": "Designing Grok Bot and Cursor self-hosted machines",
+            "linked": false
+          },
+          {
+            "day": 3,
+            "title": "Grok TTS is out for Mandarin",
+            "linked": false
+          },
+          {
+            "day": 1,
+            "title": "Grok writes",
+            "linked": false
+          }
+        ],
+        "news": []
+      }
+    ]
+  },
+  {
+    "id": "2026-08",
+    "heading": "August 2026",
+    "syn": "",
+    "weeks": [
+      {
+        "id": "2026-08-w4",
+        "label": "W4 · 22–31 August",
+        "syn": "The context problem was written up, Xingye began texting in character as a tutor, and the month closed with a snapshot of working AI.",
+        "rows": [
+          {
+            "day": 31,
+            "title": "State of AI, end of August 2026",
+            "linked": false
+          },
+          {
+            "day": 29,
+            "title": "Xingye your turn always texts",
+            "linked": false
+          },
+          {
+            "day": 29,
+            "title": "What not to try on Claude's writing",
+            "linked": false
+          },
+          {
+            "day": 29,
+            "title": "Claude writing, public record",
+            "linked": false
+          },
+          {
+            "day": 27,
+            "title": "Xingye texts as a person",
+            "linked": false
+          },
+          {
+            "day": 26,
+            "title": "Xingye Field ping: private tutor lane, practice log",
+            "linked": false
+          },
+          {
+            "day": 25,
+            "title": "Starbucks Wi-Fi watcher saved",
+            "linked": false
+          },
+          {
+            "day": 25,
+            "title": "Epigrams never, in any writing",
+            "linked": false
+          },
+          {
+            "day": 22,
+            "title": "The Context Problem",
+            "linked": false
+          },
+          {
+            "day": 22,
+            "title": "Hidden ideology and labels",
+            "linked": false
+          }
+        ],
+        "news": []
+      },
+      {
+        "id": "2026-08-w3",
+        "label": "W3 · 15–21 August",
+        "syn": "Jobs were ranked across models, the Worldviews wing was promoted, and several entries record Fable and Opus getting worse.",
+        "rows": [
+          {
+            "day": 21,
+            "title": "Two-window board — skills / writing / wiki lane",
+            "linked": false
+          },
+          {
+            "day": 21,
+            "title": "Cursor Ultra vs Grok Build vs Grok Bot",
+            "linked": false
+          },
+          {
+            "day": 20,
+            "title": "Writing normally",
+            "linked": false
+          },
+          {
+            "day": 20,
+            "title": "X research: skills, AI writing, intros, knowledge bases",
+            "linked": false
+          },
+          {
+            "day": 20,
+            "title": "Skills, writing, and the wiki — study lane and rulings",
+            "linked": false
+          },
+          {
+            "day": 20,
+            "title": "How to write a report intro",
+            "linked": false
+          },
+          {
+            "day": 20,
+            "title": "Liberalism bank, not fertility page",
+            "linked": false
+          },
+          {
+            "day": 20,
+            "title": "Fertility collapse — the independence channel",
+            "linked": false
+          },
+          {
+            "day": 20,
+            "title": "What the session log says about the degradation",
+            "linked": false
+          },
+          {
+            "day": 20,
+            "title": "What is actually going on with Fable and Opus",
+            "linked": false
+          },
+          {
+            "day": 20,
+            "title": "Fable 5 and Opus got dumber — brief for confronting Claude",
+            "linked": false
+          },
+          {
+            "day": 19,
+            "title": "Personal page cut back to two lines",
+            "linked": false
+          },
+          {
+            "day": 19,
+            "title": "Intro QA cut: five tests, a script, on-ramp off the battery",
+            "linked": false
+          },
+          {
+            "day": 17,
+            "title": "Worldviews wing promoted",
+            "linked": false
+          },
+          {
+            "day": 17,
+            "title": "tsumugu-ed.com GSC validation failed because Google has not chosen to index",
+            "linked": false
+          },
+          {
+            "day": 17,
+            "title": "Rulings applied — B A B, keep, neither, retitle, pull closings",
+            "linked": false
+          },
+          {
+            "day": 16,
+            "title": "Sweep audit — silence is not a veto",
+            "linked": false
+          },
+          {
+            "day": 15,
+            "title": "What works: Grok 4.6 and Grok Bot",
+            "linked": false
+          }
+        ],
+        "news": []
+      },
+      {
+        "id": "2026-08-w2",
+        "label": "W2 · 8–14 August",
+        "syn": "",
+        "rows": [
+          {
+            "day": 14,
+            "title": "Grok needs its own aphorism gate",
+            "linked": false
+          },
+          {
+            "day": 13,
+            "title": "Yuedu: Traditional only, Dcard first",
+            "linked": false
+          },
+          {
+            "day": 13,
+            "title": "Think-aloud brief",
+            "linked": false
+          },
+          {
+            "day": 13,
+            "title": "Grok 4.6 on the frontier, not the lead",
+            "linked": false
+          },
+          {
+            "day": 13,
+            "title": "One month of Cursor Ultra, not a stack change",
+            "linked": false
+          },
+          {
+            "day": 13,
+            "title": "A/B/C writing test: Fable takes all three",
+            "linked": false
+          },
+          {
+            "day": 13,
+            "title": "A Field Tracker",
+            "linked": false
+          },
+          {
+            "day": 10,
+            "title": "Picking Voice Candidates by Range",
+            "linked": false
+          },
+          {
+            "day": 10,
+            "title": "Pages Read as Posts",
+            "linked": false
+          }
+        ],
+        "news": []
+      },
+      {
+        "id": "2026-08-w1",
+        "label": "W1 · 1–7 August",
+        "syn": "Rulings on keeping podcast voice artifacts and on giving language research its own lane.",
+        "rows": [
+          {
+            "day": 3,
+            "title": "A Language Research Lane",
+            "linked": false
+          },
+          {
+            "day": 1,
+            "title": "Artifacts of Record",
+            "linked": false
+          }
+        ],
+        "news": []
+      }
+    ]
+  },
+  {
+    "id": "2026-07",
+    "heading": "July 2026",
+    "syn": "A quieter month of writing about writing: a blog register, a backlog, and essays on how fast AI advice dates and on what vibe coding leaves to the builder. The PRD set for Tsumugu was authored, and tsumugu-ed.com got a six-week review. The month closed with lessons from podcast voice production.",
+    "weeks": [
+      {
+        "id": "2026-07-w4",
+        "label": "W4 · 22–31 July",
+        "syn": "A six-week review of tsumugu-ed.com, and working lessons from revising podcast drafts and voice takes.",
+        "rows": [
+          {
+            "day": 31,
+            "title": "Underdone Beats Overdone",
+            "linked": false
+          },
+          {
+            "day": 27,
+            "title": "The Break Comes First",
+            "linked": false
+          },
+          {
+            "day": 26,
+            "title": "The Margin and the Corpus",
+            "linked": false
+          },
+          {
+            "day": 25,
+            "title": "The Least-Cost Interpretation",
+            "linked": false
+          },
+          {
+            "day": 22,
+            "title": "tsumugu-ed.com at six weeks: the corpus is built, the audience is not",
+            "linked": false
+          }
+        ],
+        "news": []
+      },
+      {
+        "id": "2026-07-w3",
+        "label": "W3 · 15–21 July",
+        "syn": "",
+        "rows": [],
+        "news": []
+      },
+      {
+        "id": "2026-07-w2",
+        "label": "W2 · 8–14 July",
+        "syn": "Baldur’s Gate 3 read as a lens on the Tsumugu cast.",
+        "rows": [
+          {
+            "day": 9,
+            "title": "Baldur's Gate 3 as a lens on the cast",
+            "linked": false
+          }
+        ],
+        "news": []
+      },
+      {
+        "id": "2026-07-w1",
+        "label": "W1 · 1–7 July",
+        "syn": "The blog register shipped, the Tsumugu PRD set was authored, and three essays on working with AI were written.",
+        "rows": [
+          {
+            "day": 7,
+            "title": "The workspace a language model thinks in",
+            "linked": false
+          },
+          {
+            "day": 3,
+            "title": "The Floor Rose, the Ceiling Is the Job",
+            "linked": false
+          },
+          {
+            "day": 3,
+            "title": "Doctrine With a Half-Life",
+            "linked": false
+          },
+          {
+            "day": 3,
+            "title": "Blog and Condensed possibilities — the full menu",
+            "linked": false
+          },
+          {
+            "day": 2,
+            "title": "Tsumugu PRD set authored (core + ed)",
+            "linked": false
+          },
+          {
+            "day": 2,
+            "title": "Blog register — working notes made legible, shipped provisional",
+            "linked": false
+          },
+          {
+            "day": 2,
+            "title": "Blog backlog — additions",
+            "linked": false
+          }
+        ],
+        "news": []
+      }
+    ]
+  },
+  {
+    "id": "2026-06",
+    "heading": "June 2026",
+    "syn": "June went to Tsumugu. The encoding dictionary grew from its first authored entries to full TOCFL A–C coverage and was deployed to tsumugu-ed.com on the 15th, followed by handwriting sections, a Vietnamese localization and the Hán-Việt bridge. Late in the month the work turned to Tsumugu Core and to story cards built on a method of loci.",
+    "weeks": [
+      {
+        "id": "2026-06-w4",
+        "label": "W4 · 22–30 June",
+        "syn": "Plans for Tsumugu Core, story cards rebuilt on a method of loci, and a maintenance pass on the knowledge base.",
+        "rows": [
+          {
+            "day": 30,
+            "title": "Writing voice — agent prose reverts to selling",
+            "linked": false
+          },
+          {
+            "day": 30,
+            "title": "Human × AI capability lens + design technique extraction",
+            "linked": false
+          },
+          {
+            "day": 30,
+            "title": "Blog backlog — Learning Science × Chinese",
+            "linked": false
+          },
+          {
+            "day": 29,
+            "title": "Tsumugu Story cards — the technique catalog becomes the rubric's leading layer",
+            "linked": false
+          },
+          {
+            "day": 29,
+            "title": "Tsumugu Story cards — the Modified-Method-of-Loci pivot",
+            "linked": false
+          },
+          {
+            "day": 29,
+            "title": "Story card — first principles and the full possibility space",
+            "linked": false
+          },
+          {
+            "day": 25,
+            "title": "KB audit: metadata debt, site gaps, and a scoped maintenance pass",
+            "linked": false
+          },
+          {
+            "day": 25,
+            "title": "Graph rail, hover UX, and index graph polish",
+            "linked": false
+          },
+          {
+            "day": 23,
+            "title": "Tsumugu Core — the Traditional-first super-app and the Textbook Companion",
+            "linked": false
+          },
+          {
+            "day": 22,
+            "title": "Ulysses design philosophy → tsumugu-ed",
+            "linked": false
+          },
+          {
+            "day": 22,
+            "title": "Tsumugu Core — graded reader meets AI-generated content",
+            "linked": false
+          },
+          {
+            "day": 22,
+            "title": "Monetization, reach, and the Hán-Việt web-novel reader",
+            "linked": false
+          }
+        ],
+        "news": []
+      },
+      {
+        "id": "2026-06-w3",
+        "label": "W3 · 15–21 June",
+        "syn": "The dictionary went live at tsumugu-ed.com, then gained handwriting sections, a reskin, and a Vietnamese localization built on the Hán-Việt bridge.",
+        "rows": [
+          {
+            "day": 21,
+            "title": "The Hán-Việt bridge — deep dive",
+            "linked": false
+          },
+          {
+            "day": 20,
+            "title": "Tsumugu — full Vietnamese translation campaign (paused 87.6%)",
+            "linked": false
+          },
+          {
+            "day": 20,
+            "title": "LLM knowledge base (Astro): Start-here intent doors, the domain Map",
+            "linked": false
+          },
+          {
+            "day": 19,
+            "title": "tsumugu-ed.com: traffic was ~99% bots, ads ruled out, AI training crawlers blocked",
+            "linked": false
+          },
+          {
+            "day": 19,
+            "title": "Simplified edition decided and the VN toggle goes live",
+            "linked": false
+          },
+          {
+            "day": 19,
+            "title": "A1 example sentences: the bakeoff that picked Opus, and a distinct-collocation recipe",
+            "linked": false
+          },
+          {
+            "day": 19,
+            "title": "Dictionary site: Paper & Ink reskin, analytics hooks, English-only lock",
+            "linked": false
+          },
+          {
+            "day": 19,
+            "title": "Dictionary audio pace: regenerate the fast clips, don't stretch them",
+            "linked": false
+          },
+          {
+            "day": 18,
+            "title": "Vietnamese localization + Hán-Việt bridge: PRD, agent lanes, first data pilot",
+            "linked": false
+          },
+          {
+            "day": 17,
+            "title": "Tsumugu-ed: Incorporating web.ygsf.com for handwriting sections",
+            "linked": false
+          },
+          {
+            "day": 17,
+            "title": "Tsumugu-ed: composer maintenance batch complete; backlog recorded",
+            "linked": false
+          },
+          {
+            "day": 17,
+            "title": "Tesla Deep Dive — Stock, Optimus robots, Robotaxi, AI and Future Vision",
+            "linked": false
+          },
+          {
+            "day": 16,
+            "title": "Tsumugu: handwriting and cursive sections for the encoding dictionary",
+            "linked": false
+          },
+          {
+            "day": 15,
+            "title": "Tsumugu grammar browse fixed; roadmap cut (FSRS out, idioms in); site copy",
+            "linked": false
+          },
+          {
+            "day": 15,
+            "title": "Tsumugu Encoding Dictionary deployed to tsumugu-ed.com",
+            "linked": false
+          },
+          {
+            "day": 15,
+            "title": "The AI Industrial Revolution ingest; the planning question; the n=1 about-line",
+            "linked": false
+          }
+        ],
+        "news": []
+      },
+      {
+        "id": "2026-06-w2",
+        "label": "W2 · 8–14 June",
+        "syn": "The dictionary was written: authoring opened, a three-model bake-off settled the lanes, and every TOCFL A–C character and word was covered.",
+        "rows": [
+          {
+            "day": 14,
+            "title": "Tsumugu: search + SEO done, site launch-ready (bar front-page copy)",
+            "linked": false
+          },
+          {
+            "day": 14,
+            "title": "Tsumugu production: site renders at scale, custom CJK search built",
+            "linked": false
+          },
+          {
+            "day": 14,
+            "title": "Tsumugu maintenance: crib_diff learns to catch misquotes; 273 surface",
+            "linked": false
+          },
+          {
+            "day": 14,
+            "title": "Tsumugu: dictionary extracted to its own repo (tsumugu-ed), deploy walkthrough ready",
+            "linked": false
+          },
+          {
+            "day": 14,
+            "title": "Tsumugu: the dictionary is wrapped — moving to production",
+            "linked": false
+          },
+          {
+            "day": 13,
+            "title": "Tsumugu: the word campaign executed — 99.2% in one parallel wave",
+            "linked": false
+          },
+          {
+            "day": 13,
+            "title": "Tsumugu: TOCFL A–C complete — every character and word, A1 through C1",
+            "linked": false
+          },
+          {
+            "day": 13,
+            "title": "Tsumugu: the seed-gate unblock, and named entities enter the dictionary",
+            "linked": false
+          },
+          {
+            "day": 13,
+            "title": "Tsumugu grammar layer opens: grammar gets its own decomposition",
+            "linked": false
+          },
+          {
+            "day": 13,
+            "title": "Tsumugu: the character set closes; the word gap opens (TOCFL word campaign)",
+            "linked": false
+          },
+          {
+            "day": 13,
+            "title": "Tsumugu: Step-4 char wave passes review, and the crib_diff comparator is mis-scoped",
+            "linked": false
+          },
+          {
+            "day": 12,
+            "title": "Tsumugu production: model tiering tested — Sonnet-as-researcher path logged",
+            "linked": false
+          },
+          {
+            "day": 12,
+            "title": "Tsumugu: three-model bake-off settles the lanes; dual-crib cross-check goes live",
+            "linked": false
+          },
+          {
+            "day": 12,
+            "title": "Taste-bound tasks: generate vs elicit",
+            "linked": false
+          },
+          {
+            "day": 12,
+            "title": "KB standards batch committed; push must run host-side (Cowork sandbox can't auth)",
+            "linked": false
+          },
+          {
+            "day": 12,
+            "title": "Tsumugu: Grok workstream — maximum offload, QA split by independence",
+            "linked": false
+          },
+          {
+            "day": 12,
+            "title": "Front-facing copy becomes law; Writing Standards reordered; June decisions backfilled",
+            "linked": false
+          },
+          {
+            "day": 12,
+            "title": "SpaceX IPO — stock craze, 5-10 year vision, Moon base, robots, orbital AI",
+            "linked": false
+          },
+          {
+            "day": 11,
+            "title": "Tsumugu dictionary: style pass shipped, corpus gets custody, display rules locked",
+            "linked": false
+          },
+          {
+            "day": 11,
+            "title": "Tsumugu: authoring opens (53 entries), encoding review reshapes the entry contract",
+            "linked": false
+          },
+          {
+            "day": 11,
+            "title": "Living Atlas redesign decided + High-Signal Decision Writing standard",
+            "linked": false
+          }
+        ],
+        "news": []
+      },
+      {
+        "id": "2026-06-w1",
+        "label": "W1 · 1–7 June",
+        "syn": "Tsumugu began as an AI Mandarin reader, had its first real read after an overnight build, then gained a voice and a study layer.",
+        "rows": [
+          {
+            "day": 7,
+            "title": "Two agents, one reader — Tsumugu's study layer lands",
+            "linked": false
+          },
+          {
+            "day": 6,
+            "title": "Tsumugu grows a voice — local Qwen3-TTS, per-sentence",
+            "linked": false
+          },
+          {
+            "day": 5,
+            "title": "A money-mindsets section, and Tsumugu's reading layer",
+            "linked": false
+          },
+          {
+            "day": 4,
+            "title": "Tsumugu — overnight build, first real read",
+            "linked": false
+          },
+          {
+            "day": 3,
+            "title": "AI Mandarin Reader — graded reader meets LLM-wiki",
+            "linked": false
+          },
+          {
+            "day": 3,
+            "title": "Ideas Bank — Expansion",
+            "linked": false
+          },
+          {
+            "day": 3,
+            "title": "Finance & Investing — Reading & Resources (seed)",
+            "linked": false
+          },
+          {
+            "day": 2,
+            "title": "Front-facing redesign — Projects section + declutter",
+            "linked": false
+          }
+        ],
+        "news": []
+      }
+    ]
+  },
+  {
+    "id": "2026-05",
+    "heading": "May 2026",
+    "syn": "The journal opens with notes on focus management and two exploratory plans, one for an autonomous dashboard and one for a self-updating wiki. Attention then returned to the knowledge base, and the direction of wnab was decided.",
+    "weeks": [
+      {
+        "id": "2026-05-w4",
+        "label": "W4 · 22–31 May",
+        "syn": "Two exploratory plans, a reflection on wiki bloat, and a decision on wnab’s direction.",
+        "rows": [
+          {
+            "day": 29,
+            "title": "wnab — direction decided (session log)",
+            "linked": false
+          },
+          {
+            "day": 28,
+            "title": "Reflections on Wiki Bloat, Life OS Placement, and Agentic Focus Discipline",
+            "linked": false
+          },
+          {
+            "day": 23,
+            "title": "Possible Paths: Self-Updating Wiki and LLM-Wiki Integration",
+            "linked": false
+          },
+          {
+            "day": 23,
+            "title": "Possible Paths: Autonomous OS Dashboard and Builder System",
+            "linked": false
+          }
+        ],
+        "news": []
+      },
+      {
+        "id": "2026-05-w3",
+        "label": "W3 · 15–21 May",
+        "syn": "Notes on focus management and curvilinear design.",
+        "rows": [
+          {
+            "day": 21,
+            "title": "Focus Management and Curvilinear Design",
+            "linked": false
+          }
+        ],
+        "news": []
+      },
+      {
+        "id": "2026-05-w2",
+        "label": "W2 · 8–14 May",
+        "syn": "",
+        "rows": [],
+        "news": []
+      },
+      {
+        "id": "2026-05-w1",
+        "label": "W1 · 1–7 May",
+        "syn": "",
+        "rows": [],
+        "news": []
+      }
+    ]
+  }
+]

@@ -30,11 +30,11 @@ Keeping it as a separate submodule took more setup and upkeep than it was worth.
 
 ## Lessons
 
-- **Build the system you use into your working vault, and archive the standalone copy.** The system was more useful once it was built directly into the working vault as [mg-kolbs](mg-kolbs), where it uses the same graph, backlinks, and daily context as the rest of the vault. The standalone copy was extra maintenance.
+- **Build the system you use into your working vault, and archive the standalone copy.** The system was more useful once it was built directly into the working vault as [mg-kolbs](/projects/mg-kolbs/), where it uses the same graph, backlinks, and daily context as the rest of the vault. The standalone copy was extra maintenance.
 - **A submodule needs ongoing upkeep.** A separate repo connected as a submodule is worth that upkeep for code that is shared and reused. For a personal template that belongs in the vault where you work, the upkeep is not worth it.
 
 ## Status
 
-Archived. The standalone repo is preserved: it is still on GitHub, and it still credits Pan. The system that replaced it and is in use now is [mg-kolbs](mg-kolbs). The June dual root `MG & Kolbs/` was later archived to `_archive/MG-Kolbs-template-2026-06-01/`.
+Archived. The standalone repo is preserved: it is still on GitHub, and it still credits Pan. The system that replaced it and is in use now is [mg-kolbs](/projects/mg-kolbs/). The June dual root `MG & Kolbs/` was later archived to `_archive/MG-Kolbs-template-2026-06-01/`.
 
 <!-- Design notes (TODO, Wedge): how it looks and why it's built this way. -->

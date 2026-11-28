@@ -30,7 +30,7 @@ The comparison is five jobs this desk already runs, not three product pages. Thi
 | Research banks | Grok 4.6 | 281 banks against a 255-page queue. Lane is agent-agnostic. The A/B/C Grok arm had already written ~260 of those banks and still lost the writing test, so the bank win is not a writing win in disguise. | Fable as a bank mill. Cold Fable can bank; Grok already did the volume. |
 | Local execution | Grok Build calling 4.6 | Stack since August. $2 / $6. AA-Briefcase: ~53 turns / ~0.5B input vs Opus 5 max ~103 / ~2.0B. Profiles isolate n1 from work. | Fable on toolchain loops. DeepSWE 65.9% vs Fable 70% and Sol 73% is the coding gap that remains. Accept it for execution; do not pretend it is gone. |
 | Standing duty | Grok Bot, one duty, packet only, public only | Official geometry: one computer per user, laptop-closed work, handoff for 2FA. Structure A and Bot Operating Rules already describe the seats. Field packet, 15 Aug: Demo-shaped sweep → draft → approve is the only named setup that matches Watch/Brief/Intake. | Twelve-bot afternoons. Chief-of-staff that "just routes." Grocery, Gmail, Amazon, spend-without-a-gate. Per-bot isolation as a security story. |
-| Harness (Cursor IDE vs Grok Build) | Route by surface; habit unscored | [[wiki/Research/Grok Build and Cursor Bank|Build / Cursor bank]], 15 Aug. Build when the agent drives the session. Cursor IDE when you are in the files (Tab, visual diff, debugger). Same 4.6 is a harness pick. Cursor.app still not installed. | Composer as the comparison. Two writers on one tree. Cursor as a fourth standing agent. |
+| Harness (Cursor IDE vs Grok Build) | Route by surface; habit unscored | Build / Cursor bank, 15 Aug. Build when the agent drives the session. Cursor IDE when you are in the files (Tab, visual diff, debugger). Same 4.6 is a harness pick. Cursor.app still not installed. | Composer as the comparison. Two writers on one tree. Cursor as a fourth standing agent. |
 
 ## Writing
 
@@ -86,5 +86,5 @@ Cost of holding this ranking: Fable spend on prose, unused Bot quota, a 4.6 that
 - [[journal/2026-08-14-grok-aphorism-gate|Grok needs its own aphorism gate]]
 - [[journal/2026-08-13-grok-4-6-on-the-frontier|Grok 4.6 on the frontier, not the lead]]
 - [[journal/2026-08-13-a-field-tracker|A Field Tracker]]
-- [[wiki/Research/Grok Bot Field Packet 2026-08-15|Grok Bot Field Packet 2026-08-15]]
+- Grok Bot Field Packet 2026-08-15
 - [[journal/2026-08-13-cursor-ultra-month|One month of Cursor Ultra, not a stack change]]

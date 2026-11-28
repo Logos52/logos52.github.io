@@ -15,7 +15,7 @@ export type JournalEntry = {
   href: string;
 };
 
-export function isDatedJournalEntry(id: string): boolean {
+function isDatedJournalEntry(id: string): boolean {
   return DATED.test(id) && id !== 'journal/index' && id !== 'journal/calendar';
 }
 

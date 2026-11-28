@@ -1,113 +1,65 @@
 ---
+import { readFileSync } from 'node:fs';
 import { getCollection } from 'astro:content';
 import Base from '../layouts/Base.astro';
-import Constellation from '../components/Constellation.astro';
 import { deriveTitle } from '../lib/note';
 import { slugToUrl } from '../lib/slug';
-import '../styles/projects-page.css';
 
-type Status = 'current' | 'past';
+const views = readFileSync('src/data/projects-views.html', 'utf8');
+const notes = await getCollection('notes');
+const projects = notes.filter((n) => n.id.startsWith('projects/') && n.id !== 'projects/index' && n.data.type === 'project' && n.id !== 'projects/tsumugu');
 
-const PRIORITY = [
-  'projects/tsumugu-ed',
-  'projects/llm-knowledge-base',
-  'projects/builders-logs-2026',
-  'projects/notable-design-features',
-  'projects/wnac',
-];
-const rank = (slug: string) => {
-  const i = PRIORITY.indexOf(slug);
-  return i === -1 ? 99 : i;
-};
-
-const raw = (await getCollection('notes')).filter(
-  (n) => n.id.startsWith('projects/') && n.id !== 'projects/index' && n.data.type === 'project',
-);
-
-const projects = raw
-  .map((n) => {
-    const fm = n.data as Record<string, unknown>;
-    const rawStatus = String(fm.status ?? 'current').toLowerCase();
-    const status: Status =
-      rawStatus.startsWith('current') || rawStatus.startsWith('active') ? 'current' : 'past';
-    const stack = Array.isArray(fm.stack) ? fm.stack.map(String) : fm.stack ? [String(fm.stack)] : [];
-    const order = typeof fm.order === 'number' ? fm.order : 99;
-    const image = typeof fm.image === 'string' ? fm.image : '';
-    const cardHref = typeof fm.cardHref === 'string' && fm.cardHref ? fm.cardHref : '';
-    return {
-      slug: n.id,
-      title: deriveTitle(n.data, n.id, n.body),
-      blurb: String(fm.blurb ?? fm.description ?? ''),
-      status,
-      stack,
-      order,
-      image,
-      href: cardHref || slugToUrl(n.id),
-    };
-  })
-  .sort((a, b) => rank(a.slug) - rank(b.slug) || a.order - b.order || a.title.localeCompare(b.title));
-
-const groups: { key: Status; label: string }[] = [
-  { key: 'current', label: 'Current' },
-  { key: 'past', label: 'Archived' },
-];
-
-const projectSeeds = projects.filter((p) => p.status === 'current').map((p) => p.slug);
+type Card = { slug: string; title: string; blurb: string; href: string; status: string };
+const cards: Card[] = projects.map((n) => {
+  const fm = n.data as Record<string, unknown>;
+  const raw = String(fm.status ?? 'current').toLowerCase();
+  const status = raw.startsWith('current') || raw.startsWith('active') ? 'current' : 'past';
+  const cardHref = typeof fm.cardHref === 'string' ? fm.cardHref : '';
+  return {
+    slug: n.id,
+    title: deriveTitle(n.data, n.id, n.body),
+    blurb: String(fm.blurb ?? fm.description ?? ''),
+    href: cardHref || slugToUrl(n.id),
+    status,
+  };
+});
+const onBoard = new Set(['projects/tsumugu-ed', 'projects/llm-knowledge-base', 'projects/builders-logs-2026', 'projects/wnac']);
+const extraCurrent = cards.filter((c) => c.status === 'current' && !onBoard.has(c.slug));
+const archived = cards.filter((c) => c.status !== 'current');
 ---
 
-<Base title="Projects" description="Learning-system, agentic-engineering, and personal-tooling projects." active="projects">
-  <main class="projects-page">
-    <div class="wrap projects-grid">
-      <div class="projects-main">
-        <header class="head">
-          <h1>Projects</h1>
-          <p class="head__lede">Learning-system, agentic-engineering, and personal-tooling projects.</p>
-        </header>
-        {groups.map((g) => {
-          const items = projects.filter((p) => p.status === g.key);
-          if (!items.length) return null;
-          return (
-            <section class="group">
-              <h2>{g.label}</h2>
-              <div class="grid">
-                {items.map((p) => (
-                  <a class="card" href={p.href}>
-                    {p.image && (
-                      <div class="card__media">
-                        <img src={`/${p.image}`} alt={`${p.title} screenshot`} loading="lazy" />
-                      </div>
-                    )}
-                    <h3>{p.title}</h3>
-                    <p>{p.blurb}</p>
-                    {p.stack.length > 0 && (
-                      <div class="stack">
-                        {p.stack.map((s) => (
-                          <span class="tag">{s}</span>
-                        ))}
-                      </div>
-                    )}
-                  </a>
-                ))}
-              </div>
+<Base title="Projects — Logos52" description="Learning-system, agentic-engineering, and personal-tooling projects." section="projects">
+  <div class="page" id="page-projects" data-views set:html={views} />
+  {
+    (extraCurrent.length > 0 || archived.length > 0) && (
+      <div class="page archived">
+        {
+          extraCurrent.length > 0 && (
+            <section>
+              <h2 class="sec-h">Current</h2>
+              {extraCurrent.map((p) => (
+                <a class="rw" href={p.href}>
+                  <b>{p.title}</b>
+                  {p.blurb && <span>{p.blurb}</span>}
+                </a>
+              ))}
             </section>
-          );
-        })}
-        <p class="archive-more"><a href="/archive/">Full archive</a></p>
+          )
+        }
+        {
+          archived.length > 0 && (
+            <section>
+              <h2 class="sec-h">Archived</h2>
+              {archived.map((p) => (
+                <a class="rw" href={p.href}>
+                  <b>{p.title}</b>
+                  {p.blurb && <span>{p.blurb}</span>}
+                </a>
+              ))}
+            </section>
+          )
+        }
       </div>
-      {
-        projectSeeds.length > 0 && (
-          <aside class="projects-graph" aria-label="Current project links">
-            <h2 class="projects-graph__head">Links</h2>
-            <Constellation
-              mode="local"
-              seeds={projectSeeds}
-              hops={1}
-              orient="vertical"
-              height="clamp(360px, 66vh, 600px)"
-            />
-          </aside>
-        )
-      }
-    </div>
-  </main>
+    )
+  }
 </Base>

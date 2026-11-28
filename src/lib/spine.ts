@@ -5,7 +5,7 @@
 import { slugifyFilePath } from './slug';
 
 export const SPINE_HUBS_RAW: [string, string][] = [
-  ['wiki/Syntheses/Learning, Condensed', 'Learning, Condensed'],
+  ['wiki/Dimensions/Dimensions of Learning', 'Dimensions of Learning'],
   ['wiki/Systems/AI & Agentic Systems/Claude Fable', 'Claude Fable'],
   ['wiki/Dimensions/Self-Regulation', 'Self Regulation'],
   ['wiki/Concepts/Higher-Order Generativity vs Higher-Order Judgment', 'Higher-Order Generativity'],

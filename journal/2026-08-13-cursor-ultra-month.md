@@ -37,7 +37,7 @@ Measured cases, not vibes:
 - This desk already ran them in parallel on 2026-06-12. Grok Build and Cursor cribbed the same tsumugu characters on separate budgets; `crib_diff.py` caught Cursor quoting 勍's gloss on 敵. Dual-use earned its keep as an independent cross-check, then the roster was cut and restored inside an hour. See [[journal/2026-06-12-tsumugu-bakeoff-and-dual-crib-line|the bake-off day]] and [[journal/2026-06-12-grok-workstream-maximum-offload|the roster cut]].
 - Morgan Linton, ~two months ago: "I've been really enjoying using Cursor + Grok Build together."
 - A 2026 Medium comparison that actually used both: Grok Build for quick starts and big plans, Cursor for daily in-editor work. That is a surface split, not a model split.
-- Cursor's own DX lead, Matt Palmer, uses Grok Bot to approve a prompt that launches a **Cursor Cloud Agent**. First-party pairing, already in [[wiki/Research/Grok Bot Practitioner Bank|the Practitioner Bank]].
+- Cursor's own DX lead, Matt Palmer, uses Grok Bot to approve a prompt that launches a **Cursor Cloud Agent**. First-party pairing, already in the Practitioner Bank.
 - xAI ships Grok 4.5 and 4.6 into Cursor and Grok Build on the same day. The products are siblings. The training data flywheel is Cursor's.
 - Reddit more often frames SuperGrok vs Cursor as an *or*. That is the cost-optimizer pattern, and it is the majority. Dual-use shows up among people who already paid for both, or who got this promo.
 
@@ -55,9 +55,9 @@ It is not Grok Build. Grok Build is a terminal agent with one model family, prof
 
 Two jobs, then stop.
 
-**1. Harness test on the existing A/B/C pages.** Arms A (current page), B (Fable in Cowork), and C (Grok 4.6 in Grok Build) already have drafts in `01 - Workbench/regen-2026-08/abc-test/`. Add arm D: **Claude Fable 5, pinned, in Cursor Agent**, same three pages, same [[01 - Workbench/regen-2026-08/abc-test/SHARED-BRIEF|shared brief]], out to `abc-test/cursor/`. Paste [[01 - Workbench/regen-2026-08/abc-test/RUN-CURSOR-ARM|RUN-CURSOR-ARM]]. If Auto or Grok 4.6 is selected, the comparison measures the model, not the harness, and the month is wasted.
+**1. Harness test on the existing A/B/C pages.** Arms A (current page), B (Fable in Cowork), and C (Grok 4.6 in Grok Build) already have drafts in `01 - Workbench/regen-2026-08/abc-test/`. Add arm D: **Claude Fable 5, pinned, in Cursor Agent**, same three pages, same shared brief, out to `abc-test/cursor/`. Paste RUN-CURSOR-ARM. If Auto or Grok 4.6 is selected, the comparison measures the model, not the harness, and the month is wasted.
 
-**2. One bank, not a second bank factory.** [[01 - Workbench/regen-2026-08/RUN-RESEARCH-LANE|The research lane]] is agent-agnostic and already forbids fan-out because those lanes crashed. Cursor does not become a parallel bank mill. It runs **one** heavy page that is still in `BANK-WORKLIST.tsv`, model pinned to **Grok 4.6**, contract [[02 - System/Bank Handoff for Grok|Bank Handoff for Grok]], using [[01 - Workbench/regen-2026-08/RUN-CURSOR-BANK-LANE|RUN-CURSOR-BANK-LANE]]. Compare that bank to a Grok Build bank on claim count, missed links, and whether section 6 actually searched `raw/` first. If Cursor's bank is worse or the same, the lane closes.
+**2. One bank, not a second bank factory.** The research lane is agent-agnostic and already forbids fan-out because those lanes crashed. Cursor does not become a parallel bank mill. It runs **one** heavy page that is still in `BANK-WORKLIST.tsv`, model pinned to **Grok 4.6**, contract Bank Handoff for Grok, using RUN-CURSOR-BANK-LANE. Compare that bank to a Grok Build bank on claim count, missed links, and whether section 6 actually searched `raw/` first. If Cursor's bank is worse or the same, the lane closes.
 
 Steelman of "just add Cursor to the stack now": Ultra is a real IDE, Tab is a daily surface Grok Build will never grow, Cloud Agents plus Grok Bot is the pairing Palmer already runs, and $400 of Fable inside an editor is the cheapest way to see whether Cowork is the thing we like or Fable is. The flip condition is a week where Cursor does a job this desk already runs — long knowledge-work loops, wiki regen, or tsumugu execution — better than Cowork plus Grok Build, on something Wedge can rank blind. Until that week happens, adding a fourth standing agent is the June roster problem again: coordination cost for a cross-check we have not re-earned.
 
@@ -79,7 +79,7 @@ Cursor.app is not on this Mac as of this writing (`/Applications` has no Cursor;
 
 ## Duration note, 2026-08-15
 
-The same help page, re-fetched two days later, now says Ultra "remains active at no charge so long as the SuperGrok Heavy plan is active on renewal." That contradicts the one-month / no-repeat / no-auto-renew reading recorded above. Not silently reconciled. The two assigned jobs still have to run before anyone treats Ultra as a standing seat. Bank: [[wiki/Research/Grok Build and Cursor Bank|Grok Build and Cursor Bank]].
+The same help page, re-fetched two days later, now says Ultra "remains active at no charge so long as the SuperGrok Heavy plan is active on renewal." That contradicts the one-month / no-repeat / no-auto-renew reading recorded above. Not silently reconciled. The two assigned jobs still have to run before anyone treats Ultra as a standing seat. Bank: Grok Build and Cursor Bank.
 
 ## Sources
 

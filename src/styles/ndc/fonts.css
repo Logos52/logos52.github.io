@@ -1,0 +1,43 @@
+
+@font-face {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 100 700;
+  font-display: swap;
+  src: url("/fonts/plex-var-latin-ext.woff2") format("woff2"), url("/fonts/plex-var-latin.woff2") format("woff2");
+}
+@font-face {
+  font-family: "IBM Plex Sans";
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/plex-400i.woff2") format("woff2");
+}
+@font-face {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("/fonts/plex-700.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Monaspace Neon";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/neon-400.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Monaspace Neon";
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/neon-400i.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Monaspace Neon";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("/fonts/neon-700.woff2") format("woff2");
+}

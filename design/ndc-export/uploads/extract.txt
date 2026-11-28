@@ -1,0 +1,700 @@
+1. Outer HTML of the element that contains the seven article cards
+
+<ul class="_grid_184nf_1" data-type="cards" style="position: relative; row-gap: 1rlh; height: 1038.56px;" data-js="whiteboard-list"> <li class="_item_dnbo6_9" data-js="whiteboard-item" style="width: 390.178px; top: 0px; left: 0px;"> <a href="/en/whiteboard/screen-destination/" class="_card_dnbo6_13"> <div class="_cardImage_dnbo6_18"> <picture> <source media="(max-width: 768px)" srcset="https://images.microcms-assets.io/assets/e1792d85c6294bf7a4758eaa4c992c03/dde646599e2a4562b57f2d3def628af4/thumbnail_1030.jpg?w=960&amp;fm=webp"> <img src="https://images.microcms-assets.io/assets/e1792d85c6294bf7a4758eaa4c992c03/dde646599e2a4562b57f2d3def628af4/thumbnail_1030.jpg?w=960&amp;fm=webp" alt="" width="1080" height="1080"> </picture> <video src="https://player.vimeo.com/progressive_redirect/playback/1241161492/rendition/1080p/file.mp4%20%281080p%29.mp4?loc=external&amp;log_user=0&amp;signature=3a5a34adc685bf08506a4c063fd845cb080e3849aaabbf53e0f01fae86a9f105" loop="" muted="" playsinline="" autoplay="" preload="auto" crossorigin="anonymous"></video> </div> <h3 class="_cardText_dnbo6_46">Where Screens Are Headed</h3> </a> </li><li class="_item_dnbo6_9" data-js="whiteboard-item" style="width: 390.178px; top: 0px; left: 423.911px;"> <a href="/en/whiteboard/blindspots-of-search/" class="_card_dnbo6_13"> <div class="_cardImage_dnbo6_18"> <picture> <source media="(max-width: 768px)" srcset="https://images.microcms-assets.io/assets/e1792d85c6294bf7a4758eaa4c992c03/bf47b3d5cb044cc28d0a48c5d330c634/blindspots-of-search_main.webp?w=960&amp;fm=webp"> <img src="https://images.microcms-assets.io/assets/e1792d85c6294bf7a4758eaa4c992c03/bf47b3d5cb044cc28d0a48c5d330c634/blindspots-of-search_main.webp?w=960&amp;fm=webp" alt="" width="5108" height="2872"> </picture>  </div> <h3 class="_cardText_dnbo6_46">What Search Doesn’t Tell You</h3> </a> </li><li class="_item_dnbo6_9" data-js="whiteboard-item" style="width: 390.178px; top: 0px; left: 847.822px;"> <a href="/en/whiteboard/kotoba-zawari/" class="_card_dnbo6_13"> <div class="_cardImage_dnbo6_18"> <picture> <source media="(max-width: 768px)" srcset="https://images.microcms-assets.io/assets/e1792d85c6294bf7a4758eaa4c992c03/5918648e90f1439c9d2ea9475ae71ccd/kotoba-zawari_thumb.gif?w=960&amp;fm=webp"> <img src="https://images.microcms-assets.io/assets/e1792d85c6294bf7a4758eaa4c992c03/5918648e90f1439c9d2ea9475ae71ccd/kotoba-zawari_thumb.gif?w=960&amp;fm=webp" alt="" width="1080" height="1080"> </picture>  </div> <h3 class="_cardText_dnbo6_46">Kotobazawari: The Texture of Words</h3> </a> </li><li class="_item_dnbo6_9" data-js="whiteboard-item" style="width: 390.178px; top: 273.281px; left: 423.911px;"> <a href="/en/whiteboard/peninsula-airways/" class="_card_dnbo6_13"> <div class="_cardImage_dnbo6_18"> <picture> <source media="(max-width: 768px)" srcset="https://images.microcms-assets.io/assets/e1792d85c6294bf7a4758eaa4c992c03/829ffcb860cd477c85be6b17f2396cea/WB_hara_TOP.jpg?w=960&amp;fm=webp"> <img src="https://images.microcms-assets.io/assets/e1792d85c6294bf7a4758eaa4c992c03/829ffcb860cd477c85be6b17f2396cea/WB_hara_TOP.jpg?w=960&amp;fm=webp" alt="" width="4000" height="3000"> </picture>  </div> <h3 class="_cardText_dnbo6_46">Peninsula Airways</h3> </a> </li><li class="_item_dnbo6_9" data-js="whiteboard-item" style="width: 390.178px; top: 444.281px; left: 0px;"> <a href="/en/whiteboard/visualizing-the-essence/" class="_card_dnbo6_13"> <div class="_cardImage_dnbo6_18"> <picture> <source media="(max-width: 768px)" srcset="https://images.microcms-assets.io/assets/e1792d85c6294bf7a4758eaa4c992c03/313a6e38dbb242d2b59c6215cfac7341/whiteboard_ejp_thumb.gif?w=960&amp;fm=webp"> <img src="https://images.microcms-assets.io/assets/e1792d85c6294bf7a4758eaa4c992c03/313a6e38dbb242d2b59c6215cfac7341/whiteboard_ejp_thumb.gif?w=960&amp;fm=webp" alt="" width="1080" height="1080"> </picture>  </div> <h3 class="_cardText_dnbo6_46">Visualizing the Essence</h3> </a> </li><li class="_item_dnbo6_9" data-js="whiteboard-item" style="width: 390.178px; top: 444.281px; left: 847.822px;"> <a href="/en/whiteboard/half-size-cardboard-box/" class="_card_dnbo6_13"> <div class="_cardImage_dnbo6_18"> <picture> <source media="(max-width: 768px)" srcset="https://images.microcms-assets.io/assets/e1792d85c6294bf7a4758eaa4c992c03/126d8c4fb0e648f1b20178f19a622dfa/half-size-cardboard-box_pc_main.jpg?w=960&amp;fm=webp"> <img src="https://images.microcms-assets.io/assets/e1792d85c6294bf7a4758eaa4c992c03/126d8c4fb0e648f1b20178f19a622dfa/half-size-cardboard-box_pc_main.jpg?w=960&amp;fm=webp" alt="" width="3000" height="1688"> </picture>  </div> <h3 class="_cardText_dnbo6_46">Cardboard Boxes in an Era of 200 Billion Home Deliveries</h3> </a> </li><li class="_item_dnbo6_9" data-js="whiteboard-item" style="width: 390.178px; top: 619.562px; left: 423.911px;"> <a href="/en/whiteboard/stray-arrows/" class="_card_dnbo6_13"> <div class="_cardImage_dnbo6_18"> <picture> <source media="(max-width: 768px)" srcset="https://images.microcms-assets.io/assets/e1792d85c6294bf7a4758eaa4c992c03/e6ae09ec50dc42a481c3eea18cdb9cbe/whiteboard_arrow_5.png?w=960&amp;fm=webp"> <img src="https://images.microcms-assets.io/assets/e1792d85c6294bf7a4758eaa4c992c03/e6ae09ec50dc42a481c3eea18cdb9cbe/whiteboard_arrow_5.png?w=960&amp;fm=webp" alt="" width="945" height="946"> </picture>  </div> <h3 class="_cardText_dnbo6_46">Stray Arrows</h3> </a> </li> </ul>
+
+2. Computed CSS for that container
+
+display: grid
+grid-template-columns: 390.062px 390.062px 390.062px
+column-gap: 33.7335px
+row-gap: 25.2812px
+align-items: normal
+columns: auto
+column-count: auto
+max-width: none
+padding: 0px
+margin: 0px
+
+3. Card positions and image sizes
+
+Card 1: Where Screens Are Headed
+x: 101.1875
+y: 400.796875
+width: 390.171875
+height: 418.625
+image rendered width: 390.171875
+image rendered height: 390.171875
+
+Card 2: What Search Doesn’t Tell You
+x: 525.09375
+y: 400.796875
+width: 390.171875
+height: 247.921875
+image rendered width: 390.171875
+image rendered height: 219.46875
+
+Card 3: Kotobazawari: The Texture of Words
+x: 949
+y: 400.796875
+width: 390.171875
+height: 418.625
+image rendered width: 390.171875
+image rendered height: 390.171875
+
+Card 4: Peninsula Airways
+x: 525.09375
+y: 674.0625
+width: 390.171875
+height: 321.078125
+image rendered width: 390.171875
+image rendered height: 292.625
+
+Card 5: Visualizing the Essence
+x: 101.1875
+y: 845.0625
+width: 390.171875
+height: 418.625
+image rendered width: 390.171875
+image rendered height: 390.171875
+
+Card 6: Cardboard Boxes in an Era of 200 Billion Home Deliveries
+x: 949
+y: 845.0625
+width: 390.171875
+height: 247.921875
+image rendered width: 390.171875
+image rendered height: 219.46875
+
+Card 7: Stray Arrows
+x: 525.09375
+y: 1020.34375
+width: 390.171875
+height: 419.03125
+image rendered width: 390.171875
+image rendered height: 390.578125
+
+4. Computed CSS for one card title
+
+element: h3._cardText_dnbo6_46
+text: Where Screens Are Headed
+font-family: acumin-variable, "Helvetica Neue", sans-serif
+font-size: 14.7584px
+font-weight: 520
+line-height: 22.1376px
+margin-top: 6.32031px
+color: rgb(26, 26, 26)
+
+5. CSS rules mentioning the container's or the cards' class names, and column breakpoints
+
+Target class names:
+container: _grid_184nf_1
+cards (including descendants): _item_dnbo6_9, _card_dnbo6_13, _cardImage_dnbo6_18, _cardText_dnbo6_46
+
+Stylesheets:
+- href: https://use.typekit.net/iho1pcl.css
+  status: SecurityError: Failed to read the 'cssRules' property from 'CSSStyleSheet': Cannot access rules
+  ruleCount: 0
+- href: None
+  status: ok
+  ruleCount: 1
+- href: https://www.ndc.co.jp/_astro/index.BzZH34bD.css
+  status: ok
+  ruleCount: 10
+- href: https://www.ndc.co.jp/_astro/index.Csge5Rdy.css
+  status: ok
+  ruleCount: 245
+- href: https://www.ndc.co.jp/_astro/_slug_.DRHV6Ez-.css
+  status: ok
+  ruleCount: 36
+- href: https://www.ndc.co.jp/_astro/index.RBFjVP99.css
+  status: ok
+  ruleCount: 22
+- href: https://www.ndc.co.jp/_astro/_slug_.95Dno4ZE.css
+  status: ok
+  ruleCount: 12
+- href: https://www.ndc.co.jp/_astro/_slug_.C4HuPdRe.css
+  status: ok
+  ruleCount: 10
+
+Matching rules:
+
+stylesheet: https://www.ndc.co.jp/_astro/index.BzZH34bD.css
+selector: ._item_dnbo6_9
+rule: ._item_dnbo6_9 { position: absolute; }
+
+stylesheet: https://www.ndc.co.jp/_astro/index.BzZH34bD.css
+selector: ._card_dnbo6_13
+rule: ._card_dnbo6_13 { display: block; width: 100%; }
+
+stylesheet: https://www.ndc.co.jp/_astro/index.BzZH34bD.css
+selector: ._cardImage_dnbo6_18
+rule: ._cardImage_dnbo6_18 { position: relative; display: block; width: 100%; transition: opacity var(--duration-base-material) var(--ease-base-material); }
+
+stylesheet: https://www.ndc.co.jp/_astro/index.BzZH34bD.css
+selector: ._cardImage_dnbo6_18 video
+rule: ._cardImage_dnbo6_18 video { position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%; object-fit: cover; pointer-events: none; }
+
+stylesheet: https://www.ndc.co.jp/_astro/index.BzZH34bD.css
+media: screen and (max-width: 768px)
+selector: ._cardImage_dnbo6_18 video
+rule: ._cardImage_dnbo6_18 video { display: none; }
+full @media block:
+@media screen and (max-width: 768px) {
+  ._cardImage_dnbo6_18 video { display: none; }
+}
+
+stylesheet: https://www.ndc.co.jp/_astro/index.BzZH34bD.css
+media: (hover: hover) and (pointer: fine)
+selector: ._cardImage_dnbo6_18:hover
+rule: ._cardImage_dnbo6_18:hover { opacity: 0.8; transition-duration: 0s; }
+full @media block:
+@media (hover: hover) and (pointer: fine) {
+  ._cardImage_dnbo6_18:hover { opacity: 0.8; transition-duration: 0s; }
+}
+
+stylesheet: https://www.ndc.co.jp/_astro/index.BzZH34bD.css
+selector: ._cardText_dnbo6_46
+rule: ._cardText_dnbo6_46 { margin-top: 0.25rlh; font-family: var(--font-family-sans-serif); font-size: 0.875rem; font-weight: var(--font-weight-bold); }
+
+stylesheet: https://www.ndc.co.jp/_astro/index.BzZH34bD.css
+selector: [lang="ja"] ._cardText_dnbo6_46
+rule: [lang="ja"] ._cardText_dnbo6_46 { font-family: var(--font-ja-sans-bold); }
+
+stylesheet: https://www.ndc.co.jp/_astro/index.RBFjVP99.css
+selector: ._grid_184nf_1
+rule: ._grid_184nf_1 { display: grid; column-gap: var(--grid-gap); grid-template-columns: repeat(var(--grid-columns),minmax(0,1fr)); margin-top: calc(var(--component-margin) * 1rlh); }
+
+stylesheet: https://www.ndc.co.jp/_astro/index.RBFjVP99.css
+media: screen and (max-width: 768px)
+selector: ._grid_184nf_1
+rule: ._grid_184nf_1 { margin-top: calc(var(--component-margin) / 2 * 1rlh); }
+full @media block:
+@media screen and (max-width: 768px) {
+  ._grid_184nf_1 { margin-top: calc(var(--component-margin) / 2 * 1rlh); }
+}
+
+stylesheet: https://www.ndc.co.jp/_astro/index.RBFjVP99.css
+selector: ._grid_184nf_1[data-type="cards"]
+rule: ._grid_184nf_1[data-type="cards"] { grid-template-columns: repeat(3, 1fr); row-gap: 1rlh; }
+
+stylesheet: https://www.ndc.co.jp/_astro/index.RBFjVP99.css
+media: screen and (max-width: 1024px)
+selector: ._grid_184nf_1[data-type="cards"]
+rule: ._grid_184nf_1[data-type="cards"] { grid-template-columns: repeat(2, 1fr); }
+full @media block:
+@media screen and (max-width: 1024px) {
+  ._grid_184nf_1[data-type="cards"] { grid-template-columns: repeat(2, 1fr); }
+}
+
+stylesheet: https://www.ndc.co.jp/_astro/index.RBFjVP99.css
+media: screen and (max-width: 768px)
+selector: ._grid_184nf_1[data-type="cards"]
+rule: ._grid_184nf_1[data-type="cards"] { grid-template-columns: repeat(1, 1fr); row-gap: 1rlh; }
+full @media block:
+@media screen and (max-width: 768px) {
+  ._grid_184nf_1[data-type="cards"] { grid-template-columns: repeat(1, 1fr); row-gap: 1rlh; }
+}
+
+stylesheet: https://www.ndc.co.jp/_astro/index.RBFjVP99.css
+media: not all and (max-width: 1919px)
+selector: ._grid_184nf_1[data-type="cards"]
+rule: ._grid_184nf_1[data-type="cards"] { grid-template-columns: repeat(4, 1fr); row-gap: 1rlh; }
+full @media block:
+@media not all and (max-width: 1919px) {
+  ._grid_184nf_1[data-type="cards"] { grid-template-columns: repeat(4, 1fr); row-gap: 1rlh; }
+}
+
+stylesheet: https://www.ndc.co.jp/_astro/index.RBFjVP99.css
+selector: ._grid_184nf_1[data-type="3col"]
+rule: ._grid_184nf_1[data-type="3col"] { grid-template-columns: repeat(3, 1fr); row-gap: 1rlh; }
+
+stylesheet: https://www.ndc.co.jp/_astro/index.RBFjVP99.css
+media: screen and (max-width: 1024px)
+selector: ._grid_184nf_1[data-type="3col"]
+rule: ._grid_184nf_1[data-type="3col"] { grid-template-columns: repeat(2, 1fr); }
+full @media block:
+@media screen and (max-width: 1024px) {
+  ._grid_184nf_1[data-type="3col"] { grid-template-columns: repeat(2, 1fr); }
+}
+
+stylesheet: https://www.ndc.co.jp/_astro/index.RBFjVP99.css
+media: screen and (max-width: 768px)
+selector: ._grid_184nf_1[data-type="3col"]
+rule: ._grid_184nf_1[data-type="3col"] { grid-template-columns: repeat(1, 1fr); row-gap: 1rlh; }
+full @media block:
+@media screen and (max-width: 768px) {
+  ._grid_184nf_1[data-type="3col"] { grid-template-columns: repeat(1, 1fr); row-gap: 1rlh; }
+}
+
+stylesheet: https://www.ndc.co.jp/_astro/index.RBFjVP99.css
+selector: ._grid_184nf_1[data-type="2col"]
+rule: ._grid_184nf_1[data-type="2col"] { grid-template-columns: repeat(2, 1fr); row-gap: 1rlh; }
+
+stylesheet: https://www.ndc.co.jp/_astro/index.RBFjVP99.css
+media: screen and (max-width: 1024px)
+selector: ._grid_184nf_1[data-type="2col"]
+rule: ._grid_184nf_1[data-type="2col"] { grid-template-columns: repeat(2, 1fr); }
+full @media block:
+@media screen and (max-width: 1024px) {
+  ._grid_184nf_1[data-type="2col"] { grid-template-columns: repeat(2, 1fr); }
+}
+
+stylesheet: https://www.ndc.co.jp/_astro/index.RBFjVP99.css
+media: screen and (max-width: 768px)
+selector: ._grid_184nf_1[data-type="2col"]
+rule: ._grid_184nf_1[data-type="2col"] { grid-template-columns: repeat(1, 1fr); row-gap: 1rlh; }
+full @media block:
+@media screen and (max-width: 768px) {
+  ._grid_184nf_1[data-type="2col"] { grid-template-columns: repeat(1, 1fr); row-gap: 1rlh; }
+}
+
+stylesheet: https://www.ndc.co.jp/_astro/index.RBFjVP99.css
+selector: ._grid_184nf_1[data-type="fit"]
+rule: ._grid_184nf_1[data-type="fit"] { grid-template-columns: repeat(auto-fit, minmax(12.5rem, 1fr)); }
+
+stylesheet: https://www.ndc.co.jp/_astro/index.RBFjVP99.css
+media: screen and (max-width: 768px)
+selector: ._grid_184nf_1[data-type="fit"]
+rule: ._grid_184nf_1[data-type="fit"] { row-gap: 1rlh; }
+full @media block:
+@media screen and (max-width: 768px) {
+  ._grid_184nf_1[data-type="fit"] { row-gap: 1rlh; }
+}
+
+stylesheet: https://www.ndc.co.jp/_astro/index.RBFjVP99.css
+selector: ._grid_184nf_1[data-type="free"] > *
+rule: ._grid_184nf_1[data-type="free"] > * { grid-column: var(--column-start)/calc(var(--grid-columns) + 2 - var(--column-end)); }
+
+stylesheet: https://www.ndc.co.jp/_astro/index.RBFjVP99.css
+media: screen and (max-width: 768px)
+selector: ._grid_184nf_1[data-type="free"] > *
+rule: ._grid_184nf_1[data-type="free"] > * { grid-column: 1/calc(var(--grid-columns) + 1); }
+full @media block:
+@media screen and (max-width: 768px) {
+  ._grid_184nf_1[data-type="free"] > * { grid-column: 1/calc(var(--grid-columns) + 1); }
+}
+
+stylesheet: https://www.ndc.co.jp/_astro/index.RBFjVP99.css
+selector: ._grid_184nf_1[data-type="article"] > h3, ._grid_184nf_1[data-type="article"] > div:has(iframe), ._grid_184nf_1[data-type="article"] > figure
+rule: ._grid_184nf_1[data-type="article"] > h3, ._grid_184nf_1[data-type="article"] > div:has(iframe), ._grid_184nf_1[data-type="article"] > figure { grid-column: 1/calc(var(--grid-columns) + 1); }
+
+stylesheet: https://www.ndc.co.jp/_astro/index.RBFjVP99.css
+selector: ._grid_184nf_1[data-type="article"] > p, ._grid_184nf_1[data-type="article"] > h4, ._grid_184nf_1[data-type="article"] > div
+rule: ._grid_184nf_1[data-type="article"] > p, ._grid_184nf_1[data-type="article"] > h4, ._grid_184nf_1[data-type="article"] > div { grid-column: 2 / 9; }
+
+stylesheet: https://www.ndc.co.jp/_astro/index.RBFjVP99.css
+media: screen and (max-width: 768px)
+selector: ._grid_184nf_1[data-type="article"] > p, ._grid_184nf_1[data-type="article"] > h4, ._grid_184nf_1[data-type="article"] > div
+rule: ._grid_184nf_1[data-type="article"] > p, ._grid_184nf_1[data-type="article"] > h4, ._grid_184nf_1[data-type="article"] > div { grid-column: 1/calc(var(--grid-columns) + 1); }
+full @media block:
+@media screen and (max-width: 768px) {
+  ._grid_184nf_1[data-type="article"] > p, ._grid_184nf_1[data-type="article"] > h4, ._grid_184nf_1[data-type="article"] > div { grid-column: 1/calc(var(--grid-columns) + 1); }
+}
+
+stylesheet: https://www.ndc.co.jp/_astro/index.RBFjVP99.css
+selector: ._grid_184nf_1[data-type="contents"] > h3, ._grid_184nf_1[data-type="contents"] > div:has(iframe), ._grid_184nf_1[data-type="contents"] > figure, ._grid_184nf_1[data-type="contents"] > div
+rule: ._grid_184nf_1[data-type="contents"] > h3, ._grid_184nf_1[data-type="contents"] > div:has(iframe), ._grid_184nf_1[data-type="contents"] > figure, ._grid_184nf_1[data-type="contents"] > div { grid-column: 1/calc(var(--grid-columns) + 1); }
+
+stylesheet: https://www.ndc.co.jp/_astro/index.RBFjVP99.css
+selector: ._grid_184nf_1[data-type="contents"] > p, ._grid_184nf_1[data-type="contents"] > h4
+rule: ._grid_184nf_1[data-type="contents"] > p, ._grid_184nf_1[data-type="contents"] > h4 { grid-column: 2 / 9; }
+
+stylesheet: https://www.ndc.co.jp/_astro/index.RBFjVP99.css
+media: screen and (max-width: 768px)
+selector: ._grid_184nf_1[data-type="contents"] > p, ._grid_184nf_1[data-type="contents"] > h4
+rule: ._grid_184nf_1[data-type="contents"] > p, ._grid_184nf_1[data-type="contents"] > h4 { grid-column: 1/calc(var(--grid-columns) + 1); }
+full @media block:
+@media screen and (max-width: 768px) {
+  ._grid_184nf_1[data-type="contents"] > p, ._grid_184nf_1[data-type="contents"] > h4 { grid-column: 1/calc(var(--grid-columns) + 1); }
+}
+
+Column breakpoints from CSS (grid-template-columns changes for [data-type=cards]):
+See matching @media rules above for ._grid_184nf_1[data-type=cards].
+
+Column breakpoints from viewport resize (320px to 1920px, step 10px):
+column count is the number of distinct card x positions.
+
+width 320px: 1 columns; distinct x: [21]; grid-template-columns: 278px
+CHANGE between 320px (1 columns) and 330px (1 columns)
+width 330px: 1 columns; distinct x: [21.1]; grid-template-columns: 287.781px
+CHANGE between 330px (1 columns) and 340px (1 columns)
+width 340px: 1 columns; distinct x: [21.8]; grid-template-columns: 296.5px
+CHANGE between 340px (1 columns) and 350px (1 columns)
+width 350px: 1 columns; distinct x: [22.4]; grid-template-columns: 305.219px
+CHANGE between 350px (1 columns) and 360px (1 columns)
+width 360px: 1 columns; distinct x: [23]; grid-template-columns: 313.938px
+CHANGE between 360px (1 columns) and 370px (1 columns)
+width 370px: 1 columns; distinct x: [23.7]; grid-template-columns: 322.656px
+CHANGE between 370px (1 columns) and 380px (1 columns)
+width 380px: 1 columns; distinct x: [24]; grid-template-columns: 332px
+CHANGE between 380px (1 columns) and 390px (1 columns)
+width 390px: 1 columns; distinct x: [24]; grid-template-columns: 342px
+CHANGE between 390px (1 columns) and 400px (1 columns)
+width 400px: 1 columns; distinct x: [24]; grid-template-columns: 352px
+CHANGE between 400px (1 columns) and 410px (1 columns)
+width 410px: 1 columns; distinct x: [24]; grid-template-columns: 362px
+CHANGE between 410px (1 columns) and 420px (1 columns)
+width 420px: 1 columns; distinct x: [24]; grid-template-columns: 372px
+CHANGE between 420px (1 columns) and 430px (1 columns)
+width 430px: 1 columns; distinct x: [24]; grid-template-columns: 382px
+CHANGE between 430px (1 columns) and 440px (1 columns)
+width 440px: 1 columns; distinct x: [24]; grid-template-columns: 392px
+CHANGE between 440px (1 columns) and 450px (1 columns)
+width 450px: 1 columns; distinct x: [24]; grid-template-columns: 402px
+CHANGE between 450px (1 columns) and 460px (1 columns)
+width 460px: 1 columns; distinct x: [24]; grid-template-columns: 412px
+CHANGE between 460px (1 columns) and 470px (1 columns)
+width 470px: 1 columns; distinct x: [24]; grid-template-columns: 422px
+CHANGE between 470px (1 columns) and 480px (1 columns)
+width 480px: 1 columns; distinct x: [24]; grid-template-columns: 432px
+CHANGE between 480px (1 columns) and 490px (1 columns)
+width 490px: 1 columns; distinct x: [24]; grid-template-columns: 442px
+CHANGE between 490px (1 columns) and 500px (1 columns)
+width 500px: 1 columns; distinct x: [24]; grid-template-columns: 452px
+CHANGE between 500px (1 columns) and 510px (1 columns)
+width 510px: 1 columns; distinct x: [24]; grid-template-columns: 462px
+CHANGE between 510px (1 columns) and 520px (1 columns)
+width 520px: 1 columns; distinct x: [24]; grid-template-columns: 472px
+CHANGE between 520px (1 columns) and 530px (1 columns)
+width 530px: 1 columns; distinct x: [24]; grid-template-columns: 482px
+CHANGE between 530px (1 columns) and 540px (1 columns)
+width 540px: 1 columns; distinct x: [24]; grid-template-columns: 492px
+CHANGE between 540px (1 columns) and 550px (1 columns)
+width 550px: 1 columns; distinct x: [24]; grid-template-columns: 502px
+CHANGE between 550px (1 columns) and 560px (1 columns)
+width 560px: 1 columns; distinct x: [24]; grid-template-columns: 512px
+CHANGE between 560px (1 columns) and 570px (1 columns)
+width 570px: 1 columns; distinct x: [24]; grid-template-columns: 522px
+CHANGE between 570px (1 columns) and 580px (1 columns)
+width 580px: 1 columns; distinct x: [24]; grid-template-columns: 532px
+CHANGE between 580px (1 columns) and 590px (1 columns)
+width 590px: 1 columns; distinct x: [24]; grid-template-columns: 542px
+CHANGE between 590px (1 columns) and 600px (1 columns)
+width 600px: 1 columns; distinct x: [24]; grid-template-columns: 552px
+CHANGE between 600px (1 columns) and 610px (1 columns)
+width 610px: 1 columns; distinct x: [24]; grid-template-columns: 562px
+CHANGE between 610px (1 columns) and 620px (1 columns)
+width 620px: 1 columns; distinct x: [24]; grid-template-columns: 572px
+CHANGE between 620px (1 columns) and 630px (1 columns)
+width 630px: 1 columns; distinct x: [24]; grid-template-columns: 582px
+CHANGE between 630px (1 columns) and 640px (1 columns)
+width 640px: 1 columns; distinct x: [24]; grid-template-columns: 592px
+CHANGE between 640px (1 columns) and 650px (1 columns)
+width 650px: 1 columns; distinct x: [24]; grid-template-columns: 602px
+CHANGE between 650px (1 columns) and 660px (1 columns)
+width 660px: 1 columns; distinct x: [24]; grid-template-columns: 612px
+CHANGE between 660px (1 columns) and 670px (1 columns)
+width 670px: 1 columns; distinct x: [24]; grid-template-columns: 622px
+CHANGE between 670px (1 columns) and 680px (1 columns)
+width 680px: 1 columns; distinct x: [24]; grid-template-columns: 632px
+CHANGE between 680px (1 columns) and 690px (1 columns)
+width 690px: 1 columns; distinct x: [24]; grid-template-columns: 642px
+CHANGE between 690px (1 columns) and 700px (1 columns)
+width 700px: 1 columns; distinct x: [24]; grid-template-columns: 652px
+CHANGE between 700px (1 columns) and 710px (1 columns)
+width 710px: 1 columns; distinct x: [24]; grid-template-columns: 662px
+CHANGE between 710px (1 columns) and 720px (1 columns)
+width 720px: 1 columns; distinct x: [24]; grid-template-columns: 672px
+CHANGE between 720px (1 columns) and 730px (1 columns)
+width 730px: 1 columns; distinct x: [24]; grid-template-columns: 682px
+CHANGE between 730px (1 columns) and 740px (1 columns)
+width 740px: 1 columns; distinct x: [24]; grid-template-columns: 692px
+CHANGE between 740px (1 columns) and 750px (1 columns)
+width 750px: 1 columns; distinct x: [24]; grid-template-columns: 702px
+CHANGE between 750px (1 columns) and 760px (1 columns)
+width 760px: 1 columns; distinct x: [24]; grid-template-columns: 712px
+CHANGE between 760px (1 columns) and 770px (2 columns)
+width 770px: 2 columns; distinct x: [84, 399]; grid-template-columns: 287px 287px
+CHANGE between 770px (2 columns) and 780px (2 columns)
+width 780px: 2 columns; distinct x: [84, 404]; grid-template-columns: 292px 292px
+CHANGE between 780px (2 columns) and 790px (2 columns)
+width 790px: 2 columns; distinct x: [84, 409]; grid-template-columns: 297px 297px
+CHANGE between 790px (2 columns) and 800px (2 columns)
+width 800px: 2 columns; distinct x: [84, 414]; grid-template-columns: 302px 302px
+CHANGE between 800px (2 columns) and 810px (2 columns)
+width 810px: 2 columns; distinct x: [84, 419]; grid-template-columns: 307px 307px
+CHANGE between 810px (2 columns) and 820px (2 columns)
+width 820px: 2 columns; distinct x: [84, 424]; grid-template-columns: 312px 312px
+CHANGE between 820px (2 columns) and 830px (2 columns)
+width 830px: 2 columns; distinct x: [84, 429]; grid-template-columns: 317px 317px
+CHANGE between 830px (2 columns) and 840px (2 columns)
+width 840px: 2 columns; distinct x: [84, 434]; grid-template-columns: 322px 322px
+CHANGE between 840px (2 columns) and 850px (2 columns)
+width 850px: 2 columns; distinct x: [84, 439]; grid-template-columns: 327px 327px
+CHANGE between 850px (2 columns) and 860px (2 columns)
+width 860px: 2 columns; distinct x: [84, 444]; grid-template-columns: 332px 332px
+CHANGE between 860px (2 columns) and 870px (2 columns)
+width 870px: 2 columns; distinct x: [84, 449]; grid-template-columns: 337px 337px
+CHANGE between 870px (2 columns) and 880px (2 columns)
+width 880px: 2 columns; distinct x: [84, 454]; grid-template-columns: 342px 342px
+CHANGE between 880px (2 columns) and 890px (2 columns)
+width 890px: 2 columns; distinct x: [84, 459]; grid-template-columns: 347px 347px
+CHANGE between 890px (2 columns) and 900px (2 columns)
+width 900px: 2 columns; distinct x: [84, 464]; grid-template-columns: 352px 352px
+CHANGE between 900px (2 columns) and 910px (2 columns)
+width 910px: 2 columns; distinct x: [84, 469]; grid-template-columns: 357px 357px
+CHANGE between 910px (2 columns) and 920px (2 columns)
+width 920px: 2 columns; distinct x: [84, 474]; grid-template-columns: 362px 362px
+CHANGE between 920px (2 columns) and 930px (2 columns)
+width 930px: 2 columns; distinct x: [84, 479]; grid-template-columns: 367px 367px
+CHANGE between 930px (2 columns) and 940px (2 columns)
+width 940px: 2 columns; distinct x: [84, 484]; grid-template-columns: 372px 372px
+CHANGE between 940px (2 columns) and 950px (2 columns)
+width 950px: 2 columns; distinct x: [84, 489]; grid-template-columns: 377px 377px
+CHANGE between 950px (2 columns) and 960px (2 columns)
+width 960px: 2 columns; distinct x: [84, 494]; grid-template-columns: 382px 382px
+CHANGE between 960px (2 columns) and 970px (2 columns)
+width 970px: 2 columns; distinct x: [84, 499]; grid-template-columns: 387px 387px
+CHANGE between 970px (2 columns) and 980px (2 columns)
+width 980px: 2 columns; distinct x: [84, 504]; grid-template-columns: 392px 392px
+CHANGE between 980px (2 columns) and 990px (2 columns)
+width 990px: 2 columns; distinct x: [84, 509]; grid-template-columns: 397px 397px
+CHANGE between 990px (2 columns) and 1000px (2 columns)
+width 1000px: 2 columns; distinct x: [84, 514]; grid-template-columns: 402px 402px
+CHANGE between 1000px (2 columns) and 1010px (2 columns)
+width 1010px: 2 columns; distinct x: [84, 519]; grid-template-columns: 407px 407px
+CHANGE between 1010px (2 columns) and 1020px (2 columns)
+width 1020px: 2 columns; distinct x: [84, 524]; grid-template-columns: 412px 412px
+CHANGE between 1020px (2 columns) and 1030px (3 columns)
+width 1030px: 3 columns; distinct x: [84, 380.7, 677.3]; grid-template-columns: 268.656px 268.656px 268.656px
+CHANGE between 1030px (3 columns) and 1040px (3 columns)
+width 1040px: 3 columns; distinct x: [84, 384, 684]; grid-template-columns: 272px 272px 272px
+CHANGE between 1040px (3 columns) and 1050px (3 columns)
+width 1050px: 3 columns; distinct x: [84, 387.3, 690.7]; grid-template-columns: 275.328px 275.328px 275.328px
+CHANGE between 1050px (3 columns) and 1060px (3 columns)
+width 1060px: 3 columns; distinct x: [84, 390.7, 697.3]; grid-template-columns: 278.656px 278.656px 278.656px
+CHANGE between 1060px (3 columns) and 1070px (3 columns)
+width 1070px: 3 columns; distinct x: [84, 394, 704]; grid-template-columns: 282px 282px 282px
+CHANGE between 1070px (3 columns) and 1080px (3 columns)
+width 1080px: 3 columns; distinct x: [84, 397.3, 710.7]; grid-template-columns: 285.328px 285.328px 285.328px
+CHANGE between 1080px (3 columns) and 1090px (3 columns)
+width 1090px: 3 columns; distinct x: [84, 400.7, 717.3]; grid-template-columns: 288.656px 288.656px 288.656px
+CHANGE between 1090px (3 columns) and 1100px (3 columns)
+width 1100px: 3 columns; distinct x: [84, 404, 724]; grid-template-columns: 292px 292px 292px
+CHANGE between 1100px (3 columns) and 1110px (3 columns)
+width 1110px: 3 columns; distinct x: [84, 407.3, 730.7]; grid-template-columns: 295.328px 295.328px 295.328px
+CHANGE between 1110px (3 columns) and 1120px (3 columns)
+width 1120px: 3 columns; distinct x: [84, 410.7, 737.3]; grid-template-columns: 298.656px 298.656px 298.656px
+CHANGE between 1120px (3 columns) and 1130px (3 columns)
+width 1130px: 3 columns; distinct x: [84, 414, 744]; grid-template-columns: 302px 302px 302px
+CHANGE between 1130px (3 columns) and 1140px (3 columns)
+width 1140px: 3 columns; distinct x: [84, 417.3, 750.7]; grid-template-columns: 305.328px 305.328px 305.328px
+CHANGE between 1140px (3 columns) and 1150px (3 columns)
+width 1150px: 3 columns; distinct x: [84, 420.7, 757.3]; grid-template-columns: 308.656px 308.656px 308.656px
+CHANGE between 1150px (3 columns) and 1160px (3 columns)
+width 1160px: 3 columns; distinct x: [84, 424, 764]; grid-template-columns: 312px 312px 312px
+CHANGE between 1160px (3 columns) and 1170px (3 columns)
+width 1170px: 3 columns; distinct x: [84, 427.3, 770.7]; grid-template-columns: 315.328px 315.328px 315.328px
+CHANGE between 1170px (3 columns) and 1180px (3 columns)
+width 1180px: 3 columns; distinct x: [84, 430.7, 777.3]; grid-template-columns: 318.656px 318.656px 318.656px
+CHANGE between 1180px (3 columns) and 1190px (3 columns)
+width 1190px: 3 columns; distinct x: [84, 434, 784]; grid-template-columns: 322px 322px 322px
+CHANGE between 1190px (3 columns) and 1200px (3 columns)
+width 1200px: 3 columns; distinct x: [84.3, 437.4, 790.4]; grid-template-columns: 325.031px 325.031px 325.031px
+CHANGE between 1200px (3 columns) and 1210px (3 columns)
+width 1210px: 3 columns; distinct x: [85, 441.1, 797.3]; grid-template-columns: 327.75px 327.75px 327.75px
+CHANGE between 1210px (3 columns) and 1220px (3 columns)
+width 1220px: 3 columns; distinct x: [85.7, 444.9, 804.1]; grid-template-columns: 330.453px 330.453px 330.453px
+CHANGE between 1220px (3 columns) and 1230px (3 columns)
+width 1230px: 3 columns; distinct x: [86.4, 448.4, 810.3]; grid-template-columns: 333.156px 333.156px 333.156px
+CHANGE between 1230px (3 columns) and 1240px (3 columns)
+width 1240px: 3 columns; distinct x: [87.1, 452.2, 817.2]; grid-template-columns: 335.875px 335.875px 335.875px
+CHANGE between 1240px (3 columns) and 1250px (3 columns)
+width 1250px: 3 columns; distinct x: [87.8, 455.6, 823.4]; grid-template-columns: 338.578px 338.578px 338.578px
+CHANGE between 1250px (3 columns) and 1260px (3 columns)
+width 1260px: 3 columns; distinct x: [88.5, 459.4, 830.2]; grid-template-columns: 341.281px 341.281px 341.281px
+CHANGE between 1260px (3 columns) and 1270px (3 columns)
+width 1270px: 3 columns; distinct x: [89.3, 463.2, 837.1]; grid-template-columns: 344px 344px 344px
+CHANGE between 1270px (3 columns) and 1280px (3 columns)
+width 1280px: 3 columns; distinct x: [90, 466.6, 843.3]; grid-template-columns: 346.703px 346.703px 346.703px
+CHANGE between 1280px (3 columns) and 1290px (3 columns)
+width 1290px: 3 columns; distinct x: [90.7, 470.4, 850.1]; grid-template-columns: 349.406px 349.406px 349.406px
+CHANGE between 1290px (3 columns) and 1300px (3 columns)
+width 1300px: 3 columns; distinct x: [91.4, 473.8, 856.3]; grid-template-columns: 352.125px 352.125px 352.125px
+CHANGE between 1300px (3 columns) and 1310px (3 columns)
+width 1310px: 3 columns; distinct x: [92.1, 477.6, 863.2]; grid-template-columns: 354.828px 354.828px 354.828px
+CHANGE between 1310px (3 columns) and 1320px (3 columns)
+width 1320px: 3 columns; distinct x: [92.8, 481.1, 869.4]; grid-template-columns: 357.531px 357.531px 357.531px
+CHANGE between 1320px (3 columns) and 1330px (3 columns)
+width 1330px: 3 columns; distinct x: [93.5, 484.8, 876.2]; grid-template-columns: 360.25px 360.25px 360.25px
+CHANGE between 1330px (3 columns) and 1340px (3 columns)
+width 1340px: 3 columns; distinct x: [94.2, 488.6, 883.1]; grid-template-columns: 362.953px 362.953px 362.953px
+CHANGE between 1340px (3 columns) and 1350px (3 columns)
+width 1350px: 3 columns; distinct x: [94.9, 492.1, 889.3]; grid-template-columns: 365.656px 365.656px 365.656px
+CHANGE between 1350px (3 columns) and 1360px (3 columns)
+width 1360px: 3 columns; distinct x: [95.6, 495.9, 896.1]; grid-template-columns: 368.375px 368.375px 368.375px
+CHANGE between 1360px (3 columns) and 1370px (3 columns)
+width 1370px: 3 columns; distinct x: [96.3, 499.3, 902.3]; grid-template-columns: 371.094px 371.094px 371.094px
+CHANGE between 1370px (3 columns) and 1380px (3 columns)
+width 1380px: 3 columns; distinct x: [97, 503.1, 909.2]; grid-template-columns: 373.812px 373.812px 373.812px
+CHANGE between 1380px (3 columns) and 1390px (3 columns)
+width 1390px: 3 columns; distinct x: [97.7, 506.8, 916]; grid-template-columns: 376.516px 376.516px 376.516px
+CHANGE between 1390px (3 columns) and 1400px (3 columns)
+width 1400px: 3 columns; distinct x: [98.4, 510.3, 922.2]; grid-template-columns: 379.219px 379.219px 379.219px
+CHANGE between 1400px (3 columns) and 1410px (3 columns)
+width 1410px: 3 columns; distinct x: [99.1, 514.1, 929.1]; grid-template-columns: 381.938px 381.938px 381.938px
+CHANGE between 1410px (3 columns) and 1420px (3 columns)
+width 1420px: 3 columns; distinct x: [99.8, 517.5, 935.3]; grid-template-columns: 384.641px 384.641px 384.641px
+CHANGE between 1420px (3 columns) and 1430px (3 columns)
+width 1430px: 3 columns; distinct x: [100.5, 521.3, 942.1]; grid-template-columns: 387.344px 387.344px 387.344px
+CHANGE between 1430px (3 columns) and 1440px (3 columns)
+width 1440px: 3 columns; distinct x: [101.2, 525.1, 949]; grid-template-columns: 390.062px 390.062px 390.062px
+CHANGE between 1440px (3 columns) and 1450px (3 columns)
+width 1450px: 3 columns; distinct x: [101.9, 528.5, 955.2]; grid-template-columns: 392.766px 392.766px 392.766px
+CHANGE between 1450px (3 columns) and 1460px (3 columns)
+width 1460px: 3 columns; distinct x: [102.6, 532.3, 962]; grid-template-columns: 395.469px 395.469px 395.469px
+CHANGE between 1460px (3 columns) and 1470px (3 columns)
+width 1470px: 3 columns; distinct x: [103.3, 535.8, 968.3]; grid-template-columns: 398.188px 398.188px 398.188px
+CHANGE between 1470px (3 columns) and 1480px (3 columns)
+width 1480px: 3 columns; distinct x: [104, 539.5, 975.1]; grid-template-columns: 400.891px 400.891px 400.891px
+CHANGE between 1480px (3 columns) and 1490px (3 columns)
+width 1490px: 3 columns; distinct x: [104.7, 543.3, 982]; grid-template-columns: 403.594px 403.594px 403.594px
+CHANGE between 1490px (3 columns) and 1500px (3 columns)
+width 1500px: 3 columns; distinct x: [105.4, 546.8, 988.2]; grid-template-columns: 406.312px 406.312px 406.312px
+CHANGE between 1500px (3 columns) and 1510px (3 columns)
+width 1510px: 3 columns; distinct x: [106.1, 550.6, 995]; grid-template-columns: 409.016px 409.016px 409.016px
+CHANGE between 1510px (3 columns) and 1520px (3 columns)
+width 1520px: 3 columns; distinct x: [106.8, 554, 1001.2]; grid-template-columns: 411.719px 411.719px 411.719px
+CHANGE between 1520px (3 columns) and 1530px (3 columns)
+width 1530px: 3 columns; distinct x: [107.5, 557.8, 1008.1]; grid-template-columns: 414.438px 414.438px 414.438px
+CHANGE between 1530px (3 columns) and 1540px (3 columns)
+width 1540px: 3 columns; distinct x: [108, 561.3, 1014.7]; grid-template-columns: 417.328px 417.328px 417.328px
+CHANGE between 1540px (3 columns) and 1550px (3 columns)
+width 1550px: 3 columns; distinct x: [108, 564.7, 1021.3]; grid-template-columns: 420.656px 420.656px 420.656px
+CHANGE between 1550px (3 columns) and 1560px (3 columns)
+width 1560px: 3 columns; distinct x: [108, 568, 1028]; grid-template-columns: 424px 424px 424px
+CHANGE between 1560px (3 columns) and 1570px (3 columns)
+width 1570px: 3 columns; distinct x: [108, 571.3, 1034.7]; grid-template-columns: 427.328px 427.328px 427.328px
+CHANGE between 1570px (3 columns) and 1580px (3 columns)
+width 1580px: 3 columns; distinct x: [108, 574.7, 1041.3]; grid-template-columns: 430.656px 430.656px 430.656px
+CHANGE between 1580px (3 columns) and 1590px (3 columns)
+width 1590px: 3 columns; distinct x: [108, 578, 1048]; grid-template-columns: 434px 434px 434px
+CHANGE between 1590px (3 columns) and 1600px (3 columns)
+width 1600px: 3 columns; distinct x: [108, 581.3, 1054.7]; grid-template-columns: 437.328px 437.328px 437.328px
+CHANGE between 1600px (3 columns) and 1610px (3 columns)
+width 1610px: 3 columns; distinct x: [108, 584.7, 1061.3]; grid-template-columns: 440.656px 440.656px 440.656px
+CHANGE between 1610px (3 columns) and 1620px (3 columns)
+width 1620px: 3 columns; distinct x: [108, 588, 1068]; grid-template-columns: 444px 444px 444px
+CHANGE between 1620px (3 columns) and 1630px (3 columns)
+width 1630px: 3 columns; distinct x: [108, 591.3, 1074.7]; grid-template-columns: 447.328px 447.328px 447.328px
+CHANGE between 1630px (3 columns) and 1640px (3 columns)
+width 1640px: 3 columns; distinct x: [108, 594.7, 1081.3]; grid-template-columns: 450.656px 450.656px 450.656px
+CHANGE between 1640px (3 columns) and 1650px (3 columns)
+width 1650px: 3 columns; distinct x: [108, 598, 1088]; grid-template-columns: 454px 454px 454px
+CHANGE between 1650px (3 columns) and 1660px (3 columns)
+width 1660px: 3 columns; distinct x: [108, 601.3, 1094.7]; grid-template-columns: 457.328px 457.328px 457.328px
+CHANGE between 1660px (3 columns) and 1670px (3 columns)
+width 1670px: 3 columns; distinct x: [108, 604.7, 1101.3]; grid-template-columns: 460.656px 460.656px 460.656px
+CHANGE between 1670px (3 columns) and 1680px (3 columns)
+width 1680px: 3 columns; distinct x: [108, 608, 1108]; grid-template-columns: 464px 464px 464px
+CHANGE between 1680px (3 columns) and 1690px (3 columns)
+width 1690px: 3 columns; distinct x: [108, 611.3, 1114.7]; grid-template-columns: 467.328px 467.328px 467.328px
+CHANGE between 1690px (3 columns) and 1700px (3 columns)
+width 1700px: 3 columns; distinct x: [108, 614.7, 1121.3]; grid-template-columns: 470.656px 470.656px 470.656px
+CHANGE between 1700px (3 columns) and 1710px (3 columns)
+width 1710px: 3 columns; distinct x: [108, 618, 1128]; grid-template-columns: 474px 474px 474px
+CHANGE between 1710px (3 columns) and 1720px (3 columns)
+width 1720px: 3 columns; distinct x: [108, 621.3, 1134.7]; grid-template-columns: 477.328px 477.328px 477.328px
+CHANGE between 1720px (3 columns) and 1730px (3 columns)
+width 1730px: 3 columns; distinct x: [108, 624.7, 1141.3]; grid-template-columns: 480.656px 480.656px 480.656px
+CHANGE between 1730px (3 columns) and 1740px (3 columns)
+width 1740px: 3 columns; distinct x: [108, 628, 1148]; grid-template-columns: 484px 484px 484px
+CHANGE between 1740px (3 columns) and 1750px (3 columns)
+width 1750px: 3 columns; distinct x: [108, 631.3, 1154.7]; grid-template-columns: 487.328px 487.328px 487.328px
+CHANGE between 1750px (3 columns) and 1760px (3 columns)
+width 1760px: 3 columns; distinct x: [108, 634.7, 1161.3]; grid-template-columns: 490.656px 490.656px 490.656px
+CHANGE between 1760px (3 columns) and 1770px (3 columns)
+width 1770px: 3 columns; distinct x: [108, 638, 1168]; grid-template-columns: 494px 494px 494px
+CHANGE between 1770px (3 columns) and 1780px (3 columns)
+width 1780px: 3 columns; distinct x: [108, 641.3, 1174.7]; grid-template-columns: 497.328px 497.328px 497.328px
+CHANGE between 1780px (3 columns) and 1790px (3 columns)
+width 1790px: 3 columns; distinct x: [108, 644.7, 1181.3]; grid-template-columns: 500.656px 500.656px 500.656px
+CHANGE between 1790px (3 columns) and 1800px (3 columns)
+width 1800px: 3 columns; distinct x: [108, 648, 1188]; grid-template-columns: 504px 504px 504px
+CHANGE between 1800px (3 columns) and 1810px (3 columns)
+width 1810px: 3 columns; distinct x: [108, 651.3, 1194.7]; grid-template-columns: 507.328px 507.328px 507.328px
+CHANGE between 1810px (3 columns) and 1820px (3 columns)
+width 1820px: 3 columns; distinct x: [108, 654.7, 1201.3]; grid-template-columns: 510.656px 510.656px 510.656px
+CHANGE between 1820px (3 columns) and 1830px (3 columns)
+width 1830px: 3 columns; distinct x: [108, 658, 1208]; grid-template-columns: 514px 514px 514px
+CHANGE between 1830px (3 columns) and 1840px (3 columns)
+width 1840px: 3 columns; distinct x: [108, 661.3, 1214.7]; grid-template-columns: 517.328px 517.328px 517.328px
+CHANGE between 1840px (3 columns) and 1850px (3 columns)
+width 1850px: 3 columns; distinct x: [108, 664.7, 1221.3]; grid-template-columns: 520.656px 520.656px 520.656px
+CHANGE between 1850px (3 columns) and 1860px (3 columns)
+width 1860px: 3 columns; distinct x: [108, 668, 1228]; grid-template-columns: 524px 524px 524px
+CHANGE between 1860px (3 columns) and 1870px (3 columns)
+width 1870px: 3 columns; distinct x: [108, 671.3, 1234.7]; grid-template-columns: 527.328px 527.328px 527.328px
+CHANGE between 1870px (3 columns) and 1880px (3 columns)
+width 1880px: 3 columns; distinct x: [108, 674.7, 1241.3]; grid-template-columns: 530.656px 530.656px 530.656px
+CHANGE between 1880px (3 columns) and 1890px (3 columns)
+width 1890px: 3 columns; distinct x: [108, 678, 1248]; grid-template-columns: 534px 534px 534px
+CHANGE between 1890px (3 columns) and 1900px (3 columns)
+width 1900px: 3 columns; distinct x: [108, 681.3, 1254.7]; grid-template-columns: 537.328px 537.328px 537.328px
+CHANGE between 1900px (3 columns) and 1910px (3 columns)
+width 1910px: 3 columns; distinct x: [108, 684.7, 1261.3]; grid-template-columns: 540.656px 540.656px 540.656px
+CHANGE between 1910px (3 columns) and 1920px (4 columns)
+width 1920px: 4 columns; distinct x: [108, 543, 978, 1413]; grid-template-columns: 399px 399px 399px 399px
+
+All sampled widths where column count changes (plus endpoints):
+320px -> 1 columns
+770px -> 2 columns
+1030px -> 3 columns
+1920px -> 4 columns
+
+6. JavaScript that sets card positions
+
+Script srcs:
+- https://scripts.clarity.ms/0.8.80-beta/clarity.js (type=(empty))
+- https://www.googletagmanager.com/gtag/js?id=G-CHLT4N71V1&cx=c&_slc=1 (type=text/javascript)
+- https://www.clarity.ms/tag/m5n4s6b4b7?ref=gtm2 (type=(empty))
+- https://www.google-analytics.com/analytics.js (type=text/javascript)
+- https://www.googletagmanager.com/gtag/js?id=G-70HJ0FCJNV&cx=c&gtm=4e6bh1 (type=text/javascript)
+- https://www.googletagmanager.com/gtm.js?id=GTM-KJPFSG9 (type=(empty))
+- (inline, type=module, length=331)
+  preview: 'setTimeout(()=>{(function(e,n,m,t,g){e[t]=e[t]||[],e[t].push({"gtm.start":new Date().getTime(),event:"gtm.js"});var r=n.getElementsByTagName(m)[0],a=n.createElement(m),s="";a.async=!0,a.src="https://w'
+- (inline, type=module, length=753)
+  preview: 'window.dataLayer=window.dataLayer||[];function t(){dataLayer.push(arguments)}const n=localStorage.getItem("cookieSetting");if(n){let a=JSON.parse(n).analytics?"granted":"denied";t("consent","default",'
+- https://webfont.fontplus.jp/accessor/script/fontplus.js?c2AO4PkCgW4%3D&box=Nf0UPKeRUic%3D&chws=1&aa=1&ab=1 (type=(empty))
+- https://www.ndc.co.jp/_astro/Wrapper.astro_astro_type_script_index_0_lang.ChRMvoj-.js (type=module)
+- (inline, type=text/javascript, length=281)
+  preview: '(function(a,e,b,f,g,c,d){a[b]=a[b]||function(){(a[b].q=a[b].q||[]).push(arguments)};c=e.createElement(f);c.async=1;c.src="https://www.clarity.ms/tag/"+g+"?ref\\x3dgtm2";d=e.getElementsByTagName(f)[0];d'
+
+Keyword search (masonry / isotope / packery / muuri / macy / colcade / imagesLoaded) in scripts:
+No matches for masonry, isotope, packery, muuri, macy, colcade, or imagesLoaded in first-party script source, and none of those names appear in third-party script URLs.
+https://www.ndc.co.jp/_astro/Wrapper.astro_astro_type_script_index_0_lang.ChRMvoj-.js: no matches
+Third-party / other script URLs (name check only):
+https://scripts.clarity.ms/0.8.80-beta/clarity.js: no keyword in URL
+https://www.googletagmanager.com/gtag/js?id=G-CHLT4N71V1&cx=c&_slc=1: no keyword in URL
+https://www.clarity.ms/tag/m5n4s6b4b7?ref=gtm2: no keyword in URL
+https://www.google-analytics.com/analytics.js: no keyword in URL
+https://www.googletagmanager.com/gtag/js?id=G-70HJ0FCJNV&cx=c&gtm=4e6bh1: no keyword in URL
+https://www.googletagmanager.com/gtm.js?id=GTM-KJPFSG9: no keyword in URL
+https://webfont.fontplus.jp/accessor/script/fontplus.js?c2AO4PkCgW4%3D&box=Nf0UPKeRUic%3D&chws=1&aa=1&ab=1: no keyword in URL
+
+Inline styles before JavaScript runs (java_script_enabled=false):
+container style: position:relative;row-gap:1rlh
+card 1 style: ''
+card 2 style: ''
+card 3 style: ''
+card 4 style: ''
+card 5 style: ''
+card 6 style: ''
+card 7 style: ''
+
+Inline styles after JavaScript runs:
+container style: position: relative; row-gap: 1rlh; height: 1038.56px;
+card 1 style: 'width: 390.178px; top: 0px; left: 0px;'
+card 2 style: 'width: 390.178px; top: 0px; left: 423.911px;'
+card 3 style: 'width: 390.178px; top: 0px; left: 847.822px;'
+card 4 style: 'width: 390.178px; top: 273.281px; left: 423.911px;'
+card 5 style: 'width: 390.178px; top: 444.281px; left: 0px;'
+card 6 style: 'width: 390.178px; top: 444.281px; left: 847.822px;'
+card 7 style: 'width: 390.178px; top: 619.562px; left: 423.911px;'
+
+Yes. A script sets card positions by writing inline style width, top and left on each [data-js="whiteboard-item"], and height on [data-js="whiteboard-list"].
+It is not a third-party masonry/isotope/packery/muuri/macy/colcade/imagesLoaded library (no matches for those names in first-party scripts).
+The script is https://www.ndc.co.jp/_astro/Wrapper.astro_astro_type_script_index_0_lang.ChRMvoj-.js
+On this page it runs the function minified as hx, registered via xR when the path is the whiteboard index (called from yR on load, and again on swup:page:view). The function reads getComputedStyle(container).gridTemplateColumns to get the column count, then absolutely positions each card in the shortest column and sets the container height. It also listens for window resize.
+Relevant minified source:
+hx=()=>{const n=document.querySelector('[data-js="whiteboard-list"]'),e=[...document.querySelectorAll('[data-js="whiteboard-item"]')],t=()=>{const i=window.getComputedStyle(n),r=i.gridTemplateColumns.split(" ").length,s=[...Array(r)].fill(0),o=parseFloat(i.columnGap),a=(n.offsetWidth-o*(r-1))/r,l=parseFloat(i.rowGap);e.forEach(c=>{const u=Math.min(...s),h=s.indexOf(u),f=u>0?l:0;c.style.width=`${a}px`,c.style.top=`${u+f}px`,c.style.left=`${(a+o)*h}px`,s[h]+=c.offsetHeight+f}),n.style.height=`${Math.max(...s)}px`};window.addEventListener("resize",t),t(),Yf.push(()=>{window.removeEventListener("resize",t)})},vR=()=>{Yf.forEach(n=>{n()}),Yf.length=0};document.addEventListener("swup:page:view",n=>{const e=n.detail.visit.to.pageNames;e[0]==="whiteboard"&&e.length===1&&hx()});document.addEventListener("swup:animation:out:end",n=>{const e=n.detail.visit.from.pageNames;e[0]==="whiteboard"&&e.length===1&&vR()});const xR=n=>{n[0]==="whiteboard"&&n.length===1&&hx()}

@@ -1,0 +1,176 @@
+:root {
+  --bg: #f9f9f9;
+  --ink: #1a1a1a;
+  --surface: #ffffff;
+  --accent: #00c3ff;
+  --link: #0090cc;
+  --line: rgba(26,26,26,0.10);
+  --hair: rgba(26,26,26,0.14);
+  --mute: rgba(26,26,26,0.70);
+  --faded: rgba(26,26,26,0.46);
+  --wash: rgba(0,195,255,0.10);
+  --mark: #e3f7fe;
+  --font: "IBM Plex Sans", system-ui, sans-serif;
+  --neon: "Monaspace Neon", ui-monospace, monospace;
+  --bar-h: 49px;
+  --pad-x: 32px;
+  --page-width: 992px;
+  --inner-width: 928px;
+  --rail-width: 196px;
+  --rail-gap: 144px;
+  --col-gap: 64px;
+  --section-gap: 44px;
+  --measure: 588px;
+}
+html[data-page="article"] {
+  --rail-width: 260px;
+  --rail-gap: 44px;
+  --measure: 624px;
+}
+*, *::before, *::after { box-sizing: border-box; }
+* { margin: 0; padding: 0; }
+html {
+  background: var(--bg);
+  color: var(--ink);
+  overflow-wrap: break-word;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+  scroll-padding-top: 68px;
+}
+body {
+  font: 400 14px/20.5px var(--font);
+  color: var(--ink);
+  background: var(--bg);
+  -webkit-font-smoothing: antialiased;
+  min-height: 100vh;
+}
+img, svg { max-width: 100%; height: auto; vertical-align: middle; }
+a { color: inherit; text-decoration: none; }
+a:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
+
+#work, #journal, #explainers, #mind, #intro, #note-1, #note-2, #note-3, #ref-1, #ref-2, #ref-3 {
+  scroll-margin-top: 68px;
+}
+
+.ia-bar {
+  position: sticky;
+  top: 0;
+  z-index: 80;
+  height: var(--bar-h);
+  background: rgba(249,249,249,0.88);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--line);
+}
+.ia-bar-inner {
+  max-width: var(--page-width);
+  width: 100%;
+  height: var(--bar-h);
+  margin: 0 auto;
+  padding: 0 var(--pad-x);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.crumb {
+  display: flex;
+  align-items: baseline;
+  min-width: 0;
+  font: 400 14.5px/20px var(--font);
+  color: var(--ink);
+  white-space: nowrap;
+}
+.crumb .brand { font-weight: 700; letter-spacing: -0.02em; color: inherit; }
+.crumb .slash { opacity: 0.35; margin: 0 0.35em; font-weight: 400; }
+.crumb .here { font-weight: 400; color: var(--ink); }
+.crumb a:hover { color: var(--link); }
+
+.bar-right {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  flex: none;
+}
+.meta-links {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  font: 400 14.5px/20px var(--font);
+}
+.meta-links a { color: var(--ink); }
+.meta-links a:hover { color: var(--link); }
+
+.menu { position: relative; flex: none; }
+.menu summary {
+  list-style: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  margin: 0 -4px 0 0;
+  padding: 0;
+  background: none;
+  border: 0;
+  color: var(--ink);
+}
+.menu summary::-webkit-details-marker,
+.menu summary::marker { display: none; content: none; }
+.menu summary svg {
+  width: 22px; height: 22px;
+  fill: none; stroke: currentColor;
+  stroke-width: 2; stroke-linecap: round;
+}
+.menu[open] summary { color: var(--accent); }
+.menu nav {
+  position: absolute;
+  right: -4px;
+  top: calc(100% + 8px);
+  z-index: 90;
+  width: 291px;
+  padding: 10px 0;
+  background: var(--surface);
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+}
+.menu nav a {
+  display: block;
+  position: relative;
+  padding: 7px 18px 7px 20px;
+  font: 700 16px/22px var(--font);
+  color: var(--ink);
+  background: transparent;
+}
+.menu nav a:hover { background: #f2f2f2; }
+.menu nav a.current {
+  background: var(--wash);
+  box-shadow: inset 3px 0 0 var(--accent);
+  color: #0090cc;
+}
+
+.page {
+  max-width: var(--page-width);
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px var(--pad-x) 64px;
+}
+.top-block, .columns, .omit {
+  width: 100%;
+  max-width: var(--inner-width);
+}
+
+.top-block { position: relative; display: flex; flex-direction: column; }
+@media (min-width: 46rem) {
+  .top-block {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) var(--rail-width);
+    column-gap: var(--rail-gap);
+    align-items: start;
+    width: 100%;
+    max-width: var(--inner-width);
+  }
+  .top-block > .intro-col { grid-column: 1; min-width: 0; max-width: none; }
+  .top-block > aside.org { grid-column: 2; width: var(--rail-width); max-width: var(--rail-width); }
+}

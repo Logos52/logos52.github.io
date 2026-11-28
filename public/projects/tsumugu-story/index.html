@@ -1,0 +1,930 @@
+<!doctype html>
+<html lang="en" data-page="home">
+<head>
+<link rel="stylesheet" href="/fonts/fonts.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tsumugu Story — Logos52</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%224%206%2040%2040%22%3E%3Cpath%20d%3D%22M24%2025%20L11%2025%20M24%2025%20L31%2038%22%20stroke%3D%22%231a1a1a%22%20stroke-width%3D%222.5%22%20fill%3D%22none%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22/%3E%3Ccircle%20cx%3D%2224%22%20cy%3D%2225%22%20r%3D%226.5%22%20fill%3D%22%231a1a1a%22/%3E%3Ccircle%20cx%3D%2211%22%20cy%3D%2225%22%20r%3D%224%22%20fill%3D%22%231a1a1a%22/%3E%3Ccircle%20cx%3D%2231%22%20cy%3D%2238%22%20r%3D%224%22%20fill%3D%22%231a1a1a%22/%3E%3Ccircle%20cx%3D%2238%22%20cy%3D%2213%22%20r%3D%223.5%22%20fill%3D%22%231a1a1a%22/%3E%3C/svg%3E">
+<script>
+(function(){var p='auto';try{p=localStorage.getItem('logos52-theme')||'auto';}catch(e){}
+var mq=window.matchMedia('(prefers-color-scheme: dark)');
+function apply(){var r=p==='auto'?(mq.matches?'dark':'light'):p;document.documentElement.setAttribute('data-theme',r);
+document.querySelectorAll('[data-theme-set]').forEach(function(b){b.setAttribute('aria-pressed',String(b.getAttribute('data-theme-set')===r));});}
+apply();mq.addEventListener&&mq.addEventListener('change',apply);
+document.addEventListener('DOMContentLoaded',function(){apply();document.querySelectorAll('[data-theme-set]').forEach(function(b){b.addEventListener('click',function(){p=b.getAttribute('data-theme-set');try{localStorage.setItem('logos52-theme',p);}catch(e){}apply();});});});})();
+</script>
+<style>
+
+
+
+
+
+
+
+:root {
+  --bg: #f9f9f9;
+  --ink: #1a1a1a;
+  --surface: #ffffff;
+  --accent: #00c3ff;
+  --link: #0090cc;
+  --line: rgba(26,26,26,0.10);
+  --hair: rgba(26,26,26,0.14);
+  --mute: rgba(26,26,26,0.70);
+  --faded: rgba(26,26,26,0.46);
+  --wash: rgba(0,195,255,0.10);
+  --mark: #e3f7fe;
+  --font: "IBM Plex Sans", system-ui, sans-serif;
+  --neon: "Monaspace Neon", ui-monospace, monospace;
+  --bar-h: 49px;
+  --pad-x: 32px;
+  --page-width: 992px;
+  --inner-width: 928px;
+  --rail-width: 196px;
+  --rail-gap: 144px;
+  --col-gap: 64px;
+  --section-gap: 44px;
+  --measure: 588px;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+* { margin: 0; padding: 0; }
+html {
+  background: var(--bg);
+  color: var(--ink);
+  overflow-wrap: break-word;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+  scroll-padding-top: 68px;
+}
+body {
+  font: 400 14px/20.5px var(--font);
+  color: var(--ink);
+  background: var(--bg);
+  -webkit-font-smoothing: antialiased;
+  min-height: 100vh;
+}
+img, svg { max-width: 100%; height: auto; vertical-align: middle; }
+a { color: inherit; text-decoration: none; }
+a:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
+
+#work, #journal, #explainers, #mind, #intro, #note-1, #note-2, #note-3, #ref-1, #ref-2, #ref-3 {
+  scroll-margin-top: 68px;
+}
+
+/* Sticky frosted iA bar, 49px, content edges aligned to the 928px inner page */
+.ia-bar {
+  position: sticky;
+  top: 0;
+  z-index: 80;
+  height: var(--bar-h);
+  background: rgba(249,249,249,0.88);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--line);
+}
+.ia-bar-inner {
+  max-width: var(--page-width);
+  width: 100%;
+  height: var(--bar-h);
+  margin: 0 auto;
+  padding: 0 var(--pad-x);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.crumb {
+  display: flex;
+  align-items: baseline;
+  min-width: 0;
+  font: 400 14.5px/20px var(--font);
+  color: var(--ink);
+  white-space: nowrap;
+}
+.crumb .brand { font-weight: 700; letter-spacing: -0.02em; color: inherit; }
+.crumb .slash { opacity: 0.35; margin: 0 0.35em; font-weight: 400; }
+.crumb .here { font-weight: 400; color: var(--ink); }
+.crumb a:hover { color: var(--link); }
+
+.bar-right {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  flex: none;
+}
+.meta-links {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  font: 400 14.5px/20px var(--font);
+}
+.meta-links a { color: var(--ink); }
+.meta-links a:hover { color: var(--link); }
+
+.menu { position: relative; flex: none; }
+.menu summary {
+  list-style: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  margin: 0 -4px 0 0;
+  padding: 0;
+  background: none;
+  border: 0;
+  color: var(--ink);
+}
+.menu summary::-webkit-details-marker,
+.menu summary::marker { display: none; content: none; }
+.menu summary svg {
+  width: 22px; height: 22px;
+  fill: none; stroke: currentColor;
+  stroke-width: 2; stroke-linecap: round;
+}
+.menu[open] summary { color: var(--accent); }
+.menu nav {
+  position: absolute;
+  right: -4px;
+  top: calc(100% + 8px);
+  z-index: 90;
+  width: 291px;
+  padding: 10px 0;
+  background: var(--surface);
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+}
+.menu nav a {
+  display: block;
+  position: relative;
+  padding: 7px 18px 7px 20px;
+  font: 700 16px/22px var(--font);
+  color: var(--ink);
+  background: transparent;
+}
+.menu nav a:hover { background: #f2f2f2; }
+.menu nav a.current {
+  background: var(--wash);
+  box-shadow: inset 3px 0 0 var(--accent);
+  color: #0090cc;
+}
+
+.page {
+  max-width: var(--page-width);
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px var(--pad-x) 64px;
+}
+.top-block, .columns, .omit {
+  width: 100%;
+  max-width: var(--inner-width);
+}
+
+.top-block { position: relative; display: flex; flex-direction: column; }
+@media (min-width: 46rem) {
+  .top-block {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) var(--rail-width);
+    column-gap: var(--rail-gap);
+    align-items: start;
+    width: 100%;
+    max-width: var(--inner-width);
+  }
+  .top-block > .intro-col { grid-column: 1; min-width: 0; max-width: none; }
+  .top-block > aside.org { grid-column: 2; width: var(--rail-width); max-width: var(--rail-width); }
+}
+
+.mast {
+  display: flex;
+  flex-flow: wrap;
+  align-items: baseline;
+  margin: 0 0 10px;
+  line-height: 1.05;
+}
+.mast .wordmark,
+.mast .title {
+  font: 700 31px/1.05 var(--font);
+  letter-spacing: -0.025em;
+  color: var(--ink);
+}
+.mast a { color: inherit; }
+.mast a:hover { color: var(--link); }
+
+/* Home intro: 14.5px / 1.56 across the 588px lead */
+#intro {
+  max-width: var(--measure);
+  font: 400 14.5px/1.56 var(--font);
+  color: var(--ink);
+}
+#intro p { margin: 0 0 0.8em; }
+#intro p:last-child { margin-bottom: 0; }
+
+/* Home jump menu: quiet left rule, muted labels, no cyan dots */
+#page-home aside.org {
+  border-left: 1px solid rgba(26,26,26,0.10);
+  padding-left: 16px;
+  font: 400 13px/18px var(--font);
+  color: var(--ink);
+}
+aside.org h6 {
+  margin: 12px 0 3px;
+  font: 700 10.5px/14px var(--font);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: rgba(26,26,26,0.46);
+}
+aside.org h6:first-of-type { margin-top: 0; }
+aside.org ul { list-style: none; margin: 0; }
+aside.org li { margin: 0; }
+aside.org a {
+  font: 400 13px/18px var(--font);
+  color: var(--ink);
+}
+aside.org a:hover { color: var(--link); }
+aside.org p { margin: 0 0 2px; }
+
+
+
+
+
+.columns {
+  display: flex;
+  flex-flow: row wrap;
+  margin-top: 56px;
+  width: 100%;
+  max-width: var(--inner-width);
+}
+@media (min-width: 46rem) {
+  .columns {
+    display: grid;
+    grid-template-columns: 13fr 13fr 28fr;
+    column-gap: var(--col-gap);
+    row-gap: 0;
+    flex-flow: unset;
+    gap: unset;
+    column-gap: var(--col-gap);
+  }
+  .columns > .col-narrow,
+  .columns > .col-wide {
+    flex: none;
+    width: auto;
+    max-width: none;
+    min-width: 0;
+  }
+}
+
+/* Shared header bar so first rows share a baseline */
+.col-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 10px;
+  height: 30px;
+  margin: 0;
+  padding: 0 0 8px;
+  box-sizing: border-box;
+  border-bottom: 1px solid rgba(26,26,26,0.14);
+}
+.columns h1,
+.col-head h1 {
+  margin: 0;
+  font: 700 18px/22px var(--font);
+  letter-spacing: -0.02em;
+  color: var(--ink);
+}
+.col-head .kicker {
+  margin: 0;
+  font: 400 12px/22px var(--font);
+  color: var(--faded);
+  white-space: nowrap;
+  flex: none;
+}
+.col-head .kicker a { color: var(--link); }
+.col-head .kicker a:hover { text-decoration: underline; text-underline-offset: 2px; }
+#mind.col-head, .col-head#mind { margin-top: var(--section-gap); }
+
+.works > a, .pages > a, .journal > a {
+  display: block;
+  margin: 0;
+  padding: 9px 0;
+  color: inherit;
+}
+.works > a + a, .pages > a + a, .journal > a + a {
+  border-top: 1px solid rgba(26,26,26,0.08);
+}
+.works h3, .pages h3, .journal h3 {
+  margin: 0 0 2px;
+  font: 700 14.5px/20px var(--font);
+  letter-spacing: -0.01em;
+  color: var(--ink);
+}
+.works h3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+}
+.works h3 .title-text { min-width: 0; }
+.works a:hover h3, .pages a:hover h3, .journal a:hover h3 { color: var(--link); }
+.works p, .pages p, .journal p {
+  margin: 0;
+  font: 400 13px/18px var(--font);
+  color: var(--mute);
+}
+
+.journal time {
+  display: block;
+  font: 400 11px/14px var(--font);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--faded);
+  margin: 0 0 1px;
+}
+.mind p {
+  margin: 0;
+  padding: 8px 0;
+  border-bottom: 1px solid rgba(26,26,26,0.08);
+  font: 400 13px/18px var(--font);
+  color: var(--mute);
+}
+.more {
+  margin-top: 8px;
+  font: 400 13px/18px var(--font);
+}
+.more a { color: var(--link); }
+.more a:hover { text-decoration: underline; text-underline-offset: 2px; }
+.omit {
+  margin-top: var(--section-gap);
+  font: 400 13px/18px var(--font);
+  color: var(--faded);
+}
+
+/* --- mock additions --- */
+.mark-bar { width: 15px; height: 15px; margin-right: 6px; vertical-align: -2px; }
+.mast .wordmark { display: inline-flex; align-items: center; gap: 9px; }
+.mark-mast { width: 26px; height: 26px; flex: none; }
+.works > a { display: flex; gap: 10px; align-items: flex-start; }
+.works .thumb { flex: none; width: 40px; height: 40px; border-radius: 6px; margin-top: 1px; }
+.works .work-text { min-width: 0; }
+.weeks { flex: none; align-self: center; }
+.home-map { margin: 10px 0 2px; }
+.home-map svg { display: block; width: 100%; height: auto; border-radius: 3px; }
+#hmap text { font-family: var(--neon); }
+#hmap .t { font-size: 10.5px; fill: #1a1a1a; }
+#hmap .a { font-size: 10.5px; font-style: italic; fill: #0094d0; }
+#hmap .h { font-size: 9px; font-weight: 700; letter-spacing: .08em; fill: #999; }
+#hmap a:hover .t { fill: #0090cc; }
+#hmap a:hover circle { stroke: #0094d0; }
+i.mark { font-style: normal; padding: 0.1em 0.12em; background: var(--mark); color: var(--ink); }
+
+/* IBM Plex Sans variable (100–700), embedded so weight 450 works offline */
+
+
+/* --- iA type scale, optically matched to IBM Plex Sans.
+   Every iA size is multiplied by k = 45/43 so Plex's lowercase stands as tall as iA Sans's;
+   leading is divided by k so the distance between lines stays the same as iA's.
+   Weight 450 and the extra letter and word spacing make up for Plex's thinner strokes and narrower set. --- */
+:root {
+  --t-micro: clamp(12.558px, 12.082px + 0.149vw, 13.605px);
+  --t-small: clamp(15.698px, 15.222px + 0.149vw, 16.744px);
+  --t-body: clamp(17.791px, 16.363px + 0.446vw, 20.930px);
+  --t-section: clamp(23.023px, 21.121px + 0.594vw, 27.209px);
+  --t-title: clamp(29.302px, 26.449px + 0.892vw, 35.581px);
+  --w-text: 450;
+}
+html { -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; }
+:where(body *) { letter-spacing: 0.034em; word-spacing: 0.064em; }
+#hmap, #hmap * { letter-spacing: 0; word-spacing: 0; }
+:root { --page-width: 1024px; --inner-width: 960px; --col-gap: 40px; }
+@media (min-width: 46rem) { .columns { grid-template-columns: 17fr 15fr 24fr; } }
+body { font: var(--w-text) var(--t-small)/1.4333 var(--font); font-feature-settings: "dlig"; font-variant-ligatures: normal; }
+#intro { font: var(--w-text) clamp(16.744px, 16.1px + 0.2vw, 18.2px)/1.4333 var(--font); }
+.crumb, .meta-links { font-size: var(--t-small); font-weight: var(--w-text); }
+.mast .wordmark, .mast .title { font: 700 var(--t-title)/1.051 var(--font); letter-spacing: -0.015em; word-spacing: 0; }
+#page-home aside.org, aside.org a, aside.org p { font: var(--w-text) var(--t-small)/1.386 var(--font); }
+aside.org h6 { font: 700 var(--t-micro)/1.194 var(--font); }
+.col-head { height: auto; min-height: 30px; }
+.weeks { flex: 0 1 117px; min-width: 96px; width: auto; max-width: 100%; height: auto; align-self: center; }
+#journal .col-head { align-items: center; }
+.columns h1, .col-head h1 { font: 700 var(--t-section)/1.099 var(--font); letter-spacing: 0.01em; }
+.col-head .kicker { font: var(--w-text) var(--t-small)/1.386 var(--font); }
+.works h3, .pages h3, .journal h3 { font: 700 var(--t-small)/1.194 var(--font); letter-spacing: 0.034em; }
+.works p, .pages p, .journal p, .mind p { font: var(--w-text) var(--t-small)/1.338 var(--font); }
+.journal time { font: var(--w-text) var(--t-micro)/1.386 var(--font); }
+.more { font: var(--w-text) var(--t-small)/1.386 var(--font); }
+/* Top of mind: full-width band under the three columns */
+.mind-wide { width: 100%; max-width: var(--inner-width); }
+.mind-wide .mind { display: block; padding-left: 1.2em; }
+.mind-wide .mind p { display: list-item; list-style: disc; border-bottom: 0; padding: 8px 0 0 2px; }
+.mind-wide .mind p::marker { color: var(--faded); }
+/* Menu settings */
+.menu-set { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-top: 8px; padding: 12px 18px 4px 20px; border-top: 1px solid var(--line); font: var(--w-text) var(--t-small)/1.2 var(--font); color: var(--mute); }
+.menu-set .seg { display: flex; gap: 2px; padding: 2px; border-radius: 8px; background: var(--line); }
+.menu-set button { appearance: none; border: 0; border-radius: 6px; padding: 5px 9px; background: transparent; color: var(--ink); font: var(--w-text) var(--t-micro)/1.2 var(--font); letter-spacing: 0.034em; cursor: pointer; }
+.menu-set button[aria-pressed="true"] { background: var(--surface); font-weight: 700; box-shadow: 0 0 0 1px var(--line); }
+
+/* Dark mode */
+html[data-theme="dark"] {
+  --bg: #1f2021; --ink: #ececea; --surface: #2c2d2e; --link: #4cc9f5;
+  --line: rgba(255,255,255,0.12); --hair: rgba(255,255,255,0.18);
+  --mute: rgba(237,237,237,0.74); --faded: rgba(237,237,237,0.56);
+  --wash: rgba(0,195,255,0.16); --mark: rgba(0,195,255,0.24);
+  color-scheme: dark;
+}
+html[data-theme="dark"] .ia-bar { background: rgba(31,32,33,0.88); }
+html[data-theme="dark"] .menu nav { box-shadow: 0 8px 24px rgba(0,0,0,0.5), 0 0 0 1px rgba(255,255,255,0.12); }
+html[data-theme="dark"] .menu nav a:hover { background: rgba(255,255,255,0.08); }
+html[data-theme="dark"] .menu nav a.current { color: var(--link); }
+html[data-theme="dark"] #page-home aside.org { border-left-color: var(--line); }
+html[data-theme="dark"] aside.org h6 { color: var(--faded); }
+html[data-theme="dark"] .col-head { border-bottom-color: var(--hair); }
+html[data-theme="dark"] .works > a + a, html[data-theme="dark"] .pages > a + a, html[data-theme="dark"] .journal > a + a { border-top-color: var(--line); }
+html[data-theme="dark"] .mark-bar, html[data-theme="dark"] .mark-mast { filter: invert(1); }
+html[data-theme="dark"] #hmap { filter: invert(1) hue-rotate(180deg); }
+html[data-theme="dark"] .weeks circle[fill="#d4d4d4"] { fill: #48494b; }
+/* Muted light ground */
+:root { --bg: #f6f6f5; }
+.ia-bar { background: rgba(246,246,245,0.88); }
+
+/* Search in the top bar */
+.bar-search { position: relative; display: flex; align-items: center; flex: 0 1 170px; min-width: 96px; }
+.bar-search svg { position: absolute; left: 9px; width: 14px; height: 14px; fill: none; stroke: var(--faded); stroke-width: 1.6; stroke-linecap: round; pointer-events: none; }
+.bar-search input { width: 100%; height: 30px; padding: 0 26px 0 29px; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); color: var(--ink); font: var(--w-text) var(--t-small)/1 var(--font); letter-spacing: 0.034em; outline: none; -webkit-appearance: none; appearance: none; }
+.bar-search input::placeholder { color: var(--faded); }
+.bar-search input:focus { border-color: var(--link); }
+.bar-search kbd { position: absolute; right: 8px; font: 400 11px/1 var(--neon); color: var(--faded); pointer-events: none; }
+.bar-search input:focus + kbd, .bar-search input:not(:placeholder-shown) + kbd { display: none; }
+[data-search-hide] { display: none !important; }
+#hmap a.node[data-search-dim] { opacity: 0.15; }
+/* Appearance: icons only */
+.menu-set { justify-content: flex-start; }
+.menu-set button { display: flex; align-items: center; justify-content: center; width: 34px; height: 28px; padding: 0; }
+.menu-set button svg { width: 16px; height: 16px; fill: none; stroke: currentColor; stroke-width: 1.4; stroke-linecap: round; stroke-linejoin: round; }
+.menu-set button:not([aria-pressed="true"]) { color: var(--faded); }
+/* Vertical rhythm: more air under the top bar, a little less between intro and columns */
+:root { --space-top: 40px; --space-intro: 52px; }
+.page { padding-top: var(--space-top); }
+.columns { margin-top: var(--space-intro); }
+.works > a, .pages > a, .journal > a { padding: 11px 0; }
+/* --- Index pages (Explainers, Journal, Projects) --- */
+.abstract { margin: 0; max-width: var(--measure); font: var(--w-text) calc(var(--t-small) - 1.5px)/1.5 var(--font); color: rgba(26,26,26,0.62); }
+html[data-theme="dark"] .abstract { color: rgba(236,236,234,0.62); }
+.mast { margin-bottom: 12px; }
+.index-figure { margin: 28px 0 0; }
+.index-figure svg { display: block; width: 100%; height: auto; border-radius: 3px; }
+.index-cols { columns: 3 250px; column-gap: var(--col-gap); margin-top: var(--space-intro); }
+.index-cols section { margin: 0 0 36px; }
+.index-cols .col-head { break-after: avoid; }
+.index-cols .pages > a, .index-cols .journal > a { break-inside: avoid; }
+.heat { display: block; max-width: 100%; height: auto; color: var(--ink); }
+.band-head { margin-top: var(--space-intro); }
+.cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 36px 32px; align-items: start; margin-top: 20px; }
+.cards > a { display: block; transition: opacity .15s; }
+.cards > a:hover { opacity: 0.8; }
+.cards img, .cards .tile { display: block; width: 100%; height: auto; border-radius: 3px; }
+.cards .tile { aspect-ratio: 4 / 3; display: flex; align-items: center; justify-content: center; padding: 16px; background: var(--surface); color: var(--ink); font: 700 var(--t-title)/1.05 var(--font); letter-spacing: -0.015em; text-align: center; }
+.cards h3 { margin: 10px 0 2px; font: 700 var(--t-small)/1.194 var(--font); }
+.cards p { margin: 0; font: var(--w-text) var(--t-small)/1.338 var(--font); color: var(--mute); }
+/* Index listings: each section has a full-width head, its rows flow in columns beneath */
+.index-cols { columns: auto; }
+.index-cols .pages, .index-cols .journal { columns: 3 250px; column-gap: var(--col-gap); }
+.index-cols .pages > a, .index-cols .journal > a { border-top: 0; border-bottom: 1px solid var(--line); }
+.index-cols .pages p { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.index-figure svg.heat { width: auto; max-width: 100%; height: 56px; }
+/* --- Index pages, list language: one list in the body (2/3), commentary in the rail (1/3) --- */
+.ix-top, .ix-sec { display: grid; grid-template-columns: minmax(0, 1fr) 260px; column-gap: 44px; align-items: start; }
+.ix-sec { margin-top: 44px; }
+.ix-figure { margin: 28px 0 0; }
+.ix-figure svg { display: block; width: 100%; height: auto; border-radius: 3px; }
+.ix-note { margin-top: 4px; padding-left: 12px; border-left: 1.5px solid var(--hair); font: var(--w-text) var(--t-small)/1.386 var(--font); color: var(--mute); }
+.ix-note b { display: block; margin-bottom: 4px; font: 700 var(--t-micro)/1.2 var(--font); letter-spacing: 0.08em; text-transform: uppercase; color: var(--faded); }
+.ix-sec .pages p { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.ix-sec .journal > a { display: grid; grid-template-columns: 6.5em minmax(0, 1fr); column-gap: 16px; align-items: baseline; padding: 7px 0; }
+.ix-sec .journal time { margin: 0; }
+.ix-sec .journal h3 { margin: 0; font-weight: var(--w-text); }
+.heat-s { display: block; width: 117px; height: auto; margin-top: 6px; color: var(--ink); }
+@media (max-width: 45.98rem) { .ix-top, .ix-sec { grid-template-columns: minmax(0, 1fr); } .ix-note { margin-top: 10px; } }
+/* Chinese text uses Traditional letterforms */
+:root { --font: "IBM Plex Sans", "PingFang TC", "Noto Sans TC", "Microsoft JhengHei", system-ui, sans-serif; }
+/* --- Journal: full body width. Month, synopsis wrapping a small green calendar, then the entries. --- */
+.jm { margin-top: 44px; }
+.mast + .jm { margin-top: 24px; }
+.jm-cal { float: right; width: 62px; height: auto; margin: 18px 0 0 24px; color: var(--ink); }
+.jm-syn { text-wrap: wrap; }
+.jm-syn { margin: 14px 0 0; font: var(--w-text) clamp(16.744px, 15.6px + 0.3vw, 18.8px)/1.4333 var(--font); }
+.jm .journal { clear: both; margin-top: 18px; border-top: 1px solid var(--line); }
+.jm .journal > a { display: grid; grid-template-columns: 4.5em minmax(0, 1fr); column-gap: 16px; align-items: baseline; padding: 7px 0; border-top: 0; border-bottom: 1px solid var(--line); }
+.jm .journal time { margin: 0; text-transform: none; letter-spacing: 0.034em; }
+.jm .journal h3 { margin: 0; font-weight: var(--w-text); }
+/* Journal weeks: each month in four parts (days 1–7, 8–14, 15–21, 22 to the end), each with its own line */
+.jm-weeks { clear: both; padding-top: 6px; }
+.jw { display: grid; grid-template-columns: 2.2em minmax(0, 1fr); column-gap: 8px; align-items: baseline; margin-top: 22px; }
+.jw-n { font: 700 var(--t-small)/1.4 var(--font); color: var(--faded); }
+.jw-syn { margin: 0; font: var(--w-text) var(--t-small)/1.4 var(--font); color: var(--ink); }
+.jw .journal { margin-top: 8px; border-top: 0; }
+.jw .journal > a { padding: 4px 0; border-bottom: 0; grid-template-columns: 4em minmax(0, 1fr); }
+.jw .journal h3 { color: var(--mute); }
+.jw .journal > a:hover h3 { color: var(--link); }
+/* Journal: four week columns under each month's paragraph (days 1–7, 8–14, 15–21, 22 to the end) */
+.jm-weeks { clear: both; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); column-gap: 28px; row-gap: 28px; align-items: start; margin-top: 26px; padding-top: 0; }
+@media (max-width: 45.98rem) { .jm-weeks { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+.jm-weeks .jw { display: block; margin-top: 0; padding-top: 10px; border-top: 1px solid var(--hair); }
+.jm-weeks .jw-n { display: block; margin-bottom: 6px; font: 700 var(--t-small)/1.2 var(--font); color: var(--faded); }
+.jw-empty .jw-n { opacity: 0.5; }
+.jm-weeks .jw-syn { font: var(--w-text) var(--t-small)/1.4 var(--font); color: var(--ink); }
+.jw-list { margin-top: 12px; }
+.jw-row { display: block; padding: 6px 0; border-top: 1px solid var(--line); font: var(--w-text) calc(var(--t-small) - 1.5px)/1.35 var(--font); color: var(--mute); }
+.jw-row time { display: block; font: var(--w-text) var(--t-micro)/1.3 var(--font); color: var(--faded); }
+a.jw-row:hover span { color: var(--link); }
+</style>
+<style>
+.jr{display:grid;grid-template-columns:220px minmax(0,1fr);column-gap:44px;align-items:start;margin-top:28px}
+.jr-rail{position:sticky;top:73px;font:var(--w-text) var(--t-small)/1.39 var(--font)}
+.jr-cal{display:none}.jr-cal.on{display:block}
+.jr-cal svg.jm-cal{float:none;display:block;width:117px;height:auto;color:var(--ink);margin:0 0 20px}
+.jr-year{font:700 var(--t-micro)/1.2 var(--font);letter-spacing:.08em;text-transform:uppercase;color:var(--faded);padding:0 0 8px;border-bottom:1px solid var(--hair);margin-bottom:6px}
+.jr-m{padding:3px 0}
+.jr-mn{color:var(--mute);text-decoration:none}
+.jr-mn:hover{color:var(--link)}
+.jr-m.on .jr-mn{color:var(--ink);font-weight:700}
+.jr-wks{display:none;margin:4px 0 6px;padding-left:12px;border-left:1.5px solid var(--hair)}
+.jr-m.on .jr-wks{display:block}
+.jr-wk{display:block;padding:2px 0;font:var(--w-text) var(--t-micro)/1.5 var(--font);color:var(--faded);text-decoration:none}
+.jr-wk:hover{color:var(--link)}
+.jr-month{display:none}.jr-month.on{display:block}
+.jr-h{margin:0;font:700 clamp(23px,21px + .5vw,27.2px)/1.1 var(--font);letter-spacing:-.015em;padding-bottom:10px;border-bottom:1px solid var(--hair)}
+.jr-month .jm-syn{margin-top:14px}
+.jr-week{margin-top:30px;scroll-margin-top:73px}
+.jr-wh{margin:0 0 8px;font:700 var(--t-small)/1.3 var(--font);color:var(--faded)}
+.jr-syn{margin:0 0 8px;font:var(--w-text) var(--t-small)/1.43 var(--font);color:var(--ink)}
+.jr-row{display:grid;grid-template-columns:1.8em minmax(0,1fr);column-gap:10px;padding:3px 0;font:var(--w-text) calc(var(--t-small) - 1px)/1.4 var(--font);color:var(--mute)}
+.jr-d{font:var(--w-text) var(--t-micro)/1.65 var(--font);color:var(--faded);text-align:right}
+a.jr-row{text-decoration:none}a.jr-row:hover span:last-child{color:var(--link)}.jr-news{margin-top:10px;padding-top:8px;border-top:1px dashed var(--line)}
+.jr-news .jr-row{color:var(--faded)}
+.jr-nl{font:700 var(--t-micro)/1.2 var(--font);letter-spacing:.08em;text-transform:uppercase;color:var(--faded);margin-bottom:4px}
+.jr-none{margin:0;color:var(--faded)}
+.jr-wk{display:grid;grid-template-columns:2.4em auto;justify-content:start}.jr-wk .jr-wn{color:var(--mute)}.jr-wk:hover .jr-wn,.jr-wk:hover .jr-wd{color:var(--link)}.jr-wh .jr-wn{color:var(--mute)}
+@media (max-width:45.98rem){.jr{grid-template-columns:minmax(0,1fr)}.jr-rail{position:static;margin-bottom:24px}}
+</style>
+<style>
+.jr-views{display:flex;flex-wrap:wrap;column-gap:18px;row-gap:4px;align-items:baseline;margin:0 0 22px}
+.jr-views button{appearance:none;background:none;border:0;padding:2px 0;margin:0;cursor:pointer;font:var(--w-text) var(--t-small)/1.39 var(--font);letter-spacing:.034em;color:var(--mute);border-bottom:1.5px solid transparent}
+.jr-views button:hover{color:var(--link)}
+.jr-views button[aria-pressed="true"]{color:var(--ink);font-weight:700;border-bottom-color:var(--ink)}
+.jr-views .jr-newsbtn{margin-left:auto;border-bottom:0;font-weight:var(--w-text);color:var(--mute)}
+.jr-views .jr-newsbtn::before{content:"";display:inline-block;width:9px;height:9px;margin-right:7px;border:1.25px solid currentColor;border-radius:2px;vertical-align:-1px}
+.jr-views .jr-newsbtn[aria-pressed="true"]{font-weight:var(--w-text);color:var(--ink)}
+.jr-views .jr-newsbtn[aria-pressed="true"]::before{background:currentColor}
+.jr:not([data-view="months"]) .jr-newsbtn{display:none}
+.jr.nonews [data-view="months"] .jr-news{display:none}
+.jv{display:none}.jv.on{display:block}
+.jr-thnav{display:none}
+.jr[data-view="threads"] .jr-thnav{display:block}
+.jr[data-view="threads"] .jr-year,.jr[data-view="threads"] .jr-m,.jr[data-view="threads"] .jr-cals,.jr[data-view="year"] .jr-cals{display:none}
+.jr[data-view="year"] .jr-m.on .jr-wks{display:none}
+.jr[data-view="year"] .jr-m.on .jr-mn{font-weight:var(--w-text);color:var(--mute)}
+.jr-thnav .jr-mn{display:block;padding:3px 0}
+.jr-thnav .jr-mn:first-child{padding-top:0}
+.jt-month{display:none}.jt-month.on{display:block}
+.jt-heads,.jt-cols{display:grid;grid-template-columns:minmax(0,3fr) minmax(0,2fr);column-gap:32px}
+.jt-heads{margin-top:14px;font:700 var(--t-micro)/1.2 var(--font);letter-spacing:.08em;text-transform:uppercase;color:var(--faded)}
+.jt-week{margin-top:22px;padding-top:12px;border-top:1px solid var(--line);scroll-margin-top:73px}
+.jt-news .jr-row{color:var(--faded)}
+.jy-row{display:grid;grid-template-columns:95px minmax(0,1fr);column-gap:28px;align-items:center;padding:16px 0;border-bottom:1px solid var(--line);text-decoration:none;color:var(--ink)}
+.jy-cal{width:95px;height:auto;color:var(--ink)}
+.jy-t b{display:block;font:700 var(--t-small)/1.3 var(--font);margin-bottom:2px}
+.jy-t span{font:var(--w-text) var(--t-small)/1.43 var(--font);color:var(--mute)}
+.jy-row:hover b{color:var(--link)}
+.jl-month{scroll-margin-top:73px}
+.jl-month + .jl-month{margin-top:40px}
+.jl-rows{margin-top:10px}
+.jl-rows .jr-row{grid-template-columns:4.2em minmax(0,1fr)}
+@media (max-width:45.98rem){.jt-heads{display:none}.jt-cols{grid-template-columns:minmax(0,1fr)}.jt-news{margin-top:6px;padding-top:6px;border-top:1px dashed var(--line)}}
+</style>
+<style>
+.jr-src{margin-left:6px;font-size:var(--t-micro);color:var(--faded);white-space:nowrap}
+a.jr-row[target]:hover span:last-child{color:inherit}
+a.jr-row[target]:hover>span:last-child{color:var(--link)}
+@media (max-width:45.98rem){
+.jr-cals,.jr-year,.jr-m .jr-wks,.jr-m.on .jr-wks{display:none}
+.jr-rail{display:flex;flex-wrap:wrap;column-gap:16px;row-gap:2px;padding-bottom:12px;border-bottom:1px solid var(--hair)}
+.jt-news:empty{display:none}
+.jr-thnav{flex-wrap:wrap;column-gap:16px;row-gap:2px}
+.jr[data-view="threads"] .jr-thnav{display:flex}
+.jr-thnav .jr-mn,.jr-thnav .jr-mn:first-child{padding:3px 0}
+}
+</style>
+<style>@media (max-width:45.98rem){.meta-links{display:none}.bar-search{flex:1 1 auto;min-width:0}}</style>
+<style>@media (max-width:45.98rem){.meta-links{display:none}.crumb{flex:none}.bar-right{flex:1 1 0;min-width:0;justify-content:flex-end}.bar-search{flex:1 1 0;min-width:0;max-width:170px}}</style>
+<style>
+.vsw{display:flex;flex-wrap:wrap;column-gap:18px;row-gap:4px;margin:28px 0 22px}
+.vsw button{appearance:none;background:none;border:0;padding:2px 0;cursor:pointer;font:var(--w-text) var(--t-small)/1.39 var(--font);letter-spacing:.034em;color:var(--mute);border-bottom:1.5px solid transparent}
+.vsw button:hover{color:var(--link)}
+.vsw button[aria-pressed="true"]{color:var(--ink);font-weight:700;border-bottom-color:var(--ink)}
+.vw{display:none}.vw.on{display:block}
+.sec-h{margin:34px 0 0;padding-bottom:9px;font:700 clamp(19px,18px + .3vw,22px)/1.15 var(--font);letter-spacing:-.01em}
+.vw > .sec-h:first-child{margin-top:0}
+.rw{display:grid;grid-template-columns:minmax(0,1fr);row-gap:2px;padding:9px 0;border-top:1px solid var(--line);font:var(--w-text) var(--t-small)/1.43 var(--font);letter-spacing:.034em;color:var(--mute);text-decoration:none}
+.rw b{font-weight:700;color:var(--ink)}
+a.rw:hover b{color:var(--link)}
+.rw .d{font-size:var(--t-micro);color:var(--faded);white-space:nowrap}
+.sum{margin:6px 0 0;max-width:640px;font:var(--w-text) 15px/1.5 var(--font);letter-spacing:.034em;color:var(--mute)}
+@media (min-width:46rem){.rw{grid-template-columns:300px minmax(0,1fr);column-gap:28px;align-items:baseline}.rw.r3{grid-template-columns:300px minmax(0,1fr) 5.5em}}
+</style>
+<style>
+.pj-top{display:grid;grid-template-columns:minmax(0,1fr);row-gap:18px}
+.pj-facts{font:var(--w-text) var(--t-small)/1.39 var(--font);letter-spacing:.034em;border-left:1px solid var(--line);padding-left:16px;align-self:start}
+.pj-facts h6{margin:12px 0 2px;font:700 var(--t-micro)/1.2 var(--font);letter-spacing:.08em;text-transform:uppercase;color:var(--faded)}
+.pj-facts h6:first-child{margin-top:0}.pj-facts p{margin:0}.pj-facts a{color:var(--link);text-decoration:none}
+.pj-lede + .pj-lede{margin-top:14px}
+.pj-lede{margin:12px 0 0;max-width:none;font:var(--w-text) clamp(17.5px,16.9px + .24vw,19.5px)/1.43 var(--font);letter-spacing:.034em}
+.rw a{color:var(--link);text-decoration:none}
+.cast{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:34px 32px}
+@media (min-width:46rem){.cast{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.cc img{display:block;width:100%;height:auto;border-radius:8px}
+.cc h3{margin:12px 0 0;font:700 clamp(19px,18px + .3vw,22px)/1.15 var(--font)}.cc h3 small{font:var(--w-text) var(--t-small)/1 var(--font);color:var(--mute);letter-spacing:.034em}
+.cc p{margin:6px 0 0;font:var(--w-text) var(--t-small)/1.43 var(--font);letter-spacing:.034em;color:var(--mute)}
+.cc .role{color:var(--faded)}.cc .say{color:var(--ink);font-weight:700;margin-top:10px}.cc .tr{margin-top:2px;font-size:var(--t-micro)}
+.tlr{grid-template-columns:4.2em minmax(0,1fr) !important;column-gap:14px !important}
+@media (min-width:46rem){.pj-top{grid-template-columns:minmax(0,1fr) 196px;column-gap:48px}}
+</style><style>
+.st-intro{max-width:none}
+.pj-up{display:inline-block;margin-bottom:4px;font:700 var(--t-micro)/1.2 var(--font);letter-spacing:.08em;text-transform:uppercase;color:var(--faded);text-decoration:none}
+.pj-up:hover{color:var(--link)}
+.st-intro .pj-lede{max-width:none}
+.st-row{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:16px;margin-top:34px}
+.st-b{appearance:none;background:none;border:0;padding:0 0 8px;margin:0;cursor:pointer;text-align:left;color:var(--mute);font:var(--w-text) var(--t-micro)/1.3 var(--font);letter-spacing:.034em;border-bottom:2px solid transparent}
+.st-b img{display:block;width:100%;height:auto;border-radius:3px;transition:opacity .15s}
+.st-b:hover img{opacity:.82}
+.st-b span{display:block;margin-top:9px;font:700 var(--t-small)/1.2 var(--font);color:var(--ink)}
+.st-b small{display:block;font-size:var(--t-micro)}
+.st-b[aria-pressed="true"]{border-bottom-color:var(--ink)}
+.vsw{margin-top:30px}
+.st-p{display:none}.st-p.on{display:block}
+.st-p h2{margin:0;font:700 clamp(21px,20px + .4vw,25px)/1.15 var(--font)}
+.st-p h2 small{font:var(--w-text) var(--t-small)/1 var(--font);letter-spacing:.034em;color:var(--mute)}
+.st-p h2 em{font:var(--w-text) var(--t-small)/1 var(--font);font-style:normal;letter-spacing:.034em;color:var(--faded);margin-left:6px}
+.st-d{margin:10px 0 0;font:var(--w-text) clamp(16.7px,15.6px + .3vw,18.8px)/1.43 var(--font);letter-spacing:.034em}
+.st-say{margin:14px 0 0;font:700 var(--t-small)/1.4 var(--font)}
+.st-tr{margin:2px 0 0;font:var(--w-text) var(--t-micro)/1.4 var(--font);letter-spacing:.034em;color:var(--mute)}
+.st-profs{min-height:8em}
+.st-sup{display:grid;grid-template-columns:minmax(0,1fr);gap:22px 32px;margin-top:6px}
+.st-s{display:grid;grid-template-columns:88px minmax(0,1fr);column-gap:16px;align-items:start;padding-top:14px;border-top:1px solid var(--line)}
+.st-s img{display:block;width:88px;height:88px;border-radius:3px}
+.st-s h3{margin:0;font:700 var(--t-small)/1.25 var(--font)}
+.st-s h3 small{font:var(--w-text) var(--t-micro)/1 var(--font);letter-spacing:.034em;color:var(--mute)}
+.st-s p{margin:4px 0 0;font:var(--w-text) var(--t-small)/1.43 var(--font);letter-spacing:.034em;color:var(--mute)}
+.st-s .role{margin-top:2px;color:var(--faded)}
+.st-say2{color:var(--ink) !important;font-weight:700 !important}
+.st-say2 span{font-weight:var(--w-text);font-size:var(--t-micro);color:var(--mute)}
+@media (min-width:46rem){.st-sup{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:45.98rem){.st-row{grid-template-columns:repeat(3,minmax(0,1fr))}}
+</style>
+<style>
+.st-voice{display:flex;align-items:center;gap:14px;margin-top:16px}
+.st-voice .st-say,.st-voice .st-tr{margin-top:0}
+.st-vt{min-width:0}
+.vp{flex:none;appearance:none;width:38px;height:38px;border-radius:50%;border:0;background:var(--ink);color:var(--bg,#f6f6f5);cursor:pointer;display:grid;place-items:center;padding:0}
+.vp svg{width:13px;height:13px;fill:currentColor}
+.vp .vp-stop{display:none}.vp.playing .vp-play{display:none}.vp.playing .vp-stop{display:block}
+.vp:hover{opacity:.82}
+.vw-bars{flex:none;width:224px;height:24px;color:var(--ink)}
+.vw-bars rect{fill:currentColor;opacity:.28}
+.vw-bars rect.on{opacity:1}
+@media (max-width:45.98rem){.st-voice{flex-wrap:wrap}.vw-bars{width:180px}}
+</style>
+<style>
+html[data-theme="dark"] .st-b,html[data-theme="dark"] .st-p{--cc:var(--ccd)}
+.st-b{border-bottom-width:3px}
+.st-b[aria-pressed="true"]{border-bottom-color:var(--cc)}
+.st-p .vp{background:var(--cc);color:#1a1a1a}
+.st-p .vw-bars rect.on{fill:var(--cc)}
+.st-p h2 em{position:relative;padding-left:14px}
+.st-p h2 em::before{content:"";position:absolute;left:0;top:.28em;width:8px;height:8px;border-radius:50%;background:var(--cc)}
+</style>
+<style>
+.vw-wave{position:relative;flex:none;width:224px;height:38px;display:flex;align-items:center;cursor:pointer;touch-action:none;user-select:none}
+.vw-wave .vw-bars{width:100%;pointer-events:none}
+.vw-region{display:none;position:absolute;top:0;bottom:0;background:var(--cc);opacity:.2;border-radius:3px;pointer-events:none}
+@media (max-width:45.98rem){.vw-wave{width:180px}}
+</style>
+<style>
+.st-profs{min-height:0;margin-top:0}
+.st-p.on{margin-top:22px}
+.st-p{padding:24px;border-radius:6px;background:color-mix(in srgb,var(--cc) 10%,transparent)}
+.st-p.on{display:grid;grid-template-columns:minmax(0,1fr);gap:20px;align-items:start}
+.sx-img{display:block;width:100%;max-width:300px;height:auto;border-radius:3px}
+.st-p h2{font-size:clamp(25px,23px + .6vw,31px)}
+.sx-role{position:relative;margin:6px 0 0;padding-left:15px;font:var(--w-text) var(--t-small)/1.3 var(--font);letter-spacing:.034em;color:var(--mute)}
+.sx-role::before{content:"";position:absolute;left:0;top:.36em;width:9px;height:9px;border-radius:50%;background:var(--cc)}
+.st-p .st-d{margin-top:16px}
+.st-p .st-voice{margin-top:22px}
+.sx-h{margin-top:48px}
+.st-more{margin-top:40px}
+.sx-craft{display:grid;grid-template-columns:minmax(0,1fr);column-gap:32px}
+.sx-craft .rw{grid-template-columns:minmax(0,1fr)}
+@media (min-width:46rem){.st-p.on{grid-template-columns:300px minmax(0,1fr);gap:32px}.sx-craft{grid-template-columns:repeat(2,minmax(0,1fr))}}
+</style>
+</head>
+<body>
+
+<header class="ia-bar">
+  <div class="ia-bar-inner">
+    <nav class="crumb" aria-label="Breadcrumb">
+      <a class="brand" href="/"><svg class="mark-bar" xmlns="http://www.w3.org/2000/svg" viewBox="4 6 40 40" aria-hidden="true"><path d="M24 25 L11 25 M24 25 L31 38" stroke="#1a1a1a" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/><circle cx="24" cy="25" r="6.5" fill="#1a1a1a"/><circle cx="11" cy="25" r="4" fill="#1a1a1a"/><circle cx="31" cy="38" r="4" fill="#1a1a1a"/><circle cx="38" cy="13" r="3.5" fill="#1a1a1a"/></svg>Logos52</a>
+      <span class="slash">/</span>
+      <span class="here">Projects</span>
+    </nav>
+    <div class="bar-right">
+      <nav class="meta-links" aria-label="Site">
+        <a href="/explainers/">Explainers</a>
+        <a href="/projects/" class="current">Projects</a>
+        <a href="/journal/">Journal</a>
+        <a href="/about/">About</a>
+      </nav>
+      <label class="bar-search">
+        <svg viewBox="0 0 16 16" aria-hidden="true"><circle cx="7" cy="7" r="4.5"/><path d="M10.5 10.5 L14 14"/></svg>
+        <input type="search" id="site-search" placeholder="Search" aria-label="Search this page" autocomplete="off">
+        <kbd>/</kbd>
+      </label>
+      <details class="menu">
+        <summary aria-label="Menu">
+          <svg viewBox="0 0 22 22" aria-hidden="true"><path d="M3.5 6.5h15M3.5 11h15M3.5 15.5h15"/></svg>
+        </summary>
+        <nav aria-label="Menu">
+        <a href="/">Home</a>
+        <a href="/explainers/">Explainers</a>
+        <a href="/projects/" class="current">Projects</a>
+        <a href="/journal/">Journal</a>
+        <a href="/about/">About</a>
+        <div class="menu-set">
+          <div class="seg" role="group" aria-label="Appearance">
+            <button type="button" data-theme-set="light" aria-label="Light" title="Light"><svg viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="3"/><path d="M8 1v2M8 13v2M1 8h2M13 8h2M3.05 3.05l1.4 1.4M11.55 11.55l1.4 1.4M3.05 12.95l1.4-1.4M11.55 4.45l1.4-1.4"/></svg></button>
+            <button type="button" data-theme-set="dark" aria-label="Dark" title="Dark"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M13 9.5 A5.5 5.5 0 1 1 6.5 3 A4.3 4.3 0 0 0 13 9.5 Z"/></svg></button>
+          </div>
+        </div>
+        </nav>
+      </details>
+    </div>
+  </div>
+</header>
+
+  <div class="page" id="page-project" data-views>
+<a class="pj-up" href="/projects/tsumugu/">Tsumugu</a>
+<header class="mast"><span class="title">Tsumugu Story</span></header>
+<div class="st-intro"><p class="pj-lede">Tsumugu Story follows six students from different countries, coming to Taipei to study Chinese at a learning center. Not all of them speak English, so they can only communicate with each other with whatever broken Chinese they’ve learned at the time. It’s a slice-of-life story that spans two years, about as long as it takes to reach conversational fluency in Chinese. As your Chinese progresses, so does the depth of their relationships and their character development.</p></div>
+<div class="st-row" role="group" aria-label="The six students"><button type="button" class="st-b" data-i="0" style="--cc:#0B8F86;--ccd:#35BAAE" aria-pressed="false"><img src="/media/tsumugu-cast-1.jpg" alt="" width="640" height="640"><span lang="zh-Hant">沈文</span><small>Shěn Wén</small></button><button type="button" class="st-b" data-i="1" style="--cc:#6F9C3B;--ccd:#93BC55" aria-pressed="false"><img src="/media/tsumugu-cast-2.jpg" alt="" width="640" height="640"><span lang="zh-Hant">阮草</span><small>Ruǎn Cǎo</small></button><button type="button" class="st-b" data-i="2" style="--cc:#DA93BD;--ccd:#F5A9DC" aria-pressed="false"><img src="/media/tsumugu-cast-3.jpg" alt="" width="640" height="640"><span lang="zh-Hant">星野遙香</span><small>Xīngyě Yáoxiāng</small></button><button type="button" class="st-b" data-i="3" style="--cc:#8A5FD0;--ccd:#A985E8" aria-pressed="false"><img src="/media/tsumugu-cast-4.jpg" alt="" width="640" height="640"><span lang="zh-Hant">金多恩</span><small>Jīn Duō'ēn</small></button><button type="button" class="st-b" data-i="4" style="--cc:#C75B28;--ccd:#E07B42" aria-pressed="false"><img src="/media/tsumugu-cast-5.jpg" alt="" width="640" height="640"><span lang="zh-Hant">阿迪</span><small>Ā Dí</small></button><button type="button" class="st-b" data-i="5" style="--cc:#9CA3B0;--ccd:#E6E9F0" aria-pressed="false"><img src="/media/tsumugu-cast-6.jpg" alt="" width="640" height="640"><span lang="zh-Hant">白龍</span><small>Bái Lóng</small></button></div>
+<div class="st-profs"><div class="st-p" data-i="0" style="--cc:#0B8F86;--ccd:#35BAAE"><img class="sx-img" src="/media/tsumugu-cast-1-full.jpg" alt="Shěn Wén" width="640" height="640">
+<div class="sx-t"><h2><span lang="zh-Hant">沈文</span> <small>Shěn Wén</small></h2><p class="sx-role">the builder</p><p class="st-d">He builds: robotics, AI, whatever's broken on the table in front of him. He says the least of anyone there and is the reason there's a table; his handmade robot, 小圖, rides on his bag strap wherever he goes.</p>
+<div class="st-voice"><button type="button" class="vp" data-src="/media/voice/shenwen-catch.wav" aria-label="Play 沈文’s catchphrase"><svg viewBox="0 0 12 12" aria-hidden="true"><path class="vp-play" d="M3 1.5v9l8-4.5z"/><path class="vp-stop" d="M2.5 2.5h7v7h-7z"/></svg></button><div class="vw-wave" title="Click to play from a point. Drag to loop a part."><svg class="vw-bars" viewBox="0 0 224 24" aria-hidden="true"><rect x="0" y="11.0" width="2" height="2.0" rx="1"/><rect x="4" y="11.0" width="2" height="2.0" rx="1"/><rect x="8" y="7.4" width="2" height="9.2" rx="1"/><rect x="12" y="6.5" width="2" height="11.0" rx="1"/><rect x="16" y="8.5" width="2" height="7.0" rx="1"/><rect x="20" y="2.6" width="2" height="18.9" rx="1"/><rect x="24" y="4.0" width="2" height="16.1" rx="1"/><rect x="28" y="3.0" width="2" height="18.0" rx="1"/><rect x="32" y="3.0" width="2" height="18.1" rx="1"/><rect x="36" y="2.8" width="2" height="18.3" rx="1"/><rect x="40" y="3.5" width="2" height="17.0" rx="1"/><rect x="44" y="7.5" width="2" height="9.1" rx="1"/><rect x="48" y="9.9" width="2" height="4.2" rx="1"/><rect x="52" y="3.1" width="2" height="17.9" rx="1"/><rect x="56" y="1.5" width="2" height="20.9" rx="1"/><rect x="60" y="3.0" width="2" height="18.1" rx="1"/><rect x="64" y="3.7" width="2" height="16.6" rx="1"/><rect x="68" y="8.7" width="2" height="6.6" rx="1"/><rect x="72" y="11.0" width="2" height="2.0" rx="1"/><rect x="76" y="10.3" width="2" height="3.4" rx="1"/><rect x="80" y="9.1" width="2" height="5.9" rx="1"/><rect x="84" y="9.4" width="2" height="5.3" rx="1"/><rect x="88" y="10.2" width="2" height="3.7" rx="1"/><rect x="92" y="8.3" width="2" height="7.4" rx="1"/><rect x="96" y="0.9" width="2" height="22.3" rx="1"/><rect x="100" y="0.0" width="2" height="24.0" rx="1"/><rect x="104" y="1.8" width="2" height="20.5" rx="1"/><rect x="108" y="2.2" width="2" height="19.5" rx="1"/><rect x="112" y="3.2" width="2" height="17.7" rx="1"/><rect x="116" y="3.8" width="2" height="16.4" rx="1"/><rect x="120" y="3.8" width="2" height="16.4" rx="1"/><rect x="124" y="4.6" width="2" height="14.9" rx="1"/><rect x="128" y="6.4" width="2" height="11.2" rx="1"/><rect x="132" y="8.1" width="2" height="7.9" rx="1"/><rect x="136" y="8.2" width="2" height="7.5" rx="1"/><rect x="140" y="7.8" width="2" height="8.5" rx="1"/><rect x="144" y="8.3" width="2" height="7.4" rx="1"/><rect x="148" y="8.3" width="2" height="7.3" rx="1"/><rect x="152" y="8.2" width="2" height="7.6" rx="1"/><rect x="156" y="9.3" width="2" height="5.3" rx="1"/><rect x="160" y="10.1" width="2" height="3.7" rx="1"/><rect x="164" y="1.5" width="2" height="21.0" rx="1"/><rect x="168" y="1.1" width="2" height="21.8" rx="1"/><rect x="172" y="1.8" width="2" height="20.3" rx="1"/><rect x="176" y="1.5" width="2" height="21.0" rx="1"/><rect x="180" y="1.8" width="2" height="20.4" rx="1"/><rect x="184" y="2.9" width="2" height="18.1" rx="1"/><rect x="188" y="5.1" width="2" height="13.8" rx="1"/><rect x="192" y="6.4" width="2" height="11.2" rx="1"/><rect x="196" y="7.7" width="2" height="8.6" rx="1"/><rect x="200" y="8.5" width="2" height="6.9" rx="1"/><rect x="204" y="9.4" width="2" height="5.1" rx="1"/><rect x="208" y="10.9" width="2" height="2.1" rx="1"/><rect x="212" y="11.0" width="2" height="2.0" rx="1"/><rect x="216" y="11.0" width="2" height="2.0" rx="1"/><rect x="220" y="11.0" width="2" height="2.0" rx="1"/></svg><div class="vw-region"></div></div><div class="st-vt"><p class="st-say" lang="zh-Hant">這個可以修。</p><p class="st-tr">Zhège kěyǐ xiū. · "This can be fixed."</p></div></div></div></div><div class="st-p" data-i="1" style="--cc:#6F9C3B;--ccd:#93BC55"><img class="sx-img" src="/media/tsumugu-cast-2-full.jpg" alt="Ruǎn Cǎo" width="640" height="640">
+<div class="sx-t"><h2><span lang="zh-Hant">阮草</span> <small>Ruǎn Cǎo</small></h2><p class="sx-role">the Tender</p><p class="st-d">She grows mushrooms and runs ferments off a shelf in the corner of the café, and the group borrowed her word for it — mát tay, the cool hand. Headstrong, direct, and warmly certain she's right, she shows love by doing: the right mushroom pulled for the right person on the right day.</p>
+<div class="st-voice"><button type="button" class="vp" data-src="/media/voice/ruancao-catch.wav" aria-label="Play 阮草’s catchphrase"><svg viewBox="0 0 12 12" aria-hidden="true"><path class="vp-play" d="M3 1.5v9l8-4.5z"/><path class="vp-stop" d="M2.5 2.5h7v7h-7z"/></svg></button><div class="vw-wave" title="Click to play from a point. Drag to loop a part."><svg class="vw-bars" viewBox="0 0 224 24" aria-hidden="true"><rect x="0" y="11.0" width="2" height="2.0" rx="1"/><rect x="4" y="11.0" width="2" height="2.0" rx="1"/><rect x="8" y="11.0" width="2" height="2.0" rx="1"/><rect x="12" y="11.0" width="2" height="2.0" rx="1"/><rect x="16" y="11.0" width="2" height="2.0" rx="1"/><rect x="20" y="11.0" width="2" height="2.0" rx="1"/><rect x="24" y="11.0" width="2" height="2.0" rx="1"/><rect x="28" y="11.0" width="2" height="2.0" rx="1"/><rect x="32" y="11.0" width="2" height="2.0" rx="1"/><rect x="36" y="11.0" width="2" height="2.0" rx="1"/><rect x="40" y="11.0" width="2" height="2.0" rx="1"/><rect x="44" y="11.0" width="2" height="2.0" rx="1"/><rect x="48" y="11.0" width="2" height="2.0" rx="1"/><rect x="52" y="11.0" width="2" height="2.0" rx="1"/><rect x="56" y="11.0" width="2" height="2.0" rx="1"/><rect x="60" y="11.0" width="2" height="2.0" rx="1"/><rect x="64" y="11.0" width="2" height="2.0" rx="1"/><rect x="68" y="1.1" width="2" height="21.7" rx="1"/><rect x="72" y="0.0" width="2" height="24.0" rx="1"/><rect x="76" y="1.7" width="2" height="20.5" rx="1"/><rect x="80" y="8.4" width="2" height="7.3" rx="1"/><rect x="84" y="2.3" width="2" height="19.5" rx="1"/><rect x="88" y="2.6" width="2" height="18.8" rx="1"/><rect x="92" y="3.9" width="2" height="16.2" rx="1"/><rect x="96" y="9.3" width="2" height="5.4" rx="1"/><rect x="100" y="2.7" width="2" height="18.5" rx="1"/><rect x="104" y="4.2" width="2" height="15.5" rx="1"/><rect x="108" y="4.5" width="2" height="14.9" rx="1"/><rect x="112" y="4.7" width="2" height="14.7" rx="1"/><rect x="116" y="4.6" width="2" height="14.8" rx="1"/><rect x="120" y="9.1" width="2" height="5.9" rx="1"/><rect x="124" y="9.5" width="2" height="4.9" rx="1"/><rect x="128" y="5.4" width="2" height="13.1" rx="1"/><rect x="132" y="5.4" width="2" height="13.3" rx="1"/><rect x="136" y="8.5" width="2" height="6.9" rx="1"/><rect x="140" y="10.6" width="2" height="2.8" rx="1"/><rect x="144" y="10.1" width="2" height="3.8" rx="1"/><rect x="148" y="10.0" width="2" height="4.1" rx="1"/><rect x="152" y="3.8" width="2" height="16.4" rx="1"/><rect x="156" y="3.9" width="2" height="16.2" rx="1"/><rect x="160" y="8.5" width="2" height="7.0" rx="1"/><rect x="164" y="11.0" width="2" height="2.0" rx="1"/><rect x="168" y="9.1" width="2" height="5.8" rx="1"/><rect x="172" y="3.3" width="2" height="17.3" rx="1"/><rect x="176" y="3.8" width="2" height="16.5" rx="1"/><rect x="180" y="4.8" width="2" height="14.5" rx="1"/><rect x="184" y="4.1" width="2" height="15.8" rx="1"/><rect x="188" y="3.7" width="2" height="16.6" rx="1"/><rect x="192" y="5.9" width="2" height="12.3" rx="1"/><rect x="196" y="7.2" width="2" height="9.5" rx="1"/><rect x="200" y="7.7" width="2" height="8.5" rx="1"/><rect x="204" y="8.9" width="2" height="6.3" rx="1"/><rect x="208" y="10.4" width="2" height="3.2" rx="1"/><rect x="212" y="11.0" width="2" height="2.0" rx="1"/><rect x="216" y="11.0" width="2" height="2.0" rx="1"/><rect x="220" y="11.0" width="2" height="2.0" rx="1"/></svg><div class="vw-region"></div></div><div class="st-vt"><p class="st-say" lang="zh-Hant">活的東西急不來。</p><p class="st-tr">Huó de dōngxi jí bù lái. · "Living things can't be hurried."</p></div></div></div></div><div class="st-p" data-i="2" style="--cc:#DA93BD;--ccd:#F5A9DC"><img class="sx-img" src="/media/tsumugu-cast-3-full.jpg" alt="Xīngyě Yáoxiāng" width="640" height="640">
+<div class="sx-t"><h2><span lang="zh-Hant">星野遙香</span> <small>Xīngyě Yáoxiāng</small></h2><p class="sx-role">the super-fan</p><p class="st-d">The Osaka super-fan who's more into Taiwan than the locals are — loud, quick, and always behind her film camera. She's the group's energy, the half-step-ahead one who gets everyone out the door: first to try the stinky tofu, last to want the night to end.</p>
+<div class="st-voice"><button type="button" class="vp" data-src="/media/voice/yaoxiang-catch.wav" aria-label="Play 星野遙香’s catchphrase"><svg viewBox="0 0 12 12" aria-hidden="true"><path class="vp-play" d="M3 1.5v9l8-4.5z"/><path class="vp-stop" d="M2.5 2.5h7v7h-7z"/></svg></button><div class="vw-wave" title="Click to play from a point. Drag to loop a part."><svg class="vw-bars" viewBox="0 0 224 24" aria-hidden="true"><rect x="0" y="11.0" width="2" height="2.0" rx="1"/><rect x="4" y="11.0" width="2" height="2.0" rx="1"/><rect x="8" y="11.0" width="2" height="2.0" rx="1"/><rect x="12" y="11.0" width="2" height="2.0" rx="1"/><rect x="16" y="11.0" width="2" height="2.0" rx="1"/><rect x="20" y="6.1" width="2" height="11.7" rx="1"/><rect x="24" y="5.9" width="2" height="12.1" rx="1"/><rect x="28" y="6.8" width="2" height="10.4" rx="1"/><rect x="32" y="5.8" width="2" height="12.3" rx="1"/><rect x="36" y="6.2" width="2" height="11.6" rx="1"/><rect x="40" y="4.9" width="2" height="14.2" rx="1"/><rect x="44" y="1.2" width="2" height="21.7" rx="1"/><rect x="48" y="1.6" width="2" height="20.7" rx="1"/><rect x="52" y="2.4" width="2" height="19.2" rx="1"/><rect x="56" y="2.8" width="2" height="18.4" rx="1"/><rect x="60" y="2.0" width="2" height="20.0" rx="1"/><rect x="64" y="10.7" width="2" height="2.6" rx="1"/><rect x="68" y="10.0" width="2" height="4.1" rx="1"/><rect x="72" y="8.9" width="2" height="6.1" rx="1"/><rect x="76" y="3.9" width="2" height="16.1" rx="1"/><rect x="80" y="2.2" width="2" height="19.5" rx="1"/><rect x="84" y="4.6" width="2" height="14.9" rx="1"/><rect x="88" y="6.9" width="2" height="10.2" rx="1"/><rect x="92" y="7.2" width="2" height="9.6" rx="1"/><rect x="96" y="7.9" width="2" height="8.2" rx="1"/><rect x="100" y="5.3" width="2" height="13.4" rx="1"/><rect x="104" y="1.5" width="2" height="21.0" rx="1"/><rect x="108" y="0.0" width="2" height="24.0" rx="1"/><rect x="112" y="1.1" width="2" height="21.9" rx="1"/><rect x="116" y="4.0" width="2" height="15.9" rx="1"/><rect x="120" y="10.5" width="2" height="2.9" rx="1"/><rect x="124" y="7.2" width="2" height="9.6" rx="1"/><rect x="128" y="8.5" width="2" height="7.0" rx="1"/><rect x="132" y="3.0" width="2" height="18.0" rx="1"/><rect x="136" y="3.9" width="2" height="16.1" rx="1"/><rect x="140" y="5.4" width="2" height="13.2" rx="1"/><rect x="144" y="4.1" width="2" height="15.7" rx="1"/><rect x="148" y="5.0" width="2" height="14.0" rx="1"/><rect x="152" y="5.3" width="2" height="13.4" rx="1"/><rect x="156" y="5.6" width="2" height="12.9" rx="1"/><rect x="160" y="6.6" width="2" height="10.8" rx="1"/><rect x="164" y="4.1" width="2" height="15.8" rx="1"/><rect x="168" y="4.2" width="2" height="15.6" rx="1"/><rect x="172" y="3.7" width="2" height="16.5" rx="1"/><rect x="176" y="4.0" width="2" height="15.9" rx="1"/><rect x="180" y="4.3" width="2" height="15.4" rx="1"/><rect x="184" y="3.1" width="2" height="17.8" rx="1"/><rect x="188" y="5.3" width="2" height="13.5" rx="1"/><rect x="192" y="6.3" width="2" height="11.4" rx="1"/><rect x="196" y="6.8" width="2" height="10.4" rx="1"/><rect x="200" y="7.5" width="2" height="8.9" rx="1"/><rect x="204" y="9.2" width="2" height="5.6" rx="1"/><rect x="208" y="10.6" width="2" height="2.9" rx="1"/><rect x="212" y="11.0" width="2" height="2.0" rx="1"/><rect x="216" y="11.0" width="2" height="2.0" rx="1"/><rect x="220" y="11.0" width="2" height="2.0" rx="1"/></svg><div class="vw-region"></div></div><div class="st-vt"><p class="st-say" lang="zh-Hant">超級好看的啦！</p><p class="st-tr">Chāojí hǎokàn de la! · "It's so good-looking!"</p></div></div></div></div><div class="st-p" data-i="3" style="--cc:#8A5FD0;--ccd:#A985E8"><img class="sx-img" src="/media/tsumugu-cast-4-full.jpg" alt="Jīn Duō'ēn" width="640" height="640">
+<div class="sx-t"><h2><span lang="zh-Hant">金多恩</span> <small>Jīn Duō'ēn</small></h2><p class="sx-role">the conservator</p><p class="st-d">Quiet, sharp, unhurried — the group's best test-taker, who says the least and notices the most. She lands the plain hard verdict in a handful of cold words, then quietly picks up the broken thing everyone else stepped over and mends it.</p>
+<div class="st-voice"><button type="button" class="vp" data-src="/media/voice/duoen-catch.wav" aria-label="Play 金多恩’s catchphrase"><svg viewBox="0 0 12 12" aria-hidden="true"><path class="vp-play" d="M3 1.5v9l8-4.5z"/><path class="vp-stop" d="M2.5 2.5h7v7h-7z"/></svg></button><div class="vw-wave" title="Click to play from a point. Drag to loop a part."><svg class="vw-bars" viewBox="0 0 224 24" aria-hidden="true"><rect x="0" y="11.0" width="2" height="2.0" rx="1"/><rect x="4" y="11.0" width="2" height="2.0" rx="1"/><rect x="8" y="11.0" width="2" height="2.0" rx="1"/><rect x="12" y="8.7" width="2" height="6.6" rx="1"/><rect x="16" y="9.1" width="2" height="5.7" rx="1"/><rect x="20" y="4.7" width="2" height="14.5" rx="1"/><rect x="24" y="4.6" width="2" height="14.9" rx="1"/><rect x="28" y="4.4" width="2" height="15.1" rx="1"/><rect x="32" y="0.0" width="2" height="24.0" rx="1"/><rect x="36" y="0.7" width="2" height="22.5" rx="1"/><rect x="40" y="8.2" width="2" height="7.6" rx="1"/><rect x="44" y="4.2" width="2" height="15.7" rx="1"/><rect x="48" y="8.6" width="2" height="6.8" rx="1"/><rect x="52" y="5.0" width="2" height="14.0" rx="1"/><rect x="56" y="1.8" width="2" height="20.5" rx="1"/><rect x="60" y="2.3" width="2" height="19.5" rx="1"/><rect x="64" y="0.6" width="2" height="22.8" rx="1"/><rect x="68" y="1.7" width="2" height="20.6" rx="1"/><rect x="72" y="3.6" width="2" height="16.8" rx="1"/><rect x="76" y="5.0" width="2" height="14.0" rx="1"/><rect x="80" y="6.7" width="2" height="10.6" rx="1"/><rect x="84" y="8.7" width="2" height="6.6" rx="1"/><rect x="88" y="10.1" width="2" height="3.7" rx="1"/><rect x="92" y="11.0" width="2" height="2.0" rx="1"/><rect x="96" y="11.0" width="2" height="2.0" rx="1"/><rect x="100" y="11.0" width="2" height="2.0" rx="1"/><rect x="104" y="11.0" width="2" height="2.0" rx="1"/><rect x="108" y="11.0" width="2" height="2.0" rx="1"/><rect x="112" y="11.0" width="2" height="2.0" rx="1"/><rect x="116" y="11.0" width="2" height="2.0" rx="1"/><rect x="120" y="11.0" width="2" height="2.0" rx="1"/><rect x="124" y="11.0" width="2" height="2.0" rx="1"/><rect x="128" y="11.0" width="2" height="2.0" rx="1"/><rect x="132" y="11.0" width="2" height="2.0" rx="1"/><rect x="136" y="11.0" width="2" height="2.0" rx="1"/><rect x="140" y="9.3" width="2" height="5.4" rx="1"/><rect x="144" y="9.9" width="2" height="4.3" rx="1"/><rect x="148" y="3.3" width="2" height="17.3" rx="1"/><rect x="152" y="3.3" width="2" height="17.4" rx="1"/><rect x="156" y="4.2" width="2" height="15.7" rx="1"/><rect x="160" y="3.6" width="2" height="16.8" rx="1"/><rect x="164" y="3.2" width="2" height="17.7" rx="1"/><rect x="168" y="5.3" width="2" height="13.4" rx="1"/><rect x="172" y="8.7" width="2" height="6.6" rx="1"/><rect x="176" y="9.0" width="2" height="6.0" rx="1"/><rect x="180" y="4.9" width="2" height="14.2" rx="1"/><rect x="184" y="4.7" width="2" height="14.6" rx="1"/><rect x="188" y="7.1" width="2" height="9.8" rx="1"/><rect x="192" y="9.1" width="2" height="5.8" rx="1"/><rect x="196" y="11.0" width="2" height="2.0" rx="1"/><rect x="200" y="9.1" width="2" height="5.7" rx="1"/><rect x="204" y="10.3" width="2" height="3.5" rx="1"/><rect x="208" y="10.7" width="2" height="2.7" rx="1"/><rect x="212" y="11.0" width="2" height="2.0" rx="1"/><rect x="216" y="11.0" width="2" height="2.0" rx="1"/><rect x="220" y="11.0" width="2" height="2.0" rx="1"/></svg><div class="vw-region"></div></div><div class="st-vt"><p class="st-say" lang="zh-Hant">看得出來，才是好的。</p><p class="st-tr">Kàn de chūlái, cái shì hǎo de. · "That you can see it is what makes it good."</p></div></div></div></div><div class="st-p" data-i="4" style="--cc:#C75B28;--ccd:#E07B42"><img class="sx-img" src="/media/tsumugu-cast-5-full.jpg" alt="Ā Dí" width="640" height="960">
+<div class="sx-t"><h2><span lang="zh-Hant">阿迪</span> <small>Ā Dí</small></h2><p class="sx-role">the maker</p><p class="st-d">The warm, laid-back maker from Jakarta who stitches batik into streetwear. What the shirts earn goes home to his family; he carries that quietly, and he is the last one in the room to decide anything.</p>
+<div class="st-voice"><button type="button" class="vp" data-src="/media/voice/adi-catch.wav" aria-label="Play 阿迪’s catchphrase"><svg viewBox="0 0 12 12" aria-hidden="true"><path class="vp-play" d="M3 1.5v9l8-4.5z"/><path class="vp-stop" d="M2.5 2.5h7v7h-7z"/></svg></button><div class="vw-wave" title="Click to play from a point. Drag to loop a part."><svg class="vw-bars" viewBox="0 0 224 24" aria-hidden="true"><rect x="0" y="11.0" width="2" height="2.0" rx="1"/><rect x="4" y="11.0" width="2" height="2.0" rx="1"/><rect x="8" y="11.0" width="2" height="2.0" rx="1"/><rect x="12" y="11.0" width="2" height="2.0" rx="1"/><rect x="16" y="11.0" width="2" height="2.0" rx="1"/><rect x="20" y="11.0" width="2" height="2.0" rx="1"/><rect x="24" y="11.0" width="2" height="2.0" rx="1"/><rect x="28" y="1.6" width="2" height="20.8" rx="1"/><rect x="32" y="5.0" width="2" height="14.0" rx="1"/><rect x="36" y="3.7" width="2" height="16.6" rx="1"/><rect x="40" y="3.6" width="2" height="16.7" rx="1"/><rect x="44" y="4.6" width="2" height="14.8" rx="1"/><rect x="48" y="8.8" width="2" height="6.4" rx="1"/><rect x="52" y="5.1" width="2" height="13.9" rx="1"/><rect x="56" y="3.6" width="2" height="16.8" rx="1"/><rect x="60" y="6.7" width="2" height="10.6" rx="1"/><rect x="64" y="7.4" width="2" height="9.2" rx="1"/><rect x="68" y="1.4" width="2" height="21.2" rx="1"/><rect x="72" y="0.0" width="2" height="24.0" rx="1"/><rect x="76" y="2.6" width="2" height="18.9" rx="1"/><rect x="80" y="4.2" width="2" height="15.7" rx="1"/><rect x="84" y="8.5" width="2" height="6.9" rx="1"/><rect x="88" y="11.0" width="2" height="2.0" rx="1"/><rect x="92" y="11.0" width="2" height="2.0" rx="1"/><rect x="96" y="11.0" width="2" height="2.0" rx="1"/><rect x="100" y="11.0" width="2" height="2.0" rx="1"/><rect x="104" y="11.0" width="2" height="2.0" rx="1"/><rect x="108" y="11.0" width="2" height="2.0" rx="1"/><rect x="112" y="11.0" width="2" height="2.0" rx="1"/><rect x="116" y="11.0" width="2" height="2.0" rx="1"/><rect x="120" y="11.0" width="2" height="2.0" rx="1"/><rect x="124" y="11.0" width="2" height="2.0" rx="1"/><rect x="128" y="11.0" width="2" height="2.0" rx="1"/><rect x="132" y="11.0" width="2" height="2.0" rx="1"/><rect x="136" y="11.0" width="2" height="2.0" rx="1"/><rect x="140" y="11.0" width="2" height="2.0" rx="1"/><rect x="144" y="10.8" width="2" height="2.5" rx="1"/><rect x="148" y="3.3" width="2" height="17.4" rx="1"/><rect x="152" y="4.5" width="2" height="15.0" rx="1"/><rect x="156" y="9.8" width="2" height="4.5" rx="1"/><rect x="160" y="5.5" width="2" height="13.0" rx="1"/><rect x="164" y="6.4" width="2" height="11.2" rx="1"/><rect x="168" y="9.7" width="2" height="4.7" rx="1"/><rect x="172" y="4.2" width="2" height="15.5" rx="1"/><rect x="176" y="5.4" width="2" height="13.1" rx="1"/><rect x="180" y="9.0" width="2" height="6.0" rx="1"/><rect x="184" y="6.9" width="2" height="10.2" rx="1"/><rect x="188" y="8.5" width="2" height="7.0" rx="1"/><rect x="192" y="10.8" width="2" height="2.3" rx="1"/><rect x="196" y="10.5" width="2" height="3.0" rx="1"/><rect x="200" y="5.9" width="2" height="12.2" rx="1"/><rect x="204" y="4.1" width="2" height="15.8" rx="1"/><rect x="208" y="5.9" width="2" height="12.2" rx="1"/><rect x="212" y="10.0" width="2" height="4.0" rx="1"/><rect x="216" y="11.0" width="2" height="2.0" rx="1"/><rect x="220" y="11.0" width="2" height="2.0" rx="1"/></svg><div class="vw-region"></div></div><div class="st-vt"><p class="st-say" lang="zh-Hant">不要緊張，又不會怎樣。</p><p class="st-tr">Bùyào jǐnzhāng, yòu bù huì zěnyàng. · "Don't stress — nothing's going to happen."</p></div></div></div></div><div class="st-p" data-i="5" style="--cc:#9CA3B0;--ccd:#E6E9F0"><img class="sx-img" src="/media/tsumugu-cast-6-full.jpg" alt="Bái Lóng" width="640" height="960">
+<div class="sx-t"><h2><span lang="zh-Hant">白龍</span> <small>Bái Lóng</small></h2><p class="sx-role">the deadpan far-seer</p><p class="st-d">A towering, bone-dry Englishman with a cavernous bass and binoculars round his neck — he says the least in any room and sees the furthest, calling the rain or the crowd a beat before it lands, then saying nothing about having been right. The café's ginger tom 將軍, who likes nobody, sleeps across his shoulder.</p>
+<div class="st-voice"><button type="button" class="vp" data-src="/media/voice/bailong-catch.wav" aria-label="Play 白龍’s catchphrase"><svg viewBox="0 0 12 12" aria-hidden="true"><path class="vp-play" d="M3 1.5v9l8-4.5z"/><path class="vp-stop" d="M2.5 2.5h7v7h-7z"/></svg></button><div class="vw-wave" title="Click to play from a point. Drag to loop a part."><svg class="vw-bars" viewBox="0 0 224 24" aria-hidden="true"><rect x="0" y="11.0" width="2" height="2.0" rx="1"/><rect x="4" y="11.0" width="2" height="2.0" rx="1"/><rect x="8" y="11.0" width="2" height="2.0" rx="1"/><rect x="12" y="11.0" width="2" height="2.0" rx="1"/><rect x="16" y="11.0" width="2" height="2.0" rx="1"/><rect x="20" y="11.0" width="2" height="2.0" rx="1"/><rect x="24" y="11.0" width="2" height="2.0" rx="1"/><rect x="28" y="11.0" width="2" height="2.0" rx="1"/><rect x="32" y="11.0" width="2" height="2.0" rx="1"/><rect x="36" y="11.0" width="2" height="2.0" rx="1"/><rect x="40" y="11.0" width="2" height="2.0" rx="1"/><rect x="44" y="11.0" width="2" height="2.0" rx="1"/><rect x="48" y="11.0" width="2" height="2.0" rx="1"/><rect x="52" y="11.0" width="2" height="2.0" rx="1"/><rect x="56" y="11.0" width="2" height="2.0" rx="1"/><rect x="60" y="11.0" width="2" height="2.0" rx="1"/><rect x="64" y="11.0" width="2" height="2.0" rx="1"/><rect x="68" y="11.0" width="2" height="2.0" rx="1"/><rect x="72" y="10.1" width="2" height="3.9" rx="1"/><rect x="76" y="1.5" width="2" height="21.1" rx="1"/><rect x="80" y="3.4" width="2" height="17.3" rx="1"/><rect x="84" y="5.8" width="2" height="12.4" rx="1"/><rect x="88" y="6.2" width="2" height="11.7" rx="1"/><rect x="92" y="5.0" width="2" height="14.0" rx="1"/><rect x="96" y="4.9" width="2" height="14.3" rx="1"/><rect x="100" y="7.7" width="2" height="8.5" rx="1"/><rect x="104" y="8.5" width="2" height="7.0" rx="1"/><rect x="108" y="6.8" width="2" height="10.3" rx="1"/><rect x="112" y="0.5" width="2" height="23.0" rx="1"/><rect x="116" y="2.4" width="2" height="19.1" rx="1"/><rect x="120" y="8.5" width="2" height="6.9" rx="1"/><rect x="124" y="9.0" width="2" height="6.1" rx="1"/><rect x="128" y="5.3" width="2" height="13.3" rx="1"/><rect x="132" y="6.6" width="2" height="10.8" rx="1"/><rect x="136" y="10.6" width="2" height="2.8" rx="1"/><rect x="140" y="4.8" width="2" height="14.5" rx="1"/><rect x="144" y="4.4" width="2" height="15.2" rx="1"/><rect x="148" y="7.5" width="2" height="9.1" rx="1"/><rect x="152" y="8.4" width="2" height="7.1" rx="1"/><rect x="156" y="4.2" width="2" height="15.6" rx="1"/><rect x="160" y="0.0" width="2" height="24.0" rx="1"/><rect x="164" y="1.9" width="2" height="20.3" rx="1"/><rect x="168" y="4.9" width="2" height="14.2" rx="1"/><rect x="172" y="8.2" width="2" height="7.6" rx="1"/><rect x="176" y="8.9" width="2" height="6.1" rx="1"/><rect x="180" y="10.2" width="2" height="3.5" rx="1"/><rect x="184" y="10.6" width="2" height="2.9" rx="1"/><rect x="188" y="11.0" width="2" height="2.0" rx="1"/><rect x="192" y="11.0" width="2" height="2.0" rx="1"/><rect x="196" y="11.0" width="2" height="2.0" rx="1"/><rect x="200" y="10.7" width="2" height="2.5" rx="1"/><rect x="204" y="10.7" width="2" height="2.7" rx="1"/><rect x="208" y="10.9" width="2" height="2.1" rx="1"/><rect x="212" y="11.0" width="2" height="2.0" rx="1"/><rect x="216" y="11.0" width="2" height="2.0" rx="1"/><rect x="220" y="11.0" width="2" height="2.0" rx="1"/></svg><div class="vw-region"></div></div><div class="st-vt"><p class="st-say" lang="zh-Hant">等一下就會下雨了。</p><p class="st-tr">Děng yīxià jiù huì xiàyǔ le. · "It'll rain in a bit."</p></div></div></div></div></div>
+<div class="st-intro st-more"><p class="pj-lede">Tsumugu Story is meant as a Chinese language learning supplement. Its main story arc is a companion piece for the textbook A Course in Contemporary Chinese, and it ties into the vocabulary students are learning there, so as the six learn and interact, you study the same things they study.</p><p class="pj-lede">The intention is like having classmates who undergo the same type of drama that students experience in their own lives: stories about fighting, loneliness, mental health and belonging. This is not meant to entirely be a wholesome story; it’s meant to cover the full breadth and depth of human experience, in order to fully encompass all the ways in which we communicate and share our lives.</p><p class="pj-lede">It takes loose inspiration from several sources: the American sitcom Friends, which Chinese students use to study English; character-driven role-playing games such as Baldur’s Gate 3, where the characters share one story but each has their own struggles and missions; and the characters in that textbook, who mirror a student’s experiences for a lesson or two and then disappear.</p></div>
+<style>.sb-fig{display:block;overflow-x:auto;padding:16px 0 4px;border-top:1px solid var(--line);color:inherit;text-decoration:none}.sb-fig svg{display:block;width:100%;min-width:640px;height:auto}.sb .sf-b{font:700 12px var(--font);fill:var(--ink)}.sb .sf-n{font:400 9px var(--neon);fill:var(--mute)}.sb .sf-nm{font:400 13px var(--font);fill:var(--ink);stroke:none}.sb .sf-band{fill:var(--line)}.sb .sf-lk{fill:none;stroke:var(--hair);stroke-width:1}.sb-fig:hover .sf-lk{stroke:var(--faded)}.sb g circle{fill:var(--c)}.sb g line{stroke:var(--c);stroke-opacity:.38}.sb g .sf-m{stroke:var(--bg);stroke-width:1.2}.sb-cap{margin:6px 0 14px;font:var(--w-text) var(--t-micro)/1.45 var(--font);letter-spacing:.034em;color:var(--mute)}.sb .sf-c0{--c:#0B8F86}html[data-theme="dark"] .sb .sf-c0{--c:#35BAAE}.sb .sf-c1{--c:#6F9C3B}html[data-theme="dark"] .sb .sf-c1{--c:#93BC55}.sb .sf-c2{--c:#DA93BD}html[data-theme="dark"] .sb .sf-c2{--c:#F5A9DC}.sb .sf-c3{--c:#8A5FD0}html[data-theme="dark"] .sb .sf-c3{--c:#A985E8}.sb .sf-c4{--c:#C75B28}html[data-theme="dark"] .sb .sf-c4{--c:#E07B42}.sb .sf-c5{--c:#9CA3B0}html[data-theme="dark"] .sb .sf-c5{--c:#E6E9F0}</style>
+<h2 class="sec-h sx-h">Story board</h2>
+<div class="sb"><a class="sb-fig" href="#board" data-tool="board" aria-label="Story board for Books 1 and 2. Open the board."><svg viewBox="0 0 928 273" aria-hidden="true" focusable="false"><text class="sf-b" x="96.0" y="12">Book 1</text><text class="sf-b" x="520.0" y="12">Book 2</text><text class="sf-n" x="108.9" y="27" text-anchor="middle">1</text><rect class="sf-band" x="198.9" y="30" width="25.7" height="151"/><text class="sf-n" x="211.8" y="27" text-anchor="middle">5</text><rect class="sf-band" x="335.6" y="30" width="25.7" height="151"/><text class="sf-n" x="348.5" y="27" text-anchor="middle">10</text><rect class="sf-band" x="472.3" y="30" width="25.7" height="151"/><text class="sf-n" x="485.1" y="27" text-anchor="middle">15</text><text class="sf-n" x="532.9" y="27" text-anchor="middle">1</text><rect class="sf-band" x="622.9" y="30" width="25.7" height="151"/><text class="sf-n" x="635.8" y="27" text-anchor="middle">5</text><rect class="sf-band" x="759.6" y="30" width="25.7" height="151"/><text class="sf-n" x="772.5" y="27" text-anchor="middle">10</text><rect class="sf-band" x="896.3" y="30" width="25.7" height="151"/><text class="sf-n" x="909.1" y="27" text-anchor="middle">15</text><path class="sf-lk" d="M108.9 189A162.4 73.0 0 0 0 433.7 189"/><path class="sf-lk" d="M134.6 189A237.7 76.0 0 0 0 610.1 189"/><path class="sf-lk" d="M160.3 189A136.7 62.7 0 0 0 433.7 189"/><path class="sf-lk" d="M186.1 189A149.5 67.8 0 0 0 485.1 189"/><path class="sf-lk" d="M186.1 189A123.8 57.5 0 0 0 433.7 189"/><path class="sf-lk" d="M211.8 189A110.9 52.4 0 0 0 433.7 189"/><path class="sf-lk" d="M271.3 189A68.3 35.3 0 0 0 407.9 189"/><path class="sf-lk" d="M322.7 189A280.3 76.0 0 0 0 883.4 189"/><path class="sf-lk" d="M322.7 189A293.2 76.0 0 0 0 909.1 189"/><path class="sf-lk" d="M348.5 189A42.6 25.0 0 0 0 433.7 189"/><path class="sf-lk" d="M382.2 189A25.7 18.3 0 0 0 433.7 189"/><path class="sf-lk" d="M407.9 189A237.7 76.0 0 0 0 883.4 189"/><path class="sf-lk" d="M485.1 189A62.5 33.0 0 0 0 610.1 189"/><path class="sf-lk" d="M485.1 189A186.3 76.0 0 0 0 857.7 189"/><path class="sf-lk" d="M532.9 189A25.7 18.3 0 0 0 584.3 189"/><path class="sf-lk" d="M584.3 189A68.3 35.3 0 0 0 721.0 189"/><path class="sf-lk" d="M635.8 189A68.3 35.3 0 0 0 772.5 189"/><path class="sf-lk" d="M806.2 189A38.6 23.4 0 0 0 883.4 189"/><path class="sf-lk" d="M806.2 189A51.5 28.6 0 0 0 909.1 189"/><path class="sf-lk" d="M883.4 189A12.9 13.1 0 0 0 909.1 189"/><path class="sf-lk" d="M721.0 189A94.1 45.6 0 0 0 909.1 189"/><path class="sf-lk" d="M532.9 189A94.1 45.6 0 0 0 721.0 189"/><g class="sf-c0"><circle cx="5" cy="52" r="4"/><text class="sf-nm" x="15" y="56.5">沈文</text><line x1="96.0" y1="52" x2="498.0" y2="52"/><line x1="520.0" y1="52" x2="922.0" y2="52"/><circle class="sf-m" cx="108.9" cy="52" r="4.4"/><circle class="sf-m" cx="134.6" cy="52" r="4.4"/><circle class="sf-m" cx="160.3" cy="52" r="4.4"/><circle cx="211.8" cy="52" r="1.6"/><circle cx="245.5" cy="52" r="1.6"/><circle class="sf-m" cx="322.7" cy="52" r="4.4"/><circle class="sf-m" cx="433.7" cy="52" r="4.4"/><circle cx="485.1" cy="52" r="1.6"/><circle class="sf-m" cx="532.9" cy="52" r="4.4"/><circle class="sf-m" cx="558.6" cy="52" r="4.4"/><circle class="sf-m" cx="610.1" cy="52" r="4.4"/><circle class="sf-m" cx="635.8" cy="52" r="4.4"/><circle cx="669.5" cy="52" r="1.6"/><circle class="sf-m" cx="695.3" cy="52" r="4.4"/><circle class="sf-m" cx="772.5" cy="52" r="4.4"/><circle class="sf-m" cx="806.2" cy="52" r="4.4"/><circle class="sf-m" cx="857.7" cy="52" r="4.4"/><circle class="sf-m" cx="909.1" cy="52" r="4.4"/></g><g class="sf-c1"><circle cx="5" cy="75" r="4"/><text class="sf-nm" x="15" y="79.5">阮草</text><line x1="96.0" y1="75" x2="498.0" y2="75"/><line x1="520.0" y1="75" x2="922.0" y2="75"/><circle cx="108.9" cy="75" r="1.6"/><circle class="sf-m" cx="134.6" cy="75" r="4.4"/><circle class="sf-m" cx="160.3" cy="75" r="4.4"/><circle class="sf-m" cx="186.1" cy="75" r="4.4"/><circle cx="211.8" cy="75" r="1.6"/><circle class="sf-m" cx="322.7" cy="75" r="4.4"/><circle class="sf-m" cx="433.7" cy="75" r="4.4"/><circle class="sf-m" cx="485.1" cy="75" r="4.4"/><circle class="sf-m" cx="584.3" cy="75" r="4.4"/><circle class="sf-m" cx="610.1" cy="75" r="4.4"/><circle class="sf-m" cx="635.8" cy="75" r="4.4"/><circle class="sf-m" cx="669.5" cy="75" r="4.4"/><circle cx="721.0" cy="75" r="1.6"/><circle class="sf-m" cx="746.7" cy="75" r="4.4"/><circle cx="831.9" cy="75" r="1.6"/><circle class="sf-m" cx="857.7" cy="75" r="4.4"/><circle class="sf-m" cx="909.1" cy="75" r="4.4"/></g><g class="sf-c2"><circle cx="5" cy="98" r="4"/><text class="sf-nm" x="15" y="102.5">星野遙香</text><line x1="96.0" y1="98" x2="498.0" y2="98"/><line x1="520.0" y1="98" x2="922.0" y2="98"/><circle class="sf-m" cx="108.9" cy="98" r="4.4"/><circle cx="134.6" cy="98" r="1.6"/><circle cx="160.3" cy="98" r="1.6"/><circle cx="186.1" cy="98" r="1.6"/><circle cx="211.8" cy="98" r="1.6"/><circle cx="271.3" cy="98" r="1.6"/><circle cx="297.0" cy="98" r="1.6"/><circle cx="322.7" cy="98" r="1.6"/><circle cx="382.2" cy="98" r="1.6"/><circle cx="407.9" cy="98" r="1.6"/><circle class="sf-m" cx="558.6" cy="98" r="4.4"/><circle cx="584.3" cy="98" r="1.6"/><circle cx="635.8" cy="98" r="1.6"/><circle class="sf-m" cx="695.3" cy="98" r="4.4"/><circle class="sf-m" cx="721.0" cy="98" r="4.4"/><circle class="sf-m" cx="746.7" cy="98" r="4.4"/><circle class="sf-m" cx="772.5" cy="98" r="4.4"/><circle class="sf-m" cx="806.2" cy="98" r="4.4"/><circle class="sf-m" cx="857.7" cy="98" r="4.4"/><circle class="sf-m" cx="883.4" cy="98" r="4.4"/><circle class="sf-m" cx="909.1" cy="98" r="4.4"/></g><g class="sf-c3"><circle cx="5" cy="121" r="4"/><text class="sf-nm" x="15" y="125.5">金多恩</text><line x1="96.0" y1="121" x2="498.0" y2="121"/><line x1="520.0" y1="121" x2="922.0" y2="121"/><circle cx="271.3" cy="121" r="1.6"/><circle class="sf-m" cx="348.5" cy="121" r="4.4"/><circle cx="382.2" cy="121" r="1.6"/><circle cx="407.9" cy="121" r="1.6"/><circle class="sf-m" cx="433.7" cy="121" r="4.4"/><circle cx="532.9" cy="121" r="1.6"/><circle cx="584.3" cy="121" r="1.6"/><circle class="sf-m" cx="669.5" cy="121" r="4.4"/><circle cx="721.0" cy="121" r="1.6"/><circle cx="772.5" cy="121" r="1.6"/><circle cx="857.7" cy="121" r="1.6"/><circle class="sf-m" cx="883.4" cy="121" r="4.4"/></g><g class="sf-c4"><circle cx="5" cy="144" r="4"/><text class="sf-nm" x="15" y="148.5">阿迪</text><line x1="96.0" y1="144" x2="498.0" y2="144"/><line x1="520.0" y1="144" x2="922.0" y2="144"/><circle cx="134.6" cy="144" r="1.6"/><circle cx="160.3" cy="144" r="1.6"/><circle class="sf-m" cx="211.8" cy="144" r="4.4"/><circle cx="485.1" cy="144" r="1.6"/><circle cx="584.3" cy="144" r="1.6"/><circle cx="610.1" cy="144" r="1.6"/><circle class="sf-m" cx="669.5" cy="144" r="4.4"/><circle class="sf-m" cx="721.0" cy="144" r="4.4"/><circle class="sf-m" cx="746.7" cy="144" r="4.4"/><circle class="sf-m" cx="772.5" cy="144" r="4.4"/><circle cx="806.2" cy="144" r="1.6"/><circle class="sf-m" cx="831.9" cy="144" r="4.4"/><circle cx="883.4" cy="144" r="1.6"/></g><g class="sf-c5"><circle cx="5" cy="167" r="4"/><text class="sf-nm" x="15" y="171.5">白龍</text><line x1="96.0" y1="167" x2="498.0" y2="167"/><line x1="520.0" y1="167" x2="922.0" y2="167"/><circle cx="160.3" cy="167" r="1.6"/><circle cx="186.1" cy="167" r="1.6"/><circle class="sf-m" cx="348.5" cy="167" r="4.4"/><circle class="sf-m" cx="382.2" cy="167" r="4.4"/><circle class="sf-m" cx="433.7" cy="167" r="4.4"/><circle cx="459.4" cy="167" r="1.6"/><circle class="sf-m" cx="558.6" cy="167" r="4.4"/><circle cx="584.3" cy="167" r="1.6"/><circle cx="610.1" cy="167" r="1.6"/><circle class="sf-m" cx="635.8" cy="167" r="4.4"/><circle cx="695.3" cy="167" r="1.6"/><circle class="sf-m" cx="721.0" cy="167" r="4.4"/><circle cx="806.2" cy="167" r="1.6"/><circle cx="831.9" cy="167" r="1.6"/><circle cx="857.7" cy="167" r="1.6"/><circle cx="883.4" cy="167" r="1.6"/><circle class="sf-m" cx="909.1" cy="167" r="4.4"/></g></svg></a><p class="sb-cap">Books 1 and 2, lesson by lesson. A large dot is a lesson whose main beat names that student. An arc joins a plant to the lesson where it pays off.</p><div class="sx-list"><a class="rw" href="#board" data-tool="board"><b>Board</b><span>Lanes, a grid and a wall of cards for the same thirty lessons.</span></a><a class="rw" href="#binder" data-tool="binder"><b>Binder</b><span>The plan as a tree, with index cards, an outline and the drafted readings.</span></a></div></div>
+<h2 class="sec-h sx-h">Story craft</h2>
+<div class="sx-list"><a class="rw" href="/wiki/Story-Craft/Story-Craft/" target="_blank" rel="noopener"><b>Story Craft</b><span>Story Craft gathers the writing methods for long serial character fiction under a vocabulary ceiling, chiefly Tsumugu, where the Han word list is both a constraint and a reveal schedule.</span></a><a class="rw" href="/wiki/Story-Craft/Story-Craft,-Condensed/" target="_blank" rel="noopener"><b>Story Craft, Condensed</b><span>A graded serial under a vocabulary ceiling reveals character only as fast as the reader learns the words to understand it.</span></a><a class="rw" href="/wiki/Story-Craft/Story-Under-a-Vocabulary-Ceiling/" target="_blank" rel="noopener"><b>Story Under a Vocabulary Ceiling</b><span>A vocabulary ceiling is a fixed word list the story may not exceed.</span></a><a class="rw" href="/wiki/Story-Craft/Premise-and-Controlling-Idea/" target="_blank" rel="noopener"><b>Premise and Controlling Idea</b><span>A premise is one causal sentence the story sets out to prove: [trait] leads to [end], true inside this work only.</span></a><a class="rw" href="/wiki/Story-Craft/The-Wound-and-the-Lie/" target="_blank" rel="noopener"><b>The Wound and the Lie</b><span>Interiority runs on one causal chain: a past event installs a false belief; the belief drives an external goal; chasing that goal blocks inner truth.</span></a><a class="rw" href="/wiki/Story-Craft/The-Character-Web/" target="_blank" rel="noopener"><b>The Character Web</b><span>A character web designs the cast together: one question underneath, each member a stance (defensible answer played in behavior).</span></a><a class="rw" href="/wiki/Story-Craft/The-Beat-Board/" target="_blank" rel="noopener"><b>The Beat Board</b><span>A beat board lays the story on index cards: one beat (one event that changes a situation) per card, ~seven words, hand-written so order stays negotiable.</span></a><a class="rw" href="/wiki/Story-Craft/Stakes-Without-Mortality/" target="_blank" rel="noopener"><b>Stakes Without Mortality</b><span>Nobody dies in the house serial, yet tension is not optional.</span></a><a class="rw" href="/wiki/Story-Craft/Interiority-Through-Action-and-Object/" target="_blank" rel="noopener"><b>Interiority Through Action and Object</b><span>Bring the reader to a feeling without naming it.</span></a><a class="rw" href="/wiki/Story-Craft/Diagnosing-a-Character/" target="_blank" rel="noopener"><b>Diagnosing a Character</b><span>This audit runs eleven fixed checks on a character build in the same order.</span></a></div>
+</div>
+<script>
+
+(function () {
+  const menu = document.querySelector(".menu");
+  if (menu) {
+    document.addEventListener("click", (e) => {
+      if (menu.open && !menu.contains(e.target)) menu.removeAttribute("open");
+    });
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape" && menu.open) menu.removeAttribute("open");
+    });
+  }
+})();
+</script>
+<script>
+(function(){var svg=document.getElementById('hmap');if(!svg)return;var tip=svg.querySelector('#hmap-tip'),box=tip.querySelector('rect'),txt=tip.querySelector('text');
+function show(n){txt.textContent=n.getAttribute('data-title');var w=txt.getComputedTextLength()+10,x=+n.getAttribute('data-x'),y=+n.getAttribute('data-y');
+var tx=Math.min(414-w-4,Math.max(4,x-w/2)),ty=y<34?y+9:y-24;box.setAttribute('width',w);txt.setAttribute('x',5);tip.setAttribute('transform','translate('+tx+' '+ty+')');tip.setAttribute('visibility','visible');}
+function hide(){tip.setAttribute('visibility','hidden');}
+svg.querySelectorAll('a.node').forEach(function(n){n.addEventListener('mouseenter',function(){show(n)});n.addEventListener('focus',function(){show(n)});n.addEventListener('mouseleave',hide);n.addEventListener('blur',hide);});})();
+</script>
+<script>
+(function(){var input=document.getElementById('site-search');if(!input)return;
+var rows=[].slice.call(document.querySelectorAll('.works > a, .journal > a, .pages > a, .cards > a, .jw-row'));
+var nodes=[].slice.call(document.querySelectorAll('#hmap a.node'));
+function run(){var q=input.value.trim().toLowerCase();
+rows.forEach(function(r){var hit=!q||r.textContent.toLowerCase().indexOf(q)>-1;if(hit)r.removeAttribute('data-search-hide');else r.setAttribute('data-search-hide','');});
+nodes.forEach(function(n){var hit=!q||(n.getAttribute('data-title')||'').toLowerCase().indexOf(q)>-1;if(hit)n.removeAttribute('data-search-dim');else n.setAttribute('data-search-dim','');});}
+input.addEventListener('input',run);
+if(rows.length){try{var q0=new URLSearchParams(location.search).get('q');if(q0){input.value=q0;run();}}catch(e){}}
+document.addEventListener('keydown',function(e){if(e.key==='/'&&document.activeElement!==input&&!/^(INPUT|TEXTAREA)$/.test(document.activeElement.tagName)){e.preventDefault();input.focus();}
+else if(e.key==='Enter'&&document.activeElement===input&&!rows.length&&input.value.trim()){location.href='/?q='+encodeURIComponent(input.value.trim());}
+else if(e.key==='Escape'&&document.activeElement===input){input.value='';run();input.blur();}});})();
+</script>
+<script>(function(){
+var root=document.querySelector('.jr');if(!root)return;
+var VIEWS=['months','tracks','year','threads'];
+var first=document.querySelector('.jr-month').id,view='months',month=first;
+function q(sel){return [].slice.call(root.querySelectorAll(sel));}
+function render(){
+  root.setAttribute('data-view',view);
+  q('.jv').forEach(function(e){e.classList.toggle('on',e.getAttribute('data-view')===view);});
+  q('.jr-views button[data-view]').forEach(function(b){b.setAttribute('aria-pressed',String(b.getAttribute('data-view')===view));});
+  q('[data-m]').forEach(function(e){e.classList.toggle('on',e.getAttribute('data-m')===month);});
+  try{history.replaceState(null,'','#'+view+(view==='months'||view==='tracks'?'/'+month:''));}catch(e){}
+}
+function jump(id){var t=id&&document.getElementById(id);if(t)t.scrollIntoView();else window.scrollTo(0,0);}
+q('.jr-views button[data-view]').forEach(function(b){b.addEventListener('click',function(){view=b.getAttribute('data-view');render();});});
+var nb=root.querySelector('.jr-newsbtn');
+nb.addEventListener('click',function(){var on=nb.getAttribute('aria-pressed')!=='true';nb.setAttribute('aria-pressed',String(on));root.classList.toggle('nonews',!on);});
+q('.jr-m .jr-mn').forEach(function(a){a.addEventListener('click',function(e){e.preventDefault();
+  month=a.parentNode.getAttribute('data-m');
+  if(view==='year')view='months';
+  render();jump();});});
+q('.jr-wk').forEach(function(a){a.addEventListener('click',function(e){e.preventDefault();
+  var id=a.getAttribute('href').slice(1);jump(view==='tracks'?'t-'+id:id);});});
+q('.jy-row').forEach(function(a){a.addEventListener('click',function(e){e.preventDefault();month=a.getAttribute('data-go');view='months';render();jump();});});
+q('.jr-thnav a').forEach(function(a){a.addEventListener('click',function(e){e.preventDefault();jump(a.getAttribute('data-th'));});});
+var h=location.hash.slice(1).split('/'),w='';
+if(VIEWS.indexOf(h[0])>-1){view=h[0];h=h[1]||'';}else h=h[0]||'';
+var mm=h.match(/^(\d{4}-\d\d)(-w\d)?$/);
+if(mm&&document.getElementById(mm[1])){month=mm[1];if(mm[2])w=h;}
+render();if(w)jump(view==='tracks'?'t-'+w:w);
+})();</script>
+<script>(function(){[].slice.call(document.querySelectorAll('[data-views]')).forEach(function(root){
+var bs=[].slice.call(root.querySelectorAll('.vsw button')),ps=[].slice.call(root.querySelectorAll('.vw'));
+function go(v){bs.forEach(function(b){b.setAttribute('aria-pressed',String(b.getAttribute('data-view')===v))});ps.forEach(function(p){p.classList.toggle('on',p.getAttribute('data-view')===v)});try{history.replaceState(null,'','#'+v)}catch(e){}}
+bs.forEach(function(b){b.addEventListener('click',function(){go(b.getAttribute('data-view'))})});
+var h=location.hash.slice(1);if(bs.some(function(b){return b.getAttribute('data-view')===h}))go(h);});})();</script>
+<script>(function(){var bs=[].slice.call(document.querySelectorAll('.st-b')),ps=[].slice.call(document.querySelectorAll('.st-p'));
+bs.forEach(function(b){b.setAttribute('aria-expanded','false');b.addEventListener('click',function(){var i=b.getAttribute('data-i'),open=b.getAttribute('aria-pressed')==='true';
+bs.forEach(function(x){var on=(x===b)&&!open;x.setAttribute('aria-pressed',String(on));x.setAttribute('aria-expanded',String(on));});
+ps.forEach(function(p){p.classList.toggle('on',!open&&p.getAttribute('data-i')===i)});});});})();</script>
+<script>(function(){
+/* Same behaviour as the players on tsumugu.cc/cast: play and pause, click to seek, drag to loop a region. */
+var live=null;
+function halt(p){if(!p)return;p.audio.pause();p.btn.classList.remove('playing');}
+[].slice.call(document.querySelectorAll('.st-voice')).forEach(function(el){
+  var btn=el.querySelector('.vp'),wave=el.querySelector('.vw-wave'),region=el.querySelector('.vw-region');
+  var arr=[].slice.call(el.querySelectorAll('.vw-bars rect')),N=arr.length;
+  var audio=new Audio(btn.getAttribute('data-src')),A=null,B=null,p={audio:audio,btn:btn};
+  function paint(){var r=audio.duration?audio.currentTime/audio.duration:0;arr.forEach(function(b,i){b.setAttribute('class',i/N<r?'on':'');});}
+  function start(){if(live&&live!==p)halt(live);live=p;btn.classList.add('playing');var q=audio.play();if(q&&q.catch)q.catch(function(){btn.classList.remove('playing');});}
+  audio.addEventListener('timeupdate',function(){if(A!=null&&B!=null&&audio.duration&&audio.currentTime>B*audio.duration){audio.currentTime=A*audio.duration;}paint();});
+  audio.addEventListener('ended',function(){if(A!=null&&B!=null){audio.currentTime=A*audio.duration;audio.play();return;}btn.classList.remove('playing');paint();});
+  btn.addEventListener('click',function(){if(!audio.paused){halt(p);return;}if(A!=null&&audio.duration)audio.currentTime=A*audio.duration;start();});
+  var down=null,moved=false;
+  function ratio(ev){var r=wave.getBoundingClientRect();return Math.min(1,Math.max(0,(ev.clientX-r.left)/r.width));}
+  wave.addEventListener('pointerdown',function(ev){down=ratio(ev);moved=false;try{wave.setPointerCapture(ev.pointerId);}catch(e){}});
+  wave.addEventListener('pointermove',function(ev){if(down==null)return;var r2=ratio(ev);
+    if(Math.abs(r2-down)>0.03){moved=true;A=Math.min(down,r2);B=Math.max(down,r2);region.style.display='block';region.style.left=(A*100)+'%';region.style.width=((B-A)*100)+'%';}});
+  wave.addEventListener('pointerup',function(ev){if(down==null)return;var r2=ratio(ev);
+    if(!moved){A=null;B=null;region.style.display='none';if(audio.duration)audio.currentTime=r2*audio.duration;if(audio.paused)start();}
+    else{if(audio.duration)audio.currentTime=A*audio.duration;start();}
+    down=null;});
+});
+[].slice.call(document.querySelectorAll('.st-b')).forEach(function(x){x.addEventListener('click',function(){halt(live);});});
+})();</script>
+
+<style>
+.story-tools { margin: 8px auto 56px; max-width: 960px; padding: 0 32px; }
+.story-tools iframe { width: 100%; height: 78vh; border: 1px solid rgba(26,26,26,0.14); background: var(--bg, #f9f9f9); display: block; }
+a[data-tool][aria-pressed="true"] b { color: var(--link, #0090cc); }
+</style>
+<div class="story-tools" id="story-tools">
+  <iframe id="story-frame" title="Tsumugu Story tool" src="/projects/tsumugu-story/board/"></iframe>
+</div>
+<script>
+(function () {
+  var frame = document.getElementById("story-frame");
+  var box = document.getElementById("story-tools");
+  function show(which) {
+    if (!frame || !box) return;
+    box.hidden = false;
+    frame.src = which === "binder" ? "/projects/tsumugu-story/binder/" : "/projects/tsumugu-story/board/";
+    document.querySelectorAll("[data-tool]").forEach(function (el) {
+      el.setAttribute("aria-pressed", String(el.getAttribute("data-tool") === which));
+    });
+  }
+  document.querySelectorAll("[data-tool]").forEach(function (el) {
+    el.addEventListener("click", function (e) {
+      e.preventDefault();
+      show(el.getAttribute("data-tool"));
+    });
+  });
+  var board = document.querySelector('[data-tool="board"]');
+  if (board) board.setAttribute("aria-pressed", "true");
+})();
+</script>
+
+</body>
+</html>

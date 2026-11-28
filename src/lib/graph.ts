@@ -46,23 +46,3 @@ export function buildGraph(notes: NoteInput[]): GraphData {
   }
   return { nodes, edges };
 }
-
-/** 1–2 hop neighborhood of `slug` (undirected), for the note-page local-graph rail. */
-export function localGraph(graph: GraphData, slug: string, hops = 1): GraphData {
-  const adj = new Map<string, Set<string>>();
-  for (const e of graph.edges) {
-    (adj.get(e.source) ?? adj.set(e.source, new Set()).get(e.source)!).add(e.target);
-    (adj.get(e.target) ?? adj.set(e.target, new Set()).get(e.target)!).add(e.source);
-  }
-  const keep = new Set<string>([slug]);
-  let frontier = new Set<string>([slug]);
-  for (let i = 0; i < hops; i++) {
-    const next = new Set<string>();
-    for (const s of frontier) for (const nb of adj.get(s) ?? []) if (!keep.has(nb)) (keep.add(nb), next.add(nb));
-    frontier = next;
-  }
-  return {
-    nodes: graph.nodes.filter((n) => keep.has(n.slug)),
-    edges: graph.edges.filter((e) => keep.has(e.source) && keep.has(e.target)),
-  };
-}

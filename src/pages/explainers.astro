@@ -1,0 +1,150 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../layouts/Base.astro';
+import FlatGraph from '../components/FlatGraph.astro';
+import { deriveTitle, deriveSummary } from '../lib/note';
+import { buildGraph } from '../lib/graph';
+import { layoutFlat } from '../lib/flat-graph';
+import { slugToUrl } from '../lib/slug';
+
+const SECTION_ORDER = [
+  'Systems',
+  'Concepts',
+  'Working with Agents',
+  'Worldviews & the Political Order',
+  'Dimensions',
+  'Story Craft',
+  'Language',
+  'Self Management',
+  'Money',
+  'Writing Craft',
+  'Books',
+  'Design',
+  'Minimalism',
+  'Resources',
+  'Domains',
+  'Learning Craft',
+  'Start Here',
+  'Tsumugu',
+  'Workflows',
+];
+
+const notes = await getCollection('notes');
+const wiki = notes.filter((n) => n.id.startsWith('wiki/'));
+const graph = layoutFlat(
+  buildGraph(
+    wiki.map((n) => ({
+      slug: n.id,
+      title: deriveTitle(n.data, n.id, n.body),
+      type: typeof n.data.type === 'string' ? n.data.type : '',
+      body: n.body ?? '',
+      domain: typeof n.data.domain === 'string' ? n.data.domain : undefined,
+    })),
+  ),
+  { width: 960, height: 264, limit: 0, labels: true },
+);
+
+type Row = { title: string; summary: string; href: string; updated: string; section: string; hub: boolean };
+
+function sectionName(id: string): string {
+  const seg = id.split('/')[1] ?? 'General';
+  return seg.replace(/--and--/g, ' & ').replace(/-/g, ' ');
+}
+
+function updatedOf(value: unknown): string {
+  if (value instanceof Date) return value.toISOString().slice(0, 10);
+  if (typeof value === 'string') return value.slice(0, 10);
+  return '';
+}
+
+const rows: Row[] = wiki.map((n) => ({
+  title: deriveTitle(n.data, n.id, n.body),
+  summary: deriveSummary(n.data, n.body ?? ''),
+  href: slugToUrl(n.id),
+  updated: updatedOf(n.data.updated),
+  section: sectionName(n.id),
+  hub: n.data.type === 'hub',
+}));
+
+const sections = [...new Set(rows.map((r) => r.section))].sort((a, b) => {
+  const ai = SECTION_ORDER.indexOf(a);
+  const bi = SECTION_ORDER.indexOf(b);
+  return (ai === -1 ? 99 : ai) - (bi === -1 ? 99 : bi) || a.localeCompare(b);
+});
+
+function sectionId(name: string): string {
+  return name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+}
+
+type Topic = { title: string; summary: string; href: string; lang?: string };
+const topics: Topic[] = [
+  { title: 'Learning systems', summary: 'Encoding, retrieval, metacognition, and self-regulation.', href: '/wiki/Dimensions/Dimensions-of-Learning/' },
+  { title: 'Agentic engineering', summary: 'Building software with LLM agents, and keeping taste, verification, and ownership in the person’s hands.', href: '/wiki/Systems/AI--and--Agentic-Systems/Agentic-Engineering/' },
+  { title: 'Attention and environment', summary: 'Focus, social media, minimalism, recovery, and the friction of a decision.', href: '/wiki/Self-Management/Time-Management,-Attention--and--Scheduling/' },
+  { title: 'Money', summary: 'Budgeting and investing mindsets from first principles, and the places AI changes them.', href: '/wiki/Money/Money,-Condensed/' },
+  { title: '中文', summary: 'Traditional Mandarin. How characters work, comprehensible input, and a reader that adds text as vocabulary grows.', href: '/wiki/Language/Chinese/How-Chinese-Characters-Work/', lang: 'zh-Hant' },
+  { title: 'Language learning', summary: 'Immersion, attention, comprehension, and the workflows that use them.', href: '/wiki/Language/Refold-Language-Learning-System/' },
+];
+---
+
+<Base title="Explainers — Logos52" description="Every note on the site, grouped by section." section="explainers">
+  <div class="page" id="page-explainers" data-views>
+    <header class="mast"><span class="title">Explainers</span></header>
+    <p class="sum">Every note on the site, grouped by section.</p>
+    <FlatGraph graph={graph} label={`All ${wiki.length} wiki pages grouped by domain, with the links between them`} />
+    <div class="ex-hubs">
+      {
+        topics.map((topic) => (
+          <a href={topic.href}>
+            <h3 lang={topic.lang}>{topic.title}</h3>
+            <p>{topic.summary}</p>
+          </a>
+        ))
+      }
+    </div>
+    <div class="vsw" role="group" aria-label="View">
+      <button type="button" data-view="sections" aria-pressed="true">Sections</button>
+      <button type="button" data-view="az" aria-pressed="false">A to Z</button>
+      <button type="button" data-view="recent" aria-pressed="false">Recently updated</button>
+    </div>
+    <div class="vw on" data-view="sections">
+      {
+        sections.map((name) => (
+          <section id={sectionId(name)}>
+            <h2 class="sec-h">{name}</h2>
+            {rows
+              .filter((r) => r.section === name)
+              .sort((a, b) => Number(b.hub) - Number(a.hub) || a.title.localeCompare(b.title))
+              .map((r) => (
+                <a class="rw" href={r.href}>
+                  <b>{r.title}</b>
+                  {r.summary && <span>{r.summary}</span>}
+                </a>
+              ))}
+          </section>
+        ))
+      }
+    </div>
+    <div class="vw" data-view="az">
+      {
+        [...rows].sort((a, b) => a.title.localeCompare(b.title)).map((r) => (
+          <a class="rw" href={r.href}>
+            <b>{r.title}</b>
+            {r.summary && <span>{r.summary}</span>}
+          </a>
+        ))
+      }
+    </div>
+    <div class="vw" data-view="recent">
+      {
+        [...rows].sort((a, b) => b.updated.localeCompare(a.updated) || a.title.localeCompare(b.title)).map((r) => (
+          <a class="rw r3" href={r.href}>
+            <b>{r.title}</b>
+            {r.summary && <span>{r.summary}</span>}
+            <span class="d">{r.updated}</span>
+          </a>
+        ))
+      }
+    </div>
+  </div>
+</Base>
