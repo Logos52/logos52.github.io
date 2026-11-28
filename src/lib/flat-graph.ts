@@ -1,6 +1,5 @@
 import type { GraphData } from './types';
 import { slugToUrl } from './slug';
-
 const LABELS = [
   'Learning faster',
   'Working well with AI',
@@ -16,11 +15,9 @@ const PREFIXES = [
   ['wiki/Self-Management/', 'wiki/Minimalism/'],
   ['wiki/Money/', 'wiki/Design/', 'wiki/Language/', 'wiki/Tsumugu/', 'wiki/Resources/', 'wiki/Writing-Craft/', 'wiki/Domains/'],
 ];
-
 function flatOptions(width: number, height: number, limit: number) {
   return { width, height, limit, labels: true };
 }
-
 function lobeOf(slug: string): number {
   for (let i = 0; i < PREFIXES.length; i++) {
     if (PREFIXES[i].some((prefix) => slug.startsWith(prefix))) return i;
