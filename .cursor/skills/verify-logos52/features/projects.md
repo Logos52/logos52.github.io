@@ -8,7 +8,7 @@ Source: `src/pages/projects.astro` (`section="projects"`), `src/data/projects-vi
 
 - `projects-title` is `header.mast span.title` text `Projects`. `span.here` is `Projects`. The nav link `Projects` has class `current`.
 - `projects-views` is `div.vsw` (`role="group"`, `aria-label="View"`). Buttons: `Whiteboard` (`data-view="whiteboard"`, default `aria-pressed="true"`), `List` (`list`), `Activity` (`activity`). The matching `div.vw` gets class `on`.
-- `projects-board` is `div.cards.wb[data-wb]`. Cards are `a.wb-card`. `Tsumugu Story` href is `/projects/tsumugu-story/`. `llm-knowledge-base` href is `/about/`. `Builders' Logs 2026` href is `/wiki/Systems/AI--and--Agentic-Systems/Builders'-Logs-2026/`.
+- `projects-board` is `div.cards.wb[data-wb]`. Cards are `a.wb-card`, six of them, in this order: `Tsumugu Story` (`/projects/tsumugu-story/`), `Tsumugu Core` (`/projects/tsumugu-core/`, the Tsumugu Core feature), `Tsumugu Encoding Dictionary` (`https://tsumugu-ed.com`, leaves the origin), `llm-knowledge-base` (`/about/`), `Builders' Logs 2026` (`/wiki/Systems/AI--and--Agentic-Systems/Builders'-Logs-2026/`), `WNAC / Wedge Needs A Copilot` (`/projects/wnac/`, the vault note `projects/wnac.md` rendered as an article).
 - `projects-list` is `div.pl-list` of the same six links. `projects-activity` is `a.ac-row` rows.
 - `projects-tail` is `div.page.archived` when any vault project is not on the board: `h2` `Current` and `h2` `Archived`, rows `a.rw`.
 
@@ -24,7 +24,7 @@ Preconditions:
 - Laptop width.
 
 - **Open Projects.** Go to `/projects/`.
-- **Read it.** `header.mast span.title` is `Projects`. `button[data-view="whiteboard"]` has `aria-pressed="true"`. `a.wb-card[href="/projects/tsumugu-story/"]` is present (`h3` `Tsumugu Story`).
+- **Read it.** `header.mast span.title` is `Projects`. `button[data-view="whiteboard"]` has `aria-pressed="true"`. Six `a.wb-card` cards are on the board, including `h3` `Tsumugu Story`, `h3` `Tsumugu Core`, and `h3` `WNAC / Wedge Needs A Copilot`. Stop before opening Tsumugu Core. That reader is its own feature.
 - **Switch view.** Click the button named `List`.
 - **View state.** `button[data-view="list"]` has `aria-pressed="true"`. `div.vw[data-view="list"]` has class `on`. `div.pl-list a[href="/projects/tsumugu-story/"]` is present (`h3` `Tsumugu Story`). Stop on this page. The student switcher is the Tsumugu Story feature.
 

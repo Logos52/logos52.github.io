@@ -37,5 +37,6 @@ Preconditions:
 ## Gotchas
 
 - The profile is not a navigation. The address stays on the URL you opened.
+- Each `button.st-b` shows the Chinese name and then the pinyin, with no space between them in the text (`沈文Shěn Wén`). Click `button.st-b[data-i="0"]`. Do not require the button's full text to equal `沈文` alone. The open panel `h2` contains `沈文`.
 - Do not click `button.vp` (the catchphrase player) as the proof. The switcher is `button.st-b`.
 - Board and binder (`#board`, `#binder`, and `public/projects/tsumugu-story/board/`) are a different control. Leave them unless the task is those tools.

@@ -38,4 +38,4 @@ Preconditions:
 - `/domains/learning/` and `/folder/wiki/Story-Craft/` are 301 to `/explainers/`. There is no `.moc__title` folder listing.
 - There is no `input[data-map-search]`, no `button[data-map-domain]`, and no `section[data-content-map]`.
 - The graph is inline SVG, not a canvas and not `/graph.json`.
-- Do not assert a fixed page count. The kicker and the graph `aria-label` include the built wiki length.
+- Do not assert a fixed page count. The graph `aria-label` includes the built wiki length (`All N wiki pages grouped by domain`). This page has no `p.kicker`. The page-count kicker is on Home, in the Explainers column.

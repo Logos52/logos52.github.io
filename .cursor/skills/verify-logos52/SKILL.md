@@ -98,6 +98,7 @@ Article (`src/pages/[...slug].astro` → `src/layouts/Note.astro`):
 - Kind and updated sit in `#article-facts` (`h6` `Kind`, `h6` `Updated`)
 - Body is `.essay-body`. The markdown `h1` inside it is hidden.
 - `h2` `Linked from` and `div.lf` when anything links here
+- Figures and side notes are not on every note. The pages, the `a.sidenote-ref` markers, and the `button.fig-open` diagram control are in `features/wiki-page.md`. Builders' Logs 2026 has neither.
 
 Explainers (`/explainers/`, `src/pages/explainers.astro`): `span.title` is `Explainers`. View buttons are `Sections`, `A to Z`, `Recently updated`. Topic cards are `.ex-hubs a`.
 
@@ -109,7 +110,9 @@ About (`/about/`, `public/about/index.html`): `span.title` is `How this wiki wor
 
 Tsumugu Story (`/projects/tsumugu-story/`, `public/projects/tsumugu-story/index.html`): `span.title` is `Tsumugu Story`. The student row is `[aria-label="The six students"]`.
 
-`/about/`, `/projects/tsumugu/`, and `/projects/tsumugu-story/` are 200 on `npm run preview`. On `npm run dev` those directory URLs are Astro's 404, and the file is at the same path plus `index.html`. The feature files record that split. Do not patch the route from this skill.
+Tsumugu Core (`/projects/tsumugu-core/`, `public/projects/tsumugu-core/index.html`): `span.title` is `Tsumugu Core`. The level switch is `button[data-level]`.
+
+`/about/`, `/projects/tsumugu/`, `/projects/tsumugu-story/`, and `/projects/tsumugu-core/` are 200 on `npm run preview`. On `npm run dev` those directory URLs are Astro's 404, and the file is at the same path plus `index.html`. The feature files record that split. Do not patch the route from this skill.
 
 Search: type into `input#site-search` (or focus with `/`). Rows that do not contain the query get `data-search-hide`. There is no results dropdown. Enter opens `/?q=` only on a page with no search rows.
 
@@ -171,3 +174,4 @@ See `features/README.md`.
 6. Projects (`/projects/`)
 7. About (`/about/`)
 8. Tsumugu Story switcher (`/projects/tsumugu-story/`)
+9. Tsumugu Core reader (`/projects/tsumugu-core/`)
