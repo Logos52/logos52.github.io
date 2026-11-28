@@ -8,10 +8,11 @@ Source: `src/pages/index.astro`, `src/layouts/Base.astro`, `src/data/home-intro.
 
 - `home-shell` is `div#page-home` inside `Base` with `section="home"`. The bar breadcrumb `nav.crumb span.here` is `Home`. `a.brand` (name `Logos52`) returns to `/`.
 - `home-mast` is `a.wordmark` text `Logos52` and `#intro` (the lede paragraph from `home-intro.html`). There is no `h1.hero__title`.
+- `home-pieces` is the band under the lede. `p.pieces-lead` introduces it. Four `.pc-row` blocks follow, from `home-pieces.html`: deep processing and retrieval, Tsumugu at `/projects/tsumugu/` plus the external dictionary, working with agents at `/explainers/#working-with-agents`, and the journal.
 - `home-now` is `aside.org.now` (`aria-label="Now"`). `Updated` is the newest journal date. `Underway` links to `#work` with text `Tsumugu`.
 - `home-projects` is `section#work` with `h1` `Projects` and `.works a` from `home-works.html`. The card title is `Tsumugu` and the href is `/projects/tsumugu/`.
 - `home-journal` is `section#journal` with `h1` `Journal`, `svg.weeks`, `.journal a` rows, and `p.more a` text `All journal entries` to `/journal/`.
-- `home-explainers` is `section#explainers` with `h1` `Explainers`, `svg.diagram` (`FlatGraph`, `labels: false`), and `p.more a` text `All pages` to `/explainers/`. Nodes are `a.node` with `aria-label` set to the note title.
+- `home-explainers` is `section#explainers` with `h1` `Explainers`, `p.kicker` linking to `/explainers/` whose text is the wiki length plus `pages`, `svg.diagram` (`FlatGraph`, `labels: false`), and `p.more a` text `All pages` to `/explainers/`. Nodes are `a.node` with `aria-label` set to the note title. Do not require a fixed page count. The kicker is this column, not a kicker on `/explainers/`.
 - `home-mind` is `section.mind-wide` (`aria-label="Top of mind"`) and `h1` `Top of mind`.
 
 ## How to get to it (user POV)
@@ -25,7 +26,7 @@ Preconditions:
 - Doctor passed against the instance `launch.sh` started.
 - The window is laptop width, so `nav.meta-links` is visible.
 
-- **Open home.** Go to `/`. Wait for `div#page-home`, `span.here` text `Home`, and `section#work h1` text `Projects`.
+- **Open home.** Go to `/`. Wait for `div#page-home`, `span.here` text `Home`, and `section#work h1` text `Projects`. `p.pieces-lead` is present and `.pc-row` count is 4. `section#explainers p.kicker` links to `/explainers/` and its text ends with `pages`. Do not require a fixed count.
 - **Open Explainers from the column.** Click `section#explainers p.more a` whose text is `All pages`.
 - **Resulting state.** The URL is `/explainers/`. `header.mast span.title` is `Explainers`. `span.here` is `Explainers`. `nav.meta-links a[href="/explainers/"]` has class `current`.
 

@@ -12,6 +12,7 @@ Visitor surfaces on the published Astro wiki after the NDC rebuild (`71839401`).
 | Projects | Nav `Projects`, or `/projects/` | [projects.md](projects.md) |
 | About | Nav `About`, or `/about/` | [about.md](about.md) |
 | Tsumugu Story switcher | a Projects card `Tsumugu Story` → `/projects/tsumugu-story/` | [tsumugu-story.md](tsumugu-story.md) |
+| Tsumugu Core reader | a Projects card `Tsumugu Core` → `/projects/tsumugu-core/` | [tsumugu-core.md](tsumugu-core.md) |
 
 ## What this map leaves out
 
@@ -38,4 +39,4 @@ The flat graph (`src/components/FlatGraph.astro`) is a section on Home and on Ex
 - Capture the action and the resulting state.
 - Report an unreachable path with the URL you opened and the precondition that failed.
 - Cleanup removes the server. It leaves the evidence directory in place.
-- `launch.sh` starts `npm run dev`. On that server, `/about/`, `/projects/tsumugu/`, and `/projects/tsumugu-story/` are 404s. The HTML is at `index.html` on the same path. `npm run preview` returns 200 for the directory URLs. The feature files call that a product gap.
+- `launch.sh` starts `npm run dev`. On that server, `/about/`, `/projects/tsumugu/`, `/projects/tsumugu-story/`, and `/projects/tsumugu-core/` are 404s. The HTML is at `index.html` on the same path. `npm run preview` returns 200 for the directory URLs. The feature files call that a product gap.

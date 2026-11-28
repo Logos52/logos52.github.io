@@ -9,6 +9,8 @@ Source: `public/about/index.html`. The nav href is `/about/` in `src/layouts/Bas
 - `about-title` is `header.mast span.title` text `How this wiki works`. The document title is `How this wiki works — Logos52`. `span.here` is `About`. `nav.meta-links a[href="/about/"]` has class `current`.
 - `about-theme` is `button[data-theme-set="dark"]` (`aria-label="Dark"`) and `button[data-theme-set="light"]` (`aria-label="Light"`), inside `details.menu`. The click sets `html[data-theme]` and `localStorage` key `logos52-theme`. The buttons are in the menu, so the menu has to be open.
 - `about-search` is the same `input#site-search` markup, with its own inline filter script in this file.
+- `about-notes` are three `aside.note` elements (`note-1`, `note-2`, `note-3`) and three `a.sidenote-ref` markers, written in this file. They do not come from `src/lib/article-extras.ts`. An inline `placeRail` in this file sets `position: absolute` and `top` so each note sits in the same column as `#article-facts`, level with its marker, at width above `46rem`.
+- `about-lightbox` is `dialog.lightbox`. Clicking `.essay-body figure img` calls `showModal`. The opener figure is the first of those images. This page does not use `button.fig-open`.
 
 ## How to get to it (user POV)
 
@@ -22,7 +24,9 @@ Preconditions:
 - Laptop width.
 
 - **Open About.** On `npm run preview`, go to `/about/`. On the dev server `launch.sh` starts, `/about/` is a 404; open `/about/index.html` instead (same file).
-- **Read it.** `header.mast span.title` is `How this wiki works`. `span.here` is `About`.
+- **Read it.** `header.mast span.title` is `How this wiki works`. `span.here` is `About`. `aside.note` count is 3 and `a.sidenote-ref` count is 3. At laptop width each note has computed `position: absolute`, a non-empty inline `top`, and the same left edge as `#article-facts`.
+- **Open the figure.** Click the first `.essay-body figure img`.
+- **Lightbox.** `dialog.lightbox` is open and its `img` src is the figure. Click `button.lightbox-close`. The dialog is no longer open.
 - **Open the menu.** Click `summary[aria-label="Menu"]`.
 - **Set dark.** Click `button[data-theme-set="dark"]` (`aria-label="Dark"`).
 - **Resulting state.** `html` has `data-theme="dark"`. That button has `aria-pressed="true"`.
