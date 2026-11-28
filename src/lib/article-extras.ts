@@ -3,6 +3,7 @@ import { join } from 'node:path';
 
 const BEAR_FIGURE = readFileSync(join(process.cwd(), 'src/data/bear-hunter-figure.html'), 'utf8');
 const KOLB_FIGURE = readFileSync(join(process.cwd(), 'src/data/kolb-figure.html'), 'utf8');
+const FOUR_FIGURE = readFileSync(join(process.cwd(), 'src/data/four-stages-figure.html'), 'utf8');
 
 const BEAR_NOTES = [
   { match: 'Bear Hunter System.md', phrase: 'total time often falls', note: 'Slower on the first pass. The time comes back later, because retrieval gets cheaper.' },
@@ -11,14 +12,21 @@ const BEAR_NOTES = [
 ];
 
 const OTHER_NOTES = [
-  { match: 'The Beat Board.md', phrase: 'does not invent', note: 'One event per card. The board tests events. It does not invent them.' },
+  { match: 'The Beat Board.md', phrase: 'tests events; it does not invent them', note: 'One event per card. The board tests events. It does not invent them.' },
+  { match: 'The Beat Board.md', phrase: 'storage, not test', note: 'A squeeze pass cuts each card to about seven words. If no beat changes, the board is only holding the story.' },
+  { match: 'The Beat Board.md', phrase: 'Reverse outline after each session', note: 'After each session, write what every scene actually does in twelve to fifteen words. Then move any card that no longer matches.' },
+  { match: 'The Beat Board.md', phrase: 'The crew spends against the outline', note: 'Once the outline is approved, nobody adds, deletes or reshapes a beat. A beat that fails goes back for a decision instead of being quietly redone.' },
+  { match: 'The Beat Board.md', phrase: 'Order for change arc', note: 'The glimpse of truth comes first, so the low point reads as the last stand of the old belief. Put the two in one beat and the climax is acted from the old self.' },
   { match: 'Four Stages of Competence.md', phrase: 'high-effort skills at once', note: 'Add a technique only when the ones already in use are getting cheap. A pile of high-effort skills drains the attempt.' },
   { match: 'Kolbs Experiential Cycle.md', phrase: 'is rumination', note: 'A backward glance that never chooses a next step is rumination. The cycle has to end in something you can try.' },
+  { match: 'Give an agent a task without micromanaging it.md', phrase: 'the context to do the work well', note: 'Two things make an agent miss: a vague intent, and missing context. The spoken brief fixes the first. The link fixes the second.' },
+  { match: 'Give an agent a task without micromanaging it.md', phrase: 'The brief below, paraphrased', note: 'Every limit in the brief protects something: what to skip, and what to watch for in the feedback text.' },
+  { match: 'Give an agent a task without micromanaging it.md', phrase: 'Trust grows in steps', note: 'Early on, watch every chat. Once the ask-first rules hold, rely on proof and sampling.' },
 ];
 
 function field(value: unknown, key: string): unknown {
   if (typeof value !== 'object' || value === null || !(key in value)) return undefined;
-  return Object.getOwnPropertyDescriptor(value, key)?.value;
+  return Reflect.get(value, key);
 }
 
 function textOf(node: unknown): string {
@@ -147,9 +155,20 @@ function tuneKolb(tree: unknown, filePath: string) {
   applyNotes(tree, OTHER_NOTES, filePath);
 }
 
+function swapFour(node: unknown) {
+  const value = field(node, 'value');
+  if (field(node, 'type') !== 'html' || typeof value !== 'string') return;
+  if (!value.includes('wv-fsc-t')) return;
+  if (typeof node === 'object' && node !== null) Reflect.set(node, 'value', FOUR_FIGURE);
+}
+
 function tuneNotes(tree: unknown, filePath: string) {
   if (filePath.endsWith('The Beat Board.md')) applyNotes(tree, OTHER_NOTES, filePath);
-  if (filePath.endsWith('Four Stages of Competence.md')) applyNotes(tree, OTHER_NOTES, filePath);
+  if (filePath.endsWith('Four Stages of Competence.md')) {
+    for (const node of childrenOf(tree)) swapFour(node);
+    applyNotes(tree, OTHER_NOTES, filePath);
+  }
+  if (filePath.endsWith('Give an agent a task without micromanaging it.md')) applyNotes(tree, OTHER_NOTES, filePath);
 }
 
 export function remarkArticleExtras() {
