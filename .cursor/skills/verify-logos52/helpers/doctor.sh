@@ -49,18 +49,18 @@ else
 fi
 
 code="$(http_ok / || true)"
-if [[ "${code}" == "200" ]] && page_has_marker / 'hero__title'; then
-  ok "${BASE_URL}/ → 200 and hero__title present"
+if [[ "${code}" == "200" ]] && page_has_marker / 'id="page-home"'; then
+  ok "${BASE_URL}/ → 200 and id=\"page-home\" present"
 else
-  bad "${BASE_URL}/ → ${code:-down} (need 200 + hero__title)"
+  bad "${BASE_URL}/ → ${code:-down} (need 200 + id=\"page-home\")"
 fi
 
-# Map heading is h1.map-head__title ("The vault"). /notes/ is its own 200 page.
-map_code="$(http_ok /map/ || true)"
-if [[ "${map_code}" == "200" ]] && page_has_marker /map/ 'map-head__title'; then
-  ok "${BASE_URL}/map/ → 200 and map-head__title present"
+# Explainers is the wiki index. /map/ redirects here; it is not a second page.
+exp_code="$(http_ok /explainers/ || true)"
+if [[ "${exp_code}" == "200" ]] && page_has_marker /explainers/ 'id="page-explainers"'; then
+  ok "${BASE_URL}/explainers/ → 200 and id=\"page-explainers\" present"
 else
-  bad "${BASE_URL}/map/ → ${map_code:-down} (need 200 + map-head__title)"
+  bad "${BASE_URL}/explainers/ → ${exp_code:-down} (need 200 + id=\"page-explainers\")"
 fi
 
 echo "doctor: EVIDENCE_DIR=${EVIDENCE_DIR}"
