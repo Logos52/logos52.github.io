@@ -21,13 +21,13 @@ Install is `npm ci` (Node >= 22). Launch does not install.
 .cursor/skills/verify-logos52/helpers/launch.sh
 ```
 
-That script runs `npm run dev -- --host 0.0.0.0 --port 4321` from the repo root, in its own session (`setsid`) so the server stays up after the launch script exits. It records the PID and process group in `/tmp/verify-logos52/run.env`, and waits until `GET http://127.0.0.1:4321/` returns 200 and the HTML contains `hero__title`.
+That script runs `npm run dev -- --host 0.0.0.0 --port 4321` from the repo root, in its own session (`setsid`) so the server stays up after the launch script exits. It records the PID and process group in `/tmp/verify-logos52/run.env`, and waits until `GET http://127.0.0.1:4321/` returns 200 and the HTML contains `id="page-home"`.
 
 Ready means the home page is usable:
 
-- HTTP 200 on `/` and the home markup includes `hero__title` (`h1.hero__title` in `src/pages/index.astro`). The title text is read from `kb-astro/site-data/home.json` when that file exists.
+- HTTP 200 on `/` and the home markup includes `id="page-home"` (`div#page-home` in `src/pages/index.astro`).
 - The Astro log at `/tmp/verify-logos52/astro.log` mentions port 4321
-- First boot runs `predev` (note copy, catalog, `ensure-pagefind`). When `dist/pagefind/pagefind.js` is missing, `predev` runs a full `astro build` before the dev server binds. Wait for HTTP, not just the process.
+- First boot runs `predev` (note copy, catalog, journal surfaces, `ensure-pagefind`). When `dist/pagefind/pagefind.js` is missing, `predev` runs a full `astro build` before the dev server binds. The header search does not query Pagefind. Wait for HTTP, not just the process.
 
 Production-like alternative, still on 4321, still this run's process:
 
@@ -53,8 +53,8 @@ Doctor checks, in order:
 2. `node_modules` present
 3. `/tmp/verify-logos52/run.env` names a live PID this skill launched
 4. That process tree owns port 4321
-5. `GET /` is 200 and includes `hero__title`
-6. `GET /map/` is 200 and includes `map-head__title` (`h1.map-head__title`, text `The vault`)
+5. `GET /` is 200 and includes `id="page-home"`
+6. `GET /explainers/` is 200 and includes `id="page-explainers"` (`div#page-explainers` in `src/pages/explainers.astro`)
 
 When any check fails, do not drive.
 
@@ -70,55 +70,48 @@ The CI sequence is the same script with `--ci`. It runs the cheap checks, then c
 
 Harness: Chrome via the `computerUse` subagent, or CDP against http://127.0.0.1:4321. Prefer accessible names, `data-*` attributes, and route paths. Do not use click coordinates.
 
-Drive only an instance this skill launched, and only after doctor passed. Open http://127.0.0.1:4321/. Chrome is `header.kb-chrome` (`src/components/Chrome.astro`) on every page. At laptop width the six nav links are visible. Do not open a menu first. `button#kb-menu-btn` (`aria-label="Open menu"`) is hidden until `max-width: 720px`, where it toggles `.kb-nav.open`.
+Drive only an instance this skill launched, and only after doctor passed. Open http://127.0.0.1:4321/. Chrome is `header.ia-bar` (`src/layouts/Base.astro`) on Astro pages. Static pages (`public/about/index.html`, `public/projects/tsumugu-story/index.html`) copy the same bar. At laptop width (wider than `45.98rem`) the four nav links are visible. Do not open the menu first. At `max-width: 45.98rem`, `nav.meta-links` is `display: none` and the same links are inside `details.menu`.
 
-The current section is class `on` on `a.kb-nav__link`. There is no `aria-current`. `.on` is also the search highlight (`a.kb-ac-row.on`). The footer (`footer.kb-footer` in `src/components/Footer.astro`) renders no links. It does not repeat the nav. There is no `.mast` and no `.colophon`.
+The current section is class `current` on `nav.meta-links a`. There is no `aria-current` and no `a.kb-nav__link`. The footer does not repeat the nav. There is no `header.kb-chrome` on a rendered page. `src/components/Chrome.astro` is not imported.
 
 | Control | How to find it | Where it goes |
 |---|---|---|
-| Brand | `a.kb-brand`, name `Logos52` | `/` |
-| Nav (laptop) | `a.kb-nav__link` text `Map`, `Notes`, `Projects`, `Journal`, `Personal`, `About` | `/map`, `/notes`, `/projects`, `/journal`, `/personal`, `/about` (hrefs have no trailing slash) |
-| Menu (≤720px) | `button#kb-menu-btn` `aria-label="Open menu"` | shows the same six links |
-| Theme | `button#theme-toggle` `aria-label="Toggle theme"` | flips `html[data-theme]` between `light` and `dark` |
-| Search (laptop) | `input[data-search-input]` `aria-label="Search notes"` | dropdown `[data-search-results]` |
-| Search (≤720px) | `button#kb-search-btn` `aria-label="Search"` | adds `search-open` on `.kb-chrome__inner` and focuses the same input |
+| Brand | `a.brand`, name `Logos52` | `/` |
+| Nav (laptop) | `nav.meta-links a` text `Explainers`, `Projects`, `Journal`, `About` | `/explainers/`, `/projects/`, `/journal/`, `/about/` |
+| Menu | `summary[aria-label="Menu"]` | the same links, plus `Home`, plus theme |
+| Theme | inside the menu, `button[data-theme-set="light"]` (`aria-label="Light"`) and `button[data-theme-set="dark"]` (`aria-label="Dark"`) | sets `html[data-theme]` |
+| Search | `input#site-search` `aria-label="Search this page"` | filters rows on the page (`data-search-hide`) |
 
-`/` sets `active="home"`, and the nav has no `home` id, so no nav link is current there. `/map/` sets `active="map"`. `/notes/`, domain pages, folder pages, and `/graph/` set `active="notes"`, so Notes is current.
+`/` sets `section="home"`. `span.here` is `Home`, and no meta link is `current`. `/explainers/` sets `current` on Explainers. A wiki note sets `section` to `explainers`, so Explainers is current there too. A journal note sets Journal. A project note sets Projects.
 
-Home (`src/pages/index.astro`, copy in `src/lib/home-page.ts`, hero text from `kb-astro/site-data/home.json` when that file exists):
+Home (`src/pages/index.astro`):
 
-- `h1.hero__title` is `LLM Knowledge Base`. `p.hero__lede` is the lede under it.
-- A spine graph `[data-constellation-root][data-mode="spine"]`, then six `DomainChip` links to `/domains/{learning,agentic,language,focus,mind,gen}/`. Labels are `Learning`, `Agentic`, `Language`, `Focus`, `Mind`, `Generativity`.
-- Start here: `h2.start-here__head` text `Start here`. Three `a.door` cards. Visible titles are `Does a Study Technique Work?`, `How Chinese Characters Are Built`, `Map of the Site`.
-- Top of mind: `h2.topmind__head` and `ul.topmind__list`. The build throws when there are more than 4 `li`.
-- Three hub columns (`Five Dimensions`, `Life Systems`, `Knowledge & Execution`) and a `Project Updates` section.
+- `div#page-home`. `a.wordmark` text `Logos52`. The lede is `#intro`.
+- `section#work` `h1` `Projects`, `section#journal` `h1` `Journal`, `section#explainers` `h1` `Explainers`, and `h1` `Top of mind`.
+- The Explainers column includes `svg.diagram` (`FlatGraph`). Nodes are `a.node`.
 
-Wiki note (`src/pages/[...slug].astro` → `src/layouts/Note.astro`):
+Article (`src/pages/[...slug].astro` → `src/layouts/Note.astro`):
 
-- `article[data-pagefind-body]`
-- `h1.kb-note-title`
-- `p.kb-note-dek` when the note has a description or blurb
-- Type sits in `span.kb-type-tag` inside `.kb-note-meta` as `readerTypeLabel` (`Concept`, `Essay`, `Hub`, `Reference`, …). The meta row is CSS-uppercased.
-- Breadcrumb `div.kb-crumb`: last segment is text. `journal` / `personal` / `projects` first segments go to those landings. A `notes` first segment goes to `/notes/`. Other crumbs, including `wiki`, go to `/folder/…/`
-- A folder listing sorts a direct child whose type is exactly `hub` ahead of other types, then by title. On `/folder/wiki/Story-Craft/` the first `.moc__title` is `Story Craft`, and `Diagnosing a Character` is the next.
-- Spaced paths and naive slugs in `src/redirects/doors/legacy-spaced.json` 301 to the quartz URL. `/wiki/Books/The Parasitic Mind/` lands on `/wiki/Books/The-Parasitic-Mind/`. `/wiki/Concepts/Cave Theory/` lands on `/wiki/Concepts/Cave-Theory/`.
-- Body links are `.kb-prose a`. Unresolved targets are `span.missing`
-- A `Related` or `Related pages` list shows five items, then `details.kb-related-more`
-- The rail is `aside.kb-note-aside`: a local constellation and `nav.kb-toc` (`aria-label="Contents"`) when the note has an h2.
-- The article body is `.kb-prose`. The markdown `h1` inside it is hidden.
-- Backlinks sit after the prose, inside the article: `section.kb-backlinks[aria-label="Linked from"]`, heading text `Linked from`. Five `a.kb-backlink` rows, then `details.kb-backlinks-more`.
+- `div#page-article`
+- `header.mast span.title`
+- `p.abstract` when the note has a description or blurb
+- Kind and updated sit in `#article-facts` (`h6` `Kind`, `h6` `Updated`)
+- Body is `.essay-body`. The markdown `h1` inside it is hidden.
+- `h2` `Linked from` and `div.lf` when anything links here
 
-Map (`/map/`, `src/pages/map.astro`): `h1.map-head__title` is `The vault`. Full graph `[data-constellation-root][data-mode="full"][data-domain-labels]`. Below it, `h2` `The six domains`. Each domain is `section.domain` with `p.domain__blurb` and a link to `/domains/{d}/`. There is no filter field and no `button[data-map-domain]`.
+Explainers (`/explainers/`, `src/pages/explainers.astro`): `span.title` is `Explainers`. View buttons are `Sections`, `A to Z`, `Recently updated`. Topic cards are `.ex-hubs a`.
 
-`section[data-content-map]` is headed `Content map` (`h2#content-map-title`). The dek is `p.cmap__dek` and states the computed page count (`data-content-map-count`). When `data-content-map-other` is not `0`, the dek also states how many pages have no type. The tree is closed `details`: type by page count with `Other` last, then folder, then `a.cmap__link` titles. It lists every published note except home and `notes/index`. Hub-first order inside one content-map folder does not show, because that folder is already one type. The visible hub-first check is `/folder/wiki/Story-Craft/`.
+Journal (`/journal/`, `src/pages/journal.astro`): `span.title` is `Journal`. View buttons are `Months`, `Two tracks`, `Year`, `Threads`, plus `AI news`.
 
-Domain pages (`src/pages/domains/[domain].astro`) open from the home chips. The `h1` is `DOMAIN_LABELS[d]` (`Learning` for `learning`). `a.head__kind` text `Map of Content` returns to `/map/`. The list is `ul.moc`. Notes is current, because the page sets `active="notes"`.
+Projects (`/projects/`, `src/pages/projects.astro`): `span.title` is `Projects`. View buttons are `Whiteboard`, `List`, `Activity`.
 
-`/graph/` (`src/pages/graph.astro`) is its own page. `h1` text is `Vault graph`. It does not redirect to `/map/`.
+About (`/about/`, `public/about/index.html`): `span.title` is `How this wiki works`.
 
-`/notes/` (`src/pages/notes.astro`) is the Notes index: h2 `Condensed` and h2 `Hubs`. It does not redirect to `/map/`. There is no `h1`.
+Tsumugu Story (`/projects/tsumugu-story/`, `public/projects/tsumugu-story/index.html`): `span.title` is `Tsumugu Story`. The student row is `[aria-label="The six students"]`.
 
-Search: on a laptop, type into `input[data-search-input]` (or focus with Control/Meta+K). Results are `a.kb-ac-row` inside `[data-search-results]` (hidden until open). Empty: `p.kb-ac-empty` with `No notes found.` Loading miss: `Search index loading…`. Enter opens the highlighted row, else the first row. At `max-width: 720px` the field is hidden until `button#kb-search-btn` opens it. The domain chip is one of the six `DOMAIN_LABELS`. `wiki/Language/…` resolves to `language`, so the chip's DOM text is `Language`. `src/layouts/Base.astro` uppercases `.kb-ac-domain` and caps it at 84px.
+`/about/`, `/projects/tsumugu/`, and `/projects/tsumugu-story/` are 200 on `npm run preview`. On `npm run dev` those directory URLs are Astro's 404, and the file is at the same path plus `index.html`. The feature files record that split. Do not patch the route from this skill.
+
+Search: type into `input#site-search` (or focus with `/`). Rows that do not contain the query get `data-search-hide`. There is no results dropdown. Enter opens `/?q=` only on a page with no search rows.
 
 Read `features/` before driving. A pass that claims the map is current drives every feature in one session. A task about one surface drives that feature.
 
@@ -139,10 +132,10 @@ Capture the visitor action and the resulting state:
 
 - Action: the control (role, name, or selector, plus the text)
 - Resulting state: URL, heading, and a chrome or nav change when one exists
-- Side effect: the next route, an open dropdown, a theme attribute, or a 404 you left as a 404
+- Side effect: the next route, a view panel, a theme attribute, an open profile, or a 404 you left as a 404
 - Artifacts: before and after screenshots, doctor stdout, the launch log tail. A screen recording of the clicks belongs with those files.
 
-This site has no authenticated API. Do not stub Pagefind or `/graph.json`. When the index is missing, record that and stop.
+This site has no authenticated API. Do not stub Pagefind, `/graph.json`, or the static project HTML. The header search filters DOM rows. It does not load `/pagefind/pagefind.js`. When `#site-search` is missing on a `Base` page, record that and stop.
 
 ## Cleanup
 
@@ -160,7 +153,7 @@ Executable. Invoke by path from the repo root:
 
 | Script | Role |
 |---|---|
-| `helpers/launch.sh` | Start `npm run dev` on 4321, wait for the `hero__title` class |
+| `helpers/launch.sh` | Start `npm run dev` on 4321, wait for `id="page-home"` |
 | `helpers/doctor.sh` | Ownership and HTTP check. `doctor.sh --ci` calls `npm run verify` |
 | `helpers/evidence.sh` | Print and create the evidence directory |
 | `helpers/cleanup.sh` | Kill only this run's process tree. Keep evidence |
@@ -170,9 +163,11 @@ Executable. Invoke by path from the repo root:
 
 See `features/README.md`.
 
-1. Home / Start here
-2. Notes index (`/notes/`)
-3. Wiki page
+1. Home
+2. Explainers (`/explainers/`)
+3. Article
 4. Search
-5. Map
-6. Graph (`/graph/`)
+5. Journal (`/journal/`)
+6. Projects (`/projects/`)
+7. About (`/about/`)
+8. Tsumugu Story switcher (`/projects/tsumugu-story/`)

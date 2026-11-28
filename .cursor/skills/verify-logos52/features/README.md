@@ -1,40 +1,41 @@
 # Feature map
 
-Visitor surfaces on the published Astro wiki. Drive these in Chrome against the instance `helpers/launch.sh` started. A web page does not get a parallel CLI check.
+Visitor surfaces on the published Astro wiki after the NDC rebuild (`71839401`). Drive these in Chrome against the instance `helpers/launch.sh` started. A web page does not get a parallel CLI check.
 
 | Feature | User entry | File |
 |---|---|---|
-| Home / Start here | `/` → `h2` `Start here` → `a.door` | [home-start-here.md](home-start-here.md) |
-| Notes index | Nav `Notes`, or `/notes/` → an entry title | [wiki-index.md](wiki-index.md) |
-| Wiki page | a Start here door, a Notes entry, a search row, a content-map link, or a legacy spaced URL → `[...slug].astro` | [wiki-page.md](wiki-page.md) |
-| Search | `input[aria-label="Search notes"]` (⌘K / Ctrl+K); on a phone, the magnifier first | [search.md](search.md) |
-| Map | Nav `Map`, or `/map/` | [map.md](map.md) |
-| Graph | `/graph/` | [graph.md](graph.md) |
+| Home | `/` | [home.md](home.md) |
+| Explainers | Nav `Explainers`, or `/explainers/` | [explainers.md](explainers.md) |
+| Article | a home card, an explainers row, or a project link → `[...slug].astro` | [wiki-page.md](wiki-page.md) |
+| Search | `input#site-search` (`aria-label="Search this page"`); `/` focuses it | [search.md](search.md) |
+| Journal | Nav `Journal`, or `/journal/` | [journal.md](journal.md) |
+| Projects | Nav `Projects`, or `/projects/` | [projects.md](projects.md) |
+| About | Nav `About`, or `/about/` | [about.md](about.md) |
+| Tsumugu Story switcher | a Projects card `Tsumugu Story` → `/projects/tsumugu-story/` | [tsumugu-story.md](tsumugu-story.md) |
 
 ## What this map leaves out
 
-A pass after the October design restore (`dc0ec574`, `src/pages/`) kept these as their own files: home, the Notes index, a wiki note, search, Map (including the content map and domain pages), and the vault graph. `src/pages/graph.astro` is a page with its own `h1`. It is the Graph feature. `src/pages/notes.astro` is the Notes index. It is not a redirect.
+The header is `header.ia-bar` in `src/layouts/Base.astro`. The four nav links are Explainers, Projects, Journal, About. `src/components/Chrome.astro` is not imported by any page.
 
-These pages stay out of the map:
+These routes are not their own features:
 
-- Nav `Projects`, `Journal`, `Personal`, `About` (`src/pages/projects.astro`, `src/pages/journal.astro`, `src/pages/personal.astro`, `src/pages/about.astro`). Personal is in the header nav.
-- `/archive/` (`src/pages/archive.astro`, `h1` `Archive`), linked from Projects
-- `/projects/digital-gardeners/` and `/projects/digital-gardeners/{id}/` (`src/pages/projects/digital-gardeners/`)
-- `/tags/[tag]/`
-- `/journal/calendar/` (a link on the Journal landing)
-- `/llm-knowledge-base/` (`src/pages/llm-knowledge-base.astro`, 301 to `/`)
+- `/map/`, `/notes/`, and `/graph/` are Astro redirects to `/explainers/` (`astro.config.ts`). There is no `src/pages/map.astro`, `notes.astro`, or `graph.astro`.
+- `/domains/{d}/`, `/folder/…/`, and `/tags/…/` answer 301 to `/explainers/` (`src/pages/domains/[domain].astro`, `src/pages/folder/[...folder].astro`, `src/pages/tags/[tag].astro`).
+- `/archive/` redirects to `/projects/` (`astro.config.ts`). There is no `src/pages/archive.astro`.
+- `/llm-knowledge-base/` is 301 to `/` (`src/pages/llm-knowledge-base.astro`).
+- `/personal/` (`src/pages/personal.astro`) is a list of personal notes. It is not in the header nav.
+- `/projects/digital-gardeners/` (`src/pages/projects/digital-gardeners/`).
+- The story board and binder (`public/projects/tsumugu-story/board/`, `…/binder/`) are separate tools on the Tsumugu Story page. The mapped control is the student switcher.
 
-The content map is a section on Map (`section[data-content-map]` in `src/pages/map.astro`). Legacy spaced and naive-slug redirects (`src/redirects/doors/legacy-spaced.json`, loaded by `astro.config.ts`) are another way to open a wiki page. Hub-first order (`src/lib/folder-order.ts`) is the folder listing on the Wiki page feature. Domain pages are the home chips and the return trip on Map. `footer.kb-footer` does not repeat the nav.
-
-Folder listings (`/folder/…/`) are the crumb destination on a wiki note. Drive them from the Wiki page feature.
-
-Phone search (the magnifier at `max-width: 720px`) is an entry point on Search, not a separate feature.
+The flat graph (`src/components/FlatGraph.astro`) is a section on Home and on Explainers. It is not a `/graph/` page.
 
 ## Driving conventions
 
 - Start from the instance `launch.sh` started. Doctor before the first drive.
 - Prefer ARIA names, `data-*` attributes, and route paths.
 - One serial Chrome session for the whole pass.
+- Laptop width (wider than `45.98rem`) so `nav.meta-links` is visible. At `max-width: 45.98rem` those links hide and the same destinations are in `details.menu`.
 - Capture the action and the resulting state.
 - Report an unreachable path with the URL you opened and the precondition that failed.
 - Cleanup removes the server. It leaves the evidence directory in place.
+- `launch.sh` starts `npm run dev`. On that server, `/about/`, `/projects/tsumugu/`, and `/projects/tsumugu-story/` are 404s. The HTML is at `index.html` on the same path. `npm run preview` returns 200 for the directory URLs. The feature files call that a product gap.
