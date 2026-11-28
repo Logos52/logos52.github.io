@@ -144,10 +144,14 @@ function booked(book: ReturnType<typeof books>, slug: string) {
   return (book.budget.get(slug) ?? 0) >= 3;
 }
 
-function blocked(book: ReturnType<typeof books>, key: string, a: string, b: string) {
+function ends(a: string, b: string) {
+  return { a, b };
+}
+
+function blocked(book: ReturnType<typeof books>, key: string, pair: ReturnType<typeof ends>) {
   if (book.used.has(key)) return true;
-  if (booked(book, a)) return true;
-  return booked(book, b);
+  if (booked(book, pair.a)) return true;
+  return booked(book, pair.b);
 }
 
 function accept(pair: ReturnType<typeof pairOf>, pos: Map<string, ReturnType<typeof nodeAt>>, book: ReturnType<typeof books>) {
@@ -156,7 +160,7 @@ function accept(pair: ReturnType<typeof pairOf>, pos: Map<string, ReturnType<typ
   if (!a || !b) return undefined;
   if (steep(a, b)) return undefined;
   const key = pairKey(a, b);
-  if (blocked(book, key, a.slug, b.slug)) return undefined;
+  if (blocked(book, key, ends(a.slug, b.slug))) return undefined;
   book.used.add(key);
   book.budget.set(a.slug, (book.budget.get(a.slug) ?? 0) + 1);
   book.budget.set(b.slug, (book.budget.get(b.slug) ?? 0) + 1);
