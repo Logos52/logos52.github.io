@@ -1,0 +1,1262 @@
+<!doctype html>
+<html lang="en" data-page="home">
+<head>
+<link rel="stylesheet" href="/fonts/fonts.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tsumugu Core — Logos52</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%224%206%2040%2040%22%3E%3Cpath%20d%3D%22M24%2025%20L11%2025%20M24%2025%20L31%2038%22%20stroke%3D%22%231a1a1a%22%20stroke-width%3D%222.5%22%20fill%3D%22none%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22/%3E%3Ccircle%20cx%3D%2224%22%20cy%3D%2225%22%20r%3D%226.5%22%20fill%3D%22%231a1a1a%22/%3E%3Ccircle%20cx%3D%2211%22%20cy%3D%2225%22%20r%3D%224%22%20fill%3D%22%231a1a1a%22/%3E%3Ccircle%20cx%3D%2231%22%20cy%3D%2238%22%20r%3D%224%22%20fill%3D%22%231a1a1a%22/%3E%3Ccircle%20cx%3D%2238%22%20cy%3D%2213%22%20r%3D%223.5%22%20fill%3D%22%231a1a1a%22/%3E%3C/svg%3E">
+<script>
+(function(){var p='auto';try{p=localStorage.getItem('logos52-theme')||'auto';}catch(e){}
+var mq=window.matchMedia('(prefers-color-scheme: dark)');
+function apply(){var r=p==='auto'?(mq.matches?'dark':'light'):p;document.documentElement.setAttribute('data-theme',r);
+document.querySelectorAll('[data-theme-set]').forEach(function(b){b.setAttribute('aria-pressed',String(b.getAttribute('data-theme-set')===r));});}
+apply();mq.addEventListener&&mq.addEventListener('change',apply);
+document.addEventListener('DOMContentLoaded',function(){apply();document.querySelectorAll('[data-theme-set]').forEach(function(b){b.addEventListener('click',function(){p=b.getAttribute('data-theme-set');try{localStorage.setItem('logos52-theme',p);}catch(e){}apply();});});});})();
+</script>
+<style>
+
+
+
+
+
+
+
+:root {
+  --bg: #f9f9f9;
+  --ink: #1a1a1a;
+  --surface: #ffffff;
+  --accent: #00c3ff;
+  --link: #0090cc;
+  --line: rgba(26,26,26,0.10);
+  --hair: rgba(26,26,26,0.14);
+  --mute: rgba(26,26,26,0.70);
+  --faded: rgba(26,26,26,0.46);
+  --wash: rgba(0,195,255,0.10);
+  --mark: #e3f7fe;
+  --font: "IBM Plex Sans", system-ui, sans-serif;
+  --neon: "Monaspace Neon", ui-monospace, monospace;
+  --bar-h: 49px;
+  --pad-x: 32px;
+  --page-width: 992px;
+  --inner-width: 928px;
+  --rail-width: 196px;
+  --rail-gap: 144px;
+  --col-gap: 64px;
+  --section-gap: 44px;
+  --measure: 588px;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+* { margin: 0; padding: 0; }
+html {
+  background: var(--bg);
+  color: var(--ink);
+  overflow-wrap: break-word;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+  scroll-padding-top: 68px;
+}
+body {
+  font: 400 14px/20.5px var(--font);
+  color: var(--ink);
+  background: var(--bg);
+  -webkit-font-smoothing: antialiased;
+  min-height: 100vh;
+}
+img, svg { max-width: 100%; height: auto; vertical-align: middle; }
+a { color: inherit; text-decoration: none; }
+a:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
+
+#work, #journal, #explainers, #mind, #intro, #note-1, #note-2, #note-3, #ref-1, #ref-2, #ref-3 {
+  scroll-margin-top: 68px;
+}
+
+/* Sticky frosted iA bar, 49px, content edges aligned to the 928px inner page */
+.ia-bar {
+  position: sticky;
+  top: 0;
+  z-index: 80;
+  height: var(--bar-h);
+  background: rgba(249,249,249,0.88);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--line);
+}
+.ia-bar-inner {
+  max-width: var(--page-width);
+  width: 100%;
+  height: var(--bar-h);
+  margin: 0 auto;
+  padding: 0 var(--pad-x);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.crumb {
+  display: flex;
+  align-items: baseline;
+  min-width: 0;
+  font: 400 14.5px/20px var(--font);
+  color: var(--ink);
+  white-space: nowrap;
+}
+.crumb .brand { font-weight: 700; letter-spacing: -0.02em; color: inherit; }
+.crumb .slash { opacity: 0.35; margin: 0 0.35em; font-weight: 400; }
+.crumb .here { font-weight: 400; color: var(--ink); }
+.crumb a:hover { color: var(--link); }
+
+.bar-right {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  flex: none;
+}
+.meta-links {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  font: 400 14.5px/20px var(--font);
+}
+.meta-links a { color: var(--ink); }
+.meta-links a:hover { color: var(--link); }
+
+.menu { position: relative; flex: none; }
+.menu summary {
+  list-style: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  margin: 0 -4px 0 0;
+  padding: 0;
+  background: none;
+  border: 0;
+  color: var(--ink);
+}
+.menu summary::-webkit-details-marker,
+.menu summary::marker { display: none; content: none; }
+.menu summary svg {
+  width: 22px; height: 22px;
+  fill: none; stroke: currentColor;
+  stroke-width: 2; stroke-linecap: round;
+}
+.menu[open] summary { color: var(--accent); }
+.menu nav {
+  position: absolute;
+  right: -4px;
+  top: calc(100% + 8px);
+  z-index: 90;
+  width: 291px;
+  padding: 10px 0;
+  background: var(--surface);
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+}
+.menu nav a {
+  display: block;
+  position: relative;
+  padding: 7px 18px 7px 20px;
+  font: 700 16px/22px var(--font);
+  color: var(--ink);
+  background: transparent;
+}
+.menu nav a:hover { background: #f2f2f2; }
+.menu nav a.current {
+  background: var(--wash);
+  box-shadow: inset 3px 0 0 var(--accent);
+  color: #0090cc;
+}
+
+.page {
+  max-width: var(--page-width);
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px var(--pad-x) 64px;
+}
+.top-block, .columns, .omit {
+  width: 100%;
+  max-width: var(--inner-width);
+}
+
+.top-block { position: relative; display: flex; flex-direction: column; }
+@media (min-width: 46rem) {
+  .top-block {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) var(--rail-width);
+    column-gap: var(--rail-gap);
+    align-items: start;
+    width: 100%;
+    max-width: var(--inner-width);
+  }
+  .top-block > .intro-col { grid-column: 1; min-width: 0; max-width: none; }
+  .top-block > aside.org { grid-column: 2; width: var(--rail-width); max-width: var(--rail-width); }
+}
+
+.mast {
+  display: flex;
+  flex-flow: wrap;
+  align-items: baseline;
+  margin: 0 0 10px;
+  line-height: 1.05;
+}
+.mast .wordmark,
+.mast .title {
+  font: 700 31px/1.05 var(--font);
+  letter-spacing: -0.025em;
+  color: var(--ink);
+}
+.mast a { color: inherit; }
+.mast a:hover { color: var(--link); }
+
+/* Home intro: 14.5px / 1.56 across the 588px lead */
+#intro {
+  max-width: var(--measure);
+  font: 400 14.5px/1.56 var(--font);
+  color: var(--ink);
+}
+#intro p { margin: 0 0 0.8em; }
+#intro p:last-child { margin-bottom: 0; }
+
+/* Home jump menu: quiet left rule, muted labels, no cyan dots */
+#page-home aside.org {
+  border-left: 1px solid rgba(26,26,26,0.10);
+  padding-left: 16px;
+  font: 400 13px/18px var(--font);
+  color: var(--ink);
+}
+aside.org h6 {
+  margin: 12px 0 3px;
+  font: 700 10.5px/14px var(--font);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: rgba(26,26,26,0.46);
+}
+aside.org h6:first-of-type { margin-top: 0; }
+aside.org ul { list-style: none; margin: 0; }
+aside.org li { margin: 0; }
+aside.org a {
+  font: 400 13px/18px var(--font);
+  color: var(--ink);
+}
+aside.org a:hover { color: var(--link); }
+aside.org p { margin: 0 0 2px; }
+
+
+
+
+
+.columns {
+  display: flex;
+  flex-flow: row wrap;
+  margin-top: 56px;
+  width: 100%;
+  max-width: var(--inner-width);
+}
+@media (min-width: 46rem) {
+  .columns {
+    display: grid;
+    grid-template-columns: 13fr 13fr 28fr;
+    column-gap: var(--col-gap);
+    row-gap: 0;
+    flex-flow: unset;
+    gap: unset;
+    column-gap: var(--col-gap);
+  }
+  .columns > .col-narrow,
+  .columns > .col-wide {
+    flex: none;
+    width: auto;
+    max-width: none;
+    min-width: 0;
+  }
+}
+
+/* Shared header bar so first rows share a baseline */
+.col-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 10px;
+  height: 30px;
+  margin: 0;
+  padding: 0 0 8px;
+  box-sizing: border-box;
+  border-bottom: 1px solid rgba(26,26,26,0.14);
+}
+.columns h1,
+.col-head h1 {
+  margin: 0;
+  font: 700 18px/22px var(--font);
+  letter-spacing: -0.02em;
+  color: var(--ink);
+}
+.col-head .kicker {
+  margin: 0;
+  font: 400 12px/22px var(--font);
+  color: var(--faded);
+  white-space: nowrap;
+  flex: none;
+}
+.col-head .kicker a { color: var(--link); }
+.col-head .kicker a:hover { text-decoration: underline; text-underline-offset: 2px; }
+#mind.col-head, .col-head#mind { margin-top: var(--section-gap); }
+
+.works > a, .pages > a, .journal > a {
+  display: block;
+  margin: 0;
+  padding: 9px 0;
+  color: inherit;
+}
+.works > a + a, .pages > a + a, .journal > a + a {
+  border-top: 1px solid rgba(26,26,26,0.08);
+}
+.works h3, .pages h3, .journal h3 {
+  margin: 0 0 2px;
+  font: 700 14.5px/20px var(--font);
+  letter-spacing: -0.01em;
+  color: var(--ink);
+}
+.works h3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+}
+.works h3 .title-text { min-width: 0; }
+.works a:hover h3, .pages a:hover h3, .journal a:hover h3 { color: var(--link); }
+.works p, .pages p, .journal p {
+  margin: 0;
+  font: 400 13px/18px var(--font);
+  color: var(--mute);
+}
+
+.journal time {
+  display: block;
+  font: 400 11px/14px var(--font);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--faded);
+  margin: 0 0 1px;
+}
+.mind p {
+  margin: 0;
+  padding: 8px 0;
+  border-bottom: 1px solid rgba(26,26,26,0.08);
+  font: 400 13px/18px var(--font);
+  color: var(--mute);
+}
+.more {
+  margin-top: 8px;
+  font: 400 13px/18px var(--font);
+}
+.more a { color: var(--link); }
+.more a:hover { text-decoration: underline; text-underline-offset: 2px; }
+.omit {
+  margin-top: var(--section-gap);
+  font: 400 13px/18px var(--font);
+  color: var(--faded);
+}
+
+/* --- mock additions --- */
+.mark-bar { width: 15px; height: 15px; margin-right: 6px; vertical-align: -2px; }
+.mast .wordmark { display: inline-flex; align-items: center; gap: 9px; }
+.mark-mast { width: 26px; height: 26px; flex: none; }
+.works > a { display: flex; gap: 10px; align-items: flex-start; }
+.works .thumb { flex: none; width: 40px; height: 40px; border-radius: 6px; margin-top: 1px; }
+.works .work-text { min-width: 0; }
+.weeks { flex: none; align-self: center; }
+.home-map { margin: 10px 0 2px; }
+.home-map svg { display: block; width: 100%; height: auto; border-radius: 3px; }
+#hmap text { font-family: var(--neon); }
+#hmap .t { font-size: 10.5px; fill: #1a1a1a; }
+#hmap .a { font-size: 10.5px; font-style: italic; fill: #0094d0; }
+#hmap .h { font-size: 9px; font-weight: 700; letter-spacing: .08em; fill: #999; }
+#hmap a:hover .t { fill: #0090cc; }
+#hmap a:hover circle { stroke: #0094d0; }
+i.mark { font-style: normal; padding: 0.1em 0.12em; background: var(--mark); color: var(--ink); }
+
+/* IBM Plex Sans variable (100–700), embedded so weight 450 works offline */
+
+
+/* --- iA type scale, optically matched to IBM Plex Sans.
+   Every iA size is multiplied by k = 45/43 so Plex's lowercase stands as tall as iA Sans's;
+   leading is divided by k so the distance between lines stays the same as iA's.
+   Weight 450 and the extra letter and word spacing make up for Plex's thinner strokes and narrower set. --- */
+:root {
+  --t-micro: clamp(12.558px, 12.082px + 0.149vw, 13.605px);
+  --t-small: clamp(15.698px, 15.222px + 0.149vw, 16.744px);
+  --t-body: clamp(17.791px, 16.363px + 0.446vw, 20.930px);
+  --t-section: clamp(23.023px, 21.121px + 0.594vw, 27.209px);
+  --t-title: clamp(29.302px, 26.449px + 0.892vw, 35.581px);
+  --w-text: 450;
+}
+html { -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; }
+:where(body *) { letter-spacing: 0.034em; word-spacing: 0.064em; }
+#hmap, #hmap * { letter-spacing: 0; word-spacing: 0; }
+:root { --page-width: 1024px; --inner-width: 960px; --col-gap: 40px; }
+@media (min-width: 46rem) { .columns { grid-template-columns: 17fr 15fr 24fr; } }
+body { font: var(--w-text) var(--t-small)/1.4333 var(--font); font-feature-settings: "dlig"; font-variant-ligatures: normal; }
+#intro { font: var(--w-text) clamp(16.744px, 16.1px + 0.2vw, 18.2px)/1.4333 var(--font); }
+.crumb, .meta-links { font-size: var(--t-small); font-weight: var(--w-text); }
+.mast .wordmark, .mast .title { font: 700 var(--t-title)/1.051 var(--font); letter-spacing: -0.015em; word-spacing: 0; }
+#page-home aside.org, aside.org a, aside.org p { font: var(--w-text) var(--t-small)/1.386 var(--font); }
+aside.org h6 { font: 700 var(--t-micro)/1.194 var(--font); }
+.col-head { height: auto; min-height: 30px; }
+.weeks { flex: 0 1 117px; min-width: 96px; width: auto; max-width: 100%; height: auto; align-self: center; }
+#journal .col-head { align-items: center; }
+.columns h1, .col-head h1 { font: 700 var(--t-section)/1.099 var(--font); letter-spacing: 0.01em; }
+.col-head .kicker { font: var(--w-text) var(--t-small)/1.386 var(--font); }
+.works h3, .pages h3, .journal h3 { font: 700 var(--t-small)/1.194 var(--font); letter-spacing: 0.034em; }
+.works p, .pages p, .journal p, .mind p { font: var(--w-text) var(--t-small)/1.338 var(--font); }
+.journal time { font: var(--w-text) var(--t-micro)/1.386 var(--font); }
+.more { font: var(--w-text) var(--t-small)/1.386 var(--font); }
+/* Top of mind: full-width band under the three columns */
+.mind-wide { width: 100%; max-width: var(--inner-width); }
+.mind-wide .mind { display: block; padding-left: 1.2em; }
+.mind-wide .mind p { display: list-item; list-style: disc; border-bottom: 0; padding: 8px 0 0 2px; }
+.mind-wide .mind p::marker { color: var(--faded); }
+/* Menu settings */
+.menu-set { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-top: 8px; padding: 12px 18px 4px 20px; border-top: 1px solid var(--line); font: var(--w-text) var(--t-small)/1.2 var(--font); color: var(--mute); }
+.menu-set .seg { display: flex; gap: 2px; padding: 2px; border-radius: 8px; background: var(--line); }
+.menu-set button { appearance: none; border: 0; border-radius: 6px; padding: 5px 9px; background: transparent; color: var(--ink); font: var(--w-text) var(--t-micro)/1.2 var(--font); letter-spacing: 0.034em; cursor: pointer; }
+.menu-set button[aria-pressed="true"] { background: var(--surface); font-weight: 700; box-shadow: 0 0 0 1px var(--line); }
+
+/* Dark mode */
+html[data-theme="dark"] {
+  --bg: #1f2021; --ink: #ececea; --surface: #2c2d2e; --link: #4cc9f5;
+  --line: rgba(255,255,255,0.12); --hair: rgba(255,255,255,0.18);
+  --mute: rgba(237,237,237,0.74); --faded: rgba(237,237,237,0.56);
+  --wash: rgba(0,195,255,0.16); --mark: rgba(0,195,255,0.24);
+  color-scheme: dark;
+}
+html[data-theme="dark"] .ia-bar { background: rgba(31,32,33,0.88); }
+html[data-theme="dark"] .menu nav { box-shadow: 0 8px 24px rgba(0,0,0,0.5), 0 0 0 1px rgba(255,255,255,0.12); }
+html[data-theme="dark"] .menu nav a:hover { background: rgba(255,255,255,0.08); }
+html[data-theme="dark"] .menu nav a.current { color: var(--link); }
+html[data-theme="dark"] #page-home aside.org { border-left-color: var(--line); }
+html[data-theme="dark"] aside.org h6 { color: var(--faded); }
+html[data-theme="dark"] .col-head { border-bottom-color: var(--hair); }
+html[data-theme="dark"] .works > a + a, html[data-theme="dark"] .pages > a + a, html[data-theme="dark"] .journal > a + a { border-top-color: var(--line); }
+html[data-theme="dark"] .mark-bar, html[data-theme="dark"] .mark-mast { filter: invert(1); }
+html[data-theme="dark"] #hmap { filter: invert(1) hue-rotate(180deg); }
+html[data-theme="dark"] .weeks circle[fill="#d4d4d4"] { fill: #48494b; }
+/* Muted light ground */
+:root { --bg: #f6f6f5; }
+.ia-bar { background: rgba(246,246,245,0.88); }
+
+/* Search in the top bar */
+.bar-search { position: relative; display: flex; align-items: center; flex: 0 1 170px; min-width: 96px; }
+.bar-search svg { position: absolute; left: 9px; width: 14px; height: 14px; fill: none; stroke: var(--faded); stroke-width: 1.6; stroke-linecap: round; pointer-events: none; }
+.bar-search input { width: 100%; height: 30px; padding: 0 26px 0 29px; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); color: var(--ink); font: var(--w-text) var(--t-small)/1 var(--font); letter-spacing: 0.034em; outline: none; -webkit-appearance: none; appearance: none; }
+.bar-search input::placeholder { color: var(--faded); }
+.bar-search input:focus { border-color: var(--link); }
+.bar-search kbd { position: absolute; right: 8px; font: 400 11px/1 var(--neon); color: var(--faded); pointer-events: none; }
+.bar-search input:focus + kbd, .bar-search input:not(:placeholder-shown) + kbd { display: none; }
+[data-search-hide] { display: none !important; }
+#hmap a.node[data-search-dim] { opacity: 0.15; }
+/* Appearance: icons only */
+.menu-set { justify-content: flex-start; }
+.menu-set button { display: flex; align-items: center; justify-content: center; width: 34px; height: 28px; padding: 0; }
+.menu-set button svg { width: 16px; height: 16px; fill: none; stroke: currentColor; stroke-width: 1.4; stroke-linecap: round; stroke-linejoin: round; }
+.menu-set button:not([aria-pressed="true"]) { color: var(--faded); }
+/* Vertical rhythm: more air under the top bar, a little less between intro and columns */
+:root { --space-top: 40px; --space-intro: 52px; }
+.page { padding-top: var(--space-top); }
+.columns { margin-top: var(--space-intro); }
+.works > a, .pages > a, .journal > a { padding: 11px 0; }
+/* --- Index pages (Explainers, Journal, Projects) --- */
+.abstract { margin: 0; max-width: var(--measure); font: var(--w-text) calc(var(--t-small) - 1.5px)/1.5 var(--font); color: rgba(26,26,26,0.62); }
+html[data-theme="dark"] .abstract { color: rgba(236,236,234,0.62); }
+.mast { margin-bottom: 12px; }
+.index-figure { margin: 28px 0 0; }
+.index-figure svg { display: block; width: 100%; height: auto; border-radius: 3px; }
+.index-cols { columns: 3 250px; column-gap: var(--col-gap); margin-top: var(--space-intro); }
+.index-cols section { margin: 0 0 36px; }
+.index-cols .col-head { break-after: avoid; }
+.index-cols .pages > a, .index-cols .journal > a { break-inside: avoid; }
+.heat { display: block; max-width: 100%; height: auto; color: var(--ink); }
+.band-head { margin-top: var(--space-intro); }
+.cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 36px 32px; align-items: start; margin-top: 20px; }
+.cards > a { display: block; transition: opacity .15s; }
+.cards > a:hover { opacity: 0.8; }
+.cards img, .cards .tile { display: block; width: 100%; height: auto; border-radius: 3px; }
+.cards .tile { aspect-ratio: 4 / 3; display: flex; align-items: center; justify-content: center; padding: 16px; background: var(--surface); color: var(--ink); font: 700 var(--t-title)/1.05 var(--font); letter-spacing: -0.015em; text-align: center; }
+.cards h3 { margin: 10px 0 2px; font: 700 var(--t-small)/1.194 var(--font); }
+.cards p { margin: 0; font: var(--w-text) var(--t-small)/1.338 var(--font); color: var(--mute); }
+/* Index listings: each section has a full-width head, its rows flow in columns beneath */
+.index-cols { columns: auto; }
+.index-cols .pages, .index-cols .journal { columns: 3 250px; column-gap: var(--col-gap); }
+.index-cols .pages > a, .index-cols .journal > a { border-top: 0; border-bottom: 1px solid var(--line); }
+.index-cols .pages p { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.index-figure svg.heat { width: auto; max-width: 100%; height: 56px; }
+/* --- Index pages, list language: one list in the body (2/3), commentary in the rail (1/3) --- */
+.ix-top, .ix-sec { display: grid; grid-template-columns: minmax(0, 1fr) 260px; column-gap: 44px; align-items: start; }
+.ix-sec { margin-top: 44px; }
+.ix-figure { margin: 28px 0 0; }
+.ix-figure svg { display: block; width: 100%; height: auto; border-radius: 3px; }
+.ix-note { margin-top: 4px; padding-left: 12px; border-left: 1.5px solid var(--hair); font: var(--w-text) var(--t-small)/1.386 var(--font); color: var(--mute); }
+.ix-note b { display: block; margin-bottom: 4px; font: 700 var(--t-micro)/1.2 var(--font); letter-spacing: 0.08em; text-transform: uppercase; color: var(--faded); }
+.ix-sec .pages p { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.ix-sec .journal > a { display: grid; grid-template-columns: 6.5em minmax(0, 1fr); column-gap: 16px; align-items: baseline; padding: 7px 0; }
+.ix-sec .journal time { margin: 0; }
+.ix-sec .journal h3 { margin: 0; font-weight: var(--w-text); }
+.heat-s { display: block; width: 117px; height: auto; margin-top: 6px; color: var(--ink); }
+@media (max-width: 45.98rem) { .ix-top, .ix-sec { grid-template-columns: minmax(0, 1fr); } .ix-note { margin-top: 10px; } }
+/* Chinese text uses Traditional letterforms */
+:root { --font: "IBM Plex Sans", "PingFang TC", "Noto Sans TC", "Microsoft JhengHei", system-ui, sans-serif; }
+/* --- Journal: full body width. Month, synopsis wrapping a small green calendar, then the entries. --- */
+.jm { margin-top: 44px; }
+.mast + .jm { margin-top: 24px; }
+.jm-cal { float: right; width: 62px; height: auto; margin: 18px 0 0 24px; color: var(--ink); }
+.jm-syn { text-wrap: wrap; }
+.jm-syn { margin: 14px 0 0; font: var(--w-text) clamp(16.744px, 15.6px + 0.3vw, 18.8px)/1.4333 var(--font); }
+.jm .journal { clear: both; margin-top: 18px; border-top: 1px solid var(--line); }
+.jm .journal > a { display: grid; grid-template-columns: 4.5em minmax(0, 1fr); column-gap: 16px; align-items: baseline; padding: 7px 0; border-top: 0; border-bottom: 1px solid var(--line); }
+.jm .journal time { margin: 0; text-transform: none; letter-spacing: 0.034em; }
+.jm .journal h3 { margin: 0; font-weight: var(--w-text); }
+/* Journal weeks: each month in four parts (days 1–7, 8–14, 15–21, 22 to the end), each with its own line */
+.jm-weeks { clear: both; padding-top: 6px; }
+.jw { display: grid; grid-template-columns: 2.2em minmax(0, 1fr); column-gap: 8px; align-items: baseline; margin-top: 22px; }
+.jw-n { font: 700 var(--t-small)/1.4 var(--font); color: var(--faded); }
+.jw-syn { margin: 0; font: var(--w-text) var(--t-small)/1.4 var(--font); color: var(--ink); }
+.jw .journal { margin-top: 8px; border-top: 0; }
+.jw .journal > a { padding: 4px 0; border-bottom: 0; grid-template-columns: 4em minmax(0, 1fr); }
+.jw .journal h3 { color: var(--mute); }
+.jw .journal > a:hover h3 { color: var(--link); }
+/* Journal: four week columns under each month's paragraph (days 1–7, 8–14, 15–21, 22 to the end) */
+.jm-weeks { clear: both; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); column-gap: 28px; row-gap: 28px; align-items: start; margin-top: 26px; padding-top: 0; }
+@media (max-width: 45.98rem) { .jm-weeks { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+.jm-weeks .jw { display: block; margin-top: 0; padding-top: 10px; border-top: 1px solid var(--hair); }
+.jm-weeks .jw-n { display: block; margin-bottom: 6px; font: 700 var(--t-small)/1.2 var(--font); color: var(--faded); }
+.jw-empty .jw-n { opacity: 0.5; }
+.jm-weeks .jw-syn { font: var(--w-text) var(--t-small)/1.4 var(--font); color: var(--ink); }
+.jw-list { margin-top: 12px; }
+.jw-row { display: block; padding: 6px 0; border-top: 1px solid var(--line); font: var(--w-text) calc(var(--t-small) - 1.5px)/1.35 var(--font); color: var(--mute); }
+.jw-row time { display: block; font: var(--w-text) var(--t-micro)/1.3 var(--font); color: var(--faded); }
+a.jw-row:hover span { color: var(--link); }
+</style>
+<style>
+.jr{display:grid;grid-template-columns:220px minmax(0,1fr);column-gap:44px;align-items:start;margin-top:28px}
+.jr-rail{position:sticky;top:73px;font:var(--w-text) var(--t-small)/1.39 var(--font)}
+.jr-cal{display:none}.jr-cal.on{display:block}
+.jr-cal svg.jm-cal{float:none;display:block;width:117px;height:auto;color:var(--ink);margin:0 0 20px}
+.jr-year{font:700 var(--t-micro)/1.2 var(--font);letter-spacing:.08em;text-transform:uppercase;color:var(--faded);padding:0 0 8px;border-bottom:1px solid var(--hair);margin-bottom:6px}
+.jr-m{padding:3px 0}
+.jr-mn{color:var(--mute);text-decoration:none}
+.jr-mn:hover{color:var(--link)}
+.jr-m.on .jr-mn{color:var(--ink);font-weight:700}
+.jr-wks{display:none;margin:4px 0 6px;padding-left:12px;border-left:1.5px solid var(--hair)}
+.jr-m.on .jr-wks{display:block}
+.jr-wk{display:block;padding:2px 0;font:var(--w-text) var(--t-micro)/1.5 var(--font);color:var(--faded);text-decoration:none}
+.jr-wk:hover{color:var(--link)}
+.jr-month{display:none}.jr-month.on{display:block}
+.jr-h{margin:0;font:700 clamp(23px,21px + .5vw,27.2px)/1.1 var(--font);letter-spacing:-.015em;padding-bottom:10px;border-bottom:1px solid var(--hair)}
+.jr-month .jm-syn{margin-top:14px}
+.jr-week{margin-top:30px;scroll-margin-top:73px}
+.jr-wh{margin:0 0 8px;font:700 var(--t-small)/1.3 var(--font);color:var(--faded)}
+.jr-syn{margin:0 0 8px;font:var(--w-text) var(--t-small)/1.43 var(--font);color:var(--ink)}
+.jr-row{display:grid;grid-template-columns:1.8em minmax(0,1fr);column-gap:10px;padding:3px 0;font:var(--w-text) calc(var(--t-small) - 1px)/1.4 var(--font);color:var(--mute)}
+.jr-d{font:var(--w-text) var(--t-micro)/1.65 var(--font);color:var(--faded);text-align:right}
+a.jr-row{text-decoration:none}a.jr-row:hover span:last-child{color:var(--link)}.jr-news{margin-top:10px;padding-top:8px;border-top:1px dashed var(--line)}
+.jr-news .jr-row{color:var(--faded)}
+.jr-nl{font:700 var(--t-micro)/1.2 var(--font);letter-spacing:.08em;text-transform:uppercase;color:var(--faded);margin-bottom:4px}
+.jr-none{margin:0;color:var(--faded)}
+.jr-wk{display:grid;grid-template-columns:2.4em auto;justify-content:start}.jr-wk .jr-wn{color:var(--mute)}.jr-wk:hover .jr-wn,.jr-wk:hover .jr-wd{color:var(--link)}.jr-wh .jr-wn{color:var(--mute)}
+@media (max-width:45.98rem){.jr{grid-template-columns:minmax(0,1fr)}.jr-rail{position:static;margin-bottom:24px}}
+</style>
+<style>
+.jr-views{display:flex;flex-wrap:wrap;column-gap:18px;row-gap:4px;align-items:baseline;margin:0 0 22px}
+.jr-views button{appearance:none;background:none;border:0;padding:2px 0;margin:0;cursor:pointer;font:var(--w-text) var(--t-small)/1.39 var(--font);letter-spacing:.034em;color:var(--mute);border-bottom:1.5px solid transparent}
+.jr-views button:hover{color:var(--link)}
+.jr-views button[aria-pressed="true"]{color:var(--ink);font-weight:700;border-bottom-color:var(--ink)}
+.jr-views .jr-newsbtn{margin-left:auto;border-bottom:0;font-weight:var(--w-text);color:var(--mute)}
+.jr-views .jr-newsbtn::before{content:"";display:inline-block;width:9px;height:9px;margin-right:7px;border:1.25px solid currentColor;border-radius:2px;vertical-align:-1px}
+.jr-views .jr-newsbtn[aria-pressed="true"]{font-weight:var(--w-text);color:var(--ink)}
+.jr-views .jr-newsbtn[aria-pressed="true"]::before{background:currentColor}
+.jr:not([data-view="months"]) .jr-newsbtn{display:none}
+.jr.nonews [data-view="months"] .jr-news{display:none}
+.jv{display:none}.jv.on{display:block}
+.jr-thnav{display:none}
+.jr[data-view="threads"] .jr-thnav{display:block}
+.jr[data-view="threads"] .jr-year,.jr[data-view="threads"] .jr-m,.jr[data-view="threads"] .jr-cals,.jr[data-view="year"] .jr-cals{display:none}
+.jr[data-view="year"] .jr-m.on .jr-wks{display:none}
+.jr[data-view="year"] .jr-m.on .jr-mn{font-weight:var(--w-text);color:var(--mute)}
+.jr-thnav .jr-mn{display:block;padding:3px 0}
+.jr-thnav .jr-mn:first-child{padding-top:0}
+.jt-month{display:none}.jt-month.on{display:block}
+.jt-heads,.jt-cols{display:grid;grid-template-columns:minmax(0,3fr) minmax(0,2fr);column-gap:32px}
+.jt-heads{margin-top:14px;font:700 var(--t-micro)/1.2 var(--font);letter-spacing:.08em;text-transform:uppercase;color:var(--faded)}
+.jt-week{margin-top:22px;padding-top:12px;border-top:1px solid var(--line);scroll-margin-top:73px}
+.jt-news .jr-row{color:var(--faded)}
+.jy-row{display:grid;grid-template-columns:95px minmax(0,1fr);column-gap:28px;align-items:center;padding:16px 0;border-bottom:1px solid var(--line);text-decoration:none;color:var(--ink)}
+.jy-cal{width:95px;height:auto;color:var(--ink)}
+.jy-t b{display:block;font:700 var(--t-small)/1.3 var(--font);margin-bottom:2px}
+.jy-t span{font:var(--w-text) var(--t-small)/1.43 var(--font);color:var(--mute)}
+.jy-row:hover b{color:var(--link)}
+.jl-month{scroll-margin-top:73px}
+.jl-month + .jl-month{margin-top:40px}
+.jl-rows{margin-top:10px}
+.jl-rows .jr-row{grid-template-columns:4.2em minmax(0,1fr)}
+@media (max-width:45.98rem){.jt-heads{display:none}.jt-cols{grid-template-columns:minmax(0,1fr)}.jt-news{margin-top:6px;padding-top:6px;border-top:1px dashed var(--line)}}
+</style>
+<style>
+.jr-src{margin-left:6px;font-size:var(--t-micro);color:var(--faded);white-space:nowrap}
+a.jr-row[target]:hover span:last-child{color:inherit}
+a.jr-row[target]:hover>span:last-child{color:var(--link)}
+@media (max-width:45.98rem){
+.jr-cals,.jr-year,.jr-m .jr-wks,.jr-m.on .jr-wks{display:none}
+.jr-rail{display:flex;flex-wrap:wrap;column-gap:16px;row-gap:2px;padding-bottom:12px;border-bottom:1px solid var(--hair)}
+.jt-news:empty{display:none}
+.jr-thnav{flex-wrap:wrap;column-gap:16px;row-gap:2px}
+.jr[data-view="threads"] .jr-thnav{display:flex}
+.jr-thnav .jr-mn,.jr-thnav .jr-mn:first-child{padding:3px 0}
+}
+</style>
+<style>@media (max-width:45.98rem){.meta-links{display:none}.bar-search{flex:1 1 auto;min-width:0}}</style>
+<style>@media (max-width:45.98rem){.meta-links{display:none}.crumb{flex:none}.bar-right{flex:1 1 0;min-width:0;justify-content:flex-end}.bar-search{flex:1 1 0;min-width:0;max-width:170px}}</style>
+<style>
+.vsw{display:flex;flex-wrap:wrap;column-gap:18px;row-gap:4px;margin:28px 0 22px}
+.vsw button{appearance:none;background:none;border:0;padding:2px 0;cursor:pointer;font:var(--w-text) var(--t-small)/1.39 var(--font);letter-spacing:.034em;color:var(--mute);border-bottom:1.5px solid transparent}
+.vsw button:hover{color:var(--link)}
+.vsw button[aria-pressed="true"]{color:var(--ink);font-weight:700;border-bottom-color:var(--ink)}
+.vw{display:none}.vw.on{display:block}
+.sec-h{margin:34px 0 0;padding-bottom:9px;font:700 clamp(19px,18px + .3vw,22px)/1.15 var(--font);letter-spacing:-.01em}
+.vw > .sec-h:first-child{margin-top:0}
+.rw{display:grid;grid-template-columns:minmax(0,1fr);row-gap:2px;padding:9px 0;border-top:1px solid var(--line);font:var(--w-text) var(--t-small)/1.43 var(--font);letter-spacing:.034em;color:var(--mute);text-decoration:none}
+.rw b{font-weight:700;color:var(--ink)}
+a.rw:hover b{color:var(--link)}
+.rw .d{font-size:var(--t-micro);color:var(--faded);white-space:nowrap}
+.sum{margin:6px 0 0;max-width:640px;font:var(--w-text) 15px/1.5 var(--font);letter-spacing:.034em;color:var(--mute)}
+@media (min-width:46rem){.rw{grid-template-columns:300px minmax(0,1fr);column-gap:28px;align-items:baseline}.rw.r3{grid-template-columns:300px minmax(0,1fr) 5.5em}}
+</style>
+<style>
+.pj-top{display:grid;grid-template-columns:minmax(0,1fr);row-gap:18px}
+.pj-facts{font:var(--w-text) var(--t-small)/1.39 var(--font);letter-spacing:.034em;border-left:1px solid var(--line);padding-left:16px;align-self:start}
+.pj-facts h6{margin:12px 0 2px;font:700 var(--t-micro)/1.2 var(--font);letter-spacing:.08em;text-transform:uppercase;color:var(--faded)}
+.pj-facts h6:first-child{margin-top:0}.pj-facts p{margin:0}.pj-facts a{color:var(--link);text-decoration:none}
+.pj-lede + .pj-lede{margin-top:14px}
+.pj-lede{margin:12px 0 0;max-width:none;font:var(--w-text) clamp(17.5px,16.9px + .24vw,19.5px)/1.43 var(--font);letter-spacing:.034em}
+.rw a{color:var(--link);text-decoration:none}
+.cast{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:34px 32px}
+@media (min-width:46rem){.cast{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.cc img{display:block;width:100%;height:auto;border-radius:8px}
+.cc h3{margin:12px 0 0;font:700 clamp(19px,18px + .3vw,22px)/1.15 var(--font)}.cc h3 small{font:var(--w-text) var(--t-small)/1 var(--font);color:var(--mute);letter-spacing:.034em}
+.cc p{margin:6px 0 0;font:var(--w-text) var(--t-small)/1.43 var(--font);letter-spacing:.034em;color:var(--mute)}
+.cc .role{color:var(--faded)}.cc .say{color:var(--ink);font-weight:700;margin-top:10px}.cc .tr{margin-top:2px;font-size:var(--t-micro)}
+.tlr{grid-template-columns:4.2em minmax(0,1fr) !important;column-gap:14px !important}
+@media (min-width:46rem){.pj-top{grid-template-columns:minmax(0,1fr) 196px;column-gap:48px}}
+</style><style>
+.st-intro{max-width:none}
+.pj-up{display:inline-block;margin-bottom:4px;font:700 var(--t-micro)/1.2 var(--font);letter-spacing:.08em;text-transform:uppercase;color:var(--faded);text-decoration:none}
+.pj-up:hover{color:var(--link)}
+.st-intro .pj-lede{max-width:none}
+.st-row{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:16px;margin-top:34px}
+.st-b{appearance:none;background:none;border:0;padding:0 0 8px;margin:0;cursor:pointer;text-align:left;color:var(--mute);font:var(--w-text) var(--t-micro)/1.3 var(--font);letter-spacing:.034em;border-bottom:2px solid transparent}
+.st-b img{display:block;width:100%;height:auto;border-radius:3px;transition:opacity .15s}
+.st-b:hover img{opacity:.82}
+.st-b span{display:block;margin-top:9px;font:700 var(--t-small)/1.2 var(--font);color:var(--ink)}
+.st-b small{display:block;font-size:var(--t-micro)}
+.st-b[aria-pressed="true"]{border-bottom-color:var(--ink)}
+.vsw{margin-top:30px}
+.st-p{display:none}.st-p.on{display:block}
+.st-p h2{margin:0;font:700 clamp(21px,20px + .4vw,25px)/1.15 var(--font)}
+.st-p h2 small{font:var(--w-text) var(--t-small)/1 var(--font);letter-spacing:.034em;color:var(--mute)}
+.st-p h2 em{font:var(--w-text) var(--t-small)/1 var(--font);font-style:normal;letter-spacing:.034em;color:var(--faded);margin-left:6px}
+.st-d{margin:10px 0 0;font:var(--w-text) clamp(16.7px,15.6px + .3vw,18.8px)/1.43 var(--font);letter-spacing:.034em}
+.st-say{margin:14px 0 0;font:700 var(--t-small)/1.4 var(--font)}
+.st-tr{margin:2px 0 0;font:var(--w-text) var(--t-micro)/1.4 var(--font);letter-spacing:.034em;color:var(--mute)}
+.st-profs{min-height:8em}
+.st-sup{display:grid;grid-template-columns:minmax(0,1fr);gap:22px 32px;margin-top:6px}
+.st-s{display:grid;grid-template-columns:88px minmax(0,1fr);column-gap:16px;align-items:start;padding-top:14px;border-top:1px solid var(--line)}
+.st-s img{display:block;width:88px;height:88px;border-radius:3px}
+.st-s h3{margin:0;font:700 var(--t-small)/1.25 var(--font)}
+.st-s h3 small{font:var(--w-text) var(--t-micro)/1 var(--font);letter-spacing:.034em;color:var(--mute)}
+.st-s p{margin:4px 0 0;font:var(--w-text) var(--t-small)/1.43 var(--font);letter-spacing:.034em;color:var(--mute)}
+.st-s .role{margin-top:2px;color:var(--faded)}
+.st-say2{color:var(--ink) !important;font-weight:700 !important}
+.st-say2 span{font-weight:var(--w-text);font-size:var(--t-micro);color:var(--mute)}
+@media (min-width:46rem){.st-sup{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:45.98rem){.st-row{grid-template-columns:repeat(3,minmax(0,1fr))}}
+</style>
+<style>
+.st-voice{display:flex;align-items:center;gap:14px;margin-top:16px}
+.st-voice .st-say,.st-voice .st-tr{margin-top:0}
+.st-vt{min-width:0}
+.vp{flex:none;appearance:none;width:38px;height:38px;border-radius:50%;border:0;background:var(--ink);color:var(--bg,#f6f6f5);cursor:pointer;display:grid;place-items:center;padding:0}
+.vp svg{width:13px;height:13px;fill:currentColor}
+.vp .vp-stop{display:none}.vp.playing .vp-play{display:none}.vp.playing .vp-stop{display:block}
+.vp:hover{opacity:.82}
+.vw-bars{flex:none;width:224px;height:24px;color:var(--ink)}
+.vw-bars rect{fill:currentColor;opacity:.28}
+.vw-bars rect.on{opacity:1}
+@media (max-width:45.98rem){.st-voice{flex-wrap:wrap}.vw-bars{width:180px}}
+</style>
+<style>
+html[data-theme="dark"] .st-b,html[data-theme="dark"] .st-p{--cc:var(--ccd)}
+.st-b{border-bottom-width:3px}
+.st-b[aria-pressed="true"]{border-bottom-color:var(--cc)}
+.st-p .vp{background:var(--cc);color:#1a1a1a}
+.st-p .vw-bars rect.on{fill:var(--cc)}
+.st-p h2 em{position:relative;padding-left:14px}
+.st-p h2 em::before{content:"";position:absolute;left:0;top:.28em;width:8px;height:8px;border-radius:50%;background:var(--cc)}
+</style>
+<style>
+.vw-wave{position:relative;flex:none;width:224px;height:38px;display:flex;align-items:center;cursor:pointer;touch-action:none;user-select:none}
+.vw-wave .vw-bars{width:100%;pointer-events:none}
+.vw-region{display:none;position:absolute;top:0;bottom:0;background:var(--cc);opacity:.2;border-radius:3px;pointer-events:none}
+@media (max-width:45.98rem){.vw-wave{width:180px}}
+</style>
+<style>
+.st-profs{min-height:0;margin-top:0}
+.st-p.on{margin-top:22px}
+.st-p{padding:24px;border-radius:6px;background:color-mix(in srgb,var(--cc) 10%,transparent)}
+.st-p.on{display:grid;grid-template-columns:minmax(0,1fr);gap:20px;align-items:start}
+.sx-img{display:block;width:100%;max-width:300px;height:auto;border-radius:3px}
+.st-p h2{font-size:clamp(25px,23px + .6vw,31px)}
+.sx-role{position:relative;margin:6px 0 0;padding-left:15px;font:var(--w-text) var(--t-small)/1.3 var(--font);letter-spacing:.034em;color:var(--mute)}
+.sx-role::before{content:"";position:absolute;left:0;top:.36em;width:9px;height:9px;border-radius:50%;background:var(--cc)}
+.st-p .st-d{margin-top:16px}
+.st-p .st-voice{margin-top:22px}
+.sx-h{margin-top:48px}
+.st-more{margin-top:40px}
+.sx-craft{display:grid;grid-template-columns:minmax(0,1fr);column-gap:32px}
+.sx-craft .rw{grid-template-columns:minmax(0,1fr)}
+@media (min-width:46rem){.st-p.on{grid-template-columns:300px minmax(0,1fr);gap:32px}.sx-craft{grid-template-columns:repeat(2,minmax(0,1fr))}}
+</style>
+<style>
+/* Tsumugu Core project page: the reader demo, the foundation figure.
+   Colours, type sizes and the wave/play-button base styles come from the site stylesheet. */
+.cr [lang="zh-Hant"],.cr-pop [lang="zh-Hant"]{font-family:"PingFang TC","Noto Sans TC","Noto Sans CJK TC","Microsoft JhengHei",var(--font)}
+.cr{position:relative;margin-top:34px;border-top:1px solid var(--hair)}
+.cr-head{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:10px 28px;padding:14px 0 12px}
+.cr-ttl{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 12px;min-width:0}
+.cr-ttl b{font:700 var(--t-small)/1.3 var(--font)}
+.cr-ttl span{font:var(--w-text) var(--t-micro)/1.3 var(--font);letter-spacing:.034em;color:var(--mute)}
+.cr-lv{display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px}
+.cr-lbl{font:700 11px/1 var(--font);letter-spacing:.08em;text-transform:uppercase;color:var(--mute)}
+.cr-seg{display:inline-flex;border:1px solid var(--hair);border-radius:7px;overflow:hidden}
+.cr-seg button{appearance:none;border:0;border-left:1px solid var(--hair);background:none;padding:6px 10px;font:700 12px/1 var(--font);letter-spacing:.02em;color:var(--mute);cursor:pointer}
+.cr-seg button:first-child{border-left:0}
+.cr-seg button:hover{color:var(--ink)}
+.cr-seg button[aria-pressed="true"]{background:var(--ink);color:var(--bg)}
+.cr-meter{position:relative;width:168px;height:26px;flex:none}
+.cr-meter i{position:absolute;left:0;right:0;top:6px;height:4px;border-radius:2px;background:var(--line)}
+.cr-meter em{position:absolute;top:3px;height:10px;border-radius:2px;background:rgba(0,195,255,.24);left:80%;width:15%}
+.cr-meter u{position:absolute;top:1px;width:2px;height:14px;margin-left:-1px;border-radius:1px;background:var(--ink);transition:left .25s ease}
+.cr-meter s{position:absolute;top:16px;font:400 9.5px/1 var(--neon);color:var(--mute);text-decoration:none;transform:translateX(-50%)}
+.cr-out{font:var(--w-text) var(--t-micro)/1.2 var(--font);letter-spacing:.034em;color:var(--mute);white-space:nowrap;min-width:10.5em}
+.cr-out b{font-weight:700;color:var(--ink)}
+
+.cr-row{display:grid;grid-template-columns:52px minmax(0,1fr) auto;column-gap:16px;align-items:start;padding:11px 0;border-top:1px solid var(--line)}
+.cr-who{display:flex;align-items:center;gap:6px;padding-top:7px;font:700 13px/1.2 var(--font)}
+.cr-who i{flex:none;width:8px;height:8px;border-radius:50%;background:var(--cc)}
+.cr-zh{font:400 20px/1.7 var(--font);letter-spacing:.02em;color:var(--ink)}
+.cr-zh .w{appearance:none;border:0;margin:0;padding:1px 0;background:none;font:inherit;letter-spacing:inherit;color:inherit;line-height:1.3;white-space:nowrap;border-radius:4px;cursor:pointer;vertical-align:baseline}
+.cr-zh .w:hover{background:var(--line)}
+.cr-zh .w.new{background:rgba(0,195,255,.17);box-shadow:inset 0 -1.5px 0 rgba(0,144,204,.5)}
+.cr-zh .w.new:hover{background:rgba(0,195,255,.28)}
+.cr-zh .w.sel{box-shadow:0 0 0 1.5px var(--ink)}
+.cr-zh .dl{color:var(--mute);font-size:15px}
+.cr-en{margin:1px 0 3px;font:var(--w-text) var(--t-micro)/1.45 var(--font);letter-spacing:.034em;color:var(--mute)}
+.cr-en[hidden]{display:none}
+
+.cr-ctl{display:flex;align-items:center;gap:8px;padding-top:2px}
+.cr-ctl .vp{width:30px;height:30px;background:var(--cc);color:#1a1a1a}
+.cr-ctl .vp svg{width:11px;height:11px}
+.cr-ctl .vw-wave{appearance:none;border:0;padding:0;background:none;font:inherit;color:inherit;width:190px;height:30px;border-radius:4px}
+.cr-ctl .vw-bars{width:100%;height:24px}
+.cr-ctl .vw-bars rect.on{fill:var(--cc);opacity:1}
+.cr-ctl .vw-wave.dead{opacity:.45;cursor:default}
+.cr-b{appearance:none;min-width:30px;height:26px;padding:0 7px;border:1px solid var(--hair);border-radius:6px;background:none;font:700 11.5px/1 var(--font);color:var(--mute);cursor:pointer;display:inline-grid;place-items:center}
+.cr-b:hover{color:var(--ink);border-color:var(--mute)}
+.cr-b svg{width:13px;height:13px;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+.cr-b[aria-pressed="true"],.cr-b[aria-expanded="true"],.cr-b.on{border-color:var(--ink);color:var(--ink);background:var(--wash)}
+.cr-b[lang]{font-weight:500;font-size:13px}
+.cr-spd{min-width:38px}
+.cr :is(button,a):focus-visible,.cr-pop :is(button,a):focus-visible{outline:2px solid var(--link);outline-offset:2px}
+.cr-pop:focus{outline:none}
+
+.sb-cap{margin:6px 0 14px;font:var(--w-text) var(--t-micro)/1.45 var(--font);letter-spacing:.034em;color:var(--mute)}
+.cr-cap{margin:0;padding-top:10px;border-top:1px solid var(--line)}
+
+.cr-pop{position:absolute;z-index:5;width:286px;max-width:calc(100% - 4px);padding:13px 15px 12px;border:1px solid var(--hair);border-radius:10px;background:var(--surface);box-shadow:0 10px 30px rgba(20,22,28,.14);font:var(--w-text) 13px/1.55 var(--font);letter-spacing:.02em;color:var(--ink)}
+.cr-pop[hidden]{display:none}
+.cr-pop button{appearance:none;border:0;background:none;font:inherit;color:inherit;cursor:pointer;padding:0}
+.cr-pop .x{position:absolute;top:5px;right:6px;width:26px;height:26px;border-radius:6px;font-size:12px;color:var(--mute)}
+.cr-pop .x:hover,.cr-pop .back:hover{color:var(--ink);background:var(--line)}
+.cr-pop .nav{display:flex;align-items:center;gap:5px;margin:-4px 0 2px -6px;font-size:12.5px;color:var(--mute)}
+.cr-pop .back{width:24px;height:24px;border-radius:6px;font-size:17px;line-height:1;color:var(--mute)}
+.cr-pop .g{font-size:32px;line-height:1.15;font-weight:500;padding-right:22px}
+.cr-pop .rd{margin-top:2px;color:var(--mute)}
+.cr-pop .gl{margin-top:6px}
+.cr-pop .chars{display:flex;flex-wrap:wrap;gap:6px;margin-top:11px}
+.cr-pop .ch{display:flex;flex-direction:column;align-items:center;min-width:40px;padding:4px 7px 3px;border:1px solid var(--hair);border-radius:8px}
+.cr-pop .ch:hover{border-color:var(--ink)}
+.cr-pop .ch b{font-size:19px;font-weight:400;line-height:1.15}
+.cr-pop .ch i{font-style:normal;font-size:10.5px;line-height:1.2;color:var(--mute)}
+.cr-pop .sect{margin-top:11px;padding-top:9px;border-top:1px solid var(--line);color:var(--mute);line-height:1.6}
+.cr-pop .sect b{color:var(--ink);font-weight:500}
+.cr-pop .lbl{margin-right:6px;font-size:11.5px;color:var(--mute)}
+.cr-pop .acts{margin-top:11px;padding-top:9px;border-top:1px solid var(--line);font-size:12.5px}
+.cr-pop .acts a{color:var(--ink);text-decoration:underline;text-decoration-color:var(--faded);text-underline-offset:3px}
+.cr-pop .acts a:hover{text-decoration-color:var(--ink)}
+
+.cf{display:grid;grid-template-columns:minmax(0,620px) minmax(0,1fr);column-gap:36px;align-items:start;border-top:1px solid var(--line);padding-top:16px}
+.cf-fig{min-width:0;overflow-x:auto}
+.cf svg{display:block;width:100%;height:auto}
+.cf .sb-cap{margin:2px 0 0;padding-left:12px;border-left:1.5px solid var(--hair);font-size:var(--t-small);line-height:1.4}
+.cf .t{font-family:var(--neon);font-size:13px;fill:#1a1a1a;letter-spacing:0;word-spacing:0}
+.cf .f{font-family:var(--neon);font-size:10.5px;fill:rgba(26,26,26,.74);letter-spacing:0;word-spacing:0}
+
+html[data-theme="dark"] .cr-row{--cc:var(--ccd)}
+html[data-theme="dark"] .cr-zh .w.new{background:rgba(0,195,255,.26);box-shadow:inset 0 -1.5px 0 rgba(76,201,245,.7)}
+html[data-theme="dark"] .cr-pop{box-shadow:0 10px 30px rgba(0,0,0,.5)}
+html[data-theme="dark"] .cf svg.diagram{filter:invert(1) hue-rotate(180deg)}
+
+@media (max-width:45.98rem){
+  .cr-row{grid-template-columns:minmax(0,1fr);row-gap:4px}
+  .cr-who{padding-top:0;min-height:0}
+  .cr-who:empty{display:none}
+  .cr-ctl{flex-wrap:wrap}
+  .cr-ctl .vw-wave{flex:1 1 120px;width:auto}
+  .cr-meter{width:132px}
+  .cf{grid-template-columns:minmax(0,1fr);row-gap:12px}
+  .cf svg{min-width:540px}
+}
+@media (prefers-reduced-motion:reduce){.cr-meter u{transition:none}}
+</style>
+</head>
+<body>
+
+<header class="ia-bar">
+  <div class="ia-bar-inner">
+    <nav class="crumb" aria-label="Breadcrumb">
+      <a class="brand" href="/"><svg class="mark-bar" xmlns="http://www.w3.org/2000/svg" viewBox="4 6 40 40" aria-hidden="true"><path d="M24 25 L11 25 M24 25 L31 38" stroke="#1a1a1a" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/><circle cx="24" cy="25" r="6.5" fill="#1a1a1a"/><circle cx="11" cy="25" r="4" fill="#1a1a1a"/><circle cx="31" cy="38" r="4" fill="#1a1a1a"/><circle cx="38" cy="13" r="3.5" fill="#1a1a1a"/></svg>Logos52</a>
+      <span class="slash">/</span>
+      <span class="here">Projects</span>
+    </nav>
+    <div class="bar-right">
+      <nav class="meta-links" aria-label="Site">
+        <a href="/explainers/">Explainers</a>
+        <a href="/projects/" class="current">Projects</a>
+        <a href="/journal/">Journal</a>
+        <a href="/about/">About</a>
+      </nav>
+      <label class="bar-search">
+        <svg viewBox="0 0 16 16" aria-hidden="true"><circle cx="7" cy="7" r="4.5"/><path d="M10.5 10.5 L14 14"/></svg>
+        <input type="search" id="site-search" placeholder="Search" aria-label="Search this page" autocomplete="off">
+        <kbd>/</kbd>
+      </label>
+      <details class="menu">
+        <summary aria-label="Menu">
+          <svg viewBox="0 0 22 22" aria-hidden="true"><path d="M3.5 6.5h15M3.5 11h15M3.5 15.5h15"/></svg>
+        </summary>
+        <nav aria-label="Menu">
+        <a href="/">Home</a>
+        <a href="/explainers/">Explainers</a>
+        <a href="/projects/" class="current">Projects</a>
+        <a href="/journal/">Journal</a>
+        <a href="/about/">About</a>
+        <div class="menu-set">
+          <div class="seg" role="group" aria-label="Appearance">
+            <button type="button" data-theme-set="light" aria-label="Light" title="Light"><svg viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="3"/><path d="M8 1v2M8 13v2M1 8h2M13 8h2M3.05 3.05l1.4 1.4M11.55 11.55l1.4 1.4M3.05 12.95l1.4-1.4M11.55 4.45l1.4-1.4"/></svg></button>
+            <button type="button" data-theme-set="dark" aria-label="Dark" title="Dark"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M13 9.5 A5.5 5.5 0 1 1 6.5 3 A4.3 4.3 0 0 0 13 9.5 Z"/></svg></button>
+          </div>
+        </div>
+        </nav>
+      </details>
+    </div>
+  </div>
+</header>
+
+  <div class="page" id="page-project">
+<a class="pj-up" href="/projects/tsumugu/">Tsumugu</a>
+<header class="mast"><span class="title">Tsumugu Core</span></header>
+<div class="st-intro"><p class="pj-lede">Tsumugu Core is a graded reader web app that serves as the foundation of the other Tsumugu apps. Each text is written so that 80 to 95 percent of its words are ones the reader already knows, which is the comprehensible-input range. Its primary features are waveform playback, which supports the chorusing and shadowing techniques, and a popup dictionary: click any word or character to see its translation. The popup is tied into the Tsumugu Encoding Dictionary, which breaks characters down into their components.</p></div>
+<section class="cr" id="core-reader" data-level="A2" aria-label="Reader: four lines from episode 1"><div class="cr-head"><div class="cr-ttl"><b lang="zh-Hant">我們選了什麼，為什麼</b><span>What we picked, and why · EP 1 · TOCFL B1 · HSK 4</span></div><div class="cr-lv"><span class="cr-lbl" id="cr-lv-l">Reader level</span><span class="cr-seg" role="group" aria-labelledby="cr-lv-l"><button type="button" data-level="A1" aria-pressed="false">A1</button><button type="button" data-level="A2" aria-pressed="true">A2</button><button type="button" data-level="B1" aria-pressed="false">B1</button><button type="button" data-level="B2" aria-pressed="false">B2</button></span><span class="cr-meter" aria-hidden="true"><i></i><em></em><u style="left:83.8%"></u><s style="left:80%">80</s><s style="left:95%">95</s></span><output class="cr-out" aria-live="polite"><b>84%</b> known · in range</output></div></div><div class="cr-row" role="group" aria-label="Line 1, 星野" style="--cc:#DA93BD;--ccd:#F5A9DC"><div class="cr-who"><i></i><span lang="zh-Hant">星野</span></div><div class="cr-txt"><p class="cr-zh" lang="zh-Hant"><button type="button" class="w" data-w="兩">兩</button><button type="button" class="w" data-w="個">個</button><button type="button" class="w" data-w="小時">小時</button>？</p><p class="cr-en" id="cr-en-1" hidden>two hours?</p></div><div class="cr-ctl"><button type="button" class="vp" data-src="/media/core/ep1-L0024.wav" aria-label="Play line 1"><svg viewBox="0 0 12 12" aria-hidden="true"><path class="vp-play" d="M3 1.5v9l8-4.5z"/><path class="vp-stop" d="M2.5 2.5h7v7h-7z"/></svg></button><button type="button" class="vw-wave" aria-label="Line 1: play from a point, or drag to loop a part" title="Click to play from a point. Drag to loop a part."><svg class="vw-bars" viewBox="0 0 190 24" preserveAspectRatio="none" aria-hidden="true"><rect x="0.50" y="11.30" width="1.38" height="1.40" rx=".7"/><rect x="2.87" y="11.30" width="1.38" height="1.40" rx=".7"/><rect x="5.25" y="11.30" width="1.38" height="1.40" rx=".7"/><rect x="7.62" y="11.30" width="1.38" height="1.40" rx=".7"/><rect x="10.00" y="11.30" width="1.38" height="1.40" rx=".7"/><rect x="12.37" y="11.30" width="1.38" height="1.40" rx=".7"/><rect x="14.75" y="11.30" width="1.38" height="1.40" rx=".7"/><rect x="17.12" y="11.30" width="1.38" height="1.40" rx=".7"/><rect x="19.50" y="5.29" width="1.38" height="13.42" rx=".7"/><rect x="21.87" y="4.85" width="1.38" height="14.30" rx=".7"/><rect x="24.25" y="4.85" width="1.38" height="14.30" rx=".7"/><rect x="26.62" y="2.32" width="1.38" height="19.36" rx=".7"/><rect x="29.00" y="1.00" width="1.38" height="22.00" rx=".7"/><rect x="31.37" y="3.09" width="1.38" height="17.82" rx=".7"/><rect x="33.75" y="3.64" width="1.38" height="16.72" rx=".7"/><rect x="36.12" y="3.09" width="1.38" height="17.82" rx=".7"/><rect x="38.50" y="2.21" width="1.38" height="19.58" rx=".7"/><rect x="40.87" y="2.10" width="1.38" height="19.80" rx=".7"/><rect x="43.25" y="1.55" width="1.38" height="20.90" rx=".7"/><rect x="45.62" y="1.88" width="1.38" height="20.24" rx=".7"/><rect x="48.00" y="3.64" width="1.38" height="16.72" rx=".7"/><rect x="50.37" y="5.84" width="1.38" height="12.32" rx=".7"/><rect x="52.75" y="7.27" width="1.38" height="9.46" rx=".7"/><rect x="55.12" y="6.83" width="1.38" height="10.34" rx=".7"/><rect x="57.50" y="6.72" width="1.38" height="10.56" rx=".7"/><rect x="59.87" y="6.94" width="1.38" height="10.12" rx=".7"/><rect x="62.25" y="7.82" width="1.38" height="8.36" rx=".7"/><rect x="64.62" y="6.72" width="1.38" height="10.56" rx=".7"/><rect x="67.00" y="5.62" width="1.38" height="12.76" rx=".7"/><rect x="69.37" y="3.31" width="1.38" height="17.38" rx=".7"/><rect x="71.75" y="3.20" width="1.38" height="17.60" rx=".7"/><rect x="74.12" y="4.41" width="1.38" height="15.18" rx=".7"/><rect x="76.50" y="7.16" width="1.38" height="9.68" rx=".7"/><rect x="78.87" y="8.04" width="1.38" height="7.92" rx=".7"/><rect x="81.25" y="7.16" width="1.38" height="9.68" rx=".7"/><rect x="83.62" y="8.26" width="1.38" height="7.48" rx=".7"/><rect x="86.00" y="9.14" width="1.38" height="5.72" rx=".7"/><rect x="88.37" y="8.04" width="1.38" height="7.92" rx=".7"/><rect x="90.75" y="8.04" width="1.38" height="7.92" rx=".7"/><rect x="93.12" y="9.80" width="1.38" height="4.40" rx=".7"/><rect x="95.50" y="4.08" width="1.38" height="15.84" rx=".7"/><rect x="97.87" y="3.42" width="1.38" height="17.16" rx=".7"/><rect x="100.25" y="3.09" width="1.38" height="17.82" rx=".7"/><rect x="102.62" y="1.88" width="1.38" height="20.24" rx=".7"/><rect x="105.00" y="1.77" width="1.38" height="20.46" rx=".7"/><rect x="107.37" y="1.99" width="1.38" height="20.02" rx=".7"/><rect x="109.75" y="2.65" width="1.38" height="18.70" rx=".7"/><rect x="112.12" y="3.53" width="1.38" height="16.94" rx=".7"/><rect x="114.50" y="6.17" width="1.38" height="11.66" rx=".7"/><rect x="116.87" y="6.83" width="1.38" height="10.34" rx=".7"/><rect x="119.25" y="7.82" width="1.38" height="8.36" rx=".7"/><rect x="121.62" y="8.04" width="1.38" height="7.92" rx=".7"/><rect x="124.00" y="7.93" width="1.38" height="8.14" rx=".7"/><rect x="126.37" y="7.82" width="1.38" height="8.36" rx=".7"/><rect x="128.75" y="8.81" width="1.38" height="6.38" rx=".7"/><rect x="131.12" y="7.71" width="1.38" height="8.58" rx=".7"/><rect x="133.50" y="8.70" width="1.38" height="6.60" rx=".7"/><rect x="135.87" y="7.05" width="1.38" height="9.90" rx=".7"/><rect x="138.25" y="8.37" width="1.38" height="7.26" rx=".7"/><rect x="140.62" y="7.82" width="1.38" height="8.36" rx=".7"/><rect x="143.00" y="8.59" width="1.38" height="6.82" rx=".7"/><rect x="145.37" y="7.93" width="1.38" height="8.14" rx=".7"/><rect x="147.75" y="8.48" width="1.38" height="7.04" rx=".7"/><rect x="150.12" y="7.27" width="1.38" height="9.46" rx=".7"/><rect x="152.50" y="5.51" width="1.38" height="12.98" rx=".7"/><rect x="154.87" y="5.18" width="1.38" height="13.64" rx=".7"/><rect x="157.25" y="5.18" width="1.38" height="13.64" rx=".7"/><rect x="159.62" y="5.07" width="1.38" height="13.86" rx=".7"/><rect x="162.00" y="5.29" width="1.38" height="13.42" rx=".7"/><rect x="164.37" y="5.07" width="1.38" height="13.86" rx=".7"/><rect x="166.75" y="5.73" width="1.38" height="12.54" rx=".7"/><rect x="169.12" y="6.17" width="1.38" height="11.66" rx=".7"/><rect x="171.50" y="7.93" width="1.38" height="8.14" rx=".7"/><rect x="173.87" y="9.03" width="1.38" height="5.94" rx=".7"/><rect x="176.25" y="10.46" width="1.38" height="3.08" rx=".7"/><rect x="178.62" y="11.01" width="1.38" height="1.98" rx=".7"/><rect x="181.00" y="11.12" width="1.38" height="1.76" rx=".7"/><rect x="183.37" y="11.30" width="1.38" height="1.40" rx=".7"/><rect x="185.75" y="11.30" width="1.38" height="1.40" rx=".7"/><rect x="188.12" y="11.30" width="1.38" height="1.40" rx=".7"/></svg><span class="vw-region"></span></button><button type="button" class="cr-b cr-loop" aria-label="Loop line 1" aria-pressed="false"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 7.5V6.3A2.3 2.3 0 0 1 5.3 4H12"/><path d="M10 2l2 2-2 2"/><path d="M13 8.5v1.2A2.3 2.3 0 0 1 10.7 12H4"/><path d="M6 14l-2-2 2-2"/></svg></button><button type="button" class="cr-b cr-spd" aria-label="Speed 1×, line 1">1×</button><button type="button" class="cr-b cr-tr" aria-label="Translation of line 1" aria-expanded="false" aria-controls="cr-en-1" lang="zh-Hant">譯</button></div></div><div class="cr-row" role="group" aria-label="Line 2, 阿迪" style="--cc:#C75B28;--ccd:#E07B42"><div class="cr-who"><i></i><span lang="zh-Hant">阿迪</span></div><div class="cr-txt"><p class="cr-zh" lang="zh-Hant"><button type="button" class="w" data-w="對">對</button><button type="button" class="w" data-w="啊">啊</button>，<button type="button" class="w" data-w="兩">兩</button><button type="button" class="w" data-w="個">個</button><button type="button" class="w" data-w="小時">小時</button>。<span class="dl">（笑）</span><button type="button" class="w" data-w="一直">一直</button><button type="button" class="w" data-w="在">在</button><button type="button" class="w" data-w="看">看</button><button type="button" class="w new" data-w="職業">職業</button><button type="button" class="w" data-w="的">的</button><button type="button" class="w" data-w="介紹">介紹</button>。</p><p class="cr-en" id="cr-en-2" hidden>yeah — two hours. (laughs) The whole time just reading the class descriptions.</p></div><div class="cr-ctl"><button type="button" class="vp" data-src="/media/core/ep1-L0025.wav" aria-label="Play line 2"><svg viewBox="0 0 12 12" aria-hidden="true"><path class="vp-play" d="M3 1.5v9l8-4.5z"/><path class="vp-stop" d="M2.5 2.5h7v7h-7z"/></svg></button><button type="button" class="vw-wave" aria-label="Line 2: play from a point, or drag to loop a part" title="Click to play from a point. Drag to loop a part."><svg class="vw-bars" viewBox="0 0 190 24" preserveAspectRatio="none" aria-hidden="true"><rect x="0.50" y="11.30" width="1.38" height="1.40" rx=".7"/><rect x="2.87" y="11.30" width="1.38" height="1.40" rx=".7"/><rect x="5.25" y="7.16" width="1.38" height="9.68" rx=".7"/><rect x="7.62" y="6.39" width="1.38" height="11.22" rx=".7"/><rect x="10.00" y="3.20" width="1.38" height="17.60" rx=".7"/><rect x="12.37" y="1.00" width="1.38" height="22.00" rx=".7"/><rect x="14.75" y="2.43" width="1.38" height="19.14" rx=".7"/><rect x="17.12" y="4.08" width="1.38" height="15.84" rx=".7"/><rect x="19.50" y="5.40" width="1.38" height="13.20" rx=".7"/><rect x="21.87" y="8.37" width="1.38" height="7.26" rx=".7"/><rect x="24.25" y="11.23" width="1.38" height="1.54" rx=".7"/><rect x="26.62" y="11.30" width="1.38" height="1.40" rx=".7"/><rect x="29.00" y="11.30" width="1.38" height="1.40" rx=".7"/><rect x="31.37" y="11.30" width="1.38" height="1.40" rx=".7"/><rect x="33.75" y="11.30" width="1.38" height="1.40" rx=".7"/><rect x="36.12" y="11.30" width="1.38" height="1.40" rx=".7"/><rect x="38.50" y="11.30" width="1.38" height="1.40" rx=".7"/><rect x="40.87" y="11.30" width="1.38" height="1.40" rx=".7"/><rect x="43.25" y="11.30" width="1.38" height="1.40" rx=".7"/><rect x="45.62" y="11.30" width="1.38" height="1.40" rx=".7"/><rect x="48.00" y="10.02" width="1.38" height="3.96" rx=".7"/><rect x="50.37" y="6.39" width="1.38" height="11.22" rx=".7"/><rect x="52.75" y="5.73" width="1.38" height="12.54" rx=".7"/><rect x="55.12" y="9.91" width="1.38" height="4.18" rx=".7"/><rect x="57.50" y="10.35" width="1.38" height="3.30" rx=".7"/><rect x="59.87" y="8.81" width="1.38" height="6.38" rx=".7"/><rect x="62.25" y="7.16" width="1.38" height="9.68" rx=".7"/><rect x="64.62" y="10.13" width="1.38" height="3.74" rx=".7"/><rect x="67.00" y="7.27" width="1.38" height="9.46" rx=".7"/><rect x="69.37" y="6.72" width="1.38" height="10.56" rx=".7"/><rect x="71.75" y="8.70" width="1.38" height="6.60" rx=".7"/><rect x="74.12" y="9.47" width="1.38" height="5.06" rx=".7"/><rect x="76.50" y="10.79" width="1.38" height="2.42" rx=".7"/><rect x="78.87" y="10.68" width="1.38" height="2.64" rx=".7"/><rect x="81.25" y="9.58" width="1.38" height="4.84" rx=".7"/><rect x="83.62" y="8.59" width="1.38" height="6.82" rx=".7"/><rect x="86.00" y="7.38" width="1.38" height="9.24" rx=".7"/><rect x="88.37" y="7.49" width="1.38" height="9.02" rx=".7"/><rect x="90.75" y="8.92" width="1.38" height="6.16" rx=".7"/><rect x="93.12" y="11.30" width="1.38" height="1.40" rx=".7"/><rect x="95.50" y="11.30" width="1.38" height="1.40" rx=".7"/><rect x="97.87" y="11.30" width="1.38" height="1.40" rx=".7"/><rect x="100.25" y="11.30" width="1.38" height="1.40" rx=".7"/><rect x="102.62" y="11.30" width="1.38" height="1.40" rx=".7"/><rect x="105.00" y="11.30" width="1.38" height="1.40" rx=".7"/><rect x="107.37" y="11.30" width="1.38" height="1.40" rx=".7"/><rect x="109.75" y="9.03" width="1.38" height="5.94" rx=".7"/><rect x="112.12" y="6.83" width="1.38" height="10.34" rx=".7"/><rect x="114.50" y="7.16" width="1.38" height="9.68" rx=".7"/><rect x="116.87" y="10.57" width="1.38" height="2.86" rx=".7"/><rect x="119.25" y="7.71" width="1.38" height="8.58" rx=".7"/><rect x="121.62" y="7.38" width="1.38" height="9.24" rx=".7"/><rect x="124.00" y="10.68" width="1.38" height="2.64" rx=".7"/><rect x="126.37" y="4.30" width="1.38" height="15.40" rx=".7"/><rect x="128.75" y="4.30" width="1.38" height="15.40" rx=".7"/><rect x="131.12" y="10.02" width="1.38" height="3.96" rx=".7"/><rect x="133.50" y="8.81" width="1.38" height="6.38" rx=".7"/><rect x="135.87" y="4.74" width="1.38" height="14.52" rx=".7"/><rect x="138.25" y="5.29" width="1.38" height="13.42" rx=".7"/><rect x="140.62" y="9.14" width="1.38" height="5.72" rx=".7"/><rect x="143.00" y="10.90" width="1.38" height="2.20" rx=".7"/><rect x="145.37" y="10.13" width="1.38" height="3.74" rx=".7"/><rect x="147.75" y="9.03" width="1.38" height="5.94" rx=".7"/><rect x="150.12" y="8.81" width="1.38" height="6.38" rx=".7"/><rect x="152.50" y="5.51" width="1.38" height="12.98" rx=".7"/><rect x="154.87" y="4.30" width="1.38" height="15.40" rx=".7"/><rect x="157.25" y="7.60" width="1.38" height="8.80" rx=".7"/><rect x="159.62" y="6.28" width="1.38" height="11.44" rx=".7"/><rect x="162.00" y="10.79" width="1.38" height="2.42" rx=".7"/><rect x="164.37" y="10.46" width="1.38" height="3.08" rx=".7"/><rect x="166.75" y="6.39" width="1.38" height="11.22" rx=".7"/><rect x="169.12" y="5.40" width="1.38" height="13.20" rx=".7"/><rect x="171.50" y="6.83" width="1.38" height="10.34" rx=".7"/><rect x="173.87" y="10.35" width="1.38" height="3.30" rx=".7"/><rect x="176.25" y="5.95" width="1.38" height="12.10" rx=".7"/><rect x="178.62" y="4.41" width="1.38" height="15.18" rx=".7"/><rect x="181.00" y="3.86" width="1.38" height="16.28" rx=".7"/><rect x="183.37" y="5.18" width="1.38" height="13.64" rx=".7"/><rect x="185.75" y="10.46" width="1.38" height="3.08" rx=".7"/><rect x="188.12" y="11.30" width="1.38" height="1.40" rx=".7"/></svg><span class="vw-region"></span></button><button type="button" class="cr-b cr-loop" aria-label="Loop line 2" aria-pressed="false"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 7.5V6.3A2.3 2.3 0 0 1 5.3 4H12"/><path d="M10 2l2 2-2 2"/><path d="M13 8.5v1.2A2.3 2.3 0 0 1 10.7 12H4"/><path d="M6 14l-2-2 2-2"/></svg></button><button type="button" class="cr-b cr-spd" aria-label="Speed 1×, line 2">1×</button><button type="button" class="cr-b cr-tr" aria-label="Translation of line 2" aria-expanded="false" aria-controls="cr-en-2" lang="zh-Hant">譯</button></div></div><div class="cr-row" role="group" aria-label="Line 3, 阿迪" style="--cc:#C75B28;--ccd:#E07B42"><div class="cr-who"></div><div class="cr-txt"><p class="cr-zh" lang="zh-Hant"><button type="button" class="w" data-w="我">我</button><button type="button" class="w" data-w="聽說">聽說</button>，<button type="button" class="w" data-w="選">選</button><button type="button" class="w new" data-w="職業">職業</button><button type="button" class="w" data-w="就">就</button><button type="button" class="w" data-w="像">像</button><button type="button" class="w" data-w="一">一</button><button type="button" class="w" data-w="種">種</button><button type="button" class="w new" data-w="心理">心理</button><button type="button" class="w new" data-w="測驗">測驗</button>——<button type="button" class="w" data-w="會">會</button><button type="button" class="w" data-w="看">看</button><button type="button" class="w" data-w="出">出</button><button type="button" class="w" data-w="你">你</button><button type="button" class="w" data-w="裡面">裡面</button><button type="button" class="w" data-w="是">是</button><button type="button" class="w new" data-w="什麼樣">什麼樣</button><button type="button" class="w" data-w="的">的</button><button type="button" class="w" data-w="人">人</button>。</p><p class="cr-en" id="cr-en-3" hidden>i hear that choosing a class is a type of personality test that reveals the type of person you are on the inside.</p></div><div class="cr-ctl"><button type="button" class="vp" data-src="/media/core/ep1-L0026.wav" aria-label="Play line 3"><svg viewBox="0 0 12 12" aria-hidden="true"><path class="vp-play" d="M3 1.5v9l8-4.5z"/><path class="vp-stop" d="M2.5 2.5h7v7h-7z"/></svg></button><button type="button" class="vw-wave" aria-label="Line 3: play from a point, or drag to loop a part" title="Click to play from a point. Drag to loop a part."><svg class="vw-bars" viewBox="0 0 190 24" preserveAspectRatio="none" aria-hidden="true"><rect x="0.50" y="11.30" width="1.38" height="1.40" rx=".7"/><rect x="2.87" y="9.36" width="1.38" height="5.28" rx=".7"/><rect x="5.25" y="4.41" width="1.38" height="15.18" rx=".7"/><rect x="7.62" y="11.01" width="1.38" height="1.98" rx=".7"/><rect x="10.00" y="5.51" width="1.38" height="12.98" rx=".7"/><rect x="12.37" y="5.51" width="1.38" height="12.98" rx=".7"/><rect x="14.75" y="10.68" width="1.38" height="2.64" rx=".7"/><rect x="17.12" y="2.32" width="1.38" height="19.36" rx=".7"/><rect x="19.50" y="1.99" width="1.38" height="20.02" rx=".7"/><rect x="21.87" y="2.87" width="1.38" height="18.26" rx=".7"/><rect x="24.25" y="10.24" width="1.38" height="3.52" rx=".7"/><rect x="26.62" y="11.30" width="1.38" height="1.40" rx=".7"/><rect x="29.00" y="11.30" width="1.38" height="1.40" rx=".7"/><rect x="31.37" y="11.30" width="1.38" height="1.40" rx=".7"/><rect x="33.75" y="10.68" width="1.38" height="2.64" rx=".7"/><rect x="36.12" y="4.96" width="1.38" height="14.08" rx=".7"/><rect x="38.50" y="2.87" width="1.38" height="18.26" rx=".7"/><rect x="40.87" y="6.28" width="1.38" height="11.44" rx=".7"/><rect x="43.25" y="9.69" width="1.38" height="4.62" rx=".7"/><rect x="45.62" y="9.03" width="1.38" height="5.94" rx=".7"/><rect x="48.00" y="7.05" width="1.38" height="9.90" rx=".7"/><rect x="50.37" y="5.18" width="1.38" height="13.64" rx=".7"/><rect x="52.75" y="2.32" width="1.38" height="19.36" rx=".7"/><rect x="55.12" y="1.00" width="1.38" height="22.00" rx=".7"/><rect x="57.50" y="6.06" width="1.38" height="11.88" rx=".7"/><rect x="59.87" y="6.83" width="1.38" height="10.34" rx=".7"/><rect x="62.25" y="7.05" width="1.38" height="9.90" rx=".7"/><rect x="64.62" y="3.97" width="1.38" height="16.06" rx=".7"/><rect x="67.00" y="3.97" width="1.38" height="16.06" rx=".7"/><rect x="69.37" y="5.40" width="1.38" height="13.20" rx=".7"/><rect x="71.75" y="8.26" width="1.38" height="7.48" rx=".7"/><rect x="74.12" y="6.61" width="1.38" height="10.78" rx=".7"/><rect x="76.50" y="8.92" width="1.38" height="6.16" rx=".7"/><rect x="78.87" y="10.24" width="1.38" height="3.52" rx=".7"/><rect x="81.25" y="6.61" width="1.38" height="10.78" rx=".7"/><rect x="83.62" y="4.85" width="1.38" height="14.30" rx=".7"/><rect x="86.00" y="6.50" width="1.38" height="11.00" rx=".7"/><rect x="88.37" y="9.25" width="1.38" height="5.50" rx=".7"/><rect x="90.75" y="10.13" width="1.38" height="3.74" rx=".7"/><rect x="93.12" y="6.83" width="1.38" height="10.34" rx=".7"/><rect x="95.50" y="4.85" width="1.38" height="14.30" rx=".7"/><rect x="97.87" y="6.28" width="1.38" height="11.44" rx=".7"/><rect x="100.25" y="3.86" width="1.38" height="16.28" rx=".7"/><rect x="102.62" y="4.63" width="1.38" height="14.74" rx=".7"/><rect x="105.00" y="8.81" width="1.38" height="6.38" rx=".7"/><rect x="107.37" y="11.30" width="1.38" height="1.40" rx=".7"/><rect x="109.75" y="11.30" width="1.38" height="1.40" rx=".7"/><rect x="112.12" y="11.30" width="1.38" height="1.40" rx=".7"/><rect x="114.50" y="11.30" width="1.38" height="1.40" rx=".7"/><rect x="116.87" y="11.30" width="1.38" height="1.40" rx=".7"/><rect x="119.25" y="11.30" width="1.38" height="1.40" rx=".7"/><rect x="121.62" y="3.20" width="1.38" height="17.60" rx=".7"/><rect x="124.00" y="3.64" width="1.38" height="16.72" rx=".7"/><rect x="126.37" y="9.36" width="1.38" height="5.28" rx=".7"/><rect x="128.75" y="2.76" width="1.38" height="18.48" rx=".7"/><rect x="131.12" y="7.38" width="1.38" height="9.24" rx=".7"/><rect x="133.50" y="6.83" width="1.38" height="10.34" rx=".7"/><rect x="135.87" y="5.51" width="1.38" height="12.98" rx=".7"/><rect x="138.25" y="6.83" width="1.38" height="10.34" rx=".7"/><rect x="140.62" y="6.83" width="1.38" height="10.34" rx=".7"/><rect x="143.00" y="8.04" width="1.38" height="7.92" rx=".7"/><rect x="145.37" y="9.03" width="1.38" height="5.94" rx=".7"/><rect x="147.75" y="9.69" width="1.38" height="4.62" rx=".7"/><rect x="150.12" y="8.15" width="1.38" height="7.70" rx=".7"/><rect x="152.50" y="7.71" width="1.38" height="8.58" rx=".7"/><rect x="154.87" y="8.59" width="1.38" height="6.82" rx=".7"/><rect x="157.25" y="10.79" width="1.38" height="2.42" rx=".7"/><rect x="159.62" y="8.59" width="1.38" height="6.82" rx=".7"/><rect x="162.00" y="10.35" width="1.38" height="3.30" rx=".7"/><rect x="164.37" y="8.70" width="1.38" height="6.60" rx=".7"/><rect x="166.75" y="8.04" width="1.38" height="7.92" rx=".7"/><rect x="169.12" y="5.84" width="1.38" height="12.32" rx=".7"/><rect x="171.50" y="5.62" width="1.38" height="12.76" rx=".7"/><rect x="173.87" y="6.50" width="1.38" height="11.00" rx=".7"/><rect x="176.25" y="7.71" width="1.38" height="8.58" rx=".7"/><rect x="178.62" y="9.91" width="1.38" height="4.18" rx=".7"/><rect x="181.00" y="9.58" width="1.38" height="4.84" rx=".7"/><rect x="183.37" y="10.35" width="1.38" height="3.30" rx=".7"/><rect x="185.75" y="11.30" width="1.38" height="1.40" rx=".7"/><rect x="188.12" y="11.30" width="1.38" height="1.40" rx=".7"/></svg><span class="vw-region"></span></button><button type="button" class="cr-b cr-loop" aria-label="Loop line 3" aria-pressed="false"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 7.5V6.3A2.3 2.3 0 0 1 5.3 4H12"/><path d="M10 2l2 2-2 2"/><path d="M13 8.5v1.2A2.3 2.3 0 0 1 10.7 12H4"/><path d="M6 14l-2-2 2-2"/></svg></button><button type="button" class="cr-b cr-spd" aria-label="Speed 1×, line 3">1×</button><button type="button" class="cr-b cr-tr" aria-label="Translation of line 3" aria-expanded="false" aria-controls="cr-en-3" lang="zh-Hant">譯</button></div></div><div class="cr-row" role="group" aria-label="Line 4, 星野" style="--cc:#DA93BD;--ccd:#F5A9DC"><div class="cr-who"><i></i><span lang="zh-Hant">星野</span></div><div class="cr-txt"><p class="cr-zh" lang="zh-Hant"><button type="button" class="w new" data-w="欸">欸</button>！<button type="button" class="w" data-w="真的">真的</button><button type="button" class="w" data-w="假">假</button><button type="button" class="w" data-w="的">的</button>？</p><p class="cr-en" id="cr-en-4" hidden>eh! is that true?</p></div><div class="cr-ctl"><button type="button" class="vp" data-src="/media/core/ep1-L0027.wav" aria-label="Play line 4"><svg viewBox="0 0 12 12" aria-hidden="true"><path class="vp-play" d="M3 1.5v9l8-4.5z"/><path class="vp-stop" d="M2.5 2.5h7v7h-7z"/></svg></button><button type="button" class="vw-wave" aria-label="Line 4: play from a point, or drag to loop a part" title="Click to play from a point. Drag to loop a part."><svg class="vw-bars" viewBox="0 0 190 24" preserveAspectRatio="none" aria-hidden="true"><rect x="0.50" y="11.30" width="1.38" height="1.40" rx=".7"/><rect x="2.87" y="11.30" width="1.38" height="1.40" rx=".7"/><rect x="5.25" y="11.30" width="1.38" height="1.40" rx=".7"/><rect x="7.62" y="11.30" width="1.38" height="1.40" rx=".7"/><rect x="10.00" y="11.30" width="1.38" height="1.40" rx=".7"/><rect x="12.37" y="11.30" width="1.38" height="1.40" rx=".7"/><rect x="14.75" y="11.30" width="1.38" height="1.40" rx=".7"/><rect x="17.12" y="11.30" width="1.38" height="1.40" rx=".7"/><rect x="19.50" y="11.30" width="1.38" height="1.40" rx=".7"/><rect x="21.87" y="11.30" width="1.38" height="1.40" rx=".7"/><rect x="24.25" y="8.59" width="1.38" height="6.82" rx=".7"/><rect x="26.62" y="7.38" width="1.38" height="9.24" rx=".7"/><rect x="29.00" y="8.15" width="1.38" height="7.70" rx=".7"/><rect x="31.37" y="7.82" width="1.38" height="8.36" rx=".7"/><rect x="33.75" y="4.63" width="1.38" height="14.74" rx=".7"/><rect x="36.12" y="1.11" width="1.38" height="21.78" rx=".7"/><rect x="38.50" y="1.00" width="1.38" height="22.00" rx=".7"/><rect x="40.87" y="1.88" width="1.38" height="20.24" rx=".7"/><rect x="43.25" y="2.43" width="1.38" height="19.14" rx=".7"/><rect x="45.62" y="2.98" width="1.38" height="18.04" rx=".7"/><rect x="48.00" y="4.19" width="1.38" height="15.62" rx=".7"/><rect x="50.37" y="4.63" width="1.38" height="14.74" rx=".7"/><rect x="52.75" y="6.06" width="1.38" height="11.88" rx=".7"/><rect x="55.12" y="6.39" width="1.38" height="11.22" rx=".7"/><rect x="57.50" y="6.17" width="1.38" height="11.66" rx=".7"/><rect x="59.87" y="6.28" width="1.38" height="11.44" rx=".7"/><rect x="62.25" y="6.61" width="1.38" height="10.78" rx=".7"/><rect x="64.62" y="7.16" width="1.38" height="9.68" rx=".7"/><rect x="67.00" y="4.74" width="1.38" height="14.52" rx=".7"/><rect x="69.37" y="1.99" width="1.38" height="20.02" rx=".7"/><rect x="71.75" y="2.54" width="1.38" height="18.92" rx=".7"/><rect x="74.12" y="3.97" width="1.38" height="16.06" rx=".7"/><rect x="76.50" y="4.74" width="1.38" height="14.52" rx=".7"/><rect x="78.87" y="3.64" width="1.38" height="16.72" rx=".7"/><rect x="81.25" y="3.97" width="1.38" height="16.06" rx=".7"/><rect x="83.62" y="8.04" width="1.38" height="7.92" rx=".7"/><rect x="86.00" y="10.79" width="1.38" height="2.42" rx=".7"/><rect x="88.37" y="11.30" width="1.38" height="1.40" rx=".7"/><rect x="90.75" y="10.46" width="1.38" height="3.08" rx=".7"/><rect x="93.12" y="8.81" width="1.38" height="6.38" rx=".7"/><rect x="95.50" y="7.49" width="1.38" height="9.02" rx=".7"/><rect x="97.87" y="8.92" width="1.38" height="6.16" rx=".7"/><rect x="100.25" y="9.14" width="1.38" height="5.72" rx=".7"/><rect x="102.62" y="2.98" width="1.38" height="18.04" rx=".7"/><rect x="105.00" y="1.77" width="1.38" height="20.46" rx=".7"/><rect x="107.37" y="1.33" width="1.38" height="21.34" rx=".7"/><rect x="109.75" y="3.97" width="1.38" height="16.06" rx=".7"/><rect x="112.12" y="4.85" width="1.38" height="14.30" rx=".7"/><rect x="114.50" y="4.74" width="1.38" height="14.52" rx=".7"/><rect x="116.87" y="3.97" width="1.38" height="16.06" rx=".7"/><rect x="119.25" y="5.18" width="1.38" height="13.64" rx=".7"/><rect x="121.62" y="4.96" width="1.38" height="14.08" rx=".7"/><rect x="124.00" y="4.52" width="1.38" height="14.96" rx=".7"/><rect x="126.37" y="3.97" width="1.38" height="16.06" rx=".7"/><rect x="128.75" y="3.75" width="1.38" height="16.50" rx=".7"/><rect x="131.12" y="3.53" width="1.38" height="16.94" rx=".7"/><rect x="133.50" y="5.62" width="1.38" height="12.76" rx=".7"/><rect x="135.87" y="10.24" width="1.38" height="3.52" rx=".7"/><rect x="138.25" y="10.90" width="1.38" height="2.20" rx=".7"/><rect x="140.62" y="9.80" width="1.38" height="4.40" rx=".7"/><rect x="143.00" y="6.72" width="1.38" height="10.56" rx=".7"/><rect x="145.37" y="3.97" width="1.38" height="16.06" rx=".7"/><rect x="147.75" y="2.76" width="1.38" height="18.48" rx=".7"/><rect x="150.12" y="2.43" width="1.38" height="19.14" rx=".7"/><rect x="152.50" y="3.75" width="1.38" height="16.50" rx=".7"/><rect x="154.87" y="5.07" width="1.38" height="13.86" rx=".7"/><rect x="157.25" y="4.30" width="1.38" height="15.40" rx=".7"/><rect x="159.62" y="4.19" width="1.38" height="15.62" rx=".7"/><rect x="162.00" y="5.73" width="1.38" height="12.54" rx=".7"/><rect x="164.37" y="6.06" width="1.38" height="11.88" rx=".7"/><rect x="166.75" y="5.07" width="1.38" height="13.86" rx=".7"/><rect x="169.12" y="7.27" width="1.38" height="9.46" rx=".7"/><rect x="171.50" y="7.49" width="1.38" height="9.02" rx=".7"/><rect x="173.87" y="7.82" width="1.38" height="8.36" rx=".7"/><rect x="176.25" y="8.59" width="1.38" height="6.82" rx=".7"/><rect x="178.62" y="8.59" width="1.38" height="6.82" rx=".7"/><rect x="181.00" y="8.59" width="1.38" height="6.82" rx=".7"/><rect x="183.37" y="9.25" width="1.38" height="5.50" rx=".7"/><rect x="185.75" y="10.02" width="1.38" height="3.96" rx=".7"/><rect x="188.12" y="10.90" width="1.38" height="2.20" rx=".7"/></svg><span class="vw-region"></span></button><button type="button" class="cr-b cr-loop" aria-label="Loop line 4" aria-pressed="false"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 7.5V6.3A2.3 2.3 0 0 1 5.3 4H12"/><path d="M10 2l2 2-2 2"/><path d="M13 8.5v1.2A2.3 2.3 0 0 1 10.7 12H4"/><path d="M6 14l-2-2 2-2"/></svg></button><button type="button" class="cr-b cr-spd" aria-label="Speed 1×, line 4">1×</button><button type="button" class="cr-b cr-tr" aria-label="Translation of line 4" aria-expanded="false" aria-controls="cr-en-4" lang="zh-Hant">譯</button></div></div><p class="sb-cap cr-cap">Four lines from episode 1 of the Tsumugu Podcast. Click a wave to play from that point, or drag across it to loop a part. Click a word to open its card. Tinted words are above the chosen level.</p><div class="cr-pop" role="dialog" aria-label="Dictionary card" tabindex="-1" hidden></div></section>
+<h2 class="sec-h sx-h">Foundation</h2>
+<div class="cf"><div class="cf-fig"><svg class="diagram" viewBox="0 0 640 236" role="img" aria-label="Tsumugu Story, Tsumugu Podcast and Tsumugu Speak sit on Tsumugu Core. Core holds text in the 80 to 95 range, waveform playback and the popup dictionary. The Encoding Dictionary is part of Core, under every word and character.">
+<defs><pattern id="cfdots" width="16" height="16" patternUnits="userSpaceOnUse"><circle cx="8" cy="8" r="0.9" fill="#cfcfcf"/></pattern></defs>
+<rect width="640" height="236" rx="3" fill="#f1f1f0"/><rect width="640" height="236" fill="url(#cfdots)"/>
+<g fill="#fff" stroke="#1a1a1a" stroke-width="1.5">
+<rect x="40" y="28" width="176" height="46"/><rect x="232" y="28" width="176" height="46"/><rect x="424" y="28" width="176" height="46"/>
+<rect x="40" y="74" width="560" height="134"/></g>
+<rect x="56" y="150" width="528" height="42" fill="#e3f7fe" stroke="#1a1a1a" stroke-width="1" stroke-dasharray="4 3"/>
+<text class="t" x="128" y="56" text-anchor="middle">Tsumugu Story</text>
+<text class="t" x="320" y="56" text-anchor="middle">Tsumugu Podcast</text>
+<text class="t" x="512" y="56" text-anchor="middle">Tsumugu Speak</text>
+<text class="t" x="56" y="102" font-weight="700">Tsumugu Core</text>
+<text class="f" x="56" y="126">text in the 80 to 95 range</text>
+<text class="f" x="262" y="126">waveform playback</text>
+<text class="f" x="424" y="126">popup dictionary</text>
+<text class="t" x="70" y="176">Encoding Dictionary</text>
+<text class="f" x="570" y="176" text-anchor="end">under every word and character</text>
+</svg></div><p class="sb-cap">Story, Podcast and Speak sit on Core. The Encoding Dictionary is part of Core as a supplement, under every word and character as a dictionary popup.</p></div>
+<h2 class="sec-h sx-h">Links</h2>
+<div class="sx-list"><a class="rw" href="https://tsumugu.cc/" target="_blank" rel="noopener"><b>Reader</b><span>Graded readings for Traditional Chinese.</span></a><a class="rw" href="https://tsumugu.cc/podcast/ep1/" target="_blank" rel="noopener"><b>Episode 1</b><span>我們選了什麼，為什麼 · What we picked, and why</span></a><a class="rw" href="https://tsumugu-ed.com/" target="_blank" rel="noopener"><b>Encoding Dictionary</b><span>A Chinese dictionary. Each character is explained by its form and by a story.</span></a><a class="rw" href="https://github.com/Logos52/tsumugu-core" target="_blank" rel="noopener"><b>Code</b><span>The code is public.</span></a></div>
+</div>
+<script id="core-data" type="application/json">{"rule":{"lo":80,"hi":95},"words":{"兩":{"py":"liǎng","g":"num — two (of); noun — tael","b":"A1","u":"c/兩","chars":["兩"]},"個":{"py":"gè","g":"measure word — the general one; noun — an individual","b":"A1","u":"c/個","chars":["個"]},"小時":{"py":"xiǎoshí","g":"noun — hour (unit of time, 60 minutes)","b":"A2","u":"w/小時","chars":["小","時"]},"對":{"py":"duì","g":"adjective — right, correct; verb — to face, answer; prep — toward","b":"A1","u":"c/對","chars":["對"]},"啊":{"py":"ā","g":"interjection/particle — ah!, oh!; sentence-final softener","b":"A1","u":"c/啊","chars":["啊"]},"一直":{"py":"yīzhí","g":"adverb — all along, continuously; straight on (一直走 keep going straight)","b":"A1","u":"w/一直","chars":["一","直"]},"在":{"py":"zài","g":"verb — to exist, to be at; adv — in the middle of","b":"A1","u":"c/在","chars":["在"]},"看":{"py":"kàn/kān","g":"verb — to look, see; (kān) to watch over","b":"A1","u":"c/看","chars":["看"]},"職業":{"py":"zhíyè","g":"noun — occupation; profession; career","b":"B1","u":"w/職業","chars":["職","業"]},"的":{"py":"de/dí/dì","g":"particle — links owner to owned: 我的; (dí) truly; (dì) the target","b":"A1","u":"c/的","chars":["的"]},"介紹":{"py":"jièshào","g":"verb — to introduce; to present; to recommend","b":"A2","u":"w/介紹","chars":["介","紹"]},"我":{"py":"wǒ","g":"pronoun — I, me","b":"A1","u":"c/我","chars":["我"]},"聽說":{"py":"tīngshuō","g":"verb — to hear (it said); it is said that","b":"A2","u":"w/聽說","chars":["聽","說"]},"選":{"py":"xuǎn","g":"verb — to choose; to elect","b":"A2","u":"c/選","chars":["選"]},"就":{"py":"jiù","g":"adverb — then, right away; only; verb — to go to, take up","b":"A1","u":"c/就","chars":["就"]},"像":{"py":"xiàng","g":"verb — to be like, resemble; noun — an image, a statue","b":"A1","u":"c/像","chars":["像"]},"一":{"py":"yī","g":"number — one; whole","b":"A1","u":"c/一","chars":["一"]},"種":{"py":"zhǒng/zhòng","g":"noun — seed; kind; (zhòng) to plant","b":"A1","u":"c/種","chars":["種"]},"心理":{"py":"xīnlǐ","g":"noun — psychology; mental state; mind; psychological process","b":"B2","u":"w/心理","chars":["心","理"]},"測驗":{"py":"cèyàn","g":"noun — test, quiz, examination; verb — to test, to assess","b":"B2","u":"w/測驗","chars":["測","驗"]},"會":{"py":"huì/kuài","g":"verb — to meet; can, know how; (kuài) accounting","b":"A1","u":"c/會","chars":["會"]},"出":{"py":"chū","g":"verb — to go out, come out","b":"A1","u":"c/出","chars":["出"]},"你":{"py":"nǐ","g":"pron — you","b":"A1","u":"c/你","chars":["你"]},"裡面":{"py":"lǐmiàn","g":"noun — the inside; the interior","b":"A1","u":"w/裡面","chars":["裡","面"]},"是":{"py":"shì","g":"verb — to be; adj — right, correct","b":"A1","u":"c/是","chars":["是"]},"什麼樣":{"py":"shénmeyàng","g":"phrase — what kind of; what sort","b":"B1","u":"w/什麼樣","chars":["什","麼","樣"]},"人":{"py":"rén","g":"noun — person, human","b":"A1","u":"c/人","chars":["人"]},"欸":{"py":"èi","g":"interjection — hey; (also) a sigh","b":"C1","u":"c/欸","chars":["欸"]},"真的":{"py":"zhēnde","g":"adverb — really, truly; adjective — real, genuine","b":"A1","u":"w/真的","chars":["真","的"]},"假":{"py":"jiǎ/jià","g":"adjective — false, not real; (jià) leave, a holiday; if, suppose","b":"A2","u":"c/假","chars":["假"]}},"chars":{"兩":{"py":"liǎng","g":"num — two (of); noun — tael","b":"A1","u":"c/兩","form":[{"g":"兩","r":"f","i":"a double yoke — one beam, two loops side by side","d":null}]},"個":{"py":"gè","g":"measure word — the general one; noun — an individual","b":"A1","u":"c/個","form":[{"g":"亻","r":"m","i":"a person","d":null},{"g":"固","r":"s","i":"gù — gives the sound","d":null}]},"小":{"py":"xiǎo","g":"adjective — small","b":"A1","u":"c/小","form":[{"g":"小","r":"f","i":"three small points, drawn whole","d":null}]},"時":{"py":"shí","g":"noun — time; hour; season","b":"A1","u":"c/時","form":[{"g":"日","r":"m","i":"the sun","d":null},{"g":"寺","r":"s","i":"sì — gives the sound","d":"sì → shí — the {z,c,s}↔{zh,ch,sh} crossing; tone shifts too"}]},"對":{"py":"duì","g":"adjective — right, correct; verb — to face, answer; prep — toward","b":"A1","u":"c/對","form":[{"g":"丵","r":"m","i":"a notched tablet held up — teeth along the top edge","d":null},{"g":"寸","r":"m","i":"a hand","d":null}]},"啊":{"py":"ā","g":"interjection/particle — ah!, oh!; sentence-final softener","b":"A1","u":"c/啊","form":[{"g":"口","r":"m","i":"a mouth — the sound coming out","d":null},{"g":"阿","r":"s","i":"ā — gives the reading","d":null}]},"一":{"py":"yī","g":"number — one; whole","b":"A1","u":"c/一","form":[{"g":"一","r":"f","i":"one stroke — one count","d":null}]},"直":{"py":"zhí","g":"adjective — straight; upright; adv — directly","b":"A1","u":"c/直","form":[{"g":"目","r":"m","i":"an eye","d":null},{"g":"十","r":"f","i":"the sight-line above the eye — drawn straight","d":null}]},"在":{"py":"zài","g":"verb — to exist, to be at; adv — in the middle of","b":"A1","u":"c/在","form":[{"g":"才","r":"s","i":"cái — gives the sound","d":"cái → zài — crosses inside {z,c,s}; tone shifts too"},{"g":"土","r":"m","i":"earth","d":null}]},"看":{"py":"kàn/kān","g":"verb — to look, see; (kān) to watch over","b":"A1","u":"c/看","form":[{"g":"手","r":"m","i":"a hand — flattened across the top","d":null},{"g":"目","r":"m","i":"an eye","d":null}]},"職":{"py":"zhí","g":"noun — duty, post, occupation","b":"B1","u":"c/職","form":[{"g":"耳","r":"m","i":"an ear","d":null},{"g":"戠","r":"s","i":"zhí — gives the sound exactly","d":null}]},"業":{"py":"yè","g":"noun — occupation, trade; coursework; estate","b":"A2","u":"c/業","form":[{"g":"業","r":"f","i":"a great rack-board, its top cut into teeth (丵)","d":null}]},"的":{"py":"de/dí/dì","g":"particle — links owner to owned: 我的; (dí) truly; (dì) the target","b":"A1","u":"c/的","form":[{"g":"白","r":"m","i":"white, bright","d":null},{"g":"勺","r":"s","i":"sháo — gives the sound","d":"sháo → dì — and the particle wears on to a toneless de"}]},"介":{"py":"jiè","g":"verb — to stand between; 介紹's 介","b":"A1","u":"c/介","form":[{"g":"介","r":"f","i":"rendered whole — see the two tellings","d":null}]},"紹":{"py":"shào","g":"verb — to join on, carry forward; 介紹's 紹","b":"A1","u":"c/紹","form":[{"g":"糸","r":"m","i":"silk threads","d":null},{"g":"召","r":"s","i":"zhào — gives the sound","d":"zhào → shào — zh stepped to sh inside {zh,ch,sh}"}]},"我":{"py":"wǒ","g":"pronoun — I, me","b":"A1","u":"c/我","form":[{"g":"我","r":"f","i":"a serrated battle-axe — the weapon the word borrowed","d":null}]},"聽":{"py":"tīng","g":"verb — to listen, to hear","b":"A1","u":"c/聽","form":[{"g":"耳","r":"m","i":"an ear","d":null},{"g":"壬","r":"s","i":"tǐng — gives the sound","d":"tǐng → tīng — the tone eased"},{"g":"悳","r":"m","i":"a straight heart — 直 over 心: undivided attention","d":null}]},"說":{"py":"shuō/shuì","g":"verb — to speak, explain; (shuì) to persuade","b":"A1","u":"c/說","form":[{"g":"言","r":"m","i":"speech","d":null},{"g":"兌","r":"s","i":"duì — gives the sound","d":"duì → shuō — the 兌 series scatters wide: 脫 tuō、稅 shuì、悅 yuè"}]},"選":{"py":"xuǎn","g":"verb — to choose; to elect","b":"A2","u":"c/選","form":[{"g":"辶","r":"m","i":"walking — the road","d":null},{"g":"巽","r":"s","i":"xùn — gives the sound","d":"xùn → xuǎn"}]},"就":{"py":"jiù","g":"adverb — then, right away; only; verb — to go to, take up","b":"A1","u":"c/就","form":[{"g":"京","r":"m","i":"a tall hall on high ground","d":null},{"g":"尤","r":"m","i":"the one that stands out","d":null}]},"像":{"py":"xiàng","g":"verb — to be like, resemble; noun — an image, a statue","b":"A1","u":"c/像","form":[{"g":"亻","r":"m","i":"a person","d":null},{"g":"象","r":"m","i":"the elephant — and the likeness it came to mean","d":null}]},"種":{"py":"zhǒng/zhòng","g":"noun — seed; kind; (zhòng) to plant","b":"A1","u":"c/種","form":[{"g":"禾","r":"m","i":"grain on the stalk","d":null},{"g":"重","r":"s","i":"zhòng — gives the sound","d":"zhòng → zhǒng — tone only; exact in the verb 種 zhòng"}]},"心":{"py":"xīn","g":"noun — heart; mind; center","b":"A1","u":"c/心","form":[{"g":"心","r":"f","i":"the heart itself, drawn","d":null}]},"理":{"py":"lǐ","g":"verb/noun — to put in order; reason, grain","b":"A2","u":"c/理","form":[{"g":"王","r":"m","i":"jade (玉)","d":null},{"g":"里","r":"s","i":"lǐ — gives the sound, exact","d":null}]},"測":{"py":"cè","g":"verb — to measure, gauge; to fathom, predict","b":"B1","u":"c/測","form":[{"g":"氵","r":"m","i":"water","d":null},{"g":"則","r":"s","i":"zé — gives the sound","d":"zé → cè — the {z,c} crossing"}]},"驗":{"py":"yàn","g":"verb — to test, examine; noun — proof, verification","b":"B1","u":"c/驗","form":[{"g":"馬","r":"m","i":"a horse","d":null},{"g":"僉","r":"s","i":"qiān — gives the sound","d":"qiān → yàn — the palatal initial slid off; tone shifts too"}]},"會":{"py":"huì/kuài","g":"verb — to meet; can, know how; (kuài) accounting","b":"A1","u":"c/會","form":[{"g":"亼","r":"m","i":"a lid, closing down","d":null},{"g":"曾","r":"m","i":"a steamer of stacked layers, written short","d":null}]},"出":{"py":"chū","g":"verb — to go out, come out","b":"A1","u":"c/出","form":[{"g":"止","r":"m","i":"a foot, stepping up","d":null},{"g":"凵","r":"m","i":"the mouth of a pit-dwelling","d":null}]},"你":{"py":"nǐ","g":"pron — you","b":"A1","u":"c/你","form":[{"g":"亻","r":"m","i":"person mark (亻)","d":null}]},"裡":{"py":"lǐ","g":"noun — inside; the lining","b":"A1","u":"c/裡","form":[{"g":"衤","r":"m","i":"clothing","d":null},{"g":"里","r":"s","i":"lǐ — gives the sound exactly","d":null}]},"面":{"py":"miàn","g":"noun — face; surface; side","b":"A1","u":"c/面","form":[{"g":"面","r":"f","i":"a face drawn whole — the cheek's outline around an eye (目)","d":null}]},"是":{"py":"shì","g":"verb — to be; adj — right, correct","b":"A1","u":"c/是","form":[{"g":"日","r":"m","i":"the sun","d":null},{"g":"正","r":"m","i":"straight, true","d":null}]},"什":{"py":"shén/shí","g":"pron — what (什麼); (shí) a unit of ten; assorted","b":"A1","u":"c/什","form":[{"g":"亻","r":"m","i":"a person","d":null},{"g":"十","r":"m","i":"ten","d":null}]},"麼":{"py":"me/mó","g":"particle — question-word tail (什麼); (mó) tiny","b":"A1","u":"c/麼","form":[{"g":"麻","r":"s","i":"má — gives the sound","d":"má → mó, worn all the way down to a light me in 什麼"},{"g":"幺","r":"m","i":"a thread-end — smallness","d":null}]},"樣":{"py":"yàng","g":"noun — appearance; kind, manner","b":"A1","u":"c/樣","form":[{"g":"木","r":"m","i":"a tree","d":null},{"g":"羕","r":"s","i":"yàng — gives the sound","d":null}]},"人":{"py":"rén","g":"noun — person, human","b":"A1","u":"c/人","form":[{"g":"人","r":"f","i":"a person in profile — body and arm, leg in stride","d":null}]},"欸":{"py":"èi","g":"interjection — hey; (also) a sigh","b":"C1","u":"c/欸","form":[{"g":"欠","r":"m","i":"a person with mouth open — a breath, a call","d":null},{"g":"矣","r":"s","i":"yǐ — gives the sound","d":"yǐ → èi — the reading shifted off the donor"}]},"真":{"py":"zhēn","g":"adj/adv — real, true; really","b":"A1","u":"c/真","form":[{"g":"真","r":"f","i":"rendered bare — no settled origin","d":null}]},"假":{"py":"jiǎ/jià","g":"adjective — false, not real; (jià) leave, a holiday; if, suppose","b":"A2","u":"c/假","form":[{"g":"亻","r":"m","i":"a person — the one doing the borrowing or pretending","d":null},{"g":"叚","r":"s","i":"jiǎ — gives the sound","d":null}]}}}</script>
+<script>
+
+(function () {
+  const menu = document.querySelector(".menu");
+  if (menu) {
+    document.addEventListener("click", (e) => {
+      if (menu.open && !menu.contains(e.target)) menu.removeAttribute("open");
+    });
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape" && menu.open) menu.removeAttribute("open");
+    });
+  }
+})();
+</script>
+<script>
+(function(){var input=document.getElementById('site-search');if(!input)return;
+var rows=[].slice.call(document.querySelectorAll('.works > a, .journal > a, .pages > a, .cards > a, .jw-row'));
+var nodes=[].slice.call(document.querySelectorAll('#hmap a.node'));
+function run(){var q=input.value.trim().toLowerCase();
+rows.forEach(function(r){var hit=!q||r.textContent.toLowerCase().indexOf(q)>-1;if(hit)r.removeAttribute('data-search-hide');else r.setAttribute('data-search-hide','');});
+nodes.forEach(function(n){var hit=!q||(n.getAttribute('data-title')||'').toLowerCase().indexOf(q)>-1;if(hit)n.removeAttribute('data-search-dim');else n.setAttribute('data-search-dim','');});}
+input.addEventListener('input',run);
+if(rows.length){try{var q0=new URLSearchParams(location.search).get('q');if(q0){input.value=q0;run();}}catch(e){}}
+document.addEventListener('keydown',function(e){if(e.key==='/'&&document.activeElement!==input&&!/^(INPUT|TEXTAREA)$/.test(document.activeElement.tagName)){e.preventDefault();input.focus();}
+else if(e.key==='Enter'&&document.activeElement===input&&!rows.length&&input.value.trim()){location.href='/?q='+encodeURIComponent(input.value.trim());}
+else if(e.key==='Escape'&&document.activeElement===input){input.value='';run();input.blur();}});})();
+</script>
+<script>
+/* Tsumugu Core project page: a small working copy of the reader.
+   Players behave like the ones on tsumugu.cc: play and pause, click a wave to play from a point,
+   drag across it to loop a part, a loop button for the whole line, 1x / .9x / .85x, and a
+   translation toggle. Word cards follow the site's tap cards: word, then one chip per character.
+   Percent known follows coverage.ts: known word tokens over all word tokens, "stretch" below 80,
+   "in range" from 80 to 95, "outgrown" above 95. */
+(function () {
+  'use strict';
+  var root = document.getElementById('core-reader');
+  var dataEl = document.getElementById('core-data');
+  if (!root || !dataEl) return;
+  var D = JSON.parse(dataEl.textContent);
+  var ORDER = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
+  function one(sel, el) { return (el || root).querySelector(sel); }
+  function all(sel, el) { return [].slice.call((el || root).querySelectorAll(sel)); }
+
+  /* ---------- reader level ---------- */
+  var wordBtns = all('.cr-zh .w');
+  var segBtns = all('.cr-seg button');
+  var out = one('.cr-out');
+  var marker = one('.cr-meter u');
+  function bandLabel(p) { return p > D.rule.hi ? 'outgrown' : (p >= D.rule.lo ? 'in range' : 'stretch'); }
+  function setLevel(lv) {
+    var cut = ORDER.indexOf(lv), known = 0;
+    wordBtns.forEach(function (b) {
+      var e = D.words[b.getAttribute('data-w')];
+      var i = e ? ORDER.indexOf(e.b) : -1;
+      var k = i > -1 && i <= cut;
+      b.classList.toggle('new', !k);
+      if (k) known++;
+    });
+    var p = Math.round(known / wordBtns.length * 1000) / 10;
+    segBtns.forEach(function (b) { b.setAttribute('aria-pressed', String(b.getAttribute('data-level') === lv)); });
+    marker.style.left = p + '%';
+    out.textContent = '';
+    var strong = document.createElement('b');
+    strong.textContent = Math.round(p) + '%';
+    out.appendChild(strong);
+    out.appendChild(document.createTextNode(' known · ' + bandLabel(p)));
+    root.setAttribute('data-level', lv);
+    place();
+  }
+  segBtns.forEach(function (b) {
+    b.addEventListener('click', function () { setLevel(b.getAttribute('data-level')); });
+  });
+
+  /* ---------- players ---------- */
+  var live = null;
+  var waiting = all('.cr-row').length;
+  function settled() { if (--waiting === 0) root.setAttribute('data-clips', 'ready'); }
+  var SPEEDS = [1, 0.9, 0.85];
+  var SPEED_TEXT = ['1×', '.9×', '.85×'];
+  all('.cr-row').forEach(function (row, idx) {
+    var n = idx + 1;
+    var btn = one('.vp', row), wave = one('.vw-wave', row), region = one('.vw-region', row);
+    var bars = all('.vw-bars rect', row), N = bars.length;
+    var loopBtn = one('.cr-loop', row), spdBtn = one('.cr-spd', row), trBtn = one('.cr-tr', row), en = one('.cr-en', row);
+    var direct = btn.getAttribute('data-src');
+    var audio = new Audio();
+    audio.preload = 'auto';
+    var A = null, B = null, loopOn = false, speed = 0, raf = 0, shown = -1, pending = null;
+    var sourced = false, fromMemory = false;
+    var me = { stop: stop };
+    /* Hold the clip in memory when the page is allowed to fetch it: a clip in memory can always be
+       played from any point, whatever the host does with partial requests. Otherwise play it direct. */
+    function source(url, memory) {
+      if (sourced) return;
+      sourced = true;
+      fromMemory = memory;
+      audio.src = url;
+    }
+    if (window.fetch && window.URL && URL.createObjectURL) {
+      fetch(direct).then(function (r) {
+        if (!r.ok) throw new Error('clip');
+        return r.blob();
+      }).then(function (blob) {
+        source(URL.createObjectURL(blob), true);
+        settled();
+      }).catch(function () { source(direct, false); settled(); });
+    } else { source(direct, false); settled(); }
+
+    function dur() { return isFinite(audio.duration) && audio.duration > 0 ? audio.duration : 0; }
+    function paint() {
+      var d = dur(), r = d ? Math.min(1, audio.currentTime / d) : 0, k = Math.round(r * N);
+      if (k === shown) return;
+      shown = k;
+      for (var i = 0; i < N; i++) bars[i].setAttribute('class', i < k ? 'on' : '');
+    }
+    function frame() {
+      raf = 0;
+      var d = dur();
+      if (A != null && d && audio.currentTime >= B * d) audio.currentTime = A * d;
+      paint();
+      if (!audio.paused) raf = requestAnimationFrame(frame);
+    }
+    function setPlaying(on) {
+      btn.classList.toggle('playing', on);
+      btn.setAttribute('aria-label', (on ? 'Pause line ' : 'Play line ') + n);
+    }
+    function stop() { audio.pause(); setPlaying(false); }
+    function seek(r) { var d = dur(); if (d) audio.currentTime = r * d; else pending = r; }
+    function start() {
+      source(direct, false);
+      if (live && live !== me) live.stop();
+      live = me;
+      audio.playbackRate = SPEEDS[speed];
+      setPlaying(true);
+      var q = audio.play();
+      if (q && q.catch) q.catch(function () { setPlaying(false); });
+    }
+    function syncLoop() { loopBtn.setAttribute('aria-pressed', String(loopOn || A != null)); }
+    function setRegion(a, b) {
+      A = a; B = b;
+      region.style.display = 'block';
+      region.style.left = (a * 100) + '%';
+      region.style.width = ((b - a) * 100) + '%';
+      syncLoop();
+    }
+    function clearRegion() { A = null; B = null; region.style.display = 'none'; syncLoop(); }
+
+    audio.addEventListener('loadedmetadata', function () {
+      if (pending != null) { audio.currentTime = pending * audio.duration; pending = null; }
+    });
+    audio.addEventListener('play', function () { if (!raf) raf = requestAnimationFrame(frame); });
+    audio.addEventListener('pause', paint);
+    audio.addEventListener('ended', function () {
+      var d = dur();
+      if (A != null && d) { audio.currentTime = A * d; audio.play(); return; }
+      if (loopOn) { audio.currentTime = 0; audio.play(); return; }
+      setPlaying(false);
+      audio.currentTime = 0;
+      shown = -1;
+      paint();
+    });
+    audio.addEventListener('error', function () {
+      setPlaying(false);
+      if (fromMemory) { fromMemory = false; audio.src = direct; return; }
+      wave.classList.add('dead');
+      wave.title = 'This clip did not load.';
+    });
+
+    btn.addEventListener('click', function () {
+      if (!audio.paused) { stop(); return; }
+      if (A != null) seek(A);
+      start();
+    });
+    /* loops the drawn part, or the whole line when none is drawn */
+    loopBtn.addEventListener('click', function () {
+      if (A != null) { loopOn = false; clearRegion(); return; }
+      loopOn = !loopOn;
+      syncLoop();
+      if (loopOn && audio.paused) start();
+    });
+    spdBtn.addEventListener('click', function () {
+      speed = (speed + 1) % SPEEDS.length;
+      spdBtn.textContent = SPEED_TEXT[speed];
+      spdBtn.classList.toggle('on', speed !== 0);
+      spdBtn.setAttribute('aria-label', 'Speed ' + SPEED_TEXT[speed] + ', line ' + n);
+      audio.playbackRate = SPEEDS[speed];
+    });
+    trBtn.addEventListener('click', function () {
+      var open = en.hidden;
+      en.hidden = !open;
+      trBtn.setAttribute('aria-expanded', String(open));
+      place();
+    });
+
+    /* wave: click plays from that point, drag marks a part and loops it */
+    var down = null, moved = false;
+    function ratio(ev) {
+      var r = wave.getBoundingClientRect();
+      return Math.min(1, Math.max(0, (ev.clientX - r.left) / r.width));
+    }
+    wave.addEventListener('pointerdown', function (ev) {
+      down = ratio(ev); moved = false;
+      try { wave.setPointerCapture(ev.pointerId); } catch (e) {}
+    });
+    wave.addEventListener('pointermove', function (ev) {
+      if (down == null) return;
+      var r2 = ratio(ev);
+      if (Math.abs(r2 - down) > 0.03) { moved = true; setRegion(Math.min(down, r2), Math.max(down, r2)); }
+    });
+    wave.addEventListener('pointerup', function (ev) {
+      if (down == null) return;
+      var r2 = ratio(ev);
+      if (moved) { seek(A); start(); }
+      else { clearRegion(); seek(r2); if (audio.paused) start(); }
+      down = null;
+    });
+    wave.addEventListener('pointercancel', function () { down = null; });
+    /* keyboard: Enter or Space plays and pauses, the arrows step through the line */
+    wave.addEventListener('click', function (ev) { if (ev.detail === 0) btn.click(); });
+    wave.addEventListener('keydown', function (ev) {
+      var d = dur();
+      if (!d || (ev.key !== 'ArrowLeft' && ev.key !== 'ArrowRight' && ev.key !== 'Home')) return;
+      ev.preventDefault();
+      var r = audio.currentTime / d;
+      r = ev.key === 'Home' ? 0 : Math.min(0.999, Math.max(0, r + (ev.key === 'ArrowRight' ? 0.05 : -0.05)));
+      audio.currentTime = r * d;
+      shown = -1;
+      paint();
+    });
+  });
+
+  /* ---------- word and character cards ---------- */
+  var pop = one('.cr-pop');
+  var anchor = null;
+  function mk(tag, cls, text) {
+    var e = document.createElement(tag);
+    if (cls) e.className = cls;
+    if (text != null) e.textContent = text;
+    return e;
+  }
+  function zh(e) { e.setAttribute('lang', 'zh-Hant'); return e; }
+  function formInto(box, chars) {
+    var lines = 0;
+    chars.forEach(function (c) {
+      var f = (D.chars[c] || {}).form || [];
+      if (!f.length) return;
+      if (lines++) box.appendChild(document.createElement('br'));
+      if (chars.length > 1) { box.appendChild(zh(mk('b', null, c))); box.appendChild(document.createTextNode(' = ')); }
+      f.forEach(function (x, i) {
+        if (i) box.appendChild(document.createTextNode(' + '));
+        box.appendChild(zh(mk('b', null, x.g)));
+        box.appendChild(document.createTextNode(' ' + x.i + (x.d ? ' — ' + x.d : '')));
+      });
+    });
+    return lines;
+  }
+  function draw(head, entry, chars, crumb) {
+    pop.textContent = '';
+    var x = mk('button', 'x', '✕');
+    x.type = 'button';
+    x.setAttribute('aria-label', 'Close');
+    pop.appendChild(x);
+    if (crumb) {
+      var nav = mk('div', 'nav');
+      var back = mk('button', 'back', '‹');
+      back.type = 'button';
+      back.setAttribute('aria-label', 'Back to ' + crumb);
+      nav.appendChild(back);
+      nav.appendChild(zh(mk('span', null, crumb)));
+      pop.appendChild(nav);
+    }
+    pop.appendChild(zh(mk('div', 'g', head)));
+    pop.appendChild(mk('div', 'rd', entry.py || ''));
+    pop.appendChild(mk('div', 'gl', entry.g || ''));
+    if (!crumb && chars.length > 1) {
+      var row = mk('div', 'chars');
+      chars.forEach(function (c) {
+        var e = D.chars[c] || {};
+        var chip = mk('button', 'ch');
+        chip.type = 'button';
+        chip.setAttribute('data-c', c);
+        chip.setAttribute('aria-label', c + (e.py ? ', ' + e.py : ''));
+        chip.appendChild(zh(mk('b', null, c)));
+        chip.appendChild(mk('i', null, e.py || ''));
+        row.appendChild(chip);
+      });
+      pop.appendChild(row);
+    }
+    var sect = mk('div', 'sect');
+    sect.appendChild(zh(mk('span', 'lbl', '形')));
+    if (formInto(sect, chars)) pop.appendChild(sect);
+    if (entry.u) {
+      var acts = mk('div', 'acts');
+      var a = mk('a', null, 'Full entry · tsumugu-ed.com ↗');
+      a.href = 'https://tsumugu-ed.com/' + encodeURI(entry.u) + '.html?s=trad&g=en';
+      a.target = '_blank';
+      a.rel = 'noopener';
+      acts.appendChild(a);
+      pop.appendChild(acts);
+    }
+    pop.setAttribute('aria-label', 'Dictionary card for ' + head);
+  }
+  function place() {
+    if (!anchor || pop.hidden) return;
+    var rr = root.getBoundingClientRect(), r = anchor.getBoundingClientRect();
+    pop.style.top = (r.bottom - rr.top + 8) + 'px';
+    pop.style.left = Math.max(0, Math.min(r.left - rr.left, rr.width - pop.offsetWidth)) + 'px';
+  }
+  function showWord() {
+    var w = anchor.getAttribute('data-w'), e = D.words[w];
+    draw(w, e, e.chars, null);
+    pop.setAttribute('data-view', 'word');
+  }
+  function showChar(c) {
+    var e = D.chars[c];
+    if (!e) return;
+    draw(c, e, [c], anchor.getAttribute('data-w'));
+    pop.setAttribute('data-view', 'char');
+  }
+  function closeCard(focusBack) {
+    if (pop.hidden) return;
+    pop.hidden = true;
+    var a = anchor;
+    anchor = null;
+    if (a) { a.classList.remove('sel'); a.setAttribute('aria-expanded', 'false'); if (focusBack) a.focus(); }
+  }
+  function openCard(btn) {
+    if (anchor === btn) { closeCard(true); return; }
+    if (!D.words[btn.getAttribute('data-w')]) return;
+    if (anchor) { anchor.classList.remove('sel'); anchor.setAttribute('aria-expanded', 'false'); }
+    anchor = btn;
+    btn.classList.add('sel');
+    btn.setAttribute('aria-expanded', 'true');
+    showWord();
+    pop.hidden = false;
+    place();
+    pop.focus({ preventScroll: true });
+  }
+  wordBtns.forEach(function (b) {
+    b.setAttribute('aria-expanded', 'false');
+    b.addEventListener('click', function (ev) { ev.stopPropagation(); openCard(b); });
+  });
+  pop.addEventListener('click', function (ev) {
+    ev.stopPropagation();
+    var t = ev.target.closest ? ev.target.closest('button') : null;
+    if (!t) return;
+    if (t.classList.contains('x')) closeCard(true);
+    else if (t.classList.contains('back')) { showWord(); place(); pop.focus({ preventScroll: true }); }
+    else if (t.classList.contains('ch')) { showChar(t.getAttribute('data-c')); place(); pop.focus({ preventScroll: true }); }
+  });
+  document.addEventListener('click', function () { closeCard(false); });
+  document.addEventListener('keydown', function (ev) { if (ev.key === 'Escape' && !pop.hidden) closeCard(true); });
+  window.addEventListener('resize', place);
+
+  setLevel(root.getAttribute('data-level') || 'A2');
+})();
+</script>
+</body>
+</html>

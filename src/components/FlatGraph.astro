@@ -1,0 +1,51 @@
+---
+import type { FlatGraph } from '../lib/flat-graph';
+
+type Props = { graph: FlatGraph; label: string };
+const { graph, label } = Astro.props;
+const tipId = `tip-${label.replace(/\s+/g, '-').toLowerCase()}`;
+---
+
+<figure class="ex-figure home-map">
+  <svg
+    class="diagram"
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox={`0 0 ${graph.width} ${graph.height}`}
+    width={graph.width}
+    height={graph.height}
+    role="img"
+    aria-label={label}
+  >
+    <defs>
+      <pattern id={`${tipId}-dots`} width="16" height="16" patternUnits="userSpaceOnUse">
+        <circle cx="8" cy="8" r="0.9" fill="#cfcfcf" />
+      </pattern>
+    </defs>
+    <rect width={graph.width} height={graph.height} rx="3" fill="rgba(26,26,26,0.035)" />
+    <rect width={graph.width} height={graph.height} rx="3" fill={`url(#${tipId}-dots)`} />
+    {
+      graph.lobes.map((lobe) => (
+        <text class="t" x={lobe.x} y="28" text-anchor="middle" fill="#6b6b6b" style="font-size:12px">
+          {lobe.label}
+        </text>
+      ))
+    }
+    <g stroke="#1a1a1a" stroke-opacity="0.22" stroke-width="0.7" fill="none">
+      {graph.links.map((link) => (
+        <path d={`M${link.x1} ${link.y1}L${link.x2} ${link.y2}`} />
+      ))}
+    </g>
+    {
+      graph.nodes.map((node) => (
+        <a class="node" href={node.href} data-title={node.title} data-x={node.x} data-y={node.y} aria-label={node.title}>
+          <circle cx={node.x} cy={node.y} r="8" fill="transparent" stroke="none" />
+          <circle cx={node.x} cy={node.y} r={node.r} fill={node.color} />
+        </a>
+      ))
+    }
+    <g data-tip visibility="hidden" pointer-events="none">
+      <rect height="16" rx="2" fill="#1a1a1a" />
+      <text class="t" y="11.5" fill="#f9f9f9" style="font-size:11px" />
+    </g>
+  </svg>
+</figure>

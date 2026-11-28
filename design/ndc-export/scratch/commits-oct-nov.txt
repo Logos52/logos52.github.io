@@ -1,0 +1,78 @@
+2026-11-23 wiki: clarity update to 4 Lessons learned pages (#87)
+2026-11-23 verify-logos52: cover the content map, hub order, and legacy redirects (#86)
+2026-11-23 wiki: ship Lessons learned bundle (hub + 4) (#85)
+2026-11-23 Add a nested content map to the Map page (#84)
+2026-11-23 Unlink or retarget 74 dead wikilinks left by the wiki cut (#75)
+2026-11-23 verify-logos52: match the feature map to the NDC chrome (#78)
+2026-11-23 wiki: ship Delete rejected work, don't shelve it (#82)
+2026-11-23 Remove the remaining red-team restore pointers. (#81)
+2026-11-23 Remove red teaming articles
+2026-11-22 Use the text colour for article links. (#79)
+2026-11-22 Replace the site chrome with one NDC stylesheet (#77)
+2026-11-22 verify-logos52: retarget the feature map to the NDC site (#76)
+2026-11-21 fix: redirect spaced and naive-slug wiki URLs (#74)
+2026-11-21 site: NDC llm-wiki redesign + wiki cut to ~100
+2026-11-19 Point index links at the real folder pages (#57)
+2026-11-19 wiki: ship batch k23 (Breaching Questions + 15 Worldviews pages) (#56)
+2026-11-12 wiki: ship batch j20 (scanner cleanup on 10 published pages) (#55)
+2026-11-11 wiki: ship batches j18+j19 (30 pages, Bibliography Springer link, Mandarin/Vietnamese dead links unlinked) (#5
+2026-11-11 wiki: ship batch j17 (15 rewrites incl. Research All-In packet repo copy) (#53)
+2026-11-11 wiki: ship batch j15+j16 (13 rewrites, Thinking on Paper source-count, Glossary) (#52)
+2026-11-11 wiki: ship batch j13+j14 (4 rewrites, 6 new seed pages) (#51)
+2026-11-11 wiki: replace Thinking on Paper with the reviewed page (#49)
+2026-11-11 wiki: add seven Worldviews group hubs (#50)
+2026-11-10 verify-logos52: update wiki-page map for the rewritten Learn note (#48)
+2026-11-10 wiki: restore review-state status on 118 Batch K pages (#47)
+2026-11-10 wiki: batch K follow-up, 3 Systems rewrites without the Condensed link (#46)
+2026-11-10 wiki: batch K, Decision Making, Design, Domains, Fitness, Learning Craft, Money, Red Team, Research, and Synth
+2026-11-10 wiki: batch K, Working with Agents, Start Here, Systems, and Self Management (23 pages) (#44)
+2026-11-10 wiki: batch K, Language and Concepts rewrites (38 pages) (#43)
+2026-11-10 wiki: batch K, Dimensions rewrites (49 pages) (#42)
+2026-11-10 wiki: republish 7 Worldviews rewrites without draft: true (#41)
+2026-11-10 wiki: restore 7 Worldviews pages that #39 took offline (#40)
+2026-11-10 wiki: publish 33 rewritten Worldviews pages (#39)
+2026-11-10 fix: dead wikilinks and leftover Quartz setup docs (#38)
+2026-10-28 wiki: Worldviews wave 1 (13 pages) + Proportionate Response rename (#34)
+2026-10-28 Add verify-logos52 skill for the current Astro wiki (#32)
+2026-10-28 Publish the worldviews batch (#33)
+2026-10-28 Pin lint-kit to 11b2880 and adopt batch v4. (#31)
+2026-10-23 Replace deprecated content-schema calls and test agent domains (#30)
+2026-10-21 Prune error-typed R17 baseline entries after Astro type generation (#28)
+2026-10-21 Publish the 14 Working with Agents pages. (#29)
+2026-10-21 Add a CI workflow that runs npm test and guard:source. (#27)
+2026-10-18 Delete 21 approved AI and agent pages (#26)
+2026-10-17 Pin lint-kit to 6d1dd210 and prune the baseline (#25)
+2026-10-17 Set R3 to error. (#24)
+2026-10-17 Set R20 to error. (#23)
+2026-10-17 Set R19 to error. (#22)
+2026-10-17 Set R18 to error. (#21)
+2026-10-17 Set R17 to error. (#20)
+2026-10-17 Set R14 to error. (#19)
+2026-10-17 Pin lint-kit to 1d43fe29 and prune the baseline (#18)
+2026-10-16 Set R21 to error. (#17)
+2026-10-16 Set R2 to error. (#16)
+2026-10-16 Set R4 to error. (#15)
+2026-10-16 Set R22 to error. (#14)
+2026-10-16 Set R1 to error. (#13)
+2026-10-16 Set R16 to error. (#12)
+2026-10-16 Set R8 to error. (#11)
+2026-10-16 Set R5 to error. (#10)
+2026-10-16 Set R10 to error. (#9)
+2026-10-16 Set R23 to error. (#8)
+2026-10-16 Adopt lint-kit warn mode (#7)
+2026-10-16 Add Cloud Agent environment for the Astro wiki site (#4)
+2026-10-16 Add verify-wiki skill and the kept-blocks check (#6)
+2026-10-15 Home: top-of-mind links and update titles in ink with no underline
+2026-10-15 Wiki: five approved design tweaks (2026-10-15 mockup)
+2026-09-22 CLAUDE.md: drop the generator and the holdings rewrite pass.
+2026-09-22 Cut the writing generators so git cannot restore them.
+2026-09-22 Poteto Paved Path: rewrite the explainer in ordinary sentences.
+2026-09-22 Poteto Paved Path: a short explainer and how-to, with the original slides and the webcam cropped out.
+2026-09-22 Publish the home updates and the note-page reading changes.
+2026-09-22 Poteto Paved Path: use Lauren's kitchen drawing, without the webcam.
+2026-09-22 Poteto Paved Path: plain rewrite, and slides redrawn without the webcam.
+2026-09-22 Poteto Paved Path: restore the page-generator draft.
+2026-09-22 Poteto Paved Path: cut the prose back to the slides' own words.
+2026-09-22 Poteto Paved Path: drop the sentence that defines an agent.
+2026-09-21 Add Poteto Paved Path and Karpathy LLM-Wiki, with the talk slides.
+2026-09-20 Cursor Cloud Agents: replace the page with the how-to

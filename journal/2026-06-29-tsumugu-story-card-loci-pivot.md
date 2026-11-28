@@ -9,7 +9,7 @@ tags: [tsumugu, tsumugu-ed, dictionary, story-cards, memory, method-of-loci, rot
 
 ## The problem
 
-Each character entry carries two cards side by side. The **Form card** gives the etymology and mechanism — which functional components build the glyph (form 形 / meaning 義 / sound 聲 / empty 空), how they assemble, how the sound drifted — built from Outlier's seven [[wiki/Learning Craft/Rules of Effective Memorization|Rules of Effective Memorization]]. It runs consistently good. The **Story card** gives a mnemonic scene built from the components, and it runs uneven; many land, many don't. Wedge weighed scrapping Story cards outright.
+Each character entry carries two cards side by side. The **Form card** gives the etymology and mechanism — which functional components build the glyph (form 形 / meaning 義 / sound 聲 / empty 空), how they assemble, how the sound drifted — built from Outlier's seven Rules of Effective Memorization. It runs consistently good. The **Story card** gives a mnemonic scene built from the components, and it runs uneven; many land, many don't. Wedge weighed scrapping Story cards outright.
 
 We reviewed the first ~500 characters (the TOCFL A1 foundation, authored by the Fable model), calibrated against Wedge reading a random sample. Three patterns surfaced:
 
@@ -80,7 +80,7 @@ Wedge's calls, still open:
 
 ## Links
 
-- [[wiki/Learning Craft/Rules of Effective Memorization|Rules of Effective Memorization]] — the Outlier synthesis behind the Form card and the secondary Story source.
+- Rules of Effective Memorization — the Outlier synthesis behind the Form card and the secondary Story source.
 - [[journal/story-cards-as-memory-scenes|Story Cards as Memory Scenes]] — the companion essay on the loci method.
 - [[projects/tsumugu-ed|Tsumugu Encoding Dictionary]] — the reference layer these cards live in.
 

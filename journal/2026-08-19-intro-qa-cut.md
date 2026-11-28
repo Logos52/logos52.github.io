@@ -14,7 +14,7 @@ tags:
 
 # Intro QA cut: five tests, a script, on-ramp off the battery
 
-Verdict: the intro gate is now five judgment tests and a script. Who-cares and transition stay. On-ramp comes off the battery. The other fourteen names were the same habits in other clothes, or they fought a test we are keeping. The loop that minted them is the prohibition loop. The page is [[02 - System/Intro QA|Intro QA]]; the script is `scripts/intro_qa.py`.
+Verdict: the intro gate is now five judgment tests and a script. Who-cares and transition stay. On-ramp comes off the battery. The other fourteen names were the same habits in other clothes, or they fought a test we are keeping. The loop that minted them is the prohibition loop. The page is Intro QA; the script is `scripts/intro_qa.py`.
 
 ## What is kept
 
@@ -40,4 +40,4 @@ Not a license to ship a Positions intro. There is still no accepted generated in
 
 - Owner strikes 2026-08-19, session `ed0c0734-5561-4979-8914-96913c5a273a`: who-cares on `100% American` and *What I Hold*; stacking-facts; *whack a mole*; *the whole generator is flawed if this is the first sentence*.
 - [[wiki/Systems/AI & Agentic Systems/Working With a Model That Cannot Remember|The Prohibition Loop]] — obedience is the tell.
-- [[02 - System/Two Egos QA|Two Egos QA]] — selfhood judgment pass, unchanged.
+- Two Egos QA — selfhood judgment pass, unchanged.

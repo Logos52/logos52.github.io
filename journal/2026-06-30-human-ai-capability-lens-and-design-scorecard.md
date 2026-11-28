@@ -9,8 +9,8 @@ tags: [design, human-ai, ai-durability, naval, taste, judgment, scorecard, agent
 
 ## What shipped
 
-- [[wiki/Design/Design Expansion — Reading & Resources|Design Expansion — Reading & Resources]] — 19 sources to push the Norman-only Design notes multi-source.
-- [[wiki/Design/Design Two-Track Extraction|Design Two-Track Extraction]] and [[wiki/Design/Human Track — Taste & Judgment Catalog|Human Track]] (35 judgment entries), extracted from *Refactoring UI* (3,690 lines of text) and *Universal Principles of Design* (200 principles, 14,503 lines). Both PDFs and their extracted text are staged in `raw/sources/design/`.
+- Design Expansion — Reading & Resources — 19 sources to push the Norman-only Design notes multi-source.
+- Design Two-Track Extraction and Human Track (35 judgment entries), extracted from *Refactoring UI* (3,690 lines of text) and *Universal Principles of Design* (200 principles, 14,503 lines). Both PDFs and their extracted text are staged in `raw/sources/design/`.
 - [[wiki/Systems/AI & Agentic Systems/Agentic Engineering|Human vs AI Capability Lens]] — the model below.
 
 ## The model

@@ -72,6 +72,7 @@ export const IGNORE_PATTERNS = [
   'cos/**',
 
   'design-archive/**',
+  'design/**',
 
   // Former Quartz framework + build artifacts (kept for parity; harmless once Quartz is gone)
   'quartz/**',

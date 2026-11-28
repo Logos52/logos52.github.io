@@ -9,7 +9,7 @@ export function getStaticPaths() {
 const { person } = Astro.props;
 ---
 
-<Base title={person.name} description={`Notable design features, ${person.name}.`} active="projects">
+<Base title={person.name} description={`Notable design features, ${person.name}.`} section="projects">
   <main class="person-page">
     <div class="wrap">
       <p class="trail">

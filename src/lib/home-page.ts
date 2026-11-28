@@ -49,12 +49,12 @@ export const lifeHubs = [
   { title: 'Money', icon: 'ti-wallet', color: 'var(--d-gen)', slug: 'wiki/Money/Money, Condensed', countPrefix: 'wiki/Money' },
   { title: '中文', icon: 'ti-language', color: 'var(--d-language)', slug: 'wiki/Language/Chinese/How-Chinese-Characters-Work', countPrefix: 'wiki/Language/Chinese' },
   { title: 'Minimalism', icon: 'ti-box', color: 'var(--d-focus)', slug: 'wiki/Minimalism/Minimalism-as-Systems-Design', countPrefix: 'wiki/Minimalism' },
-  { title: 'Condensed Notes', icon: 'ti-book-2', color: 'var(--d-learning)', slug: 'wiki/Dimensions/Dimensions of Learning', countPrefix: 'wiki/Syntheses' },
+  { title: 'Condensed Notes', icon: 'ti-book-2', color: 'var(--d-learning)', slug: 'wiki/Dimensions/Dimensions of Learning' },
 ];
 
 export const executionHubs = [
   { title: 'Agentic Engineering', icon: 'ti-robot', color: 'var(--d-agentic)', slug: 'wiki/Systems/AI & Agentic Systems/Agentic-Engineering', countPrefix: 'wiki/Systems/AI & Agentic Systems' },
-  { title: 'Learning Systems', icon: 'ti-network', color: 'var(--d-learning)', slug: 'wiki/Dimensions/Dimensions of Learning', countPrefix: 'wiki/Syntheses' },
+  { title: 'Learning Systems', icon: 'ti-network', color: 'var(--d-learning)', slug: 'wiki/Dimensions/Dimensions of Learning', countPrefix: 'wiki/Dimensions' },
   { title: 'Focus Management', icon: 'ti-target', color: 'var(--d-focus)', slug: 'wiki/Self-Management/Flow-State', countPrefix: 'wiki/Self Management' },
   { title: 'Decision Making', icon: 'ti-checklist', color: 'var(--d-gen)', slug: 'wiki/Decision-Making/Decision-Making', countPrefix: 'wiki/Decision Making' },
   { title: 'Generativity', icon: 'ti-bulb', color: 'var(--d-mind)', slug: 'wiki/Concepts/Higher-Order-Generativity-vs-Higher-Order-Judgment', countPrefix: 'wiki/Concepts' },

@@ -18,7 +18,7 @@ tags:
 
 ## What it is
 
-MG & Kolbs is a learning-system template based on **Kolb's reflective cycles**, **skill-level tracking**, **goal anchoring**, and task management with deliberate break timing. You run short reflective cycles, track the skills you develop in each cycle, and link the work to your goals. It is adapted to Obsidian from Pan's Notion original ([@pan.ps](https://panstemplates.notion.site/)). All credit for the underlying method goes to Pan. There is a [live demo on this site](../mg-kolbs-template).
+MG & Kolbs is a learning-system template based on **Kolb's reflective cycles**, **skill-level tracking**, **goal anchoring**, and task management with deliberate break timing. You run short reflective cycles, track the skills you develop in each cycle, and link the work to your goals. It is adapted to Obsidian from Pan's Notion original ([@pan.ps](https://panstemplates.notion.site/)). All credit for the underlying method goes to Pan.
 
 **Vault folder (canonical):** `mg-kolbs/` (lowercase). The temporary dual root folder `MG & Kolbs/` was archived on 2026-07-09 to `_archive/MG-Kolbs-template-2026-06-01/`.
 

@@ -33,12 +33,12 @@ Zero-based envelope budgeting is mechanically sound. Using it every day was exha
 
 ## Lessons
 
-- **Match the amount of upkeep to the benefit.** The envelope method requires constant upkeep to give a kind of control I didn't actually need day to day. Its successor, [WNAC](wnac), replaced envelopes with a single "flex number" and a debt-payoff dial. WNAC gives the same insight with much less upkeep.
+- **Match the amount of upkeep to the benefit.** The envelope method requires constant upkeep to give a kind of control I didn't actually need day to day. Its successor, [WNAC](/projects/wnac/), replaced envelopes with a single "flex number" and a debt-payoff dial. WNAC gives the same insight with much less upkeep.
 - **Reuse the engine, and design the experience yourself.** Forking Actual's engine was the right decision and saved months. The mistake was adopting Actual's budgeting *philosophy* along with its code.
 - **The reason you start using a tool has to keep you using it every day.** Ownership was my reason to build it. Whether I kept using it depended on the daily upkeep, and the daily upkeep is why I stopped.
 
 ## Status
 
-Retired. The project is archived intact: the data round-trips and the engine still runs. Its successor is [WNAC](wnac), which gives clean data and AI insight without the upkeep of envelope budgeting.
+Retired. The project is archived intact: the data round-trips and the engine still runs. Its successor is [WNAC](/projects/wnac/), which gives clean data and AI insight without the upkeep of envelope budgeting.
 
 <!-- Design notes (TODO, Wedge): how it looks and why it's built this way. -->

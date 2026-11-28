@@ -190,6 +190,6 @@ The knowledge base should make the next act of thought sharper. If it only makes
 - [[wiki/Workflows/Knowledge Base as Thinking Partner|Knowledge Base as Thinking Partner]]
 - [[wiki/Razors|Are You Learning, or Just Using Techniques]]
 - [[wiki/Razors|Are You Thinking, or Just Consuming?]]
-- [[wiki/Concepts/The Technique Is Only as Good as the Thinking It Produces|The Technique Is Only as Good as the Thinking It Produces]]
+- The Technique Is Only as Good as the Thinking It Produces
 - [[wiki/Razors|First Principles of ICS]]
 - [[wiki/Techniques/Spaced Interleaved Retrieval|Spaced Interleaved Retrieval]]

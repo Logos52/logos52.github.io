@@ -30,7 +30,7 @@ The site is a set of linked notes on learning systems, language study, and softw
 
 ## How it's built
 
-The vault is kept in [Obsidian](https://obsidian.md), published through [Astro](https://astro.build), and hosted from [logos52.github.io](https://github.com/logos52/logos52.github.io). The underlying pattern is described in [[wiki/Systems/AI & Agentic Systems/Context Engineering|LLM Knowledge Systems]]. The repo is described in [[README]]. The rules the agents follow are in [[AGENTS]].
+The vault is kept in [Obsidian](https://obsidian.md), published through [Astro](https://astro.build), and hosted from [logos52.github.io](https://github.com/logos52/logos52.github.io). The underlying pattern is described in [[wiki/Systems/AI & Agentic Systems/Context Engineering|LLM Knowledge Systems]]. The repo is described in README. The rules the agents follow are in AGENTS.
 
 The code is under the MIT license. The written content is released under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 

@@ -113,7 +113,7 @@ No VI-L1 → L2-Mandarin cognate study with effect sizes appears to exist. Gener
 ## Links
 
 - [[wiki/Language/The Han-Viet Bridge|The Hán-Việt Bridge]] — the student-facing wiki page distilled from this entry.
-- [[wiki/Language/Chinese/Sound Series|Sound Series]] — the in-glyph phonetic-family mechanism the cross-language bridge mirrors.
-- [[wiki/Language/Chinese/Three Attributes of a Character|Three Attributes of a Character]] — form/sound/meaning; the bridge is the sound attribute extended across languages.
-- [[wiki/Language/Vietnamese Grammar Primer|Vietnamese Grammar Primer]] · [[wiki/Language/Character Primer|Character Primer]]
+- Sound Series — the in-glyph phonetic-family mechanism the cross-language bridge mirrors.
+- Three Attributes of a Character — form/sound/meaning; the bridge is the sound attribute extended across languages.
+- Vietnamese Grammar Primer · Character Primer
 - PRD for the build: `tsumugu/PRD-HanViet-Bridge.md` (this date).

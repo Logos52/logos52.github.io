@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<script src="./image-slot.js"></script>
+<style>
+@font-face{font-family:"iA Writer Quattro";src:url(https://cdn.jsdelivr.net/gh/iaolo/iA-Fonts@master/iA%20Writer%20Quattro/Webfonts/iAWriterQuattroS-Regular.woff2) format("woff2");font-weight:400;font-style:normal}
+@font-face{font-family:"iA Writer Quattro";src:url(https://cdn.jsdelivr.net/gh/iaolo/iA-Fonts@master/iA%20Writer%20Quattro/Webfonts/iAWriterQuattroS-Bold.woff2) format("woff2");font-weight:700;font-style:normal}
+@font-face{font-family:"iA Writer Quattro";src:url(https://cdn.jsdelivr.net/gh/iaolo/iA-Fonts@master/iA%20Writer%20Quattro/Webfonts/iAWriterQuattroS-Italic.woff2) format("woff2");font-weight:400;font-style:italic}
+@font-face{font-family:"IBM Plex Sans";src:url(fonts/plex-400.woff2) format("woff2");font-weight:400;font-style:normal}
+@font-face{font-family:"IBM Plex Sans";src:url(fonts/plex-700.woff2) format("woff2");font-weight:700;font-style:normal}
+@font-face{font-family:"IBM Plex Sans";src:url(fonts/plex-400i.woff2) format("woff2");font-weight:400;font-style:italic}
+@font-face{font-family:"Monaspace Neon";src:url(fonts/neon-400.woff2) format("woff2");font-weight:400;font-style:normal}
+@font-face{font-family:"Monaspace Neon";src:url(fonts/neon-700.woff2) format("woff2");font-weight:700;font-style:normal}
+@keyframes l52dial{0%,100%{transform:rotate(-95deg)}45%{transform:rotate(20deg)}60%{transform:rotate(8deg)}}
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;background:#f9f9f9;color:#1a1a1a;font:400 17px/24px "iA Writer Quattro","IBM Plex Sans",system-ui,sans-serif;overflow-wrap:anywhere;-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}
+a:hover{color:#0090cc}
+</style>
+</helmet>
+
+<header style="position:sticky;top:0;z-index:80;height:49px;background:rgba(249,249,249,0.88);backdrop-filter:blur(10px);border-bottom:1px solid rgba(26,26,26,0.10)">
+  <div style="max-width:1120px;height:49px;margin:0 auto;padding:0 32px;display:flex;align-items:center;justify-content:space-between;gap:16px">
+    <nav aria-label="Breadcrumb" style="display:flex;align-items:baseline;white-space:nowrap;font:400 17px/24px 'iA Writer Quattro','IBM Plex Sans',sans-serif">
+      <a href="#" onClick="{{ goHome }}" style="font-weight:700;letter-spacing:-0.02em">Logos52</a>
+      <span style="opacity:0.35;margin:0 0.35em">/</span>
+      <span>{{ crumb }}</span>
+    </nav>
+    <div style="display:flex;align-items:center;gap:24px;flex:none">
+      <nav aria-label="Site" style="display:flex;align-items:center;gap:24px;font:400 17px/24px 'iA Writer Quattro','IBM Plex Sans',sans-serif">
+        <a href="#" onClick="{{ goNotes }}">Notes</a>
+        <a href="#" onClick="{{ goJournal }}">Journal</a>
+        <a href="#" onClick="{{ goGuides }}">Guides</a>
+        <a href="uploads/logos52%20design/about.html">About</a>
+      </nav>
+      <details data-menu="1" style="position:relative;flex:none">
+        <summary aria-label="Menu" style="list-style:none;cursor:pointer;display:flex;align-items:center;justify-content:center;width:32px;height:32px;margin:0 -4px 0 0">
+          <svg viewBox="0 0 22 22" aria-hidden="true" style="width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round"><path d="M3.5 6.5h15M3.5 11h15M3.5 15.5h15"></path></svg>
+        </summary>
+        <nav aria-label="Menu" style="position:absolute;right:-4px;top:calc(100% + 8px);z-index:90;width:291px;max-width:calc(100vw - 32px);padding:10px 0;background:#fff;border-radius:12px;box-shadow:0 8px 24px rgba(0,0,0,0.16),0 0 0 1px rgba(0,0,0,0.08);display:flex;flex-direction:column">
+          <a href="#" onClick="{{ goHome }}" style="{{ mHome }}">Home</a>
+          <a href="#" onClick="{{ goNotes }}" style="{{ mNotes }}">Notes</a>
+          <a href="#" onClick="{{ goJournal }}" style="{{ mJournal }}">Journal</a>
+          <a href="#" onClick="{{ goGuides }}" style="{{ mGuides }}">Guides</a>
+          <a href="uploads/logos52%20design/about.html" style="{{ mAbout }}">About</a>
+        </nav>
+      </details>
+    </div>
+  </div>
+</header>
+
+<sc-if value="{{ isHome }}" hint-placeholder-val="{{ true }}">
+<main data-screen-label="Home" style="max-width:1120px;margin:0 auto;padding:20px 32px 64px">
+  <div style="display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-start;gap:24px 64px">
+    <div style="flex:1 1 380px;max-width:588px;min-width:0">
+      <a href="#" onClick="{{ goHome }}" style="display:block;margin:0 0 10px;font:700 40px/1.05 'iA Writer Quattro','IBM Plex Sans',sans-serif;letter-spacing:-0.025em">Logos52</a>
+      <section id="intro" style="font:400 17px/1.56 'iA Writer Quattro','IBM Plex Sans',sans-serif">
+        <p style="margin:0 0 0.8em">Logos52 is the public site for llm-knowledge-base. The notes are kept in an Obsidian vault, maintained with agents, and published here with a journal of recent work.</p>
+        <p style="margin:0 0 0.8em">Tsumugu is underway: a graded reader that writes its own pages from the words a student already knows. So is WNAC, a local-first tool built around one flex number and a debt-payoff dial, and cos / Cowork OS, which puts finances, tasks, and dates in one view.</p>
+        <p style="margin:0">Builders’ Logs 2026 tracks thirteen engineers working with coding agents.</p>
+      </section>
+    </div>
+    <aside aria-label="Site sections" style="flex:0 0 196px;border-left:1px solid rgba(26,26,26,0.10);padding-left:16px;display:flex;flex-direction:column;font:400 15px/22px 'iA Writer Quattro','IBM Plex Sans',sans-serif">
+      <h6 style="margin:12px 0 3px;font:700 12.5px/16px 'iA Writer Quattro','IBM Plex Sans',sans-serif;letter-spacing:0.08em;text-transform:uppercase;color:rgba(26,26,26,0.62);margin-top:0">Work</h6>
+      <a href="#work">Projects</a>
+      <a href="#work">Builders’ Logs 2026</a>
+      <h6 style="margin:12px 0 3px;font:700 12.5px/16px 'iA Writer Quattro','IBM Plex Sans',sans-serif;letter-spacing:0.08em;text-transform:uppercase;color:rgba(26,26,26,0.62)">Explainers</h6>
+      <a href="#explainers">Pages</a>
+      <a href="#explainers">Map</a>
+      <h6 style="margin:12px 0 3px;font:700 12.5px/16px 'iA Writer Quattro','IBM Plex Sans',sans-serif;letter-spacing:0.08em;text-transform:uppercase;color:rgba(26,26,26,0.62)">Journal</h6>
+      <a href="#journal">Newest entries</a>
+      <h6 style="margin:12px 0 3px;font:700 12.5px/16px 'iA Writer Quattro','IBM Plex Sans',sans-serif;letter-spacing:0.08em;text-transform:uppercase;color:rgba(26,26,26,0.62)">Top of mind</h6>
+      <a href="#mind">Three current questions</a>
+    </aside>
+  </div>
+
+  <div aria-label="Home sections" style="display:flex;flex-wrap:wrap;align-items:flex-start;gap:32px 48px;margin-top:56px">
+    <section id="work" style="flex:13 1 150px;min-width:0;scroll-margin-top:68px">
+      <header style="display:flex;align-items:baseline;justify-content:space-between;gap:10px;height:34px;padding:0 0 8px;border-bottom:1px solid rgba(26,26,26,0.14)"><h1 style="margin:0;font:700 22px/26px 'iA Writer Quattro','IBM Plex Sans',sans-serif;letter-spacing:-0.02em">Work</h1></header>
+      <div>
+        <div style="display:flex;gap:10px;align-items:flex-start;padding:9px 0;">
+          <div style="flex:none;width:48px;height:48px;margin-top:2px;position:relative"><image-slot id="home-llmkb" shape="rect" placeholder="Photo"></image-slot></div>
+          <span style="min-width:0;display:block"><a href="#" style="display:block;margin:0 0 2px;font:700 17px/24px 'iA Writer Quattro','IBM Plex Sans',sans-serif;letter-spacing:-0.01em">llm-knowledge-base</a><span style="display:block;margin:0;font:400 15px/22px 'iA Writer Quattro','IBM Plex Sans',sans-serif;color:rgba(26,26,26,0.70)">This site. A public knowledge base kept by LLM agents.</span></span>
+        </div>
+        <a href="#" style="display:flex;gap:10px;align-items:flex-start;padding:9px 0;border-top:1px solid rgba(26,26,26,0.08)" style-hover="opacity:.78">
+          <div style="flex:none;width:48px;height:48px;margin-top:2px;background:#efefec;display:flex;align-items:center;justify-content:center">{{ dial }}</div>
+          <span style="min-width:0;display:block"><span style="display:block;margin:0 0 2px;font:700 17px/24px 'iA Writer Quattro','IBM Plex Sans',sans-serif;letter-spacing:-0.01em">WNAC</span><span style="display:block;margin:0;font:400 15px/22px 'iA Writer Quattro','IBM Plex Sans',sans-serif;color:rgba(26,26,26,0.70)">One flex number and a debt-payoff dial, local-first.</span></span>
+        </a>
+        <div style="display:flex;gap:10px;align-items:flex-start;padding:9px 0;border-top:1px solid rgba(26,26,26,0.08)">
+          <div style="flex:none;width:48px;height:48px;margin-top:2px;position:relative"><image-slot id="home-cos" shape="rect" placeholder="Shot"></image-slot></div>
+          <span style="min-width:0;display:block"><a href="#" style="display:block;margin:0 0 2px;font:700 17px/24px 'iA Writer Quattro','IBM Plex Sans',sans-serif;letter-spacing:-0.01em">cos / Cowork OS</a><span style="display:block;margin:0;font:400 15px/22px 'iA Writer Quattro','IBM Plex Sans',sans-serif;color:rgba(26,26,26,0.70)">Finances, tasks, and dates in one view.</span></span>
+        </div>
+        <a href="#" style="display:flex;gap:10px;align-items:flex-start;padding:9px 0;border-top:1px solid rgba(26,26,26,0.08)" style-hover="opacity:.78">
+          <div style="flex:none;width:48px;height:48px;margin-top:2px;background:#1a1a1a;display:grid;grid-template-columns:repeat(5,1fr);gap:3px;padding:8px 7px;align-content:center"><span style="aspect-ratio:1;border-radius:50%;background:#f9f9f9"></span><span style="aspect-ratio:1;border-radius:50%;background:#f9f9f9"></span><span style="aspect-ratio:1;border-radius:50%;background:#f9f9f9"></span><span style="aspect-ratio:1;border-radius:50%;background:#f9f9f9"></span><span style="aspect-ratio:1;border-radius:50%;background:#00c3ff"></span><span style="aspect-ratio:1;border-radius:50%;background:#f9f9f9"></span><span style="aspect-ratio:1;border-radius:50%;background:#f9f9f9"></span><span style="aspect-ratio:1;border-radius:50%;background:#f9f9f9"></span><span style="aspect-ratio:1;border-radius:50%;background:#f9f9f9"></span><span style="aspect-ratio:1;border-radius:50%;background:#f9f9f9"></span><span style="aspect-ratio:1;border-radius:50%;background:#f9f9f9"></span><span style="aspect-ratio:1;border-radius:50%;background:#f9f9f9"></span><span style="aspect-ratio:1;border-radius:50%;background:#f9f9f9"></span></div>
+          <span style="min-width:0;display:block"><span style="display:block;margin:0 0 2px;font:700 17px/24px 'iA Writer Quattro','IBM Plex Sans',sans-serif;letter-spacing:-0.01em">Builders’ Logs 2026</span><span style="display:block;margin:0;font:400 15px/22px 'iA Writer Quattro','IBM Plex Sans',sans-serif;color:rgba(26,26,26,0.70)">Dated work logs for thirteen agent builders.</span></span>
+        </a>
+        <a href="#" style="display:flex;gap:10px;align-items:flex-start;padding:9px 0;border-top:1px solid rgba(26,26,26,0.08)" style-hover="opacity:.78">
+          <div style="flex:none;width:48px;height:48px;margin-top:2px;background:#fff;display:flex;align-items:center;justify-content:center"><span lang="ja" style="writing-mode:vertical-rl;font:400 18px/1.1 'Hiragino Mincho ProN','Yu Mincho','Noto Serif JP',serif;letter-spacing:0.06em">紡ぐ</span></div>
+          <span style="min-width:0;display:block"><span style="display:block;margin:0 0 2px;font:700 17px/24px 'iA Writer Quattro','IBM Plex Sans',sans-serif;letter-spacing:-0.01em">Tsumugu</span><span style="display:block;margin:0;font:400 15px/22px 'iA Writer Quattro','IBM Plex Sans',sans-serif;color:rgba(26,26,26,0.70)">A graded reader that writes its own pages from known words.</span></span>
+        </a>
+      </div>
+      <p style="margin:8px 0 0;font:400 15px/22px 'iA Writer Quattro','IBM Plex Sans',sans-serif"><a href="#" style="color:#0090cc">All 10 projects</a></p>
+    </section>
+
+    <section id="journal" style="flex:13 1 150px;min-width:0;scroll-margin-top:68px">
+      <header style="display:flex;align-items:baseline;justify-content:space-between;gap:10px;height:34px;padding:0 0 8px;border-bottom:1px solid rgba(26,26,26,0.14)"><h1 style="margin:0;font:700 22px/26px 'iA Writer Quattro','IBM Plex Sans',sans-serif;letter-spacing:-0.02em">Journal</h1></header>
+      <div>
+        <a href="#" onClick="{{ goJournal }}" style="display:block;padding:9px 0;"><time datetime="2026-09-18" style="display:block;font:400 13px/18px 'iA Writer Quattro','IBM Plex Sans',sans-serif;letter-spacing:0.04em;text-transform:uppercase;color:rgba(26,26,26,0.62);margin:0 0 1px">18 Sep 2026</time><span style="display:block;font:700 17px/24px 'iA Writer Quattro','IBM Plex Sans',sans-serif;letter-spacing:-0.01em">Grok Bot Galaxy: the rules on one page</span></a>
+        <a href="#" onClick="{{ goJournal }}" style="display:block;padding:9px 0;border-top:1px solid rgba(26,26,26,0.08)"><time datetime="2026-09-16" style="display:block;font:400 13px/18px 'iA Writer Quattro','IBM Plex Sans',sans-serif;letter-spacing:0.04em;text-transform:uppercase;color:rgba(26,26,26,0.62);margin:0 0 1px">16 Sep 2026</time><span style="display:block;font:700 17px/24px 'iA Writer Quattro','IBM Plex Sans',sans-serif;letter-spacing:-0.01em">Argument Validation: a hub for the method pages</span></a>
+        <a href="#" onClick="{{ goJournal }}" style="display:block;padding:9px 0;border-top:1px solid rgba(26,26,26,0.08)"><time datetime="2026-09-16" style="display:block;font:400 13px/18px 'iA Writer Quattro','IBM Plex Sans',sans-serif;letter-spacing:0.04em;text-transform:uppercase;color:rgba(26,26,26,0.62);margin:0 0 1px">16 Sep 2026</time><span style="display:block;font:700 17px/24px 'iA Writer Quattro','IBM Plex Sans',sans-serif;letter-spacing:-0.01em">East Asian Exams — The Arms Race: the page</span></a>
+        <a href="#" onClick="{{ goJournal }}" style="display:block;padding:9px 0;border-top:1px solid rgba(26,26,26,0.08)"><time datetime="2026-09-08" style="display:block;font:400 13px/18px 'iA Writer Quattro','IBM Plex Sans',sans-serif;letter-spacing:0.04em;text-transform:uppercase;color:rgba(26,26,26,0.62);margin:0 0 1px">8 Sep 2026</time><span style="display:block;font:700 17px/24px 'iA Writer Quattro','IBM Plex Sans',sans-serif;letter-spacing:-0.01em">The two wholes</span></a>
+      </div>
+      <p style="margin:8px 0 0;font:400 15px/22px 'iA Writer Quattro','IBM Plex Sans',sans-serif"><a href="#" onClick="{{ goJournal }}" style="color:#0090cc">All journal entries</a></p>
+    </section>
+
+    <section id="explainers" style="flex:28 1 330px;min-width:0;scroll-margin-top:68px">
+      <header style="display:flex;align-items:baseline;justify-content:space-between;gap:10px;height:34px;padding:0 0 8px;border-bottom:1px solid rgba(26,26,26,0.14)"><h1 style="margin:0;font:700 22px/26px 'iA Writer Quattro','IBM Plex Sans',sans-serif;letter-spacing:-0.02em">Explainers</h1><a href="#" onClick="{{ goNotes }}" style="font:400 14px/26px 'iA Writer Quattro','IBM Plex Sans',sans-serif;color:#0090cc;white-space:nowrap">115 pages · map</a></header>
+      <div>
+        <a href="#" onClick="{{ goNotes }}" style="display:block;padding:9px 0;"><span style="display:block;margin:0 0 2px;font:700 17px/24px 'iA Writer Quattro','IBM Plex Sans',sans-serif;letter-spacing:-0.01em">Deep Processing</span><p style="margin:0;font:400 15px/22px 'iA Writer Quattro','IBM Plex Sans',sans-serif;color:rgba(26,26,26,0.70)">Turning incoming information into connected, critiqued knowledge.</p></a>
+        <a href="#" onClick="{{ goNotes }}" style="display:block;padding:9px 0;border-top:1px solid rgba(26,26,26,0.08)"><span style="display:block;margin:0 0 2px;font:700 17px/24px 'iA Writer Quattro','IBM Plex Sans',sans-serif;letter-spacing:-0.01em">Metacognition — The Control Layer</span><p style="margin:0;font:400 15px/22px 'iA Writer Quattro','IBM Plex Sans',sans-serif;color:rgba(26,26,26,0.70)">The loop that notices a cue and chooses a productive response.</p></a>
+        <a href="#" onClick="{{ goNotes }}" style="display:block;padding:9px 0;border-top:1px solid rgba(26,26,26,0.08)"><span style="display:block;margin:0 0 2px;font:700 17px/24px 'iA Writer Quattro','IBM Plex Sans',sans-serif;letter-spacing:-0.01em">Retrieval</span><p style="margin:0;font:400 15px/22px 'iA Writer Quattro','IBM Plex Sans',sans-serif;color:rgba(26,26,26,0.70)">Using knowledge from memory on purpose, aimed at the gaps.</p></a>
+        <a href="#" onClick="{{ goNotes }}" style="display:block;padding:9px 0;border-top:1px solid rgba(26,26,26,0.08)"><span style="display:block;margin:0 0 2px;font:700 17px/24px 'iA Writer Quattro','IBM Plex Sans',sans-serif;letter-spacing:-0.01em">Agentic Engineering</span><p style="margin:0;font:400 15px/22px 'iA Writer Quattro','IBM Plex Sans',sans-serif;color:rgba(26,26,26,0.70)">Building with agents while you keep the spec, taste, and oversight.</p></a>
+        <a href="uploads/logos52%20design/about.html" style="display:block;padding:9px 0;border-top:1px solid rgba(26,26,26,0.08)"><span style="display:block;margin:0 0 2px;font:700 17px/24px 'iA Writer Quattro','IBM Plex Sans',sans-serif;letter-spacing:-0.01em">How this wiki works</span><p style="margin:0;font:400 15px/22px 'iA Writer Quattro','IBM Plex Sans',sans-serif;color:rgba(26,26,26,0.70)">Source material becomes durable linked notes, judged before it ships.</p></a>
+      </div>
+      <p style="margin:8px 0 0;font:400 15px/22px 'iA Writer Quattro','IBM Plex Sans',sans-serif"><a href="#" onClick="{{ goNotes }}" style="color:#0090cc">All 115 pages</a></p>
+
+      <header id="mind" style="display:flex;align-items:baseline;justify-content:space-between;gap:10px;height:34px;padding:0 0 8px;border-bottom:1px solid rgba(26,26,26,0.14);margin-top:44px;scroll-margin-top:68px"><h1 style="margin:0;font:700 22px/26px 'iA Writer Quattro','IBM Plex Sans',sans-serif;letter-spacing:-0.02em">Top of mind</h1></header>
+      <div>
+        <p style="margin:0;font:400 15px/22px 'iA Writer Quattro','IBM Plex Sans',sans-serif;color:rgba(26,26,26,0.70);padding:8px 0;border-bottom:1px solid rgba(26,26,26,0.08)">Whether story arcs need a moral core before the character risks losing something they love.</p>
+        <p style="margin:0;font:400 15px/22px 'iA Writer Quattro','IBM Plex Sans',sans-serif;color:rgba(26,26,26,0.70);padding:8px 0;border-bottom:1px solid rgba(26,26,26,0.08)">How much of daily life still belongs on personal pages that stay off the public site.</p>
+        <p style="margin:0;font:400 15px/22px 'iA Writer Quattro','IBM Plex Sans',sans-serif;color:rgba(26,26,26,0.70);padding:8px 0;border-bottom:1px solid rgba(26,26,26,0.08)">Where political arguments hold up when you trace them past the headline.</p>
+      </div>
+    </section>
+  </div>
+
+  <p style="margin:44px 0 0;font:400 15px/22px 'iA Writer Quattro','IBM Plex Sans',sans-serif;color:rgba(26,26,26,0.62)">Raw sources, private notes, financial detail, and workbench drafts stay out of the published wiki.</p>
+</main>
+</sc-if>
+
+<sc-if value="{{ isSub }}" hint-placeholder-val="{{ false }}">
+<main data-screen-label="{{ sub.name }}" style="max-width:1120px;margin:0 auto;padding:28px 32px 64px">
+  <p style="margin:0 0 14px;font:700 17px/24px 'iA Writer Quattro','IBM Plex Sans',sans-serif;letter-spacing:-0.01em">{{ sub.name }}</p>
+  <h1 style="margin:0;max-width:760px;font:700 clamp(28px,4.6vw,44px)/1.1 'iA Writer Quattro','IBM Plex Sans',sans-serif;letter-spacing:-0.035em;text-wrap:balance">{{ sub.lead }}</h1>
+  <div style="display:grid;grid-template-columns:{{ gridCols }};gap:36px 32px;align-items:start;margin-top:48px">
+    <sc-for list="{{ sub.cards }}" as="c" hint-placeholder-count="6">
+      <div style="display:flex;flex-direction:column;gap:10px">
+        <sc-if value="{{ c.isSlot }}" hint-placeholder-val="{{ true }}">
+          <div style="position:relative;aspect-ratio:{{ c.ratio }}"><image-slot id="{{ c.id }}" shape="rect" placeholder="{{ c.ph }}"></image-slot></div>
+        </sc-if>
+        <sc-if value="{{ c.isType }}" hint-placeholder-val="{{ false }}">
+          <div style="aspect-ratio:{{ c.ratio }};background:{{ c.bg }};color:{{ c.fg }};display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px">
+            <b style="font:700 clamp(56px,9vw,96px)/0.9 'iA Writer Quattro','IBM Plex Sans',sans-serif;letter-spacing:-0.05em">{{ c.glyph }}</b>
+            <span style="font:400 12.5px/16px 'Monaspace Neon',ui-monospace,monospace;text-transform:uppercase">{{ c.sub }}</span>
+          </div>
+        </sc-if>
+        <a href="#" style="font:700 17px/24px 'iA Writer Quattro','IBM Plex Sans',sans-serif;letter-spacing:-0.01em">{{ c.title }}</a>
+        <p style="margin:-8px 0 0;font:400 15px/22px 'iA Writer Quattro','IBM Plex Sans',sans-serif;color:rgba(26,26,26,0.70)">{{ c.desc }}</p>
+      </div>
+    </sc-for>
+  </div>
+</main>
+</sc-if>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;motion&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;},&quot;columns&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;options&quot;:[&quot;3&quot;,&quot;2&quot;],&quot;default&quot;:&quot;3&quot;,&quot;tsType&quot;:&quot;'3'|'2'&quot;}}">
+class Component extends DCLogic {
+  state = { page: 'home' };
+  go(page) { return (e) => { e.preventDefault(); this.setState({ page }); window.scrollTo(0, 0); const m = document.querySelector('details[data-menu]'); if (m) m.removeAttribute('open'); }; }
+  renderVals() {
+    const motion = this.props.motion ?? true;
+    const cols = this.props.columns ?? '3';
+    const h = React.createElement;
+    const dial = h('svg', { viewBox: '0 0 48 48', style: { width: '62%' } },
+      h('path', { d: 'M12.7 35.3 A16 16 0 1 1 35.3 35.3', stroke: '#1a1a1a', strokeWidth: 2.5, fill: 'none', strokeLinecap: 'round' }),
+      h('path', { d: 'M24 24 L24 11', stroke: '#1a1a1a', strokeWidth: 2.5, strokeLinecap: 'round',
+        style: { transformOrigin: '24px 24px', transform: 'rotate(20deg)', animation: motion ? 'l52dial 5s ease-in-out infinite' : 'none' } }),
+      h('circle', { cx: 24, cy: 24, r: 4.5, fill: '#1a1a1a' }));
+    const slot = (id, title, desc, ratio, ph) => ({ isSlot: true, isType: false, id, title, desc, ratio, ph });
+    const type = (title, desc, glyph, sub, ratio, bg, fg) => ({ isSlot: false, isType: true, title, desc, glyph, sub, ratio, bg: bg || '#fff', fg: fg || '#1a1a1a' });
+    const pages = {
+      notes: { name: 'Notes', lead: '115 pages of linked notes, judged before they ship.', cards: [
+        slot('notes-deep', 'Deep Processing', 'Turning incoming information into connected, critiqued knowledge.', '4/3', 'Line drawing: one source splitting into linked notes'),
+        type('Metacognition — The Control Layer', 'The loop that notices a cue and chooses a productive response.', '↻', 'cue → response', '1/1', '#efefec'),
+        slot('notes-retrieval', 'Retrieval', 'Using knowledge from memory on purpose, aimed at the gaps.', '16/9', 'Photo: a flashcard box or index drawer'),
+        slot('notes-agentic', 'Agentic Engineering', 'Building with agents while you keep the spec, taste, and oversight.', '1/1', 'Screenshot: a terminal session with an agent'),
+        type('East Asian Exams — The Arms Race', '', '試', 'exam', '4/3', '#1a1a1a', '#f9f9f9') ] },
+      journal: { name: 'Journal', lead: 'A journal of recent work.', cards: [
+        type('Grok Bot Galaxy: the rules on one page', '18 Sep 2026', '18', 'Sep 2026', '1/1'),
+        type('Argument Validation: a hub for the method pages', '16 Sep 2026', '16', 'Sep 2026', '4/3', '#efefec'),
+        slot('journal-exams', 'East Asian Exams — The Arms Race: the page', '16 Sep 2026', '16/9', 'Public-domain image: an examination hall'),
+        type('The two wholes', '8 Sep 2026', '8', 'Sep 2026', '1/1', '#1a1a1a', '#f9f9f9') ] },
+      guides: { name: 'Guides', lead: 'How to read, use, and build this wiki.', cards: [
+        type('How this wiki works', 'Source material becomes durable linked notes, judged before it ships.', '1', 'start here', '1/1'),
+        slot('guides-map', 'Map', 'Every page and how it links.', '4/3', 'Diagram: the wiki map, drawn in the dot-grid style'),
+        type('Argument Validation', 'A hub for the method pages.', '∴', 'method', '4/3', '#efefec') ] }
+    };
+    const p = this.state.page;
+    const nav = (k) => Object.assign({ display: 'block', padding: '7px 18px 7px 20px', font: "700 18px/26px 'iA Writer Quattro','IBM Plex Sans',sans-serif" }, p === k ? { background: 'rgba(0,195,255,0.10)', boxShadow: 'inset 3px 0 0 #00c3ff', color: '#0090cc' } : {});
+    return {
+      isHome: p === 'home', isSub: p !== 'home', sub: pages[p] || pages.notes, dial,
+      gridCols: 'repeat(auto-fit, minmax(' + (cols === '2' ? 380 : 240) + 'px, 1fr))',
+      goHome: this.go('home'), goNotes: this.go('notes'), goJournal: this.go('journal'), goGuides: this.go('guides'),
+      mHome: nav('home'), mNotes: nav('notes'), mJournal: nav('journal'), mGuides: nav('guides'), mAbout: nav('about'), crumb: p === 'home' ? 'Home' : pages[p].name
+    };
+  }
+}
+</script>
+</body>
+</html>
