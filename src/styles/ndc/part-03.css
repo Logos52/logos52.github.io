@@ -1,0 +1,176 @@
+.dek {
+  margin: 0 0 8px;
+  font: 400 14px/20.5px var(--font);
+  color: var(--ink);
+  max-width: var(--measure);
+}
+.byline {
+  list-style: none;
+  margin: 0 0 28px;
+  font: 400 13px/18px var(--font);
+  color: var(--mute);
+}
+.byline li { display: inline; }
+.byline li + li::before { content: " · "; color: var(--faded); }
+
+.essay-body { max-width: var(--measure); width: 100%; }
+.essay-body p {
+  margin: 0 0 14px;
+  font: 400 14px/20.5px var(--font);
+}
+.essay-body a {
+  color: var(--link);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.essay-body a:hover { color: var(--link); }
+i.mark {
+  font-style: normal;
+  padding: 0.1em 0.12em;
+  background: var(--mark);
+}
+
+a.sidenote-ref {
+  color: var(--link);
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 0;
+  padding-left: 2px;
+  vertical-align: super;
+}
+a.sidenote-ref:hover { color: var(--link); }
+.note-num {
+  font: 700 10px/1 var(--font);
+  color: var(--link);
+  text-decoration: none;
+  margin-right: 0.35em;
+}
+
+aside.note,
+.essay-body figcaption {
+  font: 400 12.5px/1.52 var(--font);
+  color: rgba(26,26,26,0.70);
+  background: none;
+  border: 0;
+  border-left: 1.5px solid rgba(26,26,26,0.12);
+  border-radius: 0;
+  padding: 0 0 0 12px;
+}
+aside.note p { margin: 0; font: inherit; line-height: inherit; }
+.figno { font-weight: 700; color: #1a1a1a; }
+.credit {
+  display: block;
+  margin-top: 6px;
+  font-size: 11px;
+  line-height: 15px;
+  color: var(--faded);
+}
+
+.essay-body figure { position: relative; margin: 0 0 var(--section-gap); }
+.essay-body figure img,
+.essay-body figure svg { display: block; width: 100%; height: auto; border-radius: 3px; }
+.essay-body figure.opener:not(.portrait) img {
+  max-height: 240px;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: 50% 34%;
+  aspect-ratio: auto;
+}
+
+.essay-body figure.portrait {
+  overflow: visible;
+}
+.essay-body figure.portrait::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.essay-body figure.portrait > img,
+.essay-body figure.portrait .portrait-media {
+  float: left;
+  width: 33%;
+  max-width: 33%;
+  margin: 0;
+}
+.essay-body figure.portrait > img {
+  max-height: none;
+  width: 33%;
+  height: auto;
+  object-fit: contain;
+  object-position: center top;
+  aspect-ratio: auto;
+  border-radius: 3px;
+}
+.essay-body figure.portrait .portrait-prose {
+  float: left;
+  width: 67%;
+  max-width: 67%;
+  padding-left: 20px;
+  box-sizing: border-box;
+}
+.essay-body figure.portrait .portrait-prose p {
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphenate-language: en;
+}
+.neon-diagram, .neon-diagram text, .diagram text {
+  font-family: var(--neon) !important;
+}
+
+@media (min-width: 46rem) {
+  aside.note {
+    position: absolute;
+    right: 0;
+    width: var(--rail-width);
+  }
+  .essay-body figcaption {
+    position: absolute;
+    left: calc(100% + var(--rail-gap));
+    width: var(--rail-width);
+    top: 0;
+    right: auto;
+  }
+  .essay-body figure.wide { margin-right: calc(-1 * (var(--rail-width) + var(--rail-gap))); }
+  .essay-body figure.wide figcaption {
+    position: static;
+    width: auto;
+    max-width: none;
+  }
+}
+
+.shot { position: relative; }
+.shot img { border: 1px solid var(--line); }
+.shot.dark { background: #f2f2f2; padding: 16px; border-radius: 3px; }
+.shot.dark img { border: 0; border-radius: 6px; }
+.callout {
+  position: absolute;
+  width: 20px; height: 20px; border-radius: 50%;
+  background: var(--accent); color: #083044;
+  font: 700 11px/20px var(--font);
+  text-align: center;
+  box-shadow: 0 0 0 2px #fff;
+}
+.num {
+  font: 700 10px/1 var(--font);
+  color: var(--link);
+  margin-right: 0.2rem;
+  vertical-align: super;
+}
+
+@media (max-width: 45.98rem) {
+  .meta-links { display: none; }
+  .top-block { display: flex; flex-direction: column; }
+  aside.org { margin: 0 0 1.25rem; }
+  .columns { display: flex; flex-direction: column; row-gap: 1.25rem; }
+  .essay-body figcaption, aside.note {
+    position: static;
+    width: auto;
+    left: auto;
+    margin: 8px 0 0;
+  }
+}

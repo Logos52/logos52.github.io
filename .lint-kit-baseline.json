@@ -2153,18 +2153,8 @@
     },
     {
       "rule": "R1",
-      "file": "src/pages/[...slug].astro",
-      "fingerprint": "c03f8f82"
-    },
-    {
-      "rule": "R1",
       "file": "src/pages/backlinks.json.ts",
       "fingerprint": "3b205a5b"
-    },
-    {
-      "rule": "R1",
-      "file": "src/pages/folder/[...folder].astro",
-      "fingerprint": "c03f8f82"
     },
     {
       "rule": "R1",
@@ -2174,11 +2164,6 @@
     {
       "rule": "R1",
       "file": "src/pages/llm-knowledge-base.astro",
-      "fingerprint": "c03f8f82"
-    },
-    {
-      "rule": "R1",
-      "file": "src/pages/personal.astro",
       "fingerprint": "c03f8f82"
     },
     {
@@ -3543,22 +3528,7 @@
     },
     {
       "rule": "R21",
-      "file": "src/lib/pagefind-client.ts",
-      "fingerprint": "c03f8f82"
-    },
-    {
-      "rule": "R21",
       "file": "src/lib/slug.ts",
-      "fingerprint": "c03f8f82"
-    },
-    {
-      "rule": "R21",
-      "file": "src/lib/spine.ts",
-      "fingerprint": "c03f8f82"
-    },
-    {
-      "rule": "R21",
-      "file": "src/lib/spineZoom.ts",
       "fingerprint": "c03f8f82"
     },
     {
@@ -5203,16 +5173,6 @@
     },
     {
       "rule": "R1",
-      "file": "src/layouts/Base.astro",
-      "fingerprint": "c03f8f82"
-    },
-    {
-      "rule": "R1",
-      "file": "src/layouts/Note.astro",
-      "fingerprint": "c03f8f82"
-    },
-    {
-      "rule": "R1",
       "file": "src/lib/domain.ts",
       "fingerprint": "221df707"
     },
@@ -5245,21 +5205,6 @@
       "rule": "R1",
       "file": "src/lib/types.ts",
       "fingerprint": "dc4a21cf"
-    },
-    {
-      "rule": "R1",
-      "file": "src/pages/index.astro",
-      "fingerprint": "c03f8f82"
-    },
-    {
-      "rule": "R1",
-      "file": "src/pages/notes.astro",
-      "fingerprint": "c03f8f82"
-    },
-    {
-      "rule": "R1",
-      "file": "src/pages/tags/[tag].astro",
-      "fingerprint": "7d6fb823"
     },
     {
       "rule": "R1",
@@ -5887,21 +5832,6 @@
       "fingerprint": "a0b4615b"
     },
     {
-      "rule": "R2",
-      "file": "src/layouts/Base.astro",
-      "fingerprint": "59bda16c"
-    },
-    {
-      "rule": "R2",
-      "file": "src/layouts/Note.astro",
-      "fingerprint": "48e1780e"
-    },
-    {
-      "rule": "R2",
-      "file": "src/pages/personal.astro",
-      "fingerprint": "163ad823"
-    },
-    {
       "rule": "R21",
       "file": "src/lib/domain.ts",
       "fingerprint": "c03f8f82"
@@ -5910,11 +5840,6 @@
       "rule": "R4",
       "file": "src/lib/types.ts",
       "fingerprint": "3476ab30"
-    },
-    {
-      "rule": "R21",
-      "file": "src/lib/icons.ts",
-      "fingerprint": "c03f8f82"
     },
     {
       "rule": "R1",
@@ -5939,21 +5864,6 @@
     {
       "rule": "R1",
       "file": "src/components/Toc.astro",
-      "fingerprint": "c03f8f82"
-    },
-    {
-      "rule": "R1",
-      "file": "src/pages/about.astro",
-      "fingerprint": "c03f8f82"
-    },
-    {
-      "rule": "R1",
-      "file": "src/pages/domains/[domain].astro",
-      "fingerprint": "c03f8f82"
-    },
-    {
-      "rule": "R1",
-      "file": "src/pages/journal.astro",
       "fingerprint": "c03f8f82"
     },
     {

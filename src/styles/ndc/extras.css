@@ -1,4 +1,3 @@
-/* Tokens the older project pages still read, mapped onto the NDC sheet. */
 :root {
   --paper: var(--bg);
   --card: var(--surface);

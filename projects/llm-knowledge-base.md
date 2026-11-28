@@ -25,16 +25,17 @@ This site. `llm-knowledge-base` is a public, LLM-maintained second brain. It tur
 
 ## How it's built
 
-The vault is kept in [Obsidian](https://obsidian.md). Astro compiles it into a static site on GitHub Pages. The wiki is organized as a pipeline: raw sources are compiled into concept, technique, and synthesis pages. The pages are cross-linked so the link graph stays easy to navigate. LLM agents do much of the compilation, health-checking, and synthesis.
+The vault is kept in [Obsidian](https://obsidian.md). Astro compiles it into a static site on GitHub Pages. The wiki is organized as a pipeline: raw sources are compiled into concept, technique, and synthesis pages. The pages are cross-linked so the link graph stays easy to navigate. LLM agents do much of the compilation, health-checking, and synthesis. The agents follow an operating contract that keeps private material out of the public build.
 
 ## What worked
 
-Treating the knowledge base as the primary surface, the place where daily thinking happens, is what kept me using it. Writing durable pages worked better than working out the same answers again. Making pages public by default made me write more clearly.
+Treating the knowledge base as the primary surface, the place where daily thinking happens, is what kept me using it. Writing durable pages worked better than working out the same answers again. Making pages public by default made me write more clearly. Agent contracts and publish guards let me work in public without exposing private notes or finances.
 
 ## Lessons
 
 - **Build up pages that get reused.** The value is in pages that get reused and revised. A collection of captured sources does not have that value by itself. The pipeline exists to turn raw input into pages that can be used to answer future questions.
 - **Keep the human in the loop.** The base supports a person's thinking and does not replace it. The open problem is how a person keeps thinking actively while the knowledge base gets more useful.
+- **Safeguards are required for a public vault.** A clear split between public and private material, plus automated publish guards, is what makes it safe to keep an LLM-maintained vault on the open internet.
 
 ## Status
 

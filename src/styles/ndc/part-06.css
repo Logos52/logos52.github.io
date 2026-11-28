@@ -1,0 +1,171 @@
+.top-block { position: relative; display: flex; flex-direction: column; }
+@media (min-width: 46rem) {
+  .top-block {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) var(--rail-width);
+    column-gap: var(--rail-gap);
+    align-items: start;
+    width: 100%;
+    max-width: var(--inner-width);
+  }
+  .top-block > .intro-col { grid-column: 1; min-width: 0; max-width: none; }
+  .top-block > aside.org { grid-column: 2; width: var(--rail-width); max-width: var(--rail-width); }
+}
+
+.mast {
+  display: flex;
+  flex-flow: wrap;
+  align-items: baseline;
+  margin: 0 0 10px;
+  line-height: 1.05;
+}
+.mast .wordmark,
+.mast .title {
+  font: 700 31px/1.05 var(--font);
+  letter-spacing: -0.025em;
+  color: var(--ink);
+}
+.mast a { color: inherit; }
+.mast a:hover { color: var(--link); }
+
+#intro {
+  max-width: var(--measure);
+  font: 400 14.5px/1.56 var(--font);
+  color: var(--ink);
+}
+#intro p { margin: 0 0 0.8em; }
+#intro p:last-child { margin-bottom: 0; }
+
+#page-home aside.org {
+  border-left: 1px solid rgba(26,26,26,0.10);
+  padding-left: 16px;
+  font: 400 13px/18px var(--font);
+  color: var(--ink);
+}
+aside.org h6 {
+  margin: 12px 0 3px;
+  font: 700 10.5px/14px var(--font);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: rgba(26,26,26,0.46);
+}
+aside.org h6:first-of-type { margin-top: 0; }
+aside.org ul { list-style: none; margin: 0; }
+aside.org li { margin: 0; }
+aside.org a {
+  font: 400 13px/18px var(--font);
+  color: var(--ink);
+}
+aside.org a:hover { color: var(--link); }
+aside.org p { margin: 0 0 2px; }
+
+.columns {
+  display: flex;
+  flex-flow: row wrap;
+  margin-top: 56px;
+  width: 100%;
+  max-width: var(--inner-width);
+}
+@media (min-width: 46rem) {
+  .columns {
+    display: grid;
+    grid-template-columns: 13fr 13fr 28fr;
+    column-gap: var(--col-gap);
+    row-gap: 0;
+    flex-flow: unset;
+    gap: unset;
+    column-gap: var(--col-gap);
+  }
+  .columns > .col-narrow,
+  .columns > .col-wide {
+    flex: none;
+    width: auto;
+    max-width: none;
+    min-width: 0;
+  }
+}
+
+.col-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 10px;
+  height: 30px;
+  margin: 0;
+  padding: 0 0 8px;
+  box-sizing: border-box;
+  border-bottom: 1px solid rgba(26,26,26,0.14);
+}
+.columns h1,
+.col-head h1 {
+  margin: 0;
+  font: 700 18px/22px var(--font);
+  letter-spacing: -0.02em;
+  color: var(--ink);
+}
+.col-head .kicker {
+  margin: 0;
+  font: 400 12px/22px var(--font);
+  color: var(--faded);
+  white-space: nowrap;
+  flex: none;
+}
+.col-head .kicker a { color: var(--link); }
+.col-head .kicker a:hover { text-decoration: underline; text-underline-offset: 2px; }
+#mind.col-head, .col-head#mind { margin-top: var(--section-gap); }
+
+.works > a, .pages > a, .journal > a {
+  display: block;
+  margin: 0;
+  padding: 9px 0;
+  color: inherit;
+}
+.works > a + a, .pages > a + a, .journal > a + a {
+  border-top: 1px solid rgba(26,26,26,0.08);
+}
+.works h3, .pages h3, .journal h3 {
+  margin: 0 0 2px;
+  font: 700 14.5px/20px var(--font);
+  letter-spacing: -0.01em;
+  color: var(--ink);
+}
+.works h3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+}
+.works h3 .title-text { min-width: 0; }
+.works a:hover h3, .pages a:hover h3, .journal a:hover h3 { color: var(--link); }
+.works p, .pages p, .journal p {
+  margin: 0;
+  font: 400 13px/18px var(--font);
+  color: var(--mute);
+}
+
+.journal time {
+  display: block;
+  font: 400 11px/14px var(--font);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--faded);
+  margin: 0 0 1px;
+}
+.mind p {
+  margin: 0;
+  padding: 8px 0;
+  border-bottom: 1px solid rgba(26,26,26,0.08);
+  font: 400 13px/18px var(--font);
+  color: var(--mute);
+}
+.more {
+  margin-top: 8px;
+  font: 400 13px/18px var(--font);
+}
+.more a { color: var(--link); }
+.more a:hover { text-decoration: underline; text-underline-offset: 2px; }
+.omit {
+  margin-top: var(--section-gap);
+  font: 400 13px/18px var(--font);
+  color: var(--faded);
+}

@@ -1,168 +1,180 @@
 import type { GraphData } from './types';
 import { slugToUrl } from './slug';
 
-export type FlatNode = {
-  slug: string;
-  title: string;
-  x: number;
-  y: number;
-  r: number;
-  color: string;
-  href: string;
-};
-
-export type FlatLink = {
-  x1: number;
-  y1: number;
-  x2: number;
-  y2: number;
-};
-
-export type FlatLobe = {
-  label: string;
-  x: number;
-};
-
-export type FlatGraph = {
-  width: number;
-  height: number;
-  nodes: FlatNode[];
-  links: FlatLink[];
-  lobes: FlatLobe[];
-};
-
-export type FlatOptions = {
-  width: number;
-  height: number;
-  limit: number;
-  labels: boolean;
-};
-
-type LobeSpec = {
-  label: string;
-  hue: number;
-  prefixes: readonly string[];
-};
-
-const LOBES: readonly LobeSpec[] = [
-  { label: 'Learning faster', hue: 235, prefixes: ['wiki/Dimensions/', 'wiki/Concepts/', 'wiki/Learning-Craft/'] },
-  { label: 'Working well with AI', hue: 290, prefixes: ['wiki/Systems/', 'wiki/Working-with-Agents/', 'wiki/Workflows/', 'wiki/Start-Here/'] },
-  { label: 'Making sense of the world', hue: 30, prefixes: ['wiki/Worldviews--and--the-Political-Order/', 'wiki/Books/', 'wiki/Story-Craft/'] },
-  { label: 'Managing yourself', hue: 150, prefixes: ['wiki/Self-Management/', 'wiki/Minimalism/'] },
-  { label: 'Money and craft', hue: 85, prefixes: ['wiki/Money/', 'wiki/Design/', 'wiki/Language/', 'wiki/Tsumugu/', 'wiki/Resources/', 'wiki/Writing-Craft/', 'wiki/Domains/'] },
+const LABELS = [
+  'Learning faster',
+  'Working well with AI',
+  'Making sense of the world',
+  'Managing yourself',
+  'Money and craft',
+];
+const HUES = [235, 290, 30, 150, 85];
+const PREFIXES = [
+  ['wiki/Dimensions/', 'wiki/Concepts/', 'wiki/Learning-Craft/'],
+  ['wiki/Systems/', 'wiki/Working-with-Agents/', 'wiki/Workflows/', 'wiki/Start-Here/'],
+  ['wiki/Worldviews--and--the-Political-Order/', 'wiki/Books/', 'wiki/Story-Craft/'],
+  ['wiki/Self-Management/', 'wiki/Minimalism/'],
+  ['wiki/Money/', 'wiki/Design/', 'wiki/Language/', 'wiki/Tsumugu/', 'wiki/Resources/', 'wiki/Writing-Craft/', 'wiki/Domains/'],
 ];
 
-function lobeIndex(slug: string): number {
-  for (let i = 0; i < LOBES.length; i++) {
-    const spec = LOBES[i];
-    for (const prefix of spec.prefixes) {
-      if (slug.startsWith(prefix)) return i;
-    }
+function flatOptions(width: number, height: number, limit: number) {
+  return { width, height, limit, labels: true };
+}
+
+function lobeOf(slug: string): number {
+  for (let i = 0; i < PREFIXES.length; i++) {
+    if (PREFIXES[i].some((prefix) => slug.startsWith(prefix))) return i;
   }
-  return LOBES.length - 1;
+  return PREFIXES.length - 1;
 }
 
-function hueOf(slug: string): number {
-  for (const spec of LOBES) {
-    for (const prefix of spec.prefixes) {
-      if (slug.startsWith(prefix)) return spec.hue;
-    }
+function colorOf(slug: string): string {
+  for (let i = 0; i < PREFIXES.length; i++) {
+    if (PREFIXES[i].some((prefix) => slug.startsWith(prefix))) return `oklch(0.66 0.13 ${HUES[i]})`;
   }
-  return -1;
+  return '#9a9a9a';
 }
 
-function colorOf(hue: number): string {
-  if (hue < 0) return '#9a9a9a';
-  return `oklch(0.66 0.13 ${hue})`;
+function bump(degree: Map<string, number>, slug: string) {
+  degree.set(slug, (degree.get(slug) ?? 0) + 1);
 }
 
-type Ranked = { slug: string; title: string; degree: number; lobe: number };
-
-export function layoutFlat(graph: GraphData, options: FlatOptions): FlatGraph {
-  const wiki = graph.nodes.filter((n) => n.slug.startsWith('wiki/'));
-  const allowed = new Set(wiki.map((n) => n.slug));
+function tally(graph: GraphData) {
+  const wiki = graph.nodes.filter((node) => node.slug.startsWith('wiki/'));
+  const allowed = new Set(wiki.map((node) => node.slug));
   const degree = new Map<string, number>();
-  for (const n of wiki) degree.set(n.slug, 0);
-  const edges: GraphData['edges'] = [];
-  for (const e of graph.edges) {
-    if (!allowed.has(e.source) || !allowed.has(e.target)) continue;
-    edges.push(e);
-    degree.set(e.source, (degree.get(e.source) ?? 0) + 1);
-    degree.set(e.target, (degree.get(e.target) ?? 0) + 1);
-  }
-  let ranked: Ranked[] = wiki.map((n) => ({
-    slug: n.slug,
-    title: n.title,
-    degree: degree.get(n.slug) ?? 0,
-    lobe: lobeIndex(n.slug),
-  }));
-  ranked.sort((a, b) => b.degree - a.degree || a.title.localeCompare(b.title));
-  if (options.limit > 0) ranked = ranked.slice(0, options.limit);
-  const keep = new Set(ranked.map((n) => n.slug));
-  const maxDeg = ranked.reduce((m, n) => Math.max(m, n.degree), 1);
-  const top = options.labels ? 46 : 14;
-  const bottom = options.height - 12;
-  const lobeW = options.width / LOBES.length;
-  const byLobe: Ranked[][] = LOBES.map(() => []);
-  for (const n of ranked) byLobe[n.lobe].push(n);
+  for (const node of wiki) degree.set(node.slug, 0);
+  const edges = graph.edges.filter((edge) => allowed.has(edge.source) && allowed.has(edge.target));
+  for (const edge of edges) bump(degree, edge.source);
+  for (const edge of edges) bump(degree, edge.target);
+  return { wiki, degree, edges };
+}
 
-  const nodes: FlatNode[] = [];
-  const pos = new Map<string, FlatNode>();
-  for (let i = 0; i < byLobe.length; i++) {
-    const group = byLobe[i];
-    const count = group.length;
-    if (!count) continue;
-    const cols = Math.max(1, Math.round(Math.sqrt(count)));
-    const rows = Math.ceil(count / cols);
-    group.forEach((n, index) => {
-      const col = index % cols;
-      const row = Math.floor(index / cols);
-      const x = lobeW * i + ((col + 0.5) / cols) * lobeW;
-      const y = top + ((row + 0.5) / rows) * (bottom - top);
-      const r = 2.4 + 3.2 * Math.sqrt(n.degree / maxDeg);
-      const node: FlatNode = {
-        slug: n.slug,
-        title: n.title,
-        x: Math.round(x * 10) / 10,
-        y: Math.round(y * 10) / 10,
-        r: Math.round(r * 10) / 10,
-        color: colorOf(hueOf(n.slug)),
-        href: slugToUrl(n.slug),
-      };
-      nodes.push(node);
-      pos.set(n.slug, node);
-    });
-  }
+function rowOf(slug: string, title: string, degree: number) {
+  return { slug, title, degree, lobe: lobeOf(slug) };
+}
 
-  const used = new Set<string>();
-  const budget = new Map<string, number>();
-  const links: FlatLink[] = [];
+function byDegree(a: ReturnType<typeof rowOf>, b: ReturnType<typeof rowOf>) {
+  return b.degree - a.degree || a.title.localeCompare(b.title);
+}
+
+function ranked(bag: ReturnType<typeof tally>, limit: number) {
+  const rows = bag.wiki.map((node) => rowOf(node.slug, node.title, bag.degree.get(node.slug) ?? 0));
+  rows.sort(byDegree);
+  if (limit > 0) return rows.slice(0, limit);
+  return rows;
+}
+
+function frame(options: ReturnType<typeof flatOptions>, maxDeg: number) {
+  return {
+    lobeW: options.width / LABELS.length,
+    top: options.labels ? 46 : 14,
+    bottom: options.height - 12,
+    maxDeg,
+  };
+}
+
+function gridOf(cols: number, count: number, box: ReturnType<typeof frame>) {
+  return { cols, rows: Math.ceil(count / cols), box };
+}
+
+function atOf(index: number, grid: ReturnType<typeof gridOf>) {
+  return {
+    col: index % grid.cols,
+    row: Math.floor(index / grid.cols),
+    cols: grid.cols,
+    rows: grid.rows,
+    lobeW: grid.box.lobeW,
+    top: grid.box.top,
+    bottom: grid.box.bottom,
+    maxDeg: grid.box.maxDeg,
+  };
+}
+
+function nodeAt(row: ReturnType<typeof rowOf>, lobe: number, at: ReturnType<typeof atOf>) {
+  const x = at.lobeW * lobe + ((at.col + 0.5) / at.cols) * at.lobeW;
+  const y = at.top + ((at.row + 0.5) / at.rows) * (at.bottom - at.top);
+  const radius = 2.4 + 3.2 * Math.sqrt(row.degree / at.maxDeg);
+  return {
+    slug: row.slug,
+    title: row.title,
+    x: Math.round(x * 10) / 10,
+    y: Math.round(y * 10) / 10,
+    r: Math.round(radius * 10) / 10,
+    color: colorOf(row.slug),
+    href: slugToUrl(row.slug),
+  };
+}
+
+function placeLobe(group: ReturnType<typeof rowOf>[], lobe: number, box: ReturnType<typeof frame>) {
+  if (!group.length) return [];
+  const cols = Math.max(1, Math.round(Math.sqrt(group.length)));
+  const grid = gridOf(cols, group.length, box);
+  return group.map((row, index) => nodeAt(row, lobe, atOf(index, grid)));
+}
+
+function placed(rows: ReturnType<typeof ranked>, options: ReturnType<typeof flatOptions>) {
+  const maxDeg = rows.reduce((max, row) => Math.max(max, row.degree), 1);
+  const box = frame(options, maxDeg);
+  const nodes: ReturnType<typeof nodeAt>[] = [];
+  for (let lobe = 0; lobe < LABELS.length; lobe++) {
+    nodes.push(...placeLobe(rows.filter((row) => row.lobe === lobe), lobe, box));
+  }
+  return nodes;
+}
+
+function pairOf(source: string, target: string, degree: Map<string, number>) {
+  return { source, target, weight: (degree.get(source) ?? 0) + (degree.get(target) ?? 0) };
+}
+
+function books() {
+  return { used: new Set<string>(), budget: new Map<string, number>() };
+}
+
+function accept(pair: ReturnType<typeof pairOf>, pos: Map<string, ReturnType<typeof nodeAt>>, book: ReturnType<typeof books>) {
+  const a = pos.get(pair.source);
+  const b = pos.get(pair.target);
+  if (!a || !b) return undefined;
+  if (Math.abs(b.y - a.y) > Math.abs(b.x - a.x)) return undefined;
+  const key = a.slug < b.slug ? `${a.slug}\0${b.slug}` : `${b.slug}\0${a.slug}`;
+  if (book.used.has(key)) return undefined;
+  if ((book.budget.get(a.slug) ?? 0) >= 3 || (book.budget.get(b.slug) ?? 0) >= 3) return undefined;
+  book.used.add(key);
+  book.budget.set(a.slug, (book.budget.get(a.slug) ?? 0) + 1);
+  book.budget.set(b.slug, (book.budget.get(b.slug) ?? 0) + 1);
+  return { x1: a.x, y1: a.y, x2: b.x, y2: b.y };
+}
+
+function pickLinks(candidates: ReturnType<typeof pairOf>[], pos: Map<string, ReturnType<typeof nodeAt>>) {
+  const book = books();
+  const links: ReturnType<typeof accept>[] = [];
+  for (const pair of candidates) {
+    const link = accept(pair, pos, book);
+    if (link) links.push(link);
+  }
+  return links;
+}
+
+function linked(edges: GraphData['edges'], nodes: ReturnType<typeof nodeAt>[], degree: Map<string, number>) {
+  const pos = new Map(nodes.map((node) => [node.slug, node]));
+  const keep = new Set(nodes.map((node) => node.slug));
   const candidates = edges
-    .filter((e) => keep.has(e.source) && keep.has(e.target))
-    .map((e) => ({
-      source: e.source,
-      target: e.target,
-      weight: (degree.get(e.source) ?? 0) + (degree.get(e.target) ?? 0),
-    }));
+    .filter((edge) => keep.has(edge.source) && keep.has(edge.target))
+    .map((edge) => pairOf(edge.source, edge.target, degree));
   candidates.sort((a, b) => b.weight - a.weight);
-  for (const e of candidates) {
-    const a = pos.get(e.source);
-    const b = pos.get(e.target);
-    if (!a || !b) continue;
-    const dx = b.x - a.x;
-    const dy = b.y - a.y;
-    if (Math.abs(dy) > Math.abs(dx)) continue;
-    const key = a.slug < b.slug ? `${a.slug}\0${b.slug}` : `${b.slug}\0${a.slug}`;
-    if (used.has(key)) continue;
-    if ((budget.get(a.slug) ?? 0) >= 3 || (budget.get(b.slug) ?? 0) >= 3) continue;
-    used.add(key);
-    budget.set(a.slug, (budget.get(a.slug) ?? 0) + 1);
-    budget.set(b.slug, (budget.get(b.slug) ?? 0) + 1);
-    links.push({ x1: a.x, y1: a.y, x2: b.x, y2: b.y });
-  }
+  return pickLinks(candidates, pos);
+}
 
-  const lobes: FlatLobe[] = options.labels
-    ? LOBES.map((spec, i) => ({ label: spec.label, x: Math.round((i + 0.5) * lobeW) }))
-    : [];
-  return { width: options.width, height: options.height, nodes, links, lobes };
+function lobeLabels(options: ReturnType<typeof flatOptions>) {
+  if (!options.labels) return [];
+  const lobeW = options.width / LABELS.length;
+  return LABELS.map((label, index) => ({ label, x: Math.round((index + 0.5) * lobeW) }));
+}
+
+export function layoutFlat(graph: GraphData, options: ReturnType<typeof flatOptions>) {
+  const bag = tally(graph);
+  const rows = ranked(bag, options.limit);
+  const nodes = placed(rows, options);
+  const links = linked(bag.edges, nodes, bag.degree);
+  return { width: options.width, height: options.height, nodes, links, lobes: lobeLabels(options) };
 }

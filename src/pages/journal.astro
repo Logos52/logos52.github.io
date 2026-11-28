@@ -2,13 +2,9 @@
 import { getCollection } from 'astro:content';
 import Base from '../layouts/Base.astro';
 import { buildJournalBoard, daysInMonth, firstWeekday, monthParts } from '../lib/journal-board';
-
 const notes = await getCollection('notes');
 const board = buildJournalBoard(notes);
-
-type Cell = { x: number; y: number; day: number; on: boolean };
-
-function cells(id: string): Cell[] {
+function cells(id: string) {
   const { year, month } = monthParts(id);
   const active = new Set<number>();
   const found = board.months.find((m) => m.id === id);
@@ -16,14 +12,13 @@ function cells(id: string): Cell[] {
   for (const week of found?.weeks ?? []) for (const item of week.news) active.add(item.day);
   const pad = firstWeekday(year, month);
   const total = daysInMonth(year, month);
-  const out: Cell[] = [];
+  const out: { x: number; y: number; day: number; on: boolean }[] = [];
   for (let day = 1; day <= total; day++) {
     const index = pad + day - 1;
     out.push({ x: (index % 7) * 14, y: Math.floor(index / 7) * 14, day, on: active.has(day) });
   }
   return out;
 }
-
 const monthNames = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
 ---
 

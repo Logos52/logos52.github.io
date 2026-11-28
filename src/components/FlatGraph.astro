@@ -1,7 +1,7 @@
 ---
-import type { FlatGraph } from '../lib/flat-graph';
+import { layoutFlat } from '../lib/flat-graph';
 
-type Props = { graph: FlatGraph; label: string };
+type Props = { graph: ReturnType<typeof layoutFlat>; label: string };
 const { graph, label } = Astro.props;
 const tipId = `tip-${label.replace(/\s+/g, '-').toLowerCase()}`;
 ---
